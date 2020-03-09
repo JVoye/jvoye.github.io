@@ -2743,6 +2743,9 @@ nav li a:hover:after {
         rgba(0,52,120,0.7)),
         url(/images/hero-about-02.jpg); 
     }
+    #map {
+        display: none;
+    }
 
     .nav-links {
         top: 6vh;
