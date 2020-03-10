@@ -2629,7 +2629,7 @@ nav li a:hover:after {
         font-size: 20px; 
     }
     
-    .wrapper-overflow {
+    body {
         overflow-x: hidden;
     }
     .nav-links {
