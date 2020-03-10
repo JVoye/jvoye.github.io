@@ -2355,9 +2355,9 @@ nav li a:hover:after {
 /* 1440-BP */
 /****************************/
 @media screen and (max-width:1440px) {
-    #button {
+    /* #button {
         display: none;
-    }
+    } */
 }
 /****************************/
 /* 1300-BP */
