@@ -2033,7 +2033,7 @@ nav li a:hover:after {
 }
 
 .additional-logos {
-    display: none;   
+    /* display: none;    */
   }
 
 .logo-container {
@@ -2629,9 +2629,9 @@ nav li a:hover:after {
         font-size: 20px; 
     }
     
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
     .nav-links {
         position: absolute;
         right: 0px;
