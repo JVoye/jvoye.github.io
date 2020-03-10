@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
-    $("#slideshow > figure:gt(0)").hide();
+//     $("#slideshow > figure:gt(0)").hide();
 
-setInterval(function() { 
-  $('#slideshow > figure:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-},  5000)
+// setInterval(function() { 
+//   $('#slideshow > figure:first')
+//     .fadeOut(1000)
+//     .next()
+//     .fadeIn(1000)
+//     .end()
+//     .appendTo('#slideshow');
+// },  5000)
 
 
 // var btn = $('#button');
