@@ -149,7 +149,7 @@ textarea {
 /* ABSTRACTS */
 /****************************/
 
-/*** Variables ***/
+/***** VARIABLES *****/
 :root {
     --color-primary: #0096DB;
     --color-primary-hover: #0078db;
@@ -161,7 +161,7 @@ textarea {
     color:rgba(0,48,91,1.0)
 }
 
-/*** Colors in use ***/
+/***** COLORS IN USE *****/
 .b-blue {
     color: var(--color-primary) !important;
 }
@@ -693,7 +693,6 @@ textarea {
 }
   
 .hero-secondary__header {
-    font-size: 45px;
     font-size: 50px;
     font-weight: 500;
   }
@@ -838,154 +837,8 @@ textarea {
     border: 1px solid #c4c4c4;
 }
 
-/***** CARDS *****/
-
-.card-rotate {
-    /* -webkit-perspective: 150rem; */
-    /* perspective: 150rem;
-    -moz-perspective: 150rem; */
-    /* position: relative; */
-    height: 28rem;
-}
-.card__side {
-    height: 28rem;
-    /* transition: all .8s ease; */
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
-    /* width: 100%; */
-    /* backface-visibility: hidden; */
-    /* border-radius: 3px; */
-    /* overflow: hidden; */
-    -webkit-box-shadow: 0 1rem 2.3rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1rem 2.3rem rgba(0, 0, 0, 0.15);
-}
-.card__side--front {
-    color: #fff;
-}
-.card__picture {
-    background-size: cover;
-    height: 50%;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-.card__picture--one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
-     rgba(0, 0, 0, 0.0)),
-    url(/images/career-designers-drafters.jpg);
-}
-.card__picture--two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
-     rgba(0, 0, 0, 0.0)),
-     url(/images/career-project-managers.jpg);
-}
-.card__picture--three {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
-     rgba(0, 0, 0, 0.0)),
-     url(/images/career-drafter-05.jpg);
-}
-.card__side--back {
-    font-size: 15px;
-    padding: 2rem;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-.card__heading { 
-    width: 100%;
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -190%); */
-    font-family: 'roboto condensed', sans-serif;
-    font-size: 28px;
-    /* text-align: center;  */
-    color: #333333;
-    font-weight: 500; 
-    padding: 1.5rem;
-    font-size: 24px;
-    /* transform: translateZ(0); */
-    /* backface-visibility: hidden;  */
-}
-.card__sub-heading {
-    /* text-align: center; */
-    padding: 0rem 1.5rem;
-    font-size: 15px;
-    color: #626365;
-}
-/* .card__arrow { */
-    
-    
-    /* display: flex; *
-    /* margin-left: 325px; */
-    /* justify-content: flex-end; */
-    /* backface-visibility: hidden; */
-    /* padding: .75rem; */
-/* } */
-/* .card__arrow-holder { */
-    /* padding: .75rem; */
-    /* display: inline-flex; */
-    /* border: 1px solid #3fa0ff ; */
-    
-    /* padding: .75rem;
-    position: absolute;
-    bottom: 0;
-    right: 0; 
-    z-index: 10;
-} */
 
 
-
-
-
-.card__side--back-1 {
-    background-color: #fff;
-}
-/* .card-rotate:hover .card__side--front {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-.card-rotate:hover .card__side--back {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-} */
-/* .card-divider {
-    width: 75px;
-    height: 3px;
-    background-color: #3fa0ff;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-
-/*** Perks Box ***/
-
-.perks-box {
-    background-color: rgba(white, .8);
-    font-size: 1.5rem;
-    padding: 2.5rem 2.5rem 0 2.5rem;
-    text-align: center;
-    border-radius: 3px;
-    /* box-shadow: 0 1.5rem 4rem rgba(black, .15); */
-    /* transition: transform .2s; */
-}
-.perks-box__icon {
-    font-size: 4.5rem;
-    margin-bottom: .5rem;
-    display: inline-block;
-    background-image: linear-gradient(to right, #0096DB, #0096DB);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.perks-box__text {
-    font-size: 15px;
-}
 
 
 /*** Dropdowns ***/
@@ -1217,7 +1070,54 @@ footer ul {
     }
 }
 
-/***** GRIDS *****/
+/***** PERKS BOX *****/
+
+.perks-box {
+    background-color: rgba(white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+}
+@media screen and (max-width:1024px) {
+    .perks-box {
+        padding-top: 3.5rem; 
+    }
+}
+@media screen and (max-width:480px) {
+    .perks-box {
+        padding: 2.5rem 0 3.5rem 0;
+    }
+}
+
+.flexbox-1-of-3 {
+    width: 33.3%;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-3 {
+        width: 500px;  
+    }
+}
+@media screen and (max-width:480px) {
+    .flexbox-1-of-3 {
+        width: 90%;  
+    }
+}
+
+.perks-box__icon {
+    font-size: 4.5rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #0096DB, #0096DB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.perks-box__text {
+    font-size: 15px;
+}
+
+/***** CARDS *****/
 .row-indent {
     display: flex;
     justify-content: space-between;
@@ -1225,7 +1125,102 @@ footer ul {
     max-width: 1140px;
     margin: 0 auto; 
 }
+@media screen and (max-width:1024px) {
+    .row-indent {
+        flex-direction: column;
+    }   
+}
 
+.flexbox-1-of-3-cards {
+    width: 30.25%;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-3-cards {
+        width: 450px; 
+    }  
+}
+@media screen and (max-width:480px) {
+    .flexbox-1-of-3-cards {
+        width: 90%; 
+    }  
+    .flexbox-1-of-3-cards:not(:last-child) {
+        margin-bottom: 5rem; 
+    }
+}
+
+.card-rotate {
+    height: 28rem;
+}
+.card__side {
+    height: 28rem;
+    -webkit-box-shadow: 0 1rem 2.3rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1rem 2.3rem rgba(0, 0, 0, 0.15);
+}
+.card__side--front {
+    color: #fff;
+}
+.card__picture {
+    background-size: cover;
+    height: 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+@media screen and (max-width:1024px) {
+    .card__picture {
+        height: 60%;
+    }   
+}
+@media screen and (max-width:480px) {
+    .card__picture {
+        height: 50%;
+    }   
+}
+
+
+.card__picture--one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+    url(/images/career-designers-drafters.jpg);
+}
+.card__picture--two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+     url(/images/career-project-managers.jpg);
+}
+.card__picture--three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+     url(/images/career-drafter-05.jpg);
+}
+.card__side--back {
+    font-size: 15px;
+    padding: 2rem;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.card__heading { 
+    width: 100%;
+    font-family: 'roboto condensed', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    font-weight: 500; 
+    padding: 1.5rem;
+    font-size: 24px;
+}
+.card__sub-heading {
+    padding: 0rem 1.5rem;
+    font-size: 15px;
+    color: #626365;
+}
+
+.card__side--back-1 {
+    background-color: #fff;
+}
+
+
+/***** GRIDS *****/
 .flexbox-1-of-2-quote-lg {
     width: 70%;
     /* border: 1px solid black; */
@@ -1240,14 +1235,8 @@ footer ul {
     width: 46%;
     /* margin: 2.5rem 0; */
 }
-.flexbox-1-of-3 {
-    width: 33.3%;
-    /* margin: 2.5rem 0; */
-}
-.flexbox-1-of-3-cards {
-    width: 30.25%;
-    /* margin: 2.5rem 0; */
-}
+
+
 
 
 
@@ -1296,7 +1285,6 @@ footer ul {
     background-color: #3fa0ff;
     margin: 0 auto;
 }
-
 
 
 /****************************/
@@ -1349,28 +1337,6 @@ footer ul {
     padding: 4.7rem 0;
 }
 
-/*** Careers ***/
-
-.section-careers-about {
-    background-color: #ffffff;
-    padding: 4.7rem 0;
-}
-.section-careers-jobs {
-    background-color: #f3f3f3;
-    padding: 3.2rem 0 4.7rem 0;
-}
-.section-careers-why-bnp {
-    background-color: #fff;
-    padding: 4.7rem 0;
-}
-.section-careers-current-jobs {
-    background-color: #f3f3f3;
-    padding: 2.7rem 0;
-}
-.section-careers-dropdown-jobs {
-    background-color: #ffffff;
-    padding: 4.7rem 0;
-}
 
 /*** News ***/
 
@@ -2239,7 +2205,7 @@ nav li a:hover:after {
 
 
 /****************************/
-/* contacts */
+/* CONTACTS */
 /****************************/
 
 .hero-text-contact {
@@ -2404,6 +2370,30 @@ nav li a:hover:after {
       top: 50%;
       right: 46%;
   }   
+
+  /***** CAREERS *****/
+
+.section-careers-about {
+    background-color: #ffffff;
+    padding: 4.7rem 0;
+}
+.section-careers-jobs {
+    background-color: #f3f3f3;
+    padding: 3.2rem 0 4.7rem 0;
+}
+.section-careers-why-bnp {
+    background-color: #fff;
+    padding: 4.7rem 0;
+}
+.section-careers-current-jobs {
+    background-color: #f3f3f3;
+    padding: 2.7rem 0;
+}
+.section-careers-dropdown-jobs {
+    background-color: #ffffff;
+    padding: 4.7rem 0;
+}
+
 
   /* .contact-icons {
       display: flex;
@@ -2790,6 +2780,17 @@ nav li a:hover:after {
 
 
 
+/****************************/
+/* PAGES-CAREERS */
+/****************************/
+    .section-careers-about {
+        padding: 2.3rem 0;
+    }
+    .section-careers-why-bnp {
+        padding: 2.3rem 0 4.7 0;
+    }
+
+
 
     .card-staff img {
         width: 175px;
@@ -2838,20 +2839,52 @@ nav li a:hover:after {
     }
 
 
-    
+
+
+    .hero-secondary {
+        height: 350px;
+      } 
     .hero-secondary__text-container {
         background: none;
-    }
-    .hero-secondary__header {
-        font-size: 40px; 
     }
     .--about {
         background-image: 
         linear-gradient(105deg, 
-        rgba(0,150,219,0.7), 
+        rgba(0,150,219,0.5), 
         rgba(0,52,120,0.7)),
         url(/images/hero-about-02.jpg); 
     }
+
+    .--contact {
+        background-image: 
+        linear-gradient(105deg, 
+        rgba(0,150,219,0.5), 
+        rgba(0,52,120,0.7)),
+        url(/images/hero-contact.jpg); 
+    
+      } 
+    .--contact {
+        background-image: 
+        linear-gradient(105deg, 
+        rgba(0,150,219,0.5), 
+        rgba(0,52,120,0.7)),
+        url(/images/hero-contact-mobile.jpg); 
+    
+      } 
+    .--careers {  
+        background-image: 
+        linear-gradient(105deg, 
+        rgba(0,150,219,0.5), 
+        rgba(0,52,120,0.7)),
+        url(/images/jetbridge.jpg);  
+      } 
+      .--news {
+        background-image: 
+        linear-gradient(105deg, 
+        rgba(0,150,219,0.5), 
+        rgba(0,52,120,0.7)),
+        url(/images/hero-newsletter.jpg); 
+      }
     /* #map {
         display: none;
     } */
@@ -2915,8 +2948,12 @@ nav li a:hover:after {
     .staff-header {
         margin-top: 100px;
     }
+
+/****************************/
+/* PAGES-CONTACT */
+/****************************/
     #mc_embed_signup {
-        max-width: 325px;
+        max-width: 375px;
     }
     .submit-btn {
         margin-top: 15px;
@@ -2962,6 +2999,12 @@ nav li a:hover:after {
     .sub-heading {
         font-size: 22px;
     }
+/****************************/
+/* PAGES-CONTACT */
+/****************************/
+#mc_embed_signup {
+    max-width: 325px;
+    } 
 }
 
 /****************************/
@@ -2970,8 +3013,6 @@ nav li a:hover:after {
 
 
 
-   
-    
 
 .nav-active {
     transform: translateX(0%);
