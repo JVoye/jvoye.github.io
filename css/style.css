@@ -333,6 +333,14 @@ textarea {
 .margin-lg {
     margin-bottom: 4.7rem !important;
 }
+.margin-lg-divider {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 2.35rem !important;
+    margin-top: 2.35rem !important;
+    /* margin-left: 1rem; */
+    border: .5px solid #c4c4c4;
+}
 @media screen and (max-width:480px) {
     .margin-lg  {
         margin-bottom: 2.3rem !important;
@@ -684,7 +692,7 @@ textarea {
     rgba(0, 0, 0, 0.0)), 
      url(/images/hero-services.jpg);
 
-    background-image: url(/images/hero-services.jpg);
+    background-image: url(/images/hero-services_02.jpg);
   } 
   @media screen and (max-width:768px) {
     .--services {
@@ -710,10 +718,16 @@ textarea {
     width: 1.5rem;
     height: 1.5rem;
 }
+@media screen and (max-width:768px) {
+    .chevron-up-white {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
 #button {
     display: inline-block;
-    background-color: #333333;
-    border: 1px solid #666666;
+    background-color: rgb(0, 150, 219, 0.75);
+    /* border: 1px solid #666666; */
     width: 45px;
     height: 45px;
     text-align: center;
@@ -731,6 +745,22 @@ textarea {
     justify-content: center;
     align-items: center;
   }
+  @media screen and (max-width:768px) {
+    #button {
+        width: 40px;
+        height: 40px;
+
+        bottom: 10px;
+        right: 10px;
+    }
+}
+  /* @media screen and (max-width:480px) {
+    #button {
+        width: 40px;
+        height: 40px;
+    }
+} */
+
   #button::before{
     content: "";
     font-family: FontAwesome;
@@ -742,13 +772,14 @@ textarea {
   }
   #button:hover {
     cursor: pointer;
-    background-color: #252525;
+    /* background-color: #252525; */
+    background-color: rgb(0, 150, 219, 1);
   }
   #button:active {
-    background-color: #555;
+    /* background-color: #555; */
+    background-color: rgba(0,48,91,0.75)
   }
   #button.show {
-     
     opacity: 1;
     visibility: visible;
   }
@@ -822,13 +853,8 @@ textarea {
 
 
 
-.quote-box {
-   max-width: 400px;
-   padding: 2rem;
-   background-color: #f3f3f3;
-   border: 1px solid #c4c4c4;
-   /* border-radius: 3px; */
-}
+
+
 .careers__img {
     width: 100%;
 }
@@ -1138,15 +1164,18 @@ footer ul {
     .flexbox-1-of-3-cards {
         width: 450px; 
     }  
-}
-@media screen and (max-width:480px) {
-    .flexbox-1-of-3-cards {
-        width: 90%; 
-    }  
     .flexbox-1-of-3-cards:not(:last-child) {
         margin-bottom: 5rem; 
     }
 }
+
+@media screen and (max-width:480px) {
+    .flexbox-1-of-3-cards {
+        width: 90%; 
+    }  
+}
+
+
 
 .card-rotate {
     height: 28rem;
@@ -1220,25 +1249,56 @@ footer ul {
 }
 
 
-/***** GRIDS *****/
+/***** QUOTE BOX *****/
 .flexbox-1-of-2-quote-lg {
     width: 70%;
-    /* border: 1px solid black; */
-    /* margin: 2.5rem 0; */
 }
+@media screen and (max-width:1024px){
+    .flexbox-1-of-2-quote-lg {
+        width: 700px;
+    } 
+}
+@media screen and (max-width:768px){
+    .flexbox-1-of-2-quote-lg {
+        width: 95%;
+    } 
+}
+
+
 .flexbox-1-of-2-quote-sm {
     width: 30%;
-    /* border: 1px solid black; */
-    /* margin: 2.5rem 0; */
+
+    display: flex;
+    justify-content: center;
 }
+@media screen and (max-width:1024px){
+    .flexbox-1-of-2-quote-sm {
+        width: 700px;
+        margin-top: 2rem;
+    } 
+}
+@media screen and (max-width:768px){
+    .flexbox-1-of-2-quote-sm {
+        width: 95%;
+    } 
+}
+.quote-box {
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c4c4;
+ }
+ @media screen and (max-width:1024px){
+    .quote-box {
+        max-width: 100%;
+        padding: 1.5rem;
+    } 
+}
+
 .flexbox-1-of-2-wide {
     width: 46%;
     /* margin: 2.5rem 0; */
 }
-
-
-
-
 
 /*** Headers ***/
 
@@ -1268,6 +1328,7 @@ footer ul {
 .center-headings__header-services {
     text-align: center;
     font-size: 30px; 
+    padding: .5rem;
     color: #333333;   
 }
 @media screen and (max-width:480px) {
@@ -1343,6 +1404,43 @@ footer ul {
 .section-news-hero-label {
     background-color: #ffffff;
     padding: 2.7rem 0;
+}
+
+.section-news_01 {
+    background-color: #ffffff;
+    padding: 4.7rem 0;
+}
+@media screen and (max-width:1024px){
+    .section-news_01 {
+        padding: 3.1rem 0;
+    } 
+}
+.section-news_02 {
+    background-color: #f3f3f3;
+    padding: 3.2rem 25px 3.2rem 25px;
+}
+.section-news_03 {
+    background-color: #ffffff;
+    padding: 3.2rem 0;
+}
+.section-news_04 {
+    background-color: #f3f3f3;
+    padding: 4.7rem 0 3.2rem 0;
+}
+@media screen and (max-width:480px){
+    .section-news_04 {
+        padding: 3.2rem 0 3.2rem 0;
+    } 
+}
+
+.section-news_addon {
+    background-color: #f3f3f3;
+    padding: 0 25px 4.7rem 25px;
+}
+@media screen and (max-width:480px){
+    .section-news_addon {
+        padding: 0 25px 3.2rem 25px;
+    } 
 }
 
 /*** General Sections***/
@@ -1850,6 +1948,11 @@ nav li a:hover:after {
     max-width: 100%;
     height: auto;
 } */
+.paragraph__title {
+    color: var(--color-primary-dark);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
 .general-wrapper {
     max-width: 1300px;
     margin: 0 auto;
@@ -2784,10 +2887,10 @@ nav li a:hover:after {
 /* PAGES-CAREERS */
 /****************************/
     .section-careers-about {
-        padding: 2.3rem 0;
+        padding: 3.2rem 0;
     }
     .section-careers-why-bnp {
-        padding: 2.3rem 0 4.7 0;
+        padding: 3.2rem 0 4.7 0;
     }
 
 
