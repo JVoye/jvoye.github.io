@@ -333,19 +333,12 @@ textarea {
 .margin-lg {
     margin-bottom: 4.7rem !important;
 }
-.margin-lg-divider {
-    max-width: 1250px;
-    margin: 0 auto;
-    margin-bottom: 2.35rem !important;
-    margin-top: 2.35rem !important;
-    /* margin-left: 1rem; */
-    border: .5px solid #c4c4c4;
-}
 @media screen and (max-width:480px) {
     .margin-lg  {
         margin-bottom: 2.3rem !important;
     }
 }
+
 .margin-xl {
     margin-bottom: 6.3rem !important;
 }
@@ -692,7 +685,7 @@ textarea {
     rgba(0, 0, 0, 0.0)), 
      url(/images/hero-services.jpg);
 
-    background-image: url(/images/hero-services_02.jpg);
+    background-image: url(/images/hero-placeholder.jpg);
   } 
   @media screen and (max-width:768px) {
     .--services {
@@ -726,7 +719,7 @@ textarea {
 }
 #button {
     display: inline-block;
-    background-color: rgb(0, 150, 219, 0.75);
+    background-color: rgb(0, 150, 219, 0.85);
     /* border: 1px solid #666666; */
     width: 45px;
     height: 45px;
@@ -1819,7 +1812,7 @@ nav li a:hover:after {
 .wrapper-services {
     max-width: 100%;
     background-color: #f3f3f3;
-    padding: 50px 15px 75px 15px;
+    padding: 50px 0 75px 0;
 }
 .container-services {
     max-width: 1300px;
@@ -2949,6 +2942,10 @@ nav li a:hover:after {
       } 
     .hero-secondary__text-container {
         background: none;
+        padding: 1rem;
+    }
+    .hero-secondary__header {
+        font-size: 40px; 
     }
     .--about {
         background-image: 
