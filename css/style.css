@@ -583,7 +583,7 @@ textarea {
 }
 @media screen and (max-width:768px) {
     .general-text-wrapper {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -685,13 +685,8 @@ textarea {
     rgba(0, 0, 0, 0.0)), 
      url(/images/hero-services.jpg);
 
-    background-image: url(/images/hero-placeholder.jpg);
+    background-image: url(/images/hero-services_03.jpg);
   } 
-  @media screen and (max-width:768px) {
-    .--services {
-        background-image: url(/images/hero-services-med.jpg);
-    }
-}
   
 .hero-secondary__header {
     font-size: 50px;
@@ -1024,12 +1019,33 @@ footer ul {
     align-items: center;
     max-width: 1300px;
     margin: 0 auto;
-    /* padding: 0 25px;  */
 }
     @media screen and (max-width:1024px) {
         .row {
             flex-direction: column;
         }   
+}
+
+.flexbox-1-of-2-image {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-2-image {
+        width: 700px;
+
+        justify-content: flex-start;
+    }
+    .flexbox-1-of-2-image:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .flexbox-1-of-2-image {
+        width: 95%;
+    }
 }
 
 .flexbox-1-of-2 {
@@ -1058,8 +1074,6 @@ footer ul {
 }
 .feature-box-img {
     max-width: 600px;
-    /* delete these settings when adding img */
-    /* height: 425px; */
 }
 .feature-box-img-2 {
     max-width: 600px;
@@ -1576,7 +1590,7 @@ nav li a:hover:after {
     display: flex;
     justify-content: center;
 } 
-.hero-text {
+.hero-text-index {
     position: absolute;
     max-width: 100%;
     display: flex;
@@ -1585,13 +1599,28 @@ nav li a:hover:after {
     z-index: 1;
 } 
 @media screen and (max-width:768px){
-    .hero-text {
+    .hero-text-index {
         height: 500px;
     } 
 }
 @media screen and (max-width:480px){
-    .hero-text {
+    .hero-text-index {
         height: 400px;
+    } 
+}
+
+
+.hero-text {
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    z-index: 1;
+} 
+@media screen and (max-width:480px){
+    .hero-text {
+        height: 300px;
     } 
 }
 
@@ -2117,22 +2146,18 @@ nav li a:hover:after {
     margin-bottom: 70px;
 }
 .about-container {
-    max-width: 1300px;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1300px;
     margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
 }
 .briefs-container img {
     max-width: 100%;
     height: auto;
 }
 .about-container img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 .briefs-text {
     max-width: 600px;
@@ -2609,7 +2634,6 @@ nav li a:hover:after {
     }
     .about-container {
         max-width: 1050px;
-        /* align-items:flex-start; */
     }
     .briefs-container img {
         min-width: 525px;
@@ -2617,14 +2641,10 @@ nav li a:hover:after {
     }
     .about-container img {
         min-width: 525px;
-        padding-left: 20px;
+        padding-left: 30px;
     }
-    .briefs-text {
-        margin: 0px 15px 0px 15px;
-    }
-    /* .section-gray {
-        height: 425px;
-    } */
+   
+
     .client-card {
         margin-bottom: 30px;
     }
@@ -2645,9 +2665,7 @@ nav li a:hover:after {
 
 
 
-    .general-wrapper {
-        max-width: 1050px;
-    }
+ 
     .container-staff-all {
         flex-direction: column;
         max-width: 1050px;
@@ -2748,7 +2766,6 @@ nav li a:hover:after {
     }
    .about-container {
         flex-direction: column;
-        align-items: center;
     }
     .briefs-container img {
         margin: 0px 0px 35px 0px;
@@ -2938,11 +2955,14 @@ nav li a:hover:after {
 
 
     .hero-secondary {
-        height: 350px;
+        height: 300px;
       } 
     .hero-secondary__text-container {
         background: none;
-        padding: 1rem;
+        /* text-align: center; */
+    }
+    .hero-secondary__text-container br {
+        display: none;
     }
     .hero-secondary__header {
         font-size: 40px; 
@@ -2984,6 +3004,13 @@ nav li a:hover:after {
         rgba(0,150,219,0.5), 
         rgba(0,52,120,0.7)),
         url(/images/hero-newsletter.jpg); 
+      }
+      .--services {
+        background-image: 
+        linear-gradient(105deg, 
+        rgba(0,150,219,0.5), 
+        rgba(0,52,120,0.7)),
+        url(/images/hero-services_03.jpg); 
       }
     /* #map {
         display: none;
