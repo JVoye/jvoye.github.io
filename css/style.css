@@ -154,7 +154,15 @@ textarea {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
 } */
-
+.body-background {
+    background-color: #333333;
+}
+.body-background__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /****************************/
 /* ABSTRACTS */
 /****************************/
