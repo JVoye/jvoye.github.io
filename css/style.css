@@ -2005,7 +2005,7 @@ nav li a:hover:after {
 }
 @media screen and (max-width:768px) {
     .general-wrapper {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -2022,12 +2022,12 @@ nav li a:hover:after {
 } */
 @media screen and (max-width:1024px) {
     .general-container {
-        width: 700px;
+        max-width: 700px;
     }
 }
 @media screen and (max-width:768px) {
     .general-wrapper {
-        width: 95%;
+        width: 100%;
     }
 }
 
