@@ -1,0 +1,47 @@
+// MARGINS //
+.margin-top-sm {
+    margin-top: 10px !important;
+}
+.margin-top-med {
+    margin-top: 1.5rem !important;
+}
+
+
+.margin-map {
+    margin-bottom: 10px !important;   
+}
+.margin-xs {
+    margin-bottom: 10px !important;
+}
+/*** 16px ***/
+.margin-sm {
+    margin-bottom: 1rem !important;
+}
+/*** 32px ***/
+.margin-sm-med {
+    margin-bottom: 2rem !important;
+}
+/*** 51.2px ***/
+.margin-med {
+    margin-bottom: 3.1rem !important;
+}
+/*** 75.2px ***/
+.margin-lg {
+    margin-bottom: 4.7rem !important;
+}
+@media screen and (max-width:480px) {
+    .margin-lg  {
+        margin-bottom: 2.3rem !important;
+    }
+}
+
+.margin-xl {
+    margin-bottom: 6.3rem !important;
+}
+.margin-header-bottom {
+    margin-bottom: 10px;
+}
+
+.block {
+    display: block !important;
+}

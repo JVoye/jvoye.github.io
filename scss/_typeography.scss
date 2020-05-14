@@ -1,0 +1,43 @@
+// MAIN FONTS //
+h1 {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: 300;
+}
+h2 {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: 300;
+}
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'roboto condensed', sans-serif;
+    color: var(--color-primary-dark);
+}
+h4 {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: 300;
+    color: #4f4f4f;
+    font-size: 33.6px;
+}
+h6 {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: 300;
+    color: #4f4f4f; 
+}
+
+
+// HEADINGS //
+.main-headings {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+@media screen and (max-width:1024px) {
+    .main-headings {
+        width: 700px;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-headings {
+        width: 95%;
+    }
+}

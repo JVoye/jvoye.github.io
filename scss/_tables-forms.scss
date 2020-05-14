@@ -1,0 +1,35 @@
+input {
+    background-color:#f3f3f3; 
+    border: 1px solid #c2c2c2;
+    width: 275px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 2px;
+    appearance: none;   
+}
+
+input { 
+    height: 36px;
+    width: 100%;
+}
+
+input:focus {
+    outline:none;
+    border-color:#0096DB;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+textarea:focus {
+    outline:none;
+    border-color:#0096DB;
+    box-shadow:0 0 10px #9ecaed;
+}
+
+textarea {
+    resize: none; 
+    width: 100%;
+    margin-bottom: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+}
