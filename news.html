@@ -4,43 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>news</title>
+    <title>News</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <!-- <div id="button">
-        <img src="/images/chevron-up-white.svg" alt="arrow up" class="chevron-up-white">
-    </div> -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/images/nav-bnp-logo.svg" width="75" height="75" alt="BNP Associates, Inc Logo" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
     
-    <header>
-        <nav>
-            <a href="index.html"><div class="bnp-logo"> 
-            </div></a>
-            <ul class="nav-links">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+
+            <ul  class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services<span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="services.html">All Services</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
+                    <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
+                    <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
+                    <a class="dropdown-item" href="services.html#simulation">Simulation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                    </div>
+                </li>
+            
                 <li>
-                    <a href="about.html">About us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li> 
+                <li>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+               
+                <li>
+                    <a class="nav-link" href="careers.html">Careers</a>
                 </li>
                 <li>
-                    <a href="services.html">Services</a>
+                    <a class="nav-link" id="b-blue" href="news.html">News</a>
                 </li>
+              
                 <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="careers.html">Careers</a>
-                </li>
-                <li>
-                    <a class="current" href="news.html">News</a>
+                    <a class="nav-link nav-btn" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
             </div>
         </nav>
     </header>
@@ -54,7 +72,7 @@
             <div class="hero-text">
                 <div class="hero-secondary__text-container">
                     <h1 class="hero-secondary__header margin-sm">Stay up to date<br> on all the latest news from BNP<br> <span class=""></span></h1>
-                    <p class="hero-secondary__sub-header margin-sm"><span class="light-gray2">designers | planners | engineers</span></p>
+                    <p class="hero-secondary__sub-header margin-sm">designers | planners | engineers</p>
                     <!-- <a href="#current-jobs" class="btn-white">Join Now</a> -->
                 </div>
             </div>
@@ -68,17 +86,17 @@
    
     <section class=" section-news_01">
         <div class="feature-box">
-            <div class="row">
+            <div class="feature-box__row">
                 <div class="flexbox-1-of-2">
                     <div class="feature-box-text feature-margin-right">
                         <h3 class="feature-box-text__header">BNP welcomes you to join us at Passenger Terminal <br>Expo 2020 in Paris, France</h3>
                         <p class="margin-sm">Posted: March 2020</p>
                         <p class="feature-box-text__subheader">Please register at
                         <a href=" http://www.passengerterminal-expo.com/visitor_pass.php?n=reg"class="contact-link"><span class="contact-link"> www.passengerterminal-expo.com</span></a><br>
-                        <p class="margin-sm">to receive your free entry badge.</p>
-                        <p class="margin-sm">Come visit our stand at 3110 to learn more.</p>
-                        To schedule a personal appointment please click <a href="mailto:bnphq@bnpassociates.com"class="contact-link"><span class="contact-link margin-sm">here</span></p></a><br>
-                        <p>We look forward to meeting you!</p>
+                        to receive your free entry badge.</p>
+                        <p class="margin-sm">Come visit our stand at 3110 to learn more.
+                        To schedule a personal appointment please click <a href="mailto:bnphq@bnpassociates.com"class="contact-link"><span class="contact-link margin-sm">here.</span></a>
+                        We look forward to meeting you!</p>
                     </div>
                 </div>
                 <div class="flexbox-1-of-2">
@@ -105,12 +123,12 @@
 
         <section class="section-news_03">
             <div class="feature-box">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2-quote-lg">
                         <div class="feature-box-text feature-margin-right">
                             <h3 class="feature-box-text__header">Checkpoint Evaluation</h3>
                             <p class="margin-sm">Posted: April 2017</p>
-                            <p class="feature-box-text__subheader">BNP has developed a simulation toolset to evaluate and optimize the design for security screening checkpoints.</p><br>
+                            <p class="feature-box-text__subheader">BNP has developed a simulation toolset to evaluate and optimize the design for security screening checkpoints.</p>
 
                             <p class="margin-sm">A critical function of today’s airports that oftentimes determines the ranking of a given airport, Passenger Security Screening is finally evolving into a more automated process that promises to improve customer satisfaction, increase throughputs, decrease staffing and reduce physical area requirements.</p>
                             <p>The new checkpoints allow for independent divesture stations, remote screeners and automated tub return. BNP’s modeling tools can be used to determine the optimum configuration for your airport.</p>
@@ -127,7 +145,7 @@
 
         <section class="section-news_04">
             <div class="feature-box">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-img-2">
                             <img src="/images/news-boston.jpg" alt="pax-img-2020" class="careers__img"> 
@@ -156,13 +174,13 @@
 
         <footer id="footer"></footer>
 
-</body>
-
 
     
-<!-- <footer id="footer"></footer> -->
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/index.js"></script>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <script src="js/index.js"></script>
 </body>
 </html>

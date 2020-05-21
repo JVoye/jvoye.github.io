@@ -4,44 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>projects</title>
-    <script src="https://kit.fontawesome.com/825612129e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Projects</title>
+    <!-- <script src="https://kit.fontawesome.com/825612129e.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/main.css">
     <body>
       <div class="wrapper-overflow">
 
-    
-    <header>
-      <nav>
-          <a href="index.html"><div class="bnp-logo"> 
-          </div></a>
-          <ul class="nav-links">
-              <li>
-                  <a href="about.html">About us</a>
-              </li>
-              <li>
-                  <a href="services.html">Services</a>
-              </li>
-              <li>
-                  <a  class="current" href="projects.html">Projects</a>
-              </li>
-              <li>
-                  <a href="contact.html">Contact</a>
-              </li>
-              <li>
-                  <a href="careers.html">Careers</a>
-              </li>
-              <li>
-                  <a href="news.html">News</a>
-              </li>
-          </ul>
-          <div class="burger">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
-      </nav>
-  </header>
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-light nav-container">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="/images/nav-bnp-logo.svg" width="75" height="75" alt="BNP Associates, Inc Logo" loading="lazy">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+              </ul>
+  
+              <ul  class="nav navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Services<span class="sr-only">(current)</span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="services.html">All Services</a>
+                          <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
+                      <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
+                      <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
+                      <a class="dropdown-item" href="services.html#simulation">Simulation</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                      </div>
+                  </li>
+              
+                  <li>
+                      <a class="nav-link" href="about.html">About Us</a>
+                  </li> 
+                  <li>
+                      <a class="nav-link" id="b-blue" href="projects.html">Projects</a>
+                  </li>
+                 
+                  <li>
+                      <a class="nav-link" href="careers.html">Careers</a>
+                  </li>
+                  <li>
+                      <a class="nav-link" href="news.html">News</a>
+                  </li>
+                
+                  <li>
+                      <a class="nav-link nav-btn" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+              </div>
+          </nav>
+      </header>
 
   <div id="button">
     <img src="/images/chevron-up-white.svg" alt="arrow up" class="chevron-up-white">
@@ -1487,12 +1507,6 @@
                         <img src="/images/duotone-01.svg" alt="drop-down-arrow" width="38px" height="38px">
                 </div>
 
-                <!-- TEST -->
-                <!-- <div class="logo-dropdown arrow-down" id="job-03">
-                     <i class="fas fa-chevron-down chevron-style--large" id="chevron-down-03"></i>   
-                    <i class="fas fa-chevron-up chevron-style--large" id="chevron-up-03"></i>
-                </div> -->
-
                 <!-- ADDITIONAL AIRLINES -->
                 <div class="additional-logos" id="show-on-click">
                     <div class="logo-flex">
@@ -1531,11 +1545,11 @@
  <!-- wrapper overflow div   -->
 </div>
 
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp6BHBHqfCT7hMvGRQe0Y0y_OlA9eqWyM&callback=initMap">
-</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp6BHBHqfCT7hMvGRQe0Y0y_OlA9eqWyM&callback=initMap"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/index.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+<script src="js/index.js"></script> 
  
 </body>
 </html>

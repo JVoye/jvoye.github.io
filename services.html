@@ -4,39 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>services</title>
+    <title>Services</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><div class="bnp-logo"> 
-            </div></a>
-            <ul class="nav-links">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/images/nav-bnp-logo.svg" width="75" height="75" alt="BNP Associates, Inc Logo" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+
+            <ul  class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="b-blue" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services<span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="services.html">All Services</a>
+                        <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
+                    <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
+                    <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
+                    <a class="dropdown-item" href="services.html#simulation">Simulation</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                    </div>
+                </li>
+            
                 <li>
-                    <a href="about.html">About us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li> 
+                <li>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+               
+                <li>
+                    <a class="nav-link" href="careers.html">Careers</a>
                 </li>
                 <li>
-                    <a class="current" href="services.html">Services</a>
+                    <a class="nav-link" href="news.html">News</a>
                 </li>
+              
                 <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="careers.html">Careers</a>
-                </li>
-                <li>
-                    <a href="news.html">News</a>
+                    <a class="nav-link nav-btn" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
             </div>
         </nav>
     </header>
@@ -46,11 +68,6 @@
     </div>
 
     <main>
-        <!-- <section>
-            <div class="hero-secondary --services">
-            </div>
-        </section> -->
-
         <section>
             <div class="hero-secondary --services">
                 <div class="hero-text">
@@ -61,19 +78,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- <div class="general-padding">
-            <section class="section-services-text">
-                <div class="general-text-wrapper">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste recusandae hic commodi minima modi, nam laudantium architecto incidunt laborum voluptates, consequatur natus sapiente ipsum eaque exercitationem est repudiandae, amet ab. Beatae, unde doloremque vel dolore blanditiis quidem, fuga, at tenetur dolorem eos quibusdam! Nisi fugiat expedita excepturi, iure consequuntur officia.</p><br>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt asperiores odio enim accusamus sapiente reprehenderit saepe possimus, voluptates voluptate iste voluptas aperiam atque, nemo velit totam officia repellendus magni praesentium?</p>
-                </div>
-            </section>
-        </div> -->
-
-        <!-- APRON SYSTEMS -->
-            
+        
+        <!-- APRON SYSTEMS -->  
         <section class="section-services-apron" id="apron">
             <div class="main-headings">
                 <h4 class="center-headings__header margin-sm b-blue">Apron Systems</h4>
@@ -81,7 +87,7 @@
                 <h4 class="center-headings__header-services margin-lg">Passenger Loading Bridges <span class="services-bullet"></span> Pre-Conditioned Air <span class="services-bullet"></span> 400 Hz Ground Power <span class="services-bullet"></span> Visual Docking Guidance Systems (VDGS) <span class="services-bullet"></span> Potable Water <span class="services-bullet"></span> Aircraft Parking</h4>
             </div>
             <div class="feature-box margin-lg">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-text feature-margin-right">
                             <h3 class="feature-box-text__header margin-sm">Design</h3>
@@ -106,7 +112,7 @@
             </div>
 
             <div class="feature-box margin-lg">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-img">
                             <img src="/images/apron-01.jpg" alt="apron-img-02" class="careers__img"> 
@@ -125,7 +131,7 @@
             </div>
 
             <div class="feature-box">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-text feature-margin-right">
                             <h3 class="feature-box-text__header margin-sm">Construction Administration</h3>
@@ -159,7 +165,7 @@
         </div>
 
                 <div class="feature-box margin-lg">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-img">
                                 <img src="/images/baggage-02.jpg" alt="bhs-img-01" class="careers__img"> 
@@ -177,7 +183,7 @@
                 </div>
 
                 <div class="feature-box margin-med">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-text feature-margin-right">
                                 <h3 class="feature-box-text__header margin-sm">Design</h3>
@@ -209,7 +215,7 @@
             </div>
 
                 <div class="feature-box">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-img">
                                 <img src="/images/baggage-01.jpg" alt="bhs-img-02" class="careers__img"> 
@@ -237,7 +243,7 @@
                 </div>
             </div>
             <div class="feature-box margin-lg">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-text feature-margin-right">
                             <h3 class="feature-box-text__header margin-sm">System Requirements</h3>
@@ -256,7 +262,7 @@
             </div>
 
             <div class="feature-box margin-lg">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-img">
                             <img src="/images/cargo-03.jpg" alt="cargo-img-02" class="careers__img"> 
@@ -292,7 +298,7 @@
             </div>
 
             <div class="feature-box margin-med">
-                <div class="row">
+                <div class="feature-box__row">
                     <div class="flexbox-1-of-2">
                         <div class="feature-box-text feature-margin-right">
                             <h3 class="feature-box-text__header margin-sm">Construction Administration</h3>
@@ -330,7 +336,7 @@
             </div>
 
                 <div class="feature-box margin-lg">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-img">
                                 <img src="/images/simulation-01.jpg" alt="simulation-img-01" class="careers__img-border"> 
@@ -358,7 +364,7 @@
                 </div>
 
                 <div class="feature-box margin-lg">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-text feature-margin-right">
                                 <h3 class="feature-box-text__header margin-sm">3D Simulation Modeling of Passenger Facilities</h3>
@@ -377,7 +383,7 @@
                 </div>
 
                 <div class="feature-box margin-lg">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-img">
                                 <img src="/images/simulation-03.jpg" alt="apron-02" class="careers__img-border"> 
@@ -396,7 +402,7 @@
                 </div>
 
                 <div class="feature-box margin-lg">
-                    <div class="row">
+                    <div class="feature-box__row">
                         <div class="flexbox-1-of-2">
                             <div class="feature-box-text feature-margin-right">
                                 <h3 class="feature-box-text__header margin-sm">Deliverables</h3>
@@ -422,7 +428,11 @@
     
     <footer id="footer"></footer>
  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/index.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+    <script src="js/index.js"></script>
 </body>
 </html>

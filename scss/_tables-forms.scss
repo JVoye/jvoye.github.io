@@ -33,3 +33,29 @@ textarea {
     -moz-appearance: none;
     appearance: none;   
 }
+
+// TABLES ///////////////////////////////////////////////
+// DATA TABLES - AIRCRAFT CHARACTERISTICS //
+
+.table-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    font-size: 14px;
+}
+
+ul {
+    padding-inline-start: 0px !important;
+}
+
+// DROP DOWN TABLE WIDTH //
+.dtr-details li {
+    display: flex;
+    justify-content: space-between;
+    width: 250px !important;
+  }
+

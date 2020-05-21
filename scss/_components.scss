@@ -1,13 +1,50 @@
+// MAPS ///////////////////////////////////////////////
+// PROJECTS MAP //
+.map-link {
+    font-size: 12px;
+    font-weight: 400;
+    transition: all .2s;
+    color: #0096DB;
+}
+
+.map-link:hover {
+    color: #0096DB;
+    text-decoration: underline;
+}
 
 
+// Denver Map //
+.map-container {
+    max-width: 1300px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center; 
+}
 
 
+// DATA TABLE ///////////////////////////////////////////////
+// BOOTSTRAP DATA TABLE & WRAPPER //
+.table-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
 
-// BUTTONS //
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    font-size: 14px;
+}
+
+
+// BUTTONS ///////////////////////////////////////////////
+// HERO INDEX BUTTONS //
 .hero-btn-container {
     display: flex;
     justify-content: center; 
 }
+
 .btn-box {
     display: flex;
     z-index: 5;
@@ -25,30 +62,41 @@
     transition: 0.2s;
     margin-right: 2rem;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:480px) {
     .btn-hero {
         padding: .75rem 1.5rem;
         margin: 0 1rem;
     } 
 }
+@media screen and (max-width:375px) {
+    .btn-hero {
+        font-size: .9rem;
+        margin: 0 .75rem;
+    }
+}
+
+
 .--btn-white {
     background-color: white;
     color: #0096DB;
     border-radius: 2px;
     border: 2px solid #ffffff;
 }
+
 .--btn-reverse {
     border: 2px solid #0096DB;
     border-radius: 2px;
     color: white;  
 }
+
 .--btn-reverse:hover {
     background-color: rgba(255, 255, 255, 1);
     transform: translateY(-.2rem);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    color: #369ccc;
+    color: #369ccc !important;
     border: 2px solid #ffffff;
 }
+
 .--btn-white:hover {
     background-color: rgba(255, 255, 255, 0);
     transform: translateY(-.2rem);
@@ -57,7 +105,304 @@
     color: white;
 }
 
-// VIDEO IMG BACKGROUND FOR SINGLE COMPONENTS //
+
+// TO TOP MAIN BUTTON //
+#button {
+    display: inline-block;
+    background-color: rgba(0, 150, 219, 0.85);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width:768px) {
+    #button {
+        width: 40px;
+        height: 40px;
+
+        bottom: 10px;
+        right: 10px;
+    }
+}
+ 
+
+  #button::before{
+    content: "";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    /* background-color: #252525; */
+    background-color: rgba(0, 150, 219, 1);
+  }
+  #button:active {
+    /* background-color: #555; */
+    background-color: rgba(0,48,91,0.75)
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+.fa-chevron-circle-up {
+    color: #ffffff;  
+}
+.chevron-up-white {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media screen and (max-width:768px) {
+    .chevron-up-white {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+}
+
+
+// BASIC BUTTONS - SERVICES - CONTACT US - ETC //
+.btn-general {
+    letter-spacing: 1px; 
+    text-align: center;
+    color: white;
+    background-color: #0096DB;
+    height: 40px;
+    width: 130px;
+    font-family: 'roboto condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: .9rem;
+    line-height: 40px;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+.btn-general:hover {
+    background-color: #0078db; 
+}
+
+
+.btn-01 {
+    width: 130px;
+    height: 40px; 
+    text-align: center;
+    color: white;
+    /* background-color: #3fa0ff; */
+    background-color: #0096DB;
+    padding: 11px 20px 11px 20px;
+    margin: 0px 20px 0px 0px; 
+    font-family: 'roboto condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: .9rem;
+    transition: 0.2s;
+    border-radius: 2px;
+    border: none;
+}
+.btn-01:hover {
+    background-color: #0078db;
+    cursor: pointer;  
+}
+
+
+// ABOUT US - READ MORE - PRINCIPAL BUTTONS //
+.btn-adjust {
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+    line-height: 40px;
+}
+@media screen and (max-width:1300px) {
+    .btn-adjust {
+        margin-bottom: 50px;
+    }
+}
+
+
+// INDEX SLIDESHOW ///////////////////////////////////////////////
+#slideshow {
+    position: relative;
+    max-width: 100%;
+    height: 675px;
+
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    overflow: hidden;
+}
+.slideshow__img {
+    position: absolute;
+    width: 100%;
+    height: 675px;
+    background-image: linear-gradient(to right, 
+    rgba(0, 19, 44, 0.6),
+     rgba(0, 12, 29, 0.6)), 
+     url(/images/hero-01-crop.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+}
+.slideshow__img-02 {
+    position: absolute;
+    width: 100%;
+    height: 675px;
+    background-image: linear-gradient(to right, 
+    rgba(0, 19, 44, 0.6),
+     rgba(0, 12, 29, 0.6)), 
+     url(/images/hero-main-02.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+}
+.slideshow__text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+}
+
+
+
+// INDEX SLIDESHOW ///////////////////////////////////////////////
+// ABOUT US - READ MORE -POPUPS //
+
+// DAVE //
+.popup {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+// DAMIEN //
+.popup2 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+// STEVE //
+.popup3 {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.popup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 68%;
+    padding: 4rem 4rem 3rem 4rem;
+    background-color: #ffffff;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    display: flex;
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(.25);
+    transition: all .4s .2s;
+}
+.popup__left {
+    width: 20%;
+}
+.popup__img {
+    display: block;
+    width: 100%;
+    transition: .2s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.popup__img:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.popup__right {
+    width: 80%;
+    padding: 0rem 3rem;
+}
+// DAVE //
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup:target .popup__content {
+    opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+}
+// DAMIEN //
+.popup2:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup2:target .popup__content {
+    opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+}
+// STEVE //
+.popup3:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup3:target .popup__content {
+    opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__close {
+    color: #0096DB;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    line-height: 1;
+}
+.popup__close:hover {
+    color: black;  
+}
+
+
+// VIDEO IMG BACKGROUND FOR SINGLE COMPONENTS ///////////////////////////////////////////////
 .body-background {
     background-color: #333333;
 }
@@ -66,4 +411,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+// VIDEO SETTINGS //
+.bg-video {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

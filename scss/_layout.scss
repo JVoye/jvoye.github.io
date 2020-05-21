@@ -1,0 +1,72 @@
+// INDEX ///////////////////////////////////////////////
+
+
+// ABOUT US ///////////////////////////////////////////////
+
+
+// SERVICES ///////////////////////////////////////////////
+// BLUE BULLET //
+.services-bullet {
+    display: inline-block;
+    margin: 0px 10px 5px 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    background-color: #3fa0ff;
+}
+
+// PROJECTS ///////////////////////////////////////////////
+
+
+// CONTACT ///////////////////////////////////////////////
+
+
+// CAREERS ///////////////////////////////////////////////
+// DROPDOWNS //
+.dropdown__job {
+    width: 100%; 
+}
+
+.dropdown__drop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;  
+    cursor: pointer;
+    border-radius: 2px; 
+    color: #333333;
+    font-weight: 400;
+}
+
+.dropdown__drop:not(:first-child) {
+    border-top: 1px solid #d3d3d3;
+}
+
+.dropdown__drop-text {
+    padding: 1.5rem; 
+    display: none;
+}
+
+.chevron-style {
+    font-size: 1.5rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #0096DB, #0096DB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.chevron-style--large {
+    font-size: 2rem;
+    display: inline-block;
+    background-image: linear-gradient(to right, #0096DB, #0096DB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.fa-chevron-up {
+    display: none;  
+}
+
+
+// NEWS ///////////////////////////////////////////////
