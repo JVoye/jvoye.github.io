@@ -49,6 +49,7 @@ footer ul {
 .footer-sections {
     padding-top: 75px;
     width: 200px;
+    height: 300px;
 
     @media screen and (max-width:1300px) {
         width: auto;
@@ -60,10 +61,10 @@ footer ul {
 
 .two-columns {
     columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    -ms-columns: 2;
-    -o-columns: 2;
+    // -webkit-columns: 2;
+    // -moz-columns: 2;
+    // -ms-columns: 2;
+    // -o-columns: 2;
 }
 
 .divider {

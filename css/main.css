@@ -220,11 +220,6 @@ thead {
 }
 
 /***** HERO SECONDARIES *****/
-.--about {
-  background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5) 0%, rgba(0, 52, 120, 0.7) 59%, transparent 50%), url(/images/hero-about-02.jpg);
-  background-image: url(/images/hero-about-02.jpg);
-}
-
 .--datas {
   background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5) 0%, rgba(0, 52, 120, 0.7) 59%, transparent 50%), url(/images/hero-about-02.jpg);
   background-image: url(/images/data-1.jpg);
@@ -414,6 +409,10 @@ thead {
   .flexbox-1-of-3 {
     width: 90%;
   }
+}
+
+.perks-box__logo {
+  width: 5rem;
 }
 
 .perks-box__icon {
@@ -1541,7 +1540,7 @@ thead {
 
 .client-card {
   max-width: 400px;
-  height: 350px;
+  height: 325px;
   margin: 0px 15px 65px 15px;
   /* background-color: #f3f3f3; */
   /* -webkit-box-shadow: 0 1rem 2.3rem rgba(0, 0, 0, 0.15);
@@ -1553,6 +1552,10 @@ thead {
 .client-image-box {
   max-width: 400px;
   height: auto;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .client-image-box img {
@@ -1565,14 +1568,14 @@ thead {
 
 .client__header {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 1rem;
   font-weight: 400;
   font-size: 26px;
 }
 
 .client__header--center {
   text-align: center;
-  margin-top: 2.3rem;
+  margin-top: 1.5rem;
   font-weight: 400;
   font-size: 26px;
 }
@@ -2173,9 +2176,6 @@ thead {
   .hero-secondary__header {
     font-size: 40px;
   }
-  .--about {
-    background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5), rgba(0, 52, 120, 0.7)), url(/images/hero-about-02.jpg);
-  }
   .--datas {
     background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5), rgba(0, 52, 120, 0.7)), url(/images/data-1.jpg);
   }
@@ -2470,6 +2470,7 @@ div.dataTables_wrapper div.dataTables_info {
   font-family: 'roboto condensed', sans-serif;
   text-transform: uppercase;
   font-size: .9rem;
+  letter-spacing: 1px;
   line-height: 40px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -2492,6 +2493,7 @@ div.dataTables_wrapper div.dataTables_info {
   font-family: 'roboto condensed', sans-serif;
   text-transform: uppercase;
   font-size: .9rem;
+  letter-spacing: 1px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-radius: 2px;
@@ -2810,6 +2812,7 @@ footer ul {
 .footer-sections {
   padding-top: 75px;
   width: 200px;
+  height: 300px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -2825,11 +2828,8 @@ footer ul {
 }
 
 .two-columns {
-  columns: 2;
   -webkit-columns: 2;
-  -moz-columns: 2;
-  -ms-columns: 2;
-  -o-columns: 2;
+          columns: 2;
 }
 
 .divider {
@@ -3091,6 +3091,17 @@ footer ul {
 @media screen and (max-width: 480px) {
   .--contact {
     background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5), rgba(0, 52, 120, 0.7)), url(/images/hero-contact-alt.jpg);
+  }
+}
+
+.--about {
+  background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5) 0%, rgba(0, 52, 120, 0.7) 59%, transparent 50%), url(/images/hero-about-02.jpg);
+  background-image: url(/images/hero-about-02.jpg);
+}
+
+@media screen and (max-width: 480px) {
+  .--about {
+    background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5), rgba(0, 52, 120, 0.7)), url(/images/hero-about-02.jpg);
   }
 }
 
