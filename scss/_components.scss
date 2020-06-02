@@ -109,7 +109,8 @@ div.dataTables_wrapper div.dataTables_info {
 // TO TOP MAIN BUTTON //
 #button {
     display: inline-block;
-    background-color: rgba(0, 150, 219, 0.85);
+    // background-color: rgba(0, 150, 219, 0.85);
+    background-color: #494a55;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -150,11 +151,11 @@ div.dataTables_wrapper div.dataTables_info {
   #button:hover {
     cursor: pointer;
     /* background-color: #252525; */
-    background-color: rgba(0, 150, 219, 1);
+    background-color: #5f606d;
   }
   #button:active {
     /* background-color: #555; */
-    background-color: rgba(0,48,91,0.75)
+    background-color: #5f606d;
   }
   #button.show {
     opacity: 1;
@@ -183,7 +184,7 @@ div.dataTables_wrapper div.dataTables_info {
     color: white;
     background-color: #0096DB;
     height: 40px;
-    width: 130px;
+    width: 140px;
     font-family: 'roboto condensed', sans-serif;
     text-transform: uppercase;
     font-size: .9rem;

@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>projects</title>
+    <script src="https://kit.fontawesome.com/825612129e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+      <div class="wrapper-overflow">
+
+    
+    <header>
+      <nav>
+          <a href="index.html"><div class="bnp-logo"> 
+          </div></a>
+          <ul class="nav-links">
+              <li>
+                  <a href="about.html">About us</a>
+              </li>
+              <li>
+                  <a href="services.html">Services</a>
+              </li>
+              <li>
+                  <a  class="current" href="projects.html">Projects</a>
+              </li>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                  <a href="careers.html">Careers</a>
+              </li>
+              <li>
+                  <a href="news.html">News</a>
+              </li>
+          </ul>
+          <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+          </div>
+      </nav>
+  </header>
+
+    <div id="map" class="margin-med"></div>
+    <script>
+
+        function initMap(){
+              // map options
+              var options = {
+                zoom:3,
+                center:{lat:40.4983322, lng:-3.5675982},
+                // center:{lat:42.5524153, lng:9.4825537},
+                styles: [{
+            "featureType": "administrative",
+            "elementType": "labels.text.fill",
+            "stylers": [{"color": "#444444"}]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [{"color": "#f2f2f2"}]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [{"visibility": "off"}]
+        },
+        {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [{"saturation": -100},
+            {"lightness": 45}]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [{"visibility": "simplified"}]
+        },
+        {
+            "featureType": "road.arterial",
+            "elementType": "labels.icon",
+            "stylers": [{"visibility": "off"}]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [{"visibility": "off"}]
+        },
+        {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [{"color": "#46bcec"},
+            {"visibility": "on"}]
+        }
+        ]
+                }
+        var map = new google.maps.Map(document.getElementById('map'),options);
+        var infoWindow;
+              // Add a marker clusterer to manage the markers.
+  
+              //Add marker
+              //My Icons
+              var markers = [{
+                  coords:{lat:39.8560963, lng:-104.6737376},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">DEN</h2>' + '<a class="map-link" href="/briefs/DEN.pdf" target="_blank">DEN BHS</a>' 
+                },
+                {
+                //OGG
+                  coords:{lat:20.8967924, lng:-156.4329379},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>OGG</h2>'
+                },
+                {
+                //lAX
+                  coords:{lat:33.9415889, lng:-118.40853},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LAX</h2>'
+                },
+                {
+                //IND
+                  coords:{lat:39.7168593, lng:-86.2955952},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>IND</h2>'
+                },
+                {
+                //PHL
+                  coords:{lat:39.8743959, lng:-75.2424229},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PHL</h2>'
+                },
+                {
+                //ATL
+                  coords:{lat:33.6407282, lng:-84.4277001},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                iconImage:'/images/map-icon-alt.svg',
+                content:'<h2 class="margin-map">ATL</h2>' + '<a class="map-link" href="/briefs/ATL Delta Lobby.pdf" target="_blank">ATL Delta Lobby</a><br>' 
+                + '<a class="map-link" href="/briefs/ATL LMOD Curbside Design.pdf" target="_blank">ATL LMOD Curbside Design</a><br>' 
+                + '<a class="map-link" href="/briefs/ATL Masterplan Delta.pdf" target="_blank">ATL Masterplan Delta</a><br>' 
+                + '<a class="map-link" href="/briefs/ATL N. Terminal Improvement.pdf" target="_blank">ATL N. Terminal Improvement</a><br>' 
+                },
+                {
+                //SEA
+                  coords:{lat:47.4502499, lng:-122.3088165},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SEA</h2>'
+                },
+                {
+                //PTY
+                  coords:{lat:9.0669766, lng:-79.3870681},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PTY</h2>'
+                },
+                {
+                //PDX
+                  coords:{lat:45.5897694, lng:-122.5950942},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PDX</h2>'
+                },
+                {
+                //GEG
+                  coords:{lat:47.6217478, lng:-117.534812},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">GEG</h2>' + '<a class="map-link" href="/briefs/GEG.pdf" target="_blank">GEG</a><br>' 
+                },
+                {
+                //SMF
+                  coords:{lat:38.6950854, lng:-121.5900648},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SMF</h2>'
+                },
+                {
+                //SFO
+                  coords:{lat:37.6213129, lng:-122.3789554},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SFO</h2>'
+                },
+                {
+                //SJC
+                  coords:{lat:37.3639472, lng:-121.9289375},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SJC</h2>'
+                },
+                {
+                //OAK
+                  coords:{lat:37.7125689, lng:-122.2197428},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>OAK</h2>'
+                },
+                {
+                //RNO
+                  coords:{lat:39.4995907, lng:-119.7680951},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>RNO</h2>'
+                },
+                {
+                //LAS
+                  coords:{lat:36.0839998, lng:-115.1537389},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LAS</h2>'
+                },
+                {
+                //BOI
+                  coords:{lat:43.5658231, lng:-116.222316},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BOI</h2>'
+                },
+                {
+                //MSO
+                  coords:{lat:46.9188167, lng:-114.0837362},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MSO</h2>'
+                },
+                {
+                //JAC
+                  coords:{lat:43.6046209, lng:-110.7386093},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>JAC</h2>'
+                },
+                {
+                //SLC
+                  coords:{lat:40.7899404, lng:-111.9790706},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SLC</h2>'
+                },
+                {
+                //PHX
+                  coords:{lat:33.4372686, lng:-112.0077881},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PHX</h2>'
+                },
+                {
+                //EGE
+                  coords:{lat:39.6404475, lng:-106.9097116},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">EGE</h2>' + '<a class="map-link" href="/briefs/EGE CBIS.pdf" target="_blank">EGE CBIS</a><br>' 
+                  },
+                {
+                //SBA
+                  coords:{lat:34.4271935, lng:-119.8398835},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SBA</h2>'
+                },
+                {
+                //BUR
+                  coords:{lat:34.1983122, lng:-118.3574036},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BUR</h2>'
+                },
+                {
+                //PSP
+                  coords:{lat:33.8303194, lng:-116.5070468},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PSP</h2>'
+                },
+                {
+                //SNA
+                  coords:{lat:33.6761901, lng:-117.8674759},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SNA</h2>'
+                },
+                {
+                //LGB
+                  coords:{lat:33.8182528, lng:-118.1447834},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LGB</h2>'
+                },
+                {
+                //ELP
+                  coords:{lat:31.8053354, lng:-106.3824345},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">ELP</h2>' + '<a class="map-link" href="/briefs/ELP.pdf" target="_blank">ELP</a><br>' 
+                },
+                {
+                //LIH
+                  coords:{lat:21.9788489, lng:-159.3437585},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LIH</h2>'
+                },
+                {
+                //HNL
+                  coords:{lat:21.3245132, lng:-157.9250736},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">HNL</h2>' + '<a class="map-link" href="/briefs/HNL Lobby.pdf" target="_blank">HNL Lobby</a><br>' 
+                },
+                {
+                //KOA
+                  coords:{lat:19.736916, lng:-156.0429246},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>KOA</h2>'
+                },
+                {
+                //ITO
+                  coords:{lat:19.7188342, lng:-155.0416866},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ITO</h2>'
+                },
+                {
+                //ANC
+                  coords:{lat:61.1758863, lng:-149.9900791},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ANC</h2>'
+                },
+                {
+                //AMA
+                  coords:{lat:35.2184869, lng:-101.7052103},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>AMA</h2>'
+                },
+                {
+                //DFW
+                  coords:{lat:32.8998091, lng:-97.0403352},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">DFW</h2>' + '<a class="map-link" href="/briefs/DFW IT Refresh.pdf" target="_blank">DFW IT Refresh</a><br>'
+                  + '<a class="map-link" href="/briefs/DFW IT Refresh 1509.pdf" target="_blank">DFW IT Refresh 1509</a><br>'
+                },
+                {
+                //SAT
+                  coords:{lat:29.5311973, lng:-98.4683484},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SAT</h2>'
+                },
+                {
+                //IAH
+                  coords:{lat:29.9902199, lng:-95.3367827},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>IAH</h2>'
+                },
+                {
+                //AUS
+                  coords:{lat:30.1974292, lng:-97.6663058},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                iconImage:'/images/map-icon-alt.svg',
+                content:'<h2 class="margin-map">AUS</h2>' + '<a class="map-link" href="/briefs/AUS Enhancement.pdf" target="_blank">AUS Enhancement</a><br>' 
+                  + '<a class="map-link" href="/briefs/AUS Master Plan.pdf" target="_blank">AUS Master Plan</a><br>' 
+                  + '<a class="map-link" href="/briefs/AUS Recap.pdf" target="_blank">AUS Recap</a><br>' 
+                  + '<a class="map-link" href="/briefs/AUS TEIP.pdf" target="_blank">AUS TEIP</a><br>' 
+                },
+                {
+                //OKC
+                  coords:{lat:35.393056, lng:-97.600556},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>OKC</h2>'
+                },
+                {
+                //TUL
+                  coords:{lat:36.198778, lng:-95.8838659},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TUL</h2>'
+                },
+                {
+                //JFK
+                  coords:{lat:40.6413111, lng:-73.7781391},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>JFK</h2>'
+                },
+                {
+                //OMA
+                  coords:{lat:41.2997128, lng:-95.9695264},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>OMA</h2>'
+                },
+                {
+                //SGF
+                  coords:{lat:37.2380564, lng:-93.467136},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SGF</h2>'
+                },
+                {
+                //LIT
+                  coords:{lat:34.7306849, lng:-92.2216531},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LIT</h2>'
+                },
+                {
+                //MSP
+                  coords:{lat:44.884734, lng:-93.2923244},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MSP</h2>'
+                },
+                {
+                //MKE
+                  coords:{lat:42.9475321, lng:-87.9666859},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MKE</h2>'
+                },
+                {
+                //TVR
+                  coords:{lat:34.7306849, lng:-92.2916932},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TVR</h2>'
+                },
+                {
+                //DWT
+                  coords:{lat:42.2161509, lng:-83.4254241},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>DWT</h2>'
+                },
+                {
+                //CLE
+                  coords:{lat:41.4124127, lng:-81.9180324},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>CLE</h2>'
+                },
+                {
+                //ORD
+                  coords:{lat:41.9741412, lng:-87.9773613},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ORD</h2>'
+                },
+                {
+                //SPI
+                  coords:{lat:39.8440799, lng:-89.7479422},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SPI</h2>'
+                },
+                {
+                //PIA
+                  coords:{lat:40.6666196, lng:-89.761666},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PIA</h2>'
+                },
+                {
+                //STL
+                  coords:{lat:38.743112, lng:-90.4351345},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SLT</h2>'
+                },
+                {
+                //MEM
+                  coords:{lat:35.0420478, lng:-90.049213},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MEM</h2>'
+                },
+                {
+                //BNA
+                  coords:{lat:36.1262966, lng:-86.7474114},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BNA</h2>'
+                },
+                {
+                //BTV
+                  coords:{lat:44.4706725, lng:-73.2216435},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BTV</h2>'
+                },
+                {
+                //PWM
+                  coords:{lat:43.6464571, lng:-70.3797372},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PWM</h2>'
+                },
+                {
+                //BUF
+                  coords:{lat:42.9396846, lng:-78.7995466},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BUF</h2>'
+                },
+                {
+                //ROC
+                  coords:{lat:43.1225015, lng:-77.736612},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ROC</h2>'
+                },
+                {
+                //HPN
+                  coords:{lat:41.0683113, lng:-73.778704},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">HPN</h2>' + '<a class="map-link" href="/briefs/HPN CBIS.pdf" target="_blank">HPN CBIS</a><br>'
+                },
+                {
+                //BOS
+                  coords:{lat:42.3655919, lng:-71.0796001},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">BOS</h2>' + '<a class="map-link" href="/briefs/BOS New Term A.pdf" target="_blank">BOS New Term A</a><br>' 
+                    + '<a class="map-link" href="/briefs/BOS Airport Wide EDS.pdf" target="_blank">BOS Airport Wide EDS</a><br>' 
+                    + '<a class="map-link" href="/briefs/BOS Recapitalization Program.pdf" target="_blank">BOS Recapitalization Program</a><br>' 
+                    + '<a class="map-link" href="/briefs/BOS Term A.pdf" target="_blank">BOS Term A</a><br>' 
+                    + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B3-4.pdf" target="_blank">BOS Terminal B - Bagroom B3-4</a><br>' 
+                    + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B6-7.pdf" target="_blank">BOS Terminal B - Bagroom B6-7</a><br>' 
+                    
+                },
+                {
+                //ACK
+                  coords:{lat:1.2569304, lng:-70.1337905},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ACK</h2>'
+                },
+                {
+                //PVD
+                  coords:{lat:41.7245058, lng:-71.5004461},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PVD</h2>'
+                },
+                {
+                //BLD
+                  coords:{lat:41.9388522, lng:-72.7560713},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BLD</h2>'
+                },
+                {
+                //EWR
+                  coords:{lat:40.6895102, lng:-74.2445023},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">EWR</h2>' + '<a class="map-link" href="/briefs/EWR Brief Controls.pdf" target="_blank">EWR Brief Controls</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR CO Term C.pdf" target="_blank">EWR CO Term C</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR CO.pdf" target="_blank">EWR CO</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR T1.pdf" target="_blank">EWR T1</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR Terminal 1.pdf" target="_blank">EWR Terminal 1</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR Terminal B.pdf" target="_blank">EWR Terminal B</a><br>' 
+                    + '<a class="map-link" href="/briefs/EWR TX4 Transfer.pdf" target="_blank">EWR TX4 Transfer</a><br>' 
+                },
+                {
+                //PIT
+                  coords:{lat:40.4957511, lng:-80.3113512},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PIT</h2>'
+                },
+                {
+                //MDT
+                  coords:{lat:40.1942164, lng:-76.8277071},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MDT</h2>'
+                },
+                {
+                //BWI
+                  coords:{lat:39.1773832, lng:-76.7384322},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BWI</h2>'
+                },
+                {
+                //ACY
+                  coords:{lat:39.4512906, lng:-74.6422364},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ACY</h2>'
+                },
+                {
+                //ORF
+                  coords:{lat:36.8956631, lng:-76.2700561},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ORF</h2>'
+                },
+                {
+                //RDU
+                  coords:{lat:35.8800587, lng:-78.8580364},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>RDU</h2>'
+                },
+                {
+                //CLT
+                  coords:{lat:35.2143824, lng:-81.0173547},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">CLT</h2>' + '<a class="map-link" href="/briefs/CLT.pdf" target="_blank">CLT</a><br>' 
+                  + '<a class="map-link" href="/briefs/CLT American.pdf" target="_blank">CLT American</a><br>' 
+                },
+                {
+                //MYR
+                  coords:{lat:33.6821821, lng:-78.9979344},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MYR</h2>'
+                },
+                {
+                //BHM
+                  coords:{lat:33.5624072, lng:-86.8241661},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BHM</h2>'
+                },
+                {
+                //PIM
+                  coords:{lat:32.8406675, lng:-84.9524712},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PIM</h2>'
+                },
+                {
+                //TLH
+                  coords:{lat:30.3957243, lng:-84.4151642},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TLH</h2>'
+                },
+                {
+                //MCO
+                  coords:{lat:28.4311398, lng:-81.3781233},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MCO</h2>'
+                },
+                {
+                //JAX
+                  coords:{lat:30.4940526, lng:-81.757977},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>JAX</h2>'
+                },
+                {
+                //PNS
+                  coords:{lat:30.4737971, lng:-87.2567451},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PNS</h2>'
+                },
+                {
+                //TPA
+                  coords:{lat:27.9834776, lng:-82.5370781},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TPA</h2>'
+                },
+                {
+                //MIA
+                  coords:{lat:25.7958482, lng:-80.357086},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MIA</h2>'
+                },
+                {
+                //LEX
+                  coords:{lat:38.0377407, lng:-84.6726483},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LEX</h2>'
+                },
+                {
+                //SDF
+                  coords:{lat:38.1756412, lng:-85.8069631},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SDF</h2>'
+                },
+                {
+                //GRR
+                  coords:{lat:42.884642, lng:-85.5948833},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>GRR</h2>'
+                },
+                {
+                //HKG
+                  coords:{lat:22.308047, lng:113.9184808},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>HKG</h2>'
+                },
+                {
+                //PEK
+                  coords:{lat:40.0798573, lng:116.6031121},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>PEK</h2>'
+                },
+                {
+                //CTU
+                  coords:{lat:30.567456, lng:103.9492936},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>CTU</h2>'
+                },
+                {
+                //SDQ
+                  coords:{lat:18.4321442, lng:-69.6731424},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SDQ</h2>'
+                },
+                {
+                //STT
+                  coords:{lat:18.3360608, lng:-64.9722726},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>STT</h2>'
+                },
+                {
+                //SJU
+                  coords:{lat:18.4373547, lng:-66.0044727},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SJU</h2>'
+                },
+                {
+                //EZE
+                  coords:{lat:-34.8150044, lng:-58.5348284},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>EZE</h2>'
+                },
+                {
+                //BIA
+                  coords:{lat:42.5524153, lng:9.4825537},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BIA</h2>'
+                },
+                {
+                //BRU
+                  coords:{lat:50.900999, lng:4.4855744},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BRU</h2>'
+                },
+                {
+                //LHR
+                  coords:{lat:51.4700223, lng:-0.4542955},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LHR</h2>'
+                },
+                {
+                //MAN
+                  coords:{lat:53.3588026, lng:-2.2727303},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MAN</h2>'
+                },
+                {
+                //MAD
+                  coords:{lat:40.4839361, lng:-3.5679515},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MAD</h2>'
+                },
+                {
+                //FCO
+                  coords:{lat:41.7998868, lng:12.2462384},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>FCO</h2>'
+                },
+                {
+                //AMS
+                  coords:{lat:41.7998868, lng:12.2462384},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>AMS</h2>'
+                },
+                {
+                //TLV
+                  coords:{lat:32.005532, lng:34.8854112},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TLV</h2>'
+                },
+                {
+                //DEL
+                  coords:{lat:28.5561624, lng:77.0999578},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>DEL</h2>'
+                },
+                {
+                //DOH
+                  coords:{lat:25.2605946, lng:51.6137665},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>DOH</h2>'
+                },
+                {
+                //JED
+                  coords:{lat:21.6706675, lng:39.1504721},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>JED</h2>'
+                },
+                {
+                //AUH
+                  coords:{lat:24.441938, lng:54.6500736},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>AUH</h2>'
+                },
+                {
+                //UAL
+                  coords:{lat:10.7158333, lng:22.2311111},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>UAL</h2>'
+                },
+                {
+                //LXA
+                  coords:{lat:29.2892521, lng:90.9006231},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>LXA</h2>'
+                },
+                {
+                //BOM
+                  coords:{lat:19.0895595, lng:72.8656144},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BOM</h2>'
+                },
+                {
+                //MAA
+                  coords:{lat:12.994112, lng:80.1708668},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MAA</h2>'
+                },
+                {
+                //SIN
+                  coords:{lat:1.3644202, lng:103.9915308},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SIN</h2>'
+                },
+                {
+                //BKK
+                  coords:{lat:13.6899991, lng:100.7501124},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BKK</h2>'
+                },
+                {
+                //KUL
+                  coords:{lat:2.7540214, lng:101.7046989},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>KUL</h2>'
+                },
+                {
+                //ABU
+                  coords:{lat:-9.0746234, lng:124.9060497},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>ABU</h2>'
+                },
+                {
+                //GUM
+                  coords:{lat:13.4856448, lng:144.8001467},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>GUM</h2>'
+                },
+                {
+                //TPE
+                  coords:{lat:25.0796514, lng:121.234217},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TPE</h2>'
+                },
+                {
+                //MEL
+                  coords:{lat:-37.6690123, lng:144.8410273},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MEL</h2>'
+                },
+                {
+                //KEF
+                  coords:{lat:63.9868067, lng:-22.6279668},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>KEF</h2>'
+                },
+                {
+                //TLL
+                  coords:{lat:59.4141383, lng:24.8333752},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>TLL</h2>'
+                },
+                {
+                //MEX
+                  coords:{lat:19.4360762, lng:-99.0719083},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>MEX</h2>'
+                },
+                {
+                //CPH
+                  coords:{lat:55.6180236, lng:12.6507628},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>CPH</h2>'
+                },
+                {
+                //BNE
+                  coords:{lat:-27.3942144, lng:153.1218303},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>BNE</h2>'
+                },
+                {
+                //SYD
+                  coords:{lat:-33.9399228, lng:151.1752764},
+                //   iconImage:'assets/img/places/stparkdublin.png',
+                  content:'<h2>SYD</h2>'
+                },
+
+
+
+
+                //Additional Locations NOT ON OLD LIST!!
+                {
+                //BGR
+                  coords:{lat:44.8080656, lng:-68.8182523},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">BGR</h2>' + '<a class="map-link" href="/briefs/BGR.pdf" target="_blank">BGR</a><br>' 
+                },
+                {
+                //BIS
+                  coords:{lat:46.7751937, lng:-100.7594334},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">BIS</h2>' + '<a class="map-link" href="/briefs/BIS EDS RECAP.pdf" target="_blank">BIS EDS RECAP</a><br>' 
+                },
+                {
+                //CID
+                  coords:{lat:42.1932225, lng:-91.1197768},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">CID</h2>' + '<a class="map-link" href="/briefs/CID.pdf" target="_blank">CID</a><br>' 
+                  + '<a class="map-link" href="/briefs/CID Mini In-Line.pdf" target="_blank">CID Mini In-Line</a><br>' 
+                },
+                {
+                //CVG
+                  coords:{lat:39.0532746, lng:-84.6652052},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">CVG</h2>' + '<a class="map-link" href="/briefs/CVG.pdf" target="_blank">CVG</a><br>'
+                },
+                {
+                //DCA
+                  coords:{lat:39.0114662, lng:-77.2025481},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">DCA</h2>' + '<a class="map-link" href="/briefs/DCA American.pdf" target="_blank">DCA American</a><br>'
+                  + '<a class="map-link" href="/briefs/DCA New B-C Terminal Project.pdf" target="_blank">DCA New B-C Terminal Project</a><br>'
+                },
+                {
+                //DTW
+                  coords:{lat:42.2161722, lng:-83.3575783},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">DTW</h2>' + '<a class="map-link" href="/briefs/DTW McNamara Term.pdf" target="_blank">DTW McNamara Term</a><br>'
+                  + '<a class="map-link" href="/briefs/DTW McNamara All Phases.pdf" target="_blank">DTW McNamara All Phases</a><br>'
+                },
+                {
+                //FAA
+                  coords:{lat:42.2161722, lng:-83.3575783},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">FAA</h2>' + '<a class="map-link" href="/briefs/DTW McNamara Term.pdf" target="_blank">DTW McNamara Term</a><br>'
+                  + '<a class="map-link" href="/briefs/DTW McNamara All Phases.pdf" target="_blank">DTW McNamara All Phases</a><br>'
+                },
+                {
+                //FLL
+                  coords:{lat:26.0742344, lng:-80.1506022},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">FLL</h2>' + '<a class="map-link" href="/briefs/FLL.pdf" target="_blank">FLL</a><br>'
+                  + '<a class="map-link" href="/briefs/FLL Term 4.pdf" target="_blank">FLL Term 4</a><br>'
+                  + '<a class="map-link" href="/briefs/FLL T3 CBIS.pdf" target="_blank">FLL T3 CBIS</a><br>'
+                },
+                {
+                //HOU
+                  coords:{lat:29.6459123, lng:-95.2790941},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">HOU</h2>' + '<a class="map-link" href="/briefs/HOU Recap.pdf" target="_blank">HOU Recap</a><br>'
+                },
+                {
+                //IAD
+                  coords:{lat:38.9531204, lng:-77.4587275},
+                  iconImage:'/images/map-icon-alt.svg',
+                  content:'<h2 class="margin-map">IAD</h2>' + '<a class="map-link" href="/briefs/IAD EWBB CBIS.pdf" target="_blank">IAD EWBB CBIS</a><br>'
+                  + '<a class="map-link" href="/briefs/IAD International Arrivals Building.pdf" target="_blank">IAD International Arrivals Building</a><br>'
+                  + '<a class="map-link" href="/briefs/IAD Main Terminal.pdf" target="_blank">IAD Main Terminal</a><br>'
+                  + '<a class="map-link" href="/briefs/IAD Multiple Terminals.pdf" target="_blank">IAD Multiple Terminals</a><br>'
+                  + '<a class="map-link" href="/briefs/IAD SBB CBIS.pdf" target="_blank">IAD SBB CBIS</a><br>'
+                },
+            
+                // //Dublin
+                // {
+                //   coords:{lat:53.338741, lng:-6.261563},
+                // //   iconImage:'assets/img/places/stparkdublin.png',
+                //   content:'<h1>St Stephen’s Green</h1>'+ '<br>' + '<h2>Learn More</h2>' 
+                // },
+                // {
+                //     //This one works!
+                //   coords:{lat:53.3755012,lng:-6.2735677},
+                //   iconImage:'assets/img/places/botanic garden.png',
+                //   content:'<h1>Botanic Garden</h1>' + '<br>' + '<h2>Learn More</h2>' + '<a href="/images/doh-brief.pdf">test</a>'
+                // },
+                // {
+                //   coords:{lat:53.355998576, lng:-6.32166538},
+                //   iconImage:'assets/img/places/stparkdublin.png',////////////////////add picture
+                //   content:'<h1>Phoenix Park</h1>' + '<br>' + '<h2>Learn More</h2>' + '<a>http://phoenixpark.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.460259, lng:-6.219985},
+                //   iconImage:'assets/img/places/swordscastle.png',
+                //   content:'<h1>Swords Castle</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://swordscastle.events/</a>'
+                // },
+                // {
+                //   coords:{lat:53.37923, lng:-6.07201},
+                //   iconImage:'assets/img/places/Howth.png',
+                //   content:'<h1>Howth</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://www.visithowth.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:55.1364, lng:-7.456},
+                //   iconImage:'assets/img/places/buncrana1.png',
+                //   content:'<h1>Buncrana</h1>' + '<p>hello all</p>'
+                // },
+        
+                // {
+                //   coords:{lat:53.152999388, lng:-6.1499994},
+                //   iconImage:'assets/img/places/sugarloaf_icon.png',
+                //   content:'<h1>Great sugar loaf</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://visitwicklow.ie/item/the-sugarloaf-trail/</a>'
+                // },
+                // {
+                //   coords:{lat:52.0058, lng:-9.5562},
+                //   iconImage:'assets/img/places/killarney.png',
+                //   content:'<h1>Killarney National Park </h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://www.killarneynationalpark.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:51.942662896, lng:-9.917162998},
+                //   iconImage:'assets/img/places/clifs.png',
+                //   content:'<h1>Ring of Kerry</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://ringofkerrytourism.com/</a>'
+                // },
+                // {
+                //   coords:{lat:52.679, lng:-7.814},
+                //   iconImage:'assets/img/places/clifs.png',//add picture!!!!!!!!!!!!!!!
+                //   content:'<h1>Thurles</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://www.tipperary.com/thurles</a>'
+                // },
+                // {
+                //   coords:{lat:52.348, lng:-6.517},
+                //   iconImage:'assets/img/places/wexford museum.png',
+                //   content:'<h1>Irish National Heritage Park</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://www.irishheritage.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.018, lng:-6.398},
+                //   iconImage:'assets/img/places/wicklow.png',
+                //   content:'<h1> Wicklow Mountains National Park</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://www.wicklowmountainsnationalpark.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.011299, lng:   -6.326156},
+                //   iconImage:'assets/img/places/glendalough.png',
+                //   content:'<h1> Glendalough </h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://www.glendalough.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.1876492494, lng:-6.083832998},
+                //   iconImage:'assets/img/places/Bray.png',
+                //   content:'<h1> Bray</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://www.bray.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.144, lng: -6.072},
+                //   iconImage:'assets/img/places/greystones.png',
+                //   content:'<h1>Greystones</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://visitwicklow.ie/item/greystones/</a>'
+                // },
+                // {
+                //   coords:{lat:52.518664592, lng:-7.887329784},
+                //   iconImage:'assets/img/places/Cashel.png',
+                //   content:'<h1>Rock of Cashel</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://www.cashel.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:52.6477, lng: -7.2561},
+                //   iconImage:'assets/img/places/kilkenny.png',
+                //   content:'<h1>Killenny</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>https://visitkilkenny.ie/</a>'
+                // },
+                // //cork
+                // {
+                //   coords:{lat:51.902694, lng:-8.4767},
+                //   iconImage:'assets/img/places/butterCork.png',
+                //   content:'<h1>Museum of Butter</h1>'+ '<br>' + '<h2>Learn More</h2>' + '<a>http://thebuttermuseum.com/</a>'
+                // },
+                // {
+                //   coords:{lat:51.89953, lng:-8.499022},
+                //   iconImage:'assets/img/places/prisoncork.png',
+                //   content:'<h1>Cork City Gaol</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://corkcitygaol.com/</a>'
+                // },
+        
+                // {
+                //   coords:{lat:53.4513204, lng:-6.140871},
+                //   iconImage:'assets/img/places/malahideB.png',
+                //   content:'<h1>Malahide</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://www.malahide.ie/</a>'
+                // },
+        
+                // {
+                //   coords:{lat:53.2839577, lng:-9.0837658},
+                //   iconImage:'assets/img/places/galway.png',
+                //   content:'<h1>Galway</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://www.galwaytourism.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.470580, lng:-6.122405},
+                //   iconImage:'assets/img/places/galway.png',
+                //   content:'<h1>Donabate Beach</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://en.wikipedia.org/wiki/Donabate</a>'
+                // },
+                // {
+                //   coords:{lat:52.9713299, lng:-9.4300415},
+                //   iconImage:'assets/img/places/clifsofmoher.png',
+                //   content:'<h1>Donabate Beach</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://www.cliffsofmoher.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:51.8960528, lng:-8.4980693},
+                //   iconImage:'assets/img/places/Cork.png',
+                //   content:'<h1>Cork</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://purecork.ie/</a>'
+                // },
+                // {
+                //   coords:{lat:53.3667776, lng:-6.5064198},
+                //   iconImage:'assets/img/places/Leixlip.png',
+                //   content:'<h1>Leixlip</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://pl.wikipedia.org/wiki/Leixlip</a>'
+                // },
+                // {
+                //   coords:{lat:53.1654628, lng:-6.125499},
+                //   iconImage:'assets/img/places/littlesugarloaf.png',
+                //   content:'<h1>Little Sugar Loaf</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://www.greystonesguide.ie/little-sugar-loafs-big-day/</a>'
+                // },
+                // {
+                //   coords:{lat:53.5474019, lng:-6.0933048},
+                //   iconImage:'assets/img/places/rockabill view.png',
+                //   content:'<h1>Rockabill View</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>http://www.skerriesseatours.ie/trips.html</a>'
+                // },
+                // {
+                //   coords:{lat:52.3337499, lng:-6.4906996},
+                //   iconImage:'assets/img/places/wexford.png',
+                //   content:'<h1>Wexford</h1>'+'<br>' + '<h2>Learn More</h2>' + '<a>https://www.visitwexford.ie/</a>'
+                // },
+              ];
+        
+              // Loop through markers
+              var gmarkers = [];
+              for(var i = 0; i < markers.length; i++){
+                gmarkers.push(addMarker(markers[i]));
+              }
+        
+              //Add Marker function
+              function addMarker(props) {
+                var marker = new google.maps.Marker({
+                  position:props.coords,
+                  map: map
+                });
+                
+                if(props.iconImage){
+                  marker.setIcon(props.iconImage);
+                } 
+        
+                //Check content
+                if(props.content){
+                  var infoWindow = new google.maps.InfoWindow({
+                    content:props.content
+                  });
+                  marker.addListener('click',function(){
+                    infoWindow.open(map,marker);
+                  });
+                  // marker.addListener('click',function(){
+                  //   infoWindow.close(marker);
+                  // });
+                }
+                return marker;
+              }
+            var markerCluster = new MarkerClusterer(map, gmarkers, 
+              {
+                imagePath:
+                // 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+                '/images/m'
+              });
+            }
+          // google.maps.event.addDomListener(window, 'load', initMap)
+        </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <!-- <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script> -->
+</head>
+
+
+
+    
+
+    <!-- <div id="map" class="margin-med"></div>  -->
+    
+   <main>
+        <div class="general-padding">
+            <div class="main-headings">
+                <h4 class="center-headings__header b-blue margin-sm">Our Projects</h4>
+                <p class="center-headings__text margin-lg">Shown in the map are locations of previous and current BNP projects - Click the icons on the map to reveal more information about each project.</p>
+            </div>
+
+            <div class="briefs-container">
+                <div>
+                    <img src="/images/projects-jfk.jpg" alt="jfk" width="615px" height="422px">
+                </div>
+                <div class="briefs-text">
+                    <h3>John F Kennedy International Airport, New York, Terminal 4</h3>
+                    <p>The Team of LCOR/Schiphol-USA has been selected by the Port Authority of New York and New Jersey to provide the first privately funded Terminal Redevelopment at JFK in exchange for a 20-year lease on the new facility.</p>
+                    <p>The International Arrivals Building - IAB was the first terminal constructed at John F. Kennedy International Airport (at that time Idlewild Airport). It serves as the US gateway to the majority of foreign flag carriers. The east and west wings of the facility support the departure operations.</p>
+                    <a href="#"><div class="btn-general">learn more </div></a>
+                </div>
+            </div>
+
+            <div class="main-headings">
+                <h4 class="center-headings__header b-blue margin-sm">Our Clients</h4>
+                <!-- <div></div> -->
+                <p class="center-headings__text">BNP’s client list is composed of airlines, airports, government agencies, express companies and Architects/Engineers who specialize in airports. The majority of BNP clients are repeat customers who retain BNP to develop all of their material handling system designs. We work as an extension of our client's staff, offering an unparalleled wealth of knowledge and experience.</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="section-gray">
+        <div class="general-padding">
+            <div class="client-flex">
+                <div class="client-columns">
+                    <div class="client-card">
+                        <div class="client-image-box">
+                            <img src="/images/projects-airport-authority-02.jpg" alt="Airport Authorities" width="400px" height="225px">
+                        </div>
+                        <h3>Airport Authorities</h3>
+                    </div>
+            
+                    <div class="logo-flex">
+                        <div class="logo-column">
+                            <a href="https://www.abudhabiairport.ae/en">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-abu-dhabi.jpg" alt="abu-dhabi-logo"></div>
+                                </div></a>
+                            <a href="https://www.changiairport.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-changi.jpg" alt="changi-logo"></div>
+                                </div></a>
+                            <a href="https://www.hongkongairport.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-hong-kong.jpg" alt="hong-kong-logo"></div>
+                                </div></a>
+                        </div>
+            
+                        <div class="logo-column">
+                            <a href="https://www.airport.kr/ap/en/index.do">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-incheon.jpg" alt="incheon-logo"></div>
+                                </div></a>
+                            <a href="https://www.flylax.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-lax.jpg" alt="lax-logo"></div>
+                                </div></a>
+                            <a href="https://www.portseattle.org/sea-tac">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-port-of-seattle.jpg" alt="seattle-logo"></div>
+                                </div></a>
+                        </div>
+                    </div>
+                
+                    <div class="arrow-down" id="click-to-show">
+                        <img src="/images/duotone-01.svg" alt="drop-down-arrow" width="38px" height="38px">
+                    </div>
+            
+                    <!-- ADDITIONAL AIRPORT AUTHORITIES -->
+                    <div class="additional-logos" id="show-on-click">
+                        <div class="logo-flex">
+                            <div class="logo-column">
+                                <a href="https://www.aucklandairport.co.nz/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-auckland.jpg" alt="auckland-logo"></div>
+                                    </div></a>
+                                <a href="https://www.bne.com.au/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-brisbane.jpg" alt="brisbane-logo"></div>
+                                    </div></a>
+                                <a href="https://www.flychicago.com/Pages/default.aspx">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-cda.jpg" alt="cda-logo"></div>
+                                    </div></a>
+                                <a href="https://www.cltairport.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-clt.jpg" alt="clt-logo"></div>
+                                    </div></a>
+                                <a href="https://www.dubaiairports.ae/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-dubai.jpg" alt="dubai-logo"></div>
+                                    </div></a>
+                                <a href="http://www.gvk.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-gvk.jpg" alt="gvk-logo"></div>
+                                    </div></a>
+                                <a href="https://www.heathrow.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-heathrow.jpg" alt="heathrow-logo"></div>
+                                    </div></a>
+                                <a href="https://www.massport.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-massport.jpg" alt="massport-logo"></div>
+                                    </div></a>
+                                <a href="https://www.phuketairportonline.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-phuket.jpg" alt="phuket-logo"></div>
+                                    </div></a>
+                                <a href="https://www.flysfo.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-sfo.jpg" alt="sfo-logo"></div>
+                                    </div></a>
+                                <a href="https://www.torontopearson.com/en/corporate#">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-toronto.jpg" alt="toronto-logo"></div>
+                                    </div></a>    
+                            </div>
+
+
+                            <div class="logo-column">
+                              <a href="http://en.bcia.com.cn/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-bcia.jpg" alt="bcia-logo"></div>
+                                    </div></a>
+                              <a href="https://www.caas.gov.sg/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-caas.jpg" alt="caas-logo"></div>
+                                    </div></a>
+                                <a href="http://www.cdairport.com/en/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-cdia.jpg" alt="cdia-logo"></div>
+                                    </div></a>
+                                <a href="https://www.cph.dk/en/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-cph.jpg" alt="cph-logo"></div>
+                                    </div></a>
+                                <a href="https://www.newdelhiairport.in/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-gaar.jpg" alt="gaar-logo"></div>
+                                    </div></a>
+                                <a href="https://dohahamadairport.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-hamad.jpg" alt="hamad-logo"></div>
+                                    </div></a> 
+                                <a href="https://www.isavia.is/en">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-isavia.jpg" alt="isavia-logo"></div>
+                                    </div></a>
+                                <a href="https://www.phl.org/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-phl.jpg" alt="phl-logo"></div>
+                                    </div></a>
+                                <a href="https://www.panynj.gov/port/en/index.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-port.jpg" alt="port-logo"></div>
+                                    </div></a>
+                                <a href="https://www.sydneyairport.com.au/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-syd.jpg" alt="syd-logo"></div>
+                                    </div></a>
+                                <a href="https://www.wuhan-airport.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-wuhan.jpg" alt="wuhan-logo"></div>
+                                    </div></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div> 
+                <div class="client-columns">
+                    <div class="client-card">
+                        <div class="client-image-box">
+                            <img src="/images/projects-architects.jpg" alt="Airport Authorities" width="400px" height="225px">
+                        </div>
+                        <h3>Architects, Planners and General Contractors</h3>
+                    </div>
+            
+                    <div class="logo-flex">
+                        <div class="logo-column">
+                            <a href="https://www.gensler.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-gensler.jpg" alt="gensler-logo"></div>
+                                </div></a>
+                            <a href="https://www.abudhabiairport.ae/en">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-corgan.jpg" alt="corgan-logo"></div>
+                                </div></a>
+                            <a href="https://www.aecom.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-aecom.jpg" alt="aecom-logo"></div>
+                                </div></a>
+                        </div>
+            
+                        <div class="logo-column">
+                            <a href="https://www.henselphelps.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-hensel-phelps.jpg"alt="hensel-phelps-logo"></div>
+                                </div></a>
+                            <a href="https://fentressarchitects.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-fentress.jpg" alt="fentress-logo"></div>
+                                </div></a>
+                            <a href="https://www.rsandh.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-rsh.jpg" alt="rsh-logo"></div>
+                                </div></a>
+                        </div>
+                    </div>
+                
+                    <div class="arrow-down" id="click-to-show">
+                            <img src="/images/duotone-01.svg" alt="drop-down-arrow" width="38px" height="38px">
+                    </div>
+
+                    <!-- ADDITIONAL ARCHITECTS, PLANNERS AND GENERAL CONTRACTORS -->
+                    <div class="additional-logos" id="show-on-click">
+                        <div class="logo-flex">
+                            <div class="logo-column">
+                                <!-- <a href="#"><div class="logo">coming soon</div></a> -->
+                            <a href="http://www.alliiance.us/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-alliance.jpg"alt="alliance-logo"></div>
+                                </div></a>
+                            <a href="https://www.atkinsglobal.com/en-GB">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-atkins.jpg"alt="atkins-logo"></div>
+                                </div></a>
+                            <a href="https://www.bechtel.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-bechtel.jpg"alt="bechtel-logo"></div>
+                                </div></a>
+                            <a href="https://www.dar.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-dar.jpg"alt="dar-logo"></div>
+                                </div></a>
+                            <a href="https://www.fosterandpartners.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-fosters.jpg"alt="fosters-logo"></div>
+                                </div></a>
+                            <a href="https://www.hntb.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-hntb.jpg"alt="hntb-logo"></div>
+                                </div></a>
+                            <a href="https://www.kpf.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-kpf.jpg"alt="kpf-logo"></div>
+                                </div></a>
+                            <a href="https://www.lendlease.com/us/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-lendlease.jpg"alt="lendlease-logo"></div>
+                                </div></a>
+                            <a href="https://www.odebrecht.com/en/home">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-oder.jpg"alt="oder-logo"></div>
+                                </div></a>
+                            <a href="https://www.safdiearchitects.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-safdie.jpg"alt="safdie-logo"></div>
+                                </div></a>
+                            <a href="https://tpapord.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-turner.jpg"alt="turner-logo"></div>
+                                </div></a>
+                            <a href="https://www.wsp.com/en-GL">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-wsp.jpg"alt="wsp-logo"></div>
+                                </div></a>
+                            
+                                
+                            </div>
+                            <div class="logo-column">
+                                <a href="https://www.arup.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-arup.jpg"alt="arup-logo"></div>
+                                    </div></a>
+                                <a href="https://www.beca.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-beca.jpg"alt="beca-logo"></div>
+                                    </div></a>
+                                <a href="https://www.jacobs.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-ch2m.jpg"alt="ch2m-logo"></div>
+                                    </div></a>
+                                <a href="http://daroffdesign.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-daroff.jpg"alt="daroff-logo"></div>
+                                    </div></a>
+                                <a href="http://www.glarchitects.com/main/home.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-graf.jpg"alt="graf-logo"></div>
+                                    </div></a>
+                                <a href="https://www.hok.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-hok.jpg"alt="hok-logo"></div>
+                                    </div></a>
+                                <a href="https://www.larsentoubro.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-larsen.jpg"alt="larsen-logo"></div>
+                                    </div></a>
+                                <a href="http://www.millerdunwiddie.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-miller.jpg"alt="miller-logo"></div>
+                                    </div></a>
+                                <a href="https://www.opain.co/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-opain.jpg"alt="opain-logo"></div>
+                                    </div></a>
+                                <a href="https://www.som.com/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-som.jpg"alt="som-logo"></div>
+                                    </div></a>
+                                <a href="http://www.bodouva.com/index4.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-wnb.jpg"alt="wnb-logo"></div>
+                                    </div></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div> 
+                <div class="client-columns">
+                    <div class="client-card">
+                        <div class="client-image-box">
+                            <img src="/images/projects-airlines.jpg" alt="Airport Authorities" width="400px" height="225px">
+                        </div>
+                        <h3>Airlines</h3>
+                    </div>
+
+                    <div class="logo-flex">
+                        <div class="logo-column">
+                            <a href="https://www.aa.com/homePage.do">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-american.jpg" alt="american-logo"></div>
+                                </div></a>
+                            <a href="https://www.delta.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-delta.jpg" alt="delta-logo"></div>
+                                </div></a>
+                            <a href="https://www.jetblue.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-jetblue.jpg" alt="jetlbue-logo"></div>
+                                </div></a>
+                        </div>
+            
+                        <div class="logo-column">
+                            <a href="https://www.singaporeair.com/en_UK/us/home#/book/bookflight">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-singapore.jpg" alt="singapore-logo"></div>
+                                </div></a>
+                            <a href="https://www.southwest.com/">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-southwest.jpg" alt="southwest-logo"></div>
+                                </div></a>
+                            <a href="https://www.united.com/en/us">
+                                <div class="logo">
+                                    <div><img src="/logos/logo-united.jpg" alt="united-logo"></div>
+                                </div></a>
+                        </div>
+                    </div>
+                
+                    <div class="arrow-down" id="click-to-show">
+                            <img src="/images/duotone-01.svg" alt="drop-down-arrow" width="38px" height="38px">
+                    </div>
+
+                    <!-- TEST -->
+                    <!-- <div class="logo-dropdown arrow-down" id="job-03">
+                         <i class="fas fa-chevron-down chevron-style--large" id="chevron-down-03"></i>   
+                        <i class="fas fa-chevron-up chevron-style--large" id="chevron-up-03"></i>
+                    </div> -->
+
+                    <!-- ADDITIONAL AIRLINES -->
+                    <div class="additional-logos" id="show-on-click">
+                        <div class="logo-flex">
+                            <div class="logo-column">
+                                <a href="https://www.cathaypacific.com/cx/en_US.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-cathay.jpg" alt="cathay-logo"></div>
+                                    </div></a>
+                                <a href="https://www.qantas.com/us/en.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-qantas.jpg" alt="qantas-logo"></div>
+                                    </div></a>
+                            </div>
+
+
+                            <div class="logo-column">
+                                <a href="https://www.emirates.com/us/english/">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-emirates.jpg" alt="emirates-logo"></div>
+                                    </div></a>
+                                <a href="https://www.qatarairways.com/en-us/homepage.html">
+                                    <div class="logo">
+                                        <div><img src="/logos/logo-qatar.jpg" alt="qatar-logo"></div>
+                                    </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div> 
+       </div> 
+       <footer id="footer"></footer>
+       </div>
+
+      </div>
+         
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp6BHBHqfCT7hMvGRQe0Y0y_OlA9eqWyM&callback=initMap">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/index.js"></script>  
+ 
+</body>
+</html>
