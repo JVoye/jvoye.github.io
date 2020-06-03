@@ -239,6 +239,10 @@ a:hover {
 
 /***** FEATURE-BOX *****/
 
+.careers__img {
+    max-width: 100%;
+}
+
 .feature-box__row {
     display: flex;
     justify-content: space-between;

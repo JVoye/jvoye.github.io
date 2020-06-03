@@ -233,6 +233,10 @@ thead {
 /* LAYOUT */
 /****************************/
 /***** FEATURE-BOX *****/
+.careers__img {
+  max-width: 100%;
+}
+
 .feature-box__row {
   display: -webkit-box;
   display: -ms-flexbox;
