@@ -296,7 +296,7 @@ a:hover {
     }
 
 .feature-box {
-    margin: 0 25px;
+    margin: 0 1.5rem;
 }
 .feature-box-text__header {
     color: var(--color-primary-dark);
@@ -465,17 +465,17 @@ a:hover {
 .card__picture--one {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0),
      rgba(0, 0, 0, 0.0)),
-    url(/images/career-drafter-02.jpg);
+    url(/images/career-designers-drafters.jpg);
 }
 .card__picture--two {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0),
      rgba(0, 0, 0, 0.0)),
-     url(/images/career-drafter-03.jpg);
+     url(/images/career-project-managers.jpg);
 }
 .card__picture--three {
     background-image: linear-gradient(rgba(0, 0, 0, 0.0),
      rgba(0, 0, 0, 0.0)),
-     url(/images/career-drafter-05.jpg);
+     url(/images/careers-internship.jpg);
 }
 .card__side--back {
     font-size: 15px;
@@ -929,12 +929,13 @@ a:hover {
 
 /***** AIRPORT SYSTEMS DESIGNERS *****/
 
-.section-asd {
-    padding: 2rem 25px 2.7rem 25px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
+// .section-asd {
+//     padding: 2rem 1.5rem 2.7rem 1.5rem;
+//     text-align: center;
+//     display: flex;
+//     justify-content: center;
+// }
+
 .wrapper-asd {
     max-width: 1300px;
     margin: 0 auto;
@@ -944,7 +945,6 @@ a:hover {
     color: #a1a1a1;
     font-family: 'roboto condensed', sans-serif;
     font-weight: 300;
-    
 }
 
 /***** OUR SERVICES *****/
@@ -952,16 +952,18 @@ a:hover {
 .wrapper-services {
     max-width: 100%;
     background-color: #f3f3f3;
-    padding: 50px 0 75px 0;
+    padding: 50px 1rem 75px 1rem;
 }
-.container-services {
-    max-width: 1300px;
-    height: auto;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center; 
-}
+
+// .container-services {
+//     max-width: 1300px;
+//     height: auto;
+//     display: flex;
+//     margin: 0 auto;
+//     justify-content: space-between;
+//     align-items: center; 
+// }
+
 .card {
     max-width: 300px;
     padding-bottom: 20px;
@@ -1762,11 +1764,11 @@ a:hover {
 /****************************/
 /* PAGES-INDEX-HOME */
 /****************************/
-    .container-services {
-        display: grid;
-        grid-template-columns: auto auto;
-        max-width: 850px;
-    }
+    // .container-services {
+    //     display: grid;
+    //     grid-template-columns: auto auto;
+    //     max-width: 850px;
+    // }
     .card {
         max-width: 425px;
         margin: 15px;  
@@ -2011,11 +2013,11 @@ a:hover {
     // .burger {
     //     display: block;
     // }
-    .container-services {
-        display: flex;
-        flex-direction: column;
-        max-width: 850px;
-    }
+    // .container-services {
+    //     display: flex;
+    //     flex-direction: column;
+    //     max-width: 850px;
+    // }
     .card {
         max-width: 400px;      
     } 
