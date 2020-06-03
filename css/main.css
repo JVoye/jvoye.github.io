@@ -1572,7 +1572,7 @@ thead {
   background-color: #f3f3f3;
   border: 1px solid #c2c2c2;
   font-family: 'roboto', sans-serif;
-  padding: 10px 0px 180px 10px;
+  padding: 10px 0px 108px 10px;
   font-size: 1rem;
   border-radius: 2px;
 }
@@ -1586,11 +1586,20 @@ thead {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
   /* align-items: center; */
 }
 
+.contact-flex-test p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
 .contact-icon-border {
-  margin-right: 15px;
+  margin: 3px 15px 3px 3px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1606,6 +1615,7 @@ thead {
   height: 36px;
   border-radius: 2px;
   border: 1px solid #c2c2c2;
+  background-color: #f3f3f3;
 }
 
 .contact-link {
@@ -1982,13 +1992,13 @@ thead {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   #mc_embed_signup {
     max-width: 525px;
   }
   .contact-container {
     margin: 50px 0px 0px 0px;
-    margin-left: 0px;
     width: 325px;
   }
   .leadership-wrapper {
@@ -2627,6 +2637,10 @@ div.dataTables_wrapper div.dataTables_info {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+ion-icon {
+  font-size: 23px;
 }
 
 footer {
@@ -3520,6 +3534,10 @@ h6 {
 /*** 16px ***/
 .margin-sm {
   margin-bottom: 1rem !important;
+}
+
+.margin-sm-message {
+  margin-bottom: 1.5rem !important;
 }
 
 /*** 32px ***/

@@ -138,7 +138,6 @@ div.dataTables_wrapper div.dataTables_info {
     }
 }
  
-
   #button::before{
     content: "";
     font-family: FontAwesome;
@@ -428,3 +427,12 @@ div.dataTables_wrapper div.dataTables_info {
     width: 100%;
     object-fit: cover;
 }
+
+// ICONS ///////////////////////////////////////////////
+ion-icon {
+    font-size: 23px;
+  }
+
+//   ion-icon {
+//     color: blue;
+//   }
