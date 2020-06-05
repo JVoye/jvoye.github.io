@@ -14,9 +14,9 @@
 <script>
    // Initialize and add the map
 function initMap() {
-  // The location of Uluru
+  // The location of Denver
   var uluru = {lat: 39.7478278, lng: -104.9882736};
-  // The map, centered at Uluru
+  // The map, centered at Denver
   var mapDenver = new google.maps.Map(
       document.getElementById('mapDenver'), {
           zoom: 13, 
@@ -166,7 +166,7 @@ function initMap() {
 
     <main>
         <section>
-            <div class="hero-secondary --contact margin-med">
+            <div class="hero-secondary --contact margin-hero">
                 <div class="hero-text">
                     <div class="hero-secondary__text-container">
                         <h1 class="hero-secondary__header margin-sm">Contact Us - We <br>look forward to hearing from you</h1>
@@ -175,15 +175,7 @@ function initMap() {
                 </div>
             </div>
         </section>
-        <!-- <div class="hero-text-contact">
-            <div class="general-padding">
-                <h1 class="hero-header-contact">Contact Us</h1>
-                <p class="hero-subtext-contact">We look forward to hearing from you. Send us a message and we'll respond as soon as possible</p>
-            </div>
-        </div> -->
-   
-        <!-- <div class="hero-img-contact margin-med"></div> -->
-        <!-- <div class="spacer"></div> -->
+
     <div class="general-padding">
         <div class="form-container">
             <!-- Begin Mailchimp Signup Form -->
@@ -198,7 +190,7 @@ function initMap() {
                     <div id="mc_embed_signup_scroll">
 
                     <h4 class="headings-2-column b-blue margin-xs">Send us a Message</h4>
-                    <p class="margin-sm-message">Sign up to our newsletter and receive the latest news and project updates from BNP Associates, Inc.</p>
+                    <p class="margin-sm-message">Sign up to our Newsletter and receive the latest news and project updates from BNP Associates, Inc.</p>
 
                     <div class="top-contact-row">
                 <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
@@ -278,6 +270,7 @@ function initMap() {
         </div>
 
         <section class="section-contact-map">
+            <p class="general-text-wrapper center margin-sm-med">1999 Broadway is located in-between Denver’s Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet parking available as well as parking in the Welton street parking garage. 2hr street parking or bicycle parking is also available.</p>
             <div class="map-container">
                 <div id="mapDenver"></div> 
             </div>
@@ -331,10 +324,9 @@ function initMap() {
             </div>   
         </div>
     </div>
-        <!-- <div class="spacer"></div> -->
         <footer id="footer"></footer>
-
     </main>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp6BHBHqfCT7hMvGRQe0Y0y_OlA9eqWyM&callback=initMap"></script>
 <!--End mc_embed_signup-->
 <!-- Optional JavaScript -->

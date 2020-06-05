@@ -13,6 +13,17 @@
 
 
 // MARGINS ///////////////////////////////////////////////
+.margin-hero {
+    margin-bottom: 3.1rem !important;
+
+    @media screen and (max-width:700px) {
+        margin-bottom: 2rem !important;
+    }
+}
+
+
+
+
 .margin-top-sm {
     margin-top: 10px !important;
 }
@@ -44,6 +55,8 @@
 .margin-med {
     margin-bottom: 3.1rem !important;
 }
+
+
 
 /*** 75.2px ***/
 .margin-lg {

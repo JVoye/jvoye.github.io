@@ -1,5 +1,115 @@
 
 // INDEX ///////////////////////////////////////////////
+// HERO CONTAINER //
+.hero-img-container {
+    overflow: hidden;  
+} 
+
+.hero-text-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} 
+
+.hero-text-index {
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    height: 675px;
+    z-index: 1;
+
+    @media screen and (max-width:768px) {
+        height: 500px;
+    } 
+
+    @media screen and (max-width:480px) {
+        height: 400px;
+    }
+}
+
+// .jc-center {
+//     justify-content: center;
+// }
+
+.hero-column {
+    max-width: 1300px;
+    text-align: center;
+    padding: 1rem;
+}
+
+// HOME HERO MAIN IMAGE //
+.hero-img-main {
+    position: relative;
+    height: 675px;
+    animation: breath 15s ease-in-out;
+    animation-fill-mode: forwards;
+    
+    background-image: linear-gradient(to right, 
+    rgba(0, 19, 44, 0.6),
+     rgba(0, 12, 29, 0.6)), 
+     url(/images/hero-01-crop.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+
+    @media screen and (max-width:768px) {
+        height: 500px;
+    }
+    @media screen and (max-width:480px) {
+        height: 400px;
+    }
+}  
+
+// HOME HERO TEXT - WORLDWIDE LEADERS //
+.main-hero-header {
+    font-size: 62px;
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @media screen and (max-width:1024px) {
+        font-size: 52px;
+    }
+    @media screen and (max-width:768px) {
+        font-size: 48px;
+    }
+    @media screen and (max-width:375px) {
+        font-size: 40px;
+    }
+}
+
+.main-hero-subheader {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: white;
+
+    animation: moveInRight 1s ease-out; 
+
+    @media screen and (max-width:1024px) {
+        font-size: 1.1rem;
+    }
+    @media screen and (max-width:480px) {
+        font-size: 1rem;
+    }
+}
+
+// AIRPORT SYSTEMS DESIGNERS //
+.wrapper-asd {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.sub-heading {
+    font-size: 24px;
+    color: #a1a1a1;
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: 300;
+}
+
 .section-asd {
     padding: 2rem 1.5rem 2.7rem 1.5rem;
     text-align: center;
@@ -8,7 +118,6 @@
 
     @media screen and (max-width:700px) {
         padding: 2rem 1.5rem 1.5rem 1.5rem;
-
     }
 }
 
@@ -19,11 +128,8 @@
 
     @media screen and (max-width:700px) {
         padding: 2.3rem 1rem 2.3rem 1rem;
-
     }
 }
-
-
 
 .container-services {
     max-width: 1300px;
@@ -44,10 +150,41 @@
         flex-direction: column;
         max-width: 850px;
     }
-    
 }
 
+
+
+
+
 // ABOUT US ///////////////////////////////////////////////
+// READ MORE - PRINCIPALS //
+
+.staff-text {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+
+    @media screen and (max-width:1300px) {
+        font-size: 1rem;
+        display: none;
+    }
+}
+
+.staff-text-hide {
+    display: none;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+
+    @media screen and (max-width:1300px) {
+        display: block;
+    }
+}
+
+
+
 
 
 // SERVICES ///////////////////////////////////////////////
@@ -121,6 +258,49 @@
 
 
 // CAREERS ///////////////////////////////////////////////
+// SECTIONS //
+.section-careers-about {
+    background-color: #ffffff;
+    padding: 4.7rem 0;
+
+    @media screen and (max-width:1024px) {
+        padding: 3.2rem 0;
+    }
+    // @media screen and (max-width:768px) {
+    //     padding: 2rem 0;
+    // }
+}
+
+.section-careers-jobs {
+    padding: 3.2rem 0 0rem 0;
+
+    @media screen and (max-width:1024px) {
+        padding: 3.2rem 0;
+    }
+    @media screen and (max-width:768px) {
+        padding: 2rem 0;
+    }
+}
+
+.section-careers-why-bnp {
+    padding: 4.7rem 0;
+
+    @media screen and (max-width:1024px) {
+        padding: 3.2rem 0;
+    }
+    @media screen and (max-width:768px) {
+        padding: 2rem 0;
+    }
+}
+
+.section-careers-dropdown-jobs {
+    padding: 4.7rem 0;
+
+    @media screen and (max-width:1024px) {
+        padding: 3.2rem 0;
+    }
+}
+
 // DROPDOWNS //
 .dropdown__job {
     width: 100%; 

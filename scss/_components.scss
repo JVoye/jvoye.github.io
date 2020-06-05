@@ -1,3 +1,403 @@
+// FEATURE BOX ///////////////////////////////////////////////
+// SERVICES - ABOUT US - CAREERS //
+
+.careers__img {
+    max-width: 100%;
+}
+
+.feature-box {
+    margin: 0 1.5rem;
+
+    @media screen and (max-width:1024px) {
+        margin: 0 1rem;
+    }
+}
+
+.feature-box__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+    @media screen and (max-width:1024px) {
+        .feature-box__row {
+            flex-direction: column;
+        }   
+}
+
+.flexbox-1-of-2-image {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-2-image {
+        width: 700px;
+
+        justify-content: flex-start;
+    }
+    .flexbox-1-of-2-image:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .flexbox-1-of-2-image {
+        width: 95%;
+    }
+}
+
+.flexbox-1-of-2 {
+    width: 50%;
+}
+    @media screen and (max-width:1024px) {
+        .flexbox-1-of-2 {
+            width: 700px;
+        }
+        .flexbox-1-of-2:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .flexbox-1-of-2 {
+            width: 95%;
+        }
+    }
+
+
+// HEADERS, TEXT, MARGINS //
+    .feature-box-text__header {
+        color: var(--color-primary-dark);
+        font-size: 26px; 
+    }
+
+    .feature-box-img {
+        max-width: 600px;
+    }
+
+    .feature-margin-right {
+        margin-right: 3rem; 
+    }
+    
+    @media screen and (max-width:1024px) {
+        .feature-margin-right {
+            margin-right: 0rem;
+        }
+    }
+
+    .feature-margin-left {
+        margin-left: 1rem;
+    }
+    @media screen and (max-width:1300px) {
+        .feature-margin-left {
+            margin-left: 2.5rem;
+        }
+    }
+    @media screen and (max-width:1024px) {
+        .feature-margin-left {
+            margin-left: 0rem;
+        }
+    }
+
+// PERKS BOX ///////////////////////////////////////////////
+// CAREERS PERKS WITH ICONS //
+.perks-box {
+    background-color: rgba(white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    height: 350px;
+
+    @media screen and (max-width:1024px) {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        height: auto;
+    }
+    @media screen and (max-width:480px) {
+        padding: 1.5rem 0 2.5rem 0;
+    }
+}
+
+.flexbox-1-of-3 {
+    width: 33.3%;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-3 {
+        width: 500px;  
+    }
+}
+@media screen and (max-width:480px) {
+    .flexbox-1-of-3 {
+        width: 90%;  
+    }
+}
+
+// ICON SIZE //
+.perks-box__logo {
+    width: 5rem;
+}
+
+.perks-box__text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+// CARDS ///////////////////////////////////////////////
+// CAREERS CARDS //
+.row-indent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto; 
+    padding: 0 1rem;
+}
+@media screen and (max-width:1024px) {
+    .row-indent {
+        flex-direction: column;
+    }   
+}
+
+.flexbox-1-of-3-cards {
+    width: 30.25%;
+}
+@media screen and (max-width:1024px) {
+    .flexbox-1-of-3-cards {
+        width: 450px; 
+    }  
+    .flexbox-1-of-3-cards:not(:last-child) {
+        margin-bottom: 3rem; 
+    }
+}
+
+@media screen and (max-width:480px) {
+    .flexbox-1-of-3-cards {
+        width: 90%; 
+    }  
+}
+
+// CAREERS CARDS - SETUP TO ROTATE ON HOVER //
+.card-rotate {
+    height: 26rem;
+}
+
+.card__side {
+    height: 26rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+
+    @media screen and (max-width:375px) {
+        height: 28rem;
+    }
+}
+
+.card__picture {
+    background-size: cover;
+    height: 50%;
+    // -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.card__picture-news {
+    background-size: cover;
+    height: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+@media screen and (max-width:1024px) {
+    .card__picture {
+        height: 60%;
+    }   
+}
+@media screen and (max-width:480px) {
+    .card__picture {
+        height: 50%;
+    }   
+}
+
+.card__picture--one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+    url(/images/career-designers-drafters.jpg);
+}
+.card__picture--two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+     url(/images/career-project-managers.jpg);
+}
+.card__picture--three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+     rgba(0, 0, 0, 0.0)),
+     url(/images/careers-internship.jpg);
+}
+
+.card__side--back {
+    font-size: 15px;
+    padding: 2rem;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card__heading { 
+    width: 100%;
+    font-family: 'roboto condensed', sans-serif;
+    font-size: 28px;
+    color: #333333;
+    color: var(--color-primary-alt) !important;
+    font-weight: 500; 
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    font-size: 22px;
+}
+
+.card__sub-heading {
+    padding: 0rem 1.5rem;
+    font-size: 16px;
+    font-weight: 300;
+    // color: #626365;
+}
+
+.card__side--back-1 {
+    background-color: #fff;
+}
+
+
+// INDEX CARDS - REDO AT SOME POINT //
+.card {
+    max-width: 300px;
+    padding-bottom: 20px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: 0.2s; 
+    border: 0px !important;
+
+    @media screen and (max-width:1300px) {
+        max-width: 425px;
+        margin: 15px;  
+    }
+    @media screen and (max-width:768px) {
+        max-width: 400px;    
+    }
+}
+
+.image-box {
+    overflow: hidden;
+    max-width: 300px;
+    // background-size: cover; 
+    @media screen and (max-width:1300px) {
+        max-width: 400px; 
+    }
+}
+
+.image-box img {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    transition: all 0.3s;
+    transform: scale(1);
+
+    @media screen and (max-width:1300px) {
+        height: auto;
+    }
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card p {
+    padding: 16px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    line-height: 1.6;
+    
+    // @media screen and (max-width:1300px) { 
+    //     height: 110px;
+    // }
+}
+
+
+
+
+
+
+    // .feature-box-img-2 {
+    //     max-width: 600px;
+    // }
+
+  // QUOTE BOX - NEWS //  
+    // .flexbox-1-of-2-quote-lg {
+    //     width: 70%;
+    // }
+    // @media screen and (max-width:1024px){
+    //     .flexbox-1-of-2-quote-lg {
+    //         width: 700px;
+    //     } 
+    // }
+    // @media screen and (max-width:768px){
+    //     .flexbox-1-of-2-quote-lg {
+    //         width: 95%;
+    //     } 
+    // }
+
+    // .flexbox-1-of-2-quote-sm {
+    //     width: 30%;
+    
+    //     display: flex;
+    //     justify-content: center;
+    // }
+    // @media screen and (max-width:1024px){
+    //     .flexbox-1-of-2-quote-sm {
+    //         width: 700px;
+    //         margin-top: 2rem;
+    //     } 
+    // }
+    // @media screen and (max-width:768px){
+    //     .flexbox-1-of-2-quote-sm {
+    //         width: 95%;
+    //     } 
+    // }
+    
+    // .quote-box {
+    //     max-width: 400px;
+    //     padding: 2rem;
+    //     background-color: #f3f3f3;
+    //     border: 1px solid #c4c4c4;
+    //  }
+    
+    //  @media screen and (max-width:1024px){
+    //     .quote-box {
+    //         max-width: 100%;
+    //         padding: 1.5rem;
+    //     } 
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // MAPS ///////////////////////////////////////////////
 // PROJECTS MAP //
 .map-link {
@@ -12,8 +412,7 @@
     text-decoration: underline;
 }
 
-
-// Denver Map //
+// DENVER MAP //
 .map-container {
     max-width: 1300px;
     height: auto;
@@ -22,6 +421,40 @@
     justify-content: space-around;
     align-items: center; 
 }
+
+// MAP LEGEND //
+.legend {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width:768px) {
+        font-weight: 300;
+    }
+}
+
+.legend p {
+    margin: 0 !important;
+}
+
+.legend__icon {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    &--01 {
+        margin-right: .75rem;
+        height: 2rem;
+    }
+
+    @media screen and (max-width:480px) {
+        margin-bottom: .5rem;
+    }
+}
+
+
 
 
 // DATA TABLE ///////////////////////////////////////////////
@@ -36,7 +469,6 @@ div.dataTables_wrapper div.dataTables_info {
     padding-top: 0.85em;
     font-size: 14px;
 }
-
 
 // BUTTONS ///////////////////////////////////////////////
 // HERO INDEX BUTTONS //
@@ -75,7 +507,6 @@ div.dataTables_wrapper div.dataTables_info {
     }
 }
 
-
 .--btn-white {
     background-color: white;
     color: #0096DB;
@@ -111,6 +542,7 @@ div.dataTables_wrapper div.dataTables_info {
     display: inline-block;
     // background-color: rgba(0, 150, 219, 0.85);
     background-color: #494a55;
+    
     width: 45px;
     height: 45px;
     text-align: center;
@@ -283,9 +715,7 @@ div.dataTables_wrapper div.dataTables_info {
     color: white;
 }
 
-
-
-// INDEX SLIDESHOW ///////////////////////////////////////////////
+// POPUPS ///////////////////////////////////////////////
 // ABOUT US - READ MORE -POPUPS //
 
 // DAVE //
@@ -327,6 +757,7 @@ div.dataTables_wrapper div.dataTables_info {
     visibility: hidden;
     transition: all .3s;
 }
+
 .popup__content {
     position: absolute;
     top: 50%;
@@ -339,50 +770,90 @@ div.dataTables_wrapper div.dataTables_info {
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     display: flex;
+
+
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(.25);
     transition: all .4s .2s;
+
+    @media screen and (max-width:1300px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (max-width:1024px) {
+        padding: 1.5rem;
+        width: 95%;
+        font-size: 12px;
+        line-height: 1.6;
+    }
 }
+
 .popup__left {
     width: 20%;
+
+    @media screen and (max-width:1300px) {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 90%;
+    }
 }
+
 .popup__img {
     display: block;
     width: 100%;
     transition: .2s;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    @media screen and (max-width:1300px) {
+        width: 125px;
+        margin: 0 2rem 2rem 0;
+    }
 }
+
 .popup__img:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
 .popup__right {
     width: 80%;
     padding: 0rem 3rem;
+
+    @media screen and (max-width:1300px) {
+        padding: 0rem;
+        width: 100%;
+    }
 }
+
 // DAVE //
 .popup:target {
     opacity: 1;
     visibility: visible;
 }
+
 .popup:target .popup__content {
     opacity: 1;
         transform: translate(-50%, -50%) scale(1);
 }
+
 // DAMIEN //
 .popup2:target {
     opacity: 1;
     visibility: visible;
 }
+
 .popup2:target .popup__content {
     opacity: 1;
         transform: translate(-50%, -50%) scale(1);
 }
+
 // STEVE //
 .popup3:target {
     opacity: 1;
     visibility: visible;
 }
+
 .popup3:target .popup__content {
     opacity: 1;
         transform: translate(-50%, -50%) scale(1);
@@ -399,6 +870,7 @@ div.dataTables_wrapper div.dataTables_info {
     transition: all .2s;
     line-height: 1;
 }
+
 .popup__close:hover {
     color: black;  
 }
@@ -428,7 +900,7 @@ div.dataTables_wrapper div.dataTables_info {
     object-fit: cover;
 }
 
-// ICONS ///////////////////////////////////////////////
+// CONTACT ICONS ///////////////////////////////////////////////
 ion-icon {
     font-size: 23px;
   }

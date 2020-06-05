@@ -44,14 +44,18 @@ h6 {
     }
 }
 
-
 // TEXT WRAPPERS ///////////////////////////////////////////////
 // GENERAL WRAPPER - NEWS - SERVICES //
+.center {
+    text-align: center;
+}
+
 .general-text-wrapper {
     max-width: 1300px;
     height: auto;
     margin: 0 auto;
 }
+
 @media screen and (max-width:1024px) {
     .general-text-wrapper {
         width: 700px;
@@ -61,4 +65,52 @@ h6 {
     .general-text-wrapper {
         width: 100%;
     }
+}
+
+// MAIN CENTERED HEADINGS & TEXT //
+.center-headings__header {
+    text-align: center;
+    font-size: 40px; 
+
+    @media screen and (max-width:480px) {
+        font-size: 35px;
+    }
+}
+
+.center-headings__text {
+    text-align: center;  
+    padding: 0 1.5rem;
+}
+
+// HEADER UNDERLINE //
+.center-headings__divider {
+    width: 75px;
+    height: 3px;
+    background-color: #3fa0ff;
+    margin: 0 auto;
+}
+
+
+
+
+// BULLET POINTS SERVICES ONLY //
+.center-headings__header-services {
+    text-align: center;
+    font-size: 30px; 
+    padding: .5rem;
+    color: #333333;   
+}
+
+@media screen and (max-width:480px) {
+    .center-headings__header-services {
+        font-size: 26px;
+    }
+}
+
+
+
+// 2 COLUMN HEADERS - CONTACT ONLY //
+.headings-2-column {
+    font-size: 35px; 
+    font-weight: 300;
 }
