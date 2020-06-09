@@ -1,5 +1,4 @@
 // // MAIN HERO AND SECONDARY HERO'S ///////////////////////////////////////////////
-
 .hero-secondary {
     height: 472px;
     height: 400px;
@@ -153,14 +152,14 @@
 } 
 
 .--services {
-    background-image: url(/images/hero-services-alt.JPG);
+    background-image: url(/images/hero-services-alt.jpg);
 
     @media screen and (max-width:480px) {
         background-image: 
         linear-gradient(105deg, 
         rgba(0,150,219,0.5), 
         rgba(0,52,120,0.7)),
-        url(/images/hero-services-alt.jpg); 
+        url(/images/hero-services-alt-mobile.jpg); 
     }
 } 
 

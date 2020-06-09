@@ -56,7 +56,7 @@
             width: 700px;
         }
         .flexbox-1-of-2:not(:last-child) {
-            margin-bottom: 2.5rem;
+            margin-bottom: 1rem;
         }
     }
     @media screen and (max-width:768px) {
@@ -64,7 +64,6 @@
             width: 95%;
         }
     }
-
 
 // HEADERS, TEXT, MARGINS //
     .feature-box-text__header {
@@ -99,6 +98,57 @@
             margin-left: 0rem;
         }
     }
+
+// SHOWCASE BRIEFS CONTAINER - REPLACE WITH FEATURE BOX ///////////////////////////////////////////////
+// PROJECTS //
+.briefs-container {
+    max-width: 1300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    margin-bottom: 70px;
+
+    @media screen and (max-width:1300px) {
+        max-width: 1100px;
+    }
+    @media screen and (max-width:1024px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.briefs-container img {
+    max-width: 100%;
+    height: auto;
+
+    @media screen and (max-width:1300px) {
+        min-width: 525px;
+        padding-right: 15px;
+    }
+    @media screen and (max-width:950px) {
+        margin: 0px 0px 35px 0px;
+        padding: 0px;  
+    }
+    @media screen and (max-width:768px) {
+        min-width: auto;
+    }
+}
+
+.briefs-text {
+    max-width: 600px;
+    margin: 30px 0px 0px 0px;
+
+    @media screen and (max-width:950px) {
+        max-width: 615px;   
+    }
+}
+
+.briefs-text p {
+    margin: 30px 0px 30px 0px;
+}
+
 
 // PERKS BOX ///////////////////////////////////////////////
 // CAREERS PERKS WITH ICONS //
@@ -410,6 +460,21 @@
 .map-link:hover {
     color: #0096DB;
     text-decoration: underline;
+}
+
+#map {
+    height: 700px;
+    width: 100%;
+
+    @media screen and (max-width: 480px) {
+        height: 300px;
+    }
+}
+
+// CUSTOM ICON ON MAP //
+.iconImage {
+    width: 20px;
+    height: 20px;
 }
 
 // DENVER MAP //
