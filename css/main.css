@@ -157,6 +157,12 @@ body {
   color: #626365;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 a {
   text-decoration: none !important;
   color: inherit;
@@ -263,37 +269,6 @@ thead {
 /****************************/
 /* CONTACTS */
 /****************************/
-.spacer {
-  height: 75px;
-  height: 50px;
-}
-
-.wrapper-contact-hero {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 600px;
-  /* background-image: url(/images/contact-hero.jpg); */
-  background-color: lightgray;
-  background-size: cover;
-  background-position: center;
-}
-
-.wrapper-contact-hero h1 {
-  position: absolute;
-  top: 50%;
-  right: 46%;
-}
-
 /***** CAREERS *****/
 /* .contact-icons {
       display: flex;
@@ -328,20 +303,6 @@ thead {
     padding-top: 125px;
     padding-bottom: 50px;
 } */
-.column {
-  -webkit-box-flex: 25%;
-      -ms-flex: 25%;
-          flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
 /*****************************************************************************/
 /* BREAKPOINTS */
 /*****************************************************************************/
@@ -351,124 +312,42 @@ thead {
 /****************************/
 /* 1300-BP */
 /****************************/
-@media screen and (max-width: 1300px) {
-  /****************************/
-  /* PAGES-INDEX-HOME */
-  /****************************/
-  form {
-    margin-left: 0px;
-  }
-  .staff-readmore {
-    padding-bottom: 50px;
-  }
-  .img-placeholder-denver {
-    display: none;
-  }
-  .contact-input-02 {
-    margin-bottom: 25px;
-  }
-}
-
+/****************************/
+/* PAGES-INDEX-HOME */
+/****************************/
 /****************************/
 /* 950-BP */
 /****************************/
-@media screen and (max-width: 950px) {
-  /****************************/
-  /* PAGES-ABOUT US */
-  /****************************/
-  .column {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-    max-width: 50%;
-  }
-  /* .general-container {
+/****************************/
+/* PAGES-ABOUT US */
+/****************************/
+/* .general-container {
         max-width: 700px;
     } */
-  .general-padding-02 {
-    padding: 0px 10px;
-  }
-}
-
 /****************************/
 /* 768-BP */
 /****************************/
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-  /****************************/
-  /* PAGES-CAREERS */
-  /****************************/
-  .section-careers-about {
-    padding: 3.2rem 0;
-  }
-  .section-careers-why-bnp {
-    padding: 3.2rem 0 4.7 0;
-  }
-  .hero-text-test {
-    margin-top: 300px;
-  }
-  .hero-text-contact {
-    margin-top: 250px;
-  }
-}
-
+/****************************/
+/* PAGES-CAREERS */
+/****************************/
 /****************************/
 /* 480-BP */
 /****************************/
-@media screen and (max-width: 480px) {
-  /****************************/
-  /* PAGES-INDEX-HOME */
-  /****************************/
-  .hero-img {
-    height: 650px;
-  }
-  .hero-text-test {
-    margin-top: 200px;
-  }
-  .hero-header-test {
-    font-size: 52px;
-  }
-  .world {
-    padding-bottom: 10px;
-    font-size: 3.2rem;
-  }
-  .bnp-logo {
-    max-width: 45px;
-  }
-  .column {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-    max-width: 100%;
-  }
-  /****************************/
-  /* PAGES-CONTACT */
-  /****************************/
-  .hero-text-contact {
-    margin-top: 150px;
-  }
-  .hero-subtext-test {
-    font-size: 1.2rem;
-  }
-}
-
+/****************************/
+/* PAGES-INDEX-HOME */
+/****************************/
+/****************************/
+/* PAGES-CONTACT */
+/****************************/
 /****************************/
 /* 375-BP */
 /****************************/
-@media screen and (max-width: 375px) {
-  /****************************/
-  /* PAGES-INDEX-HOME */
-  /****************************/
-  .sub-heading {
-    font-size: 22px;
-  }
-  /****************************/
-  /* PAGES-CONTACT */
-  /****************************/
-}
-
+/****************************/
+/* PAGES-INDEX-HOME */
+/****************************/
+/****************************/
+/* PAGES-CONTACT */
+/****************************/
 /****************************/
 /* PAGES-ABOUT-US */
 /****************************/
@@ -745,6 +624,12 @@ thead {
   }
   .flexbox-1-of-3-cards:not(:last-child) {
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-width: 375px) {
+  .flexbox-1-of-3-cards:not(:last-child) {
+    margin-bottom: 5rem;
   }
 }
 
@@ -2068,6 +1953,12 @@ footer ul {
   font-weight: 300;
 }
 
+@media screen and (max-width: 375px) {
+  .sub-heading {
+    font-size: 22px;
+  }
+}
+
 .section-asd {
   padding: 2rem 1.5rem 2.7rem 1.5rem;
   text-align: center;
@@ -2498,6 +2389,12 @@ footer ul {
   color: white !important;
 }
 
+@media screen and (max-width: 1300px) {
+  .img-placeholder-denver {
+    display: none;
+  }
+}
+
 .services-bullet {
   display: inline-block;
   margin: 0px 10px 5px 10px;
@@ -2732,6 +2629,12 @@ footer ul {
   margin-right: 25px;
 }
 
+@media screen and (max-width: 1300px) {
+  .contact-input-02 {
+    margin-bottom: 25px;
+  }
+}
+
 .response {
   margin-bottom: 15px;
 }
@@ -2933,6 +2836,12 @@ footer ul {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .section-careers-why-bnp {
+    padding-top: 4rem;
+  }
+}
+
 .section-careers-dropdown-jobs {
   padding: 4.7rem 0;
 }
@@ -3037,7 +2946,7 @@ footer ul {
 
 @media screen and (max-width: 1024px) {
   .post-link:not(:last-child) {
-    margin-bottom: 5rem;
+    margin-bottom: 3.1rem;
   }
 }
 

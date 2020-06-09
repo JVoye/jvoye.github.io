@@ -19,6 +19,10 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 400;
     color: #626365;
+
+    @media screen and (max-width:768px) {
+        overflow-x: hidden;
+    }
 }
 
 a {
@@ -886,32 +890,32 @@ a:hover {
 //     margin-right: 150px;
 // }
 
-.spacer {
-    height: 75px;
-    height: 50px;
-}
+// .spacer {
+//     height: 75px;
+//     height: 50px;
+// }
 
 
 
 
-.wrapper-contact-hero {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    height: 600px;
-    /* background-image: url(/images/contact-hero.jpg); */
-    background-color: lightgray;
-    background-size: cover;
-    background-position: center;
-  }   
+// .wrapper-contact-hero {
+//     position: relative;
+//     display: flex;
+//     justify-content: center;
+//     align-content: center;
+//     align-items: center;
+//     height: 600px;
+//     /* background-image: url(/images/contact-hero.jpg); */
+//     background-color: lightgray;
+//     background-size: cover;
+//     background-position: center;
+//   }   
 
-  .wrapper-contact-hero h1 {
-      position: absolute;
-      top: 50%;
-      right: 46%;
-  }   
+//   .wrapper-contact-hero h1 {
+//       position: absolute;
+//       top: 50%;
+//       right: 46%;
+//   }   
 
   /***** CAREERS *****/
 
@@ -956,17 +960,17 @@ a:hover {
     padding-bottom: 50px;
 } */
 
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
+// .column {
+//     flex: 25%;
+//     max-width: 25%;
+//     padding: 0 4px;
+// }
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-}
+// .column img {
+//     margin-top: 8px;
+//     vertical-align: middle;
+//     width: 100%;
+// }
 
 
 /*****************************************************************************/
@@ -976,14 +980,14 @@ a:hover {
 /****************************/
 /* 1440-BP */
 /****************************/
-@media screen and (max-width:1440px) {
+// @media screen and (max-width:1440px) {
 
-}
+// }
 
 /****************************/
 /* 1300-BP */
 /****************************/
-@media screen and (max-width:1300px) {
+// @media screen and (max-width:1300px) {
 /****************************/
 /* PAGES-INDEX-HOME */
 /****************************/
@@ -1010,9 +1014,9 @@ a:hover {
     //     max-width: 850px;
     //     align-items: flex-start; 
     // }
-    form {
-        margin-left: 0px;
-    }
+    // form {
+    //     margin-left: 0px;
+    // }
     // .e-mail {
     //     margin: 20px 10px 0px 0px;   
     // }
@@ -1067,17 +1071,17 @@ a:hover {
     //     font-size: 1rem;
     //     display: none;
     // }
-    .staff-readmore {
-        padding-bottom: 50px;
-    }  
+    // .staff-readmore {
+    //     padding-bottom: 50px;
+    // }  
     
     // .general-text-02 {
     //     max-width: 1050px;
     //     margin-top: 0px;
     // }
-    .img-placeholder-denver {
-        display: none;
-    }
+    // .img-placeholder-denver {
+    //     display: none;
+    // }
 
 
     // .form-container {
@@ -1103,9 +1107,9 @@ a:hover {
     // .contact-card {
     //     margin: 0px 25px 75px 25px;
     // }
-    .contact-input-02 {
-        margin-bottom: 25px;
-    }
+    // .contact-input-02 {
+    //     margin-bottom: 25px;
+    // }
     // #mc_embed_signup {
     //     width: 650px;
     // }   
@@ -1119,12 +1123,12 @@ a:hover {
     //     display: block;
     // }
    
-}   
+// }   
 
 /****************************/
 /* 950-BP */
 /****************************/
-@media screen and (max-width:950px) {
+// @media screen and (max-width:950px) {
 /****************************/
 /* PAGES-ABOUT US */
 /****************************/
@@ -1153,10 +1157,10 @@ a:hover {
     //     padding: 0px;
     //     margin: 0px; 
     // }
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+    // .column {
+    //     flex: 50%;
+    //     max-width: 50%;
+    // }
     // .briefs-text {
     //     max-width: 615px;   
     // }
@@ -1174,9 +1178,9 @@ a:hover {
     // .client-flex {
     //     max-width: 800px;
     // }
-    .general-padding-02 {
-        padding: 0px 10px;
-    }
+    // .general-padding-02 {
+    //     padding: 0px 10px;
+    // }
     // .form-container {
     //     flex-direction: column;
     //     // max-width: 450px;
@@ -1193,12 +1197,12 @@ a:hover {
     // .leadership-wrapper {
     //     max-width: 750px;
     // } 
-}
+// }
 
 /****************************/
 /* 768-BP */
 /****************************/
-@media screen and (max-width:768px) {
+// @media screen and (max-width:768px) {
 
 
     // .hero-secondary__text-container {
@@ -1212,9 +1216,9 @@ a:hover {
     //     font-size: 20px; 
     // }
     
-    body {
-        overflow-x: hidden;
-    }
+    // body {
+    //     overflow-x: hidden;
+    // }
     // .nav-links {
     //     position: absolute;
     //     right: 0px;
@@ -1253,12 +1257,12 @@ a:hover {
 /****************************/
 /* PAGES-CAREERS */
 /****************************/
-    .section-careers-about {
-        padding: 3.2rem 0;
-    }
-    .section-careers-why-bnp {
-        padding: 3.2rem 0 4.7 0;
-    }
+    // .section-careers-about {
+    //     padding: 3.2rem 0;
+    // }
+    // .section-careers-why-bnp {
+    //     padding: 3.2rem 0 4.7 0;
+    // }
 
 
 
@@ -1276,15 +1280,15 @@ a:hover {
     // .about-container img {
     //     min-width: auto;
     // }
-    .hero-text-test {
-        margin-top: 300px;
-    }
+    // .hero-text-test {
+    //     margin-top: 300px;
+    // }
     // #mc_embed_signup {
     //     max-width: 425px;
     // }
-    .hero-text-contact {
-        margin-top: 250px;
-    }
+    // .hero-text-contact {
+    //     margin-top: 250px;
+    // }
     // .leadership-container {
     //     flex-direction: column;
     //     align-items: center;
@@ -1300,12 +1304,12 @@ a:hover {
     // nav li a:after {
     //     display: none;
     // }     
-}
+// }
  
 /****************************/
 /* 480-BP */
 /****************************/
-@media screen and (max-width:480px) {
+// @media screen and (max-width:480px) {
 /****************************/
 /* PAGES-INDEX-HOME */
 /****************************/
@@ -1378,33 +1382,33 @@ a:hover {
     //   }
    
     
-    .hero-img {
-        height: 650px;
-    }
-    .hero-text-test {
-        margin-top: 200px;
-    }
-    .hero-header-test {
-        font-size: 52px;
-    }
-    .world {
-        padding-bottom: 10px;
-        font-size: 3.2rem;
-    }
+    // .hero-img {
+    //     height: 650px;
+    // }
+    // .hero-text-test {
+    //     margin-top: 200px;
+    // }
+    // .hero-header-test {
+    //     font-size: 52px;
+    // }
+    // .world {
+    //     padding-bottom: 10px;
+    //     font-size: 3.2rem;
+    // }
     // .client-card {
     //     height: 325px;
     // }
     // nav {
     //     height: 75px;
     // }
-    .bnp-logo {
-        max-width: 45px;
-    }
+    // .bnp-logo {
+    //     max-width: 45px;
+    // }
     
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+    // .column {
+    //     flex: 100%;
+    //     max-width: 100%;
+    // }
     // .staff-header {
     //     margin-top: 100px;
     // }
@@ -1424,22 +1428,22 @@ a:hover {
     // .hero-img-contact{
     //     height: 400px;
     // }
-    .hero-text-contact {
-        margin-top: 150px;
-    }
-    .hero-subtext-test {
-        font-size: 1.2rem;
-    }
+    // .hero-text-contact {
+    //     margin-top: 150px;
+    // }
+    // .hero-subtext-test {
+    //     font-size: 1.2rem;
+    // }
    
     // #map {
     //     height: 400px;
     // }
-}
+// }
 
 /****************************/
 /* 375-BP */
 /****************************/
-@media screen and (max-width:375px) {
+// @media screen and (max-width:375px) {
 /****************************/
 /* PAGES-INDEX-HOME */
 /****************************/
@@ -1450,16 +1454,16 @@ a:hover {
     // .center-headings__header {
     //     font-size: 30px;
     // }
-    .sub-heading {
-        font-size: 22px;
-    }
+    // .sub-heading {
+    //     font-size: 22px;
+    // }
 /****************************/
 /* PAGES-CONTACT */
 /****************************/
 // #mc_embed_signup {
 //     max-width: 325px;
 //     } 
-}
+// }
 
 /****************************/
 /* PAGES-ABOUT-US */

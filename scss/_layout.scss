@@ -108,6 +108,10 @@
     color: #a1a1a1;
     font-family: 'roboto condensed', sans-serif;
     font-weight: 300;
+
+    @media screen and (max-width:375px) {
+        font-size: 22px;
+    }
 }
 
 .section-asd {
@@ -439,6 +443,12 @@
     color: white !important; 
 }
 
+@media screen and (max-width:1300px) {
+    .img-placeholder-denver {
+        display: none;
+    }
+}
+
 // SERVICES ///////////////////////////////////////////////
 // BLUE BULLET //
 .services-bullet {
@@ -644,6 +654,12 @@
     margin-right: 25px;
 }
 
+@media screen and (max-width:1300px) {
+    .contact-input-02 {
+        margin-bottom: 25px;
+    }
+}
+
 .response {
     margin-bottom: 15px;
 }
@@ -767,13 +783,6 @@
     }
 }
 
-
-
-
-
-
-
-
 // CAREERS ///////////////////////////////////////////////
 // SECTIONS //
 .section-careers-about {
@@ -810,6 +819,9 @@
     }
     @media screen and (max-width:768px) {
         padding: 2rem 0;
+    }
+    @media screen and (max-width:375px) {
+        padding-top: 4rem;
     }
 }
 
@@ -913,7 +925,7 @@
 
 .post-link:not(:last-child) {
     @media screen and (max-width:1024px) {
-        margin-bottom: 5rem;
+        margin-bottom: 3.1rem;
         }
     }
 
@@ -987,3 +999,26 @@
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     }
 }
+
+// GALLERY - OLD ///////////////////////////////////////////////
+// GALLERY GRIDS //
+// .column {
+//     flex: 25%;
+//     max-width: 25%;
+//     padding: 0 4px;
+
+//     @media screen and (max-width:950px) {
+//         flex: 50%;
+//         max-width: 50%;
+//     }
+//     @media screen and (max-width:480px) {
+//         flex: 100%;
+//         max-width: 100%;
+//     }
+// }
+
+// .column img {
+//     margin-top: 8px;
+//     vertical-align: middle;
+//     width: 100%;
+// }

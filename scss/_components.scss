@@ -219,6 +219,10 @@
     }  
     .flexbox-1-of-3-cards:not(:last-child) {
         margin-bottom: 3rem; 
+
+        @media screen and (max-width:375px) {
+            margin-bottom: 5rem; 
+        }
     }
 }
 
