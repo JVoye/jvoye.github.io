@@ -376,6 +376,15 @@
     // }
 }
 
+// UNDERLINES //
+.underline {
+    width: 40px;
+    height: 8px;
+    width: 100%;
+    height: 1px;
+    background-color: #c2c2c2;
+}
+
 
 
 
@@ -971,9 +980,13 @@ div.dataTables_wrapper div.dataTables_info {
 
 // CONTACT ICONS ///////////////////////////////////////////////
 ion-icon {
-    font-size: 23px;
+    font-size: 22px;
   }
 
+.nav-icon {
+    font-size: 15px;
+    margin-right: .1rem;
+}
 //   ion-icon {
 //     color: blue;
 //   }

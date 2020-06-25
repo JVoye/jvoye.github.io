@@ -500,11 +500,10 @@
     width: 100%;
 }
 
-.simulation__img-border {
+.simulation__img {
     width: 100%;
-    border: 1px solid #c4c4c4;
+    // border: 1px solid #c4c4c4;
 }
-
 
 // PROJECTS ///////////////////////////////////////////////
 // OUR CLIENTS - WORK IN PROGRESS //
@@ -999,6 +998,127 @@
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     }
 }
+
+// BLOG ///////////////////////////////////////////////
+// ARTICLES //
+
+.blog {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.blog p {
+    line-height: 28px;
+}
+
+.blog-headings {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+    &__header {
+        font-size: 40px; 
+    
+        @media screen and (max-width:480px) {
+            font-size: 35px;
+        }
+    }
+
+    &__author-container {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__author-container p {
+        line-height: 1.4;
+    }
+
+    &__img {
+        position: relative;
+        width: 4.5rem;
+        margin-right: 1rem;
+        z-index: 1;
+        margin-left: .75rem;
+        // border: 1px solid var(--color-grey-light-alt);
+
+    } 
+
+    &__color {
+        position: absolute;
+        width: 4.5rem;
+        height: 4.5rem;
+        background-color: var(--color-primary-hover);
+        margin-top: .75rem;
+        clip-path: polygon(50% 0, 100% 0, 100% 70%, 60% 100%, 0 100%, 0 40%);
+        
+    } 
+
+    &__author {
+        margin-bottom: 0;
+        color: #000;
+        font-weight: 500;
+    } 
+
+    &__published-date {
+        font-weight: 300;
+        font-size: .9rem;
+    } 
+}
+
+.share-container {
+    font-size: .9rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+
+    &__header {
+        font-weight: 400;
+        color: #212529;
+        margin-right: 1rem;
+    }
+
+    &__link {
+        padding: .25rem;
+        margin-right: .75rem;
+        // margin-left: .1rem;
+    }
+
+    &__link:hover {
+        text-decoration: underline !important;
+    }
+}
+
+
+.blog-img-container {
+    max-width: 750px;
+    margin-bottom: 2.5rem;
+
+    &__img {
+        width: 100%;
+       
+        // margin-bottom: 1rem;
+    }
+
+    &__caption {
+        margin-top: 1rem;
+        color: var(--color-primary);
+    }
+}
+
+    .img-550 {
+        max-width: 550px;
+    }
+
+    .blog-story__headings {
+        font-size: 28px;
+    }
+
+    .blog-story p {
+        margin-bottom: 40px;
+    }
 
 // GALLERY - OLD ///////////////////////////////////////////////
 // GALLERY GRIDS //
