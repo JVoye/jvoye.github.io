@@ -1017,7 +1017,7 @@
     margin-bottom: 60px;
 
     &__header {
-        font-size: 40px; 
+        font-size: 36px; 
     
         @media screen and (max-width:480px) {
             font-size: 35px;
@@ -1061,8 +1061,9 @@
     } 
 
     &__published-date {
-        font-weight: 300;
+        // font-weight: 300 !important;
         font-size: .9rem;
+        margin-left: 1rem;
     } 
 }
 

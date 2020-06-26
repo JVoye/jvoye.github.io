@@ -744,6 +744,54 @@ div.dataTables_wrapper div.dataTables_info {
     }
 }
 
+// BLOG - SHARE BUTTONS //
+
+.share-links {
+    max-width: 325px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share-btn {
+    width: 6rem;
+    padding: .5rem .5rem;
+    // background-color: var(--color-primary-hover);
+    border-radius: 3px;
+    // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    &__icon {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    &__text {
+        color: #fff !important;
+        font-family: 'roboto', sans-serif;
+        font-size: .9rem;
+    }
+
+   
+    // &__link {
+    //     padding: .5rem;
+    // }
+}
+
+.--linkedin {
+    background-color: #0072b1;
+}
+.--email {
+    background-color: var(--color-primary-dark)
+}
+.--print {
+    background-color: black;
+}
+
+
 
 // INDEX SLIDESHOW ///////////////////////////////////////////////
 #slideshow {
@@ -986,6 +1034,7 @@ ion-icon {
 .nav-icon {
     font-size: 15px;
     margin-right: .1rem;
+    color: var(--color-primary-hover);
 }
 //   ion-icon {
 //     color: blue;

@@ -1115,6 +1115,55 @@ div.dataTables_wrapper div.dataTables_info {
   }
 }
 
+.share-links {
+  max-width: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.share-btn {
+  width: 6rem;
+  padding: .5rem .5rem;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.share-btn__icon {
+  color: #fff;
+  font-size: 20px;
+}
+
+.share-btn__text {
+  color: #fff !important;
+  font-family: 'roboto', sans-serif;
+  font-size: .9rem;
+}
+
+.--linkedin {
+  background-color: #0072b1;
+}
+
+.--email {
+  background-color: var(--color-primary-dark);
+}
+
+.--print {
+  background-color: black;
+}
+
 #slideshow {
   position: relative;
   max-width: 100%;
@@ -1391,6 +1440,7 @@ ion-icon {
 .nav-icon {
   font-size: 15px;
   margin-right: .1rem;
+  color: var(--color-primary-hover);
 }
 
 footer {
@@ -1719,7 +1769,7 @@ footer ul {
   width: 100%;
   padding: .5rem;
   padding-left: 1.1rem;
-  margin: .75rem 0px 2rem 0;
+  margin: 1rem 0px 2rem 0;
   background-color: rgba(255, 255, 255, 0.95);
   top: 0;
   left: 0;
@@ -3106,7 +3156,7 @@ footer ul {
 }
 
 .blog-headings__header {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 @media screen and (max-width: 480px) {
@@ -3155,8 +3205,8 @@ footer ul {
 }
 
 .blog-headings__published-date {
-  font-weight: 300;
   font-size: .9rem;
+  margin-left: 1rem;
 }
 
 .share-container {
