@@ -1149,7 +1149,7 @@ div.dataTables_wrapper div.dataTables_info {
 .share-btn__text {
   color: #fff !important;
   font-family: 'roboto', sans-serif;
-  font-size: .9rem;
+  font-size: 12px;
 }
 
 .--linkedin {
