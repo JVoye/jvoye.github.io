@@ -1777,6 +1777,12 @@ footer ul {
   font-weight: 300;
 }
 
+@media screen and (max-width: 480px) {
+  .breadcrumb-container {
+    margin: 1rem 0px 1rem 0;
+  }
+}
+
 .breadcrumb-nav {
   max-width: 860px;
   margin: 0 auto;
@@ -3155,13 +3161,19 @@ footer ul {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 480px) {
+  .blog-headings {
+    margin-bottom: 30px;
+  }
+}
+
 .blog-headings__header {
   font-size: 36px;
 }
 
 @media screen and (max-width: 480px) {
   .blog-headings__header {
-    font-size: 35px;
+    font-size: 32px;
   }
 }
 
