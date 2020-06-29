@@ -1116,7 +1116,7 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 .share-links {
-  max-width: 325px;
+  max-width: 210px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
