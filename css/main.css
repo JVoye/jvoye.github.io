@@ -479,15 +479,12 @@ thead {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   padding: 0 1.5rem;
   margin-bottom: 70px;
-}
-
-@media screen and (max-width: 1300px) {
-  .briefs-container {
-    max-width: 1100px;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -496,9 +493,9 @@ thead {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -510,13 +507,13 @@ thead {
 @media screen and (max-width: 1300px) {
   .briefs-container img {
     min-width: 525px;
-    padding-right: 15px;
+    padding-right: 25px;
   }
 }
 
 @media screen and (max-width: 950px) {
   .briefs-container img {
-    margin: 0px 0px 35px 0px;
+    margin-bottom: 20px;
     padding: 0px;
   }
 }
@@ -532,9 +529,9 @@ thead {
   margin: 30px 0px 0px 0px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
   .briefs-text {
-    max-width: 615px;
+    max-width: 640px;
   }
 }
 
