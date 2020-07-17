@@ -487,6 +487,10 @@ thead {
   margin-bottom: 70px;
 }
 
+.briefs-container__copyright {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1024px) {
   .briefs-container {
     -webkit-box-orient: vertical;
