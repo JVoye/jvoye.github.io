@@ -711,7 +711,7 @@ thead {
 
 .card__heading {
   width: 100%;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: "roboto condensed", sans-serif;
   font-size: 28px;
   color: #333333;
   color: var(--color-primary-alt) !important;
@@ -806,13 +806,13 @@ thead {
 .map-link {
   font-size: 12px;
   font-weight: 400;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  color: #0096DB;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #0096db;
 }
 
 .map-link:hover {
-  color: #0096DB;
+  color: #0096db;
   text-decoration: underline;
 }
 
@@ -880,14 +880,20 @@ thead {
 }
 
 .legend__icon--01 {
-  margin-right: .75rem;
+  margin-right: 0.75rem;
   height: 2rem;
 }
 
 @media screen and (max-width: 480px) {
   .legend__icon {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
+}
+
+#mapid {
+  margin: 5rem auto;
+  max-width: 1300px;
+  height: 480px;
 }
 
 .table-container {
@@ -915,8 +921,8 @@ div.dataTables_wrapper div.dataTables_info {
   display: -ms-flexbox;
   display: flex;
   z-index: 5;
-  -webkit-animation: moveInBottom .5s ease-out .75s;
-          animation: moveInBottom .5s ease-out .75s;
+  -webkit-animation: moveInBottom 0.5s ease-out 0.75s;
+          animation: moveInBottom 0.5s ease-out 0.75s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
@@ -924,9 +930,9 @@ div.dataTables_wrapper div.dataTables_info {
 .btn-hero {
   display: inline-block;
   text-align: center;
-  padding: .75rem 2.5rem;
+  padding: 0.75rem 2.5rem;
   text-transform: uppercase;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: "roboto condensed", sans-serif;
   letter-spacing: 1px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -935,27 +941,27 @@ div.dataTables_wrapper div.dataTables_info {
 
 @media screen and (max-width: 480px) {
   .btn-hero {
-    padding: .75rem 1.5rem;
+    padding: 0.75rem 1.5rem;
     margin: 0 1rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .btn-hero {
-    font-size: .9rem;
-    margin: 0 .75rem;
+    font-size: 0.9rem;
+    margin: 0 0.75rem;
   }
 }
 
 .--btn-white {
   background-color: white;
-  color: #0096DB;
+  color: #0096db;
   border-radius: 2px;
   border: 2px solid #ffffff;
 }
 
 .--btn-reverse {
-  border: 2px solid #0096DB;
+  border: 2px solid #0096db;
   border-radius: 2px;
   color: white;
 }
@@ -976,7 +982,7 @@ div.dataTables_wrapper div.dataTables_info {
           transform: translateY(-0.2rem);
   -webkit-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
           box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  border: 2px solid #0096DB;
+  border: 2px solid #0096db;
   color: white;
 }
 
@@ -990,8 +996,8 @@ div.dataTables_wrapper div.dataTables_info {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
-  transition: background-color .3s,  opacity .5s, visibility .5s;
+  -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
@@ -1061,12 +1067,12 @@ div.dataTables_wrapper div.dataTables_info {
   letter-spacing: 1px;
   text-align: center;
   color: white;
-  background-color: #0096DB;
+  background-color: #0096db;
   height: 40px;
   width: 140px;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: "roboto condensed", sans-serif;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: 1px;
   line-height: 40px;
   -webkit-transition: 0.2s;
@@ -1084,12 +1090,12 @@ div.dataTables_wrapper div.dataTables_info {
   text-align: center;
   color: white;
   /* background-color: #3fa0ff; */
-  background-color: #0096DB;
+  background-color: #0096db;
   padding: 11px 20px 11px 20px;
   margin: 0px 20px 0px 0px;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: "roboto condensed", sans-serif;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   letter-spacing: 1px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -1128,7 +1134,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 .share-btn {
   width: 6rem;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 3px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1149,7 +1155,7 @@ div.dataTables_wrapper div.dataTables_info {
 
 .share-btn__text {
   color: #fff !important;
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   font-size: 12px;
 }
 
@@ -1232,8 +1238,8 @@ div.dataTables_wrapper div.dataTables_info {
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .popup2 {
@@ -1246,8 +1252,8 @@ div.dataTables_wrapper div.dataTables_info {
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .popup3 {
@@ -1260,8 +1266,8 @@ div.dataTables_wrapper div.dataTables_info {
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .popup__content {
@@ -1283,8 +1289,8 @@ div.dataTables_wrapper div.dataTables_info {
   opacity: 0;
   -webkit-transform: translate(-50%, -50%) scale(0.25);
           transform: translate(-50%, -50%) scale(0.25);
-  -webkit-transition: all .4s .2s;
-  transition: all .4s .2s;
+  -webkit-transition: all 0.4s 0.2s;
+  transition: all 0.4s 0.2s;
 }
 
 @media screen and (max-width: 1300px) {
@@ -1329,8 +1335,8 @@ div.dataTables_wrapper div.dataTables_info {
 .popup__img {
   display: block;
   width: 100%;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
           box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -1393,15 +1399,15 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 .popup__close {
-  color: #0096DB;
+  color: #0096db;
   position: absolute;
   top: 2.5rem;
   right: 2.5rem;
   font-size: 3rem;
   text-decoration: none;
   display: inline-block;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   line-height: 1;
 }
 
@@ -1434,13 +1440,25 @@ div.dataTables_wrapper div.dataTables_info {
      object-fit: cover;
 }
 
+.holiday-card {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .holiday-card {
+    width: 95%;
+  }
+}
+
 ion-icon {
   font-size: 22px;
 }
 
 .nav-icon {
   font-size: 15px;
-  margin-right: .1rem;
+  margin-right: 0.1rem;
   color: var(--color-primary-hover);
 }
 

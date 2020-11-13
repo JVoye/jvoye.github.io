@@ -91,5 +91,35 @@ $('#job-03').click(function(){
 // }
 // navSlide();
 
+// LEAFLET MAP //
+// initialize the map on the "map" div with a given center and zoom
+var mymap = L.map('mapid', {
+  center: [39.7478278, -104.9882736],
+  zoom: 13
+  
+});
+
+var denver = L.marker([39.7478278, -104.9882736]).addTo(mymap);
+denver.bindPopup("<b>Primary Contact</b> <br> <b>Denver</b> <br> <a href='https://www.google.com/maps/place/1999+Broadway,+1999+N+Broadway,+Denver,+CO+80202/@39.7478012,-104.9899059,17z/data=!3m1!4b1!4m5!3m4!1s0x876c78d7860b24d9:0x854a5f0d10e5c87f!8m2!3d39.7477971!4d-104.9877172?hl=en-US'>View on Google Maps</a>");
+
+// var ogg = L.marker([20.8967924, -156.4329379]).addTo(mymap);
+// ogg.bindPopup("<b>ogg</b>");
+
+
+// var marker = L.marker([51.5, -0.09]).addTo(mymap);
+// marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+
+
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoianZveWUiLCJhIjoiY2tlbjV0bjgxMGZ3cDJybnFudmhoNnhvOCJ9.0dqpp25O6abTVguEgCSd6w'
+}).addTo(mymap);
+
 });
 
