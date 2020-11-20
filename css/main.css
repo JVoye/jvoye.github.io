@@ -1448,7 +1448,8 @@ div.dataTables_wrapper div.dataTables_info {
 
 @media screen and (max-width: 1300px) {
   .holiday-card {
-    width: 95%;
+    padding-top: 3rem;
+    width: 100%;
   }
 }
 
