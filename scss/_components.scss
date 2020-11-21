@@ -1004,30 +1004,31 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 // HOLIDAY CARD SETTINGS //
-// .holiday-card {
-//   // width: 85%;
-//   // margin: 0 auto;
-//   // padding-top: 6rem;
-
-//   @media screen and (max-width: 1300px) {
-//     padding-top: 3rem;
-//     width: 100%;
-//   }
-// }
-
-.embed-container-cc {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 85%;
+.holiday-card {
+  // max-width: 1200px;
+  max-width: 1600px;
+  height: auto;
   margin: 0 auto;
+  padding-top: 6rem;
 
   @media screen and (max-width: 1300px) {
     padding-top: 3rem;
-    max-width: 95%;
+    width: 100%;
   }
 }
+
+// .embed-container-cc {
+//   position: relative;
+//   padding-bottom: 56.25%;
+//   height: 0;
+//   overflow: hidden;
+//   max-width: 85%;
+//   margin: 0 auto;
+
+//   @media screen and (max-width: 1300px) {
+//     padding-top: 3rem;
+//     max-width: 95%;
+//   }
 
 .embed-container-cc iframe,
 .embed-container-cc object,

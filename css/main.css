@@ -1444,19 +1444,17 @@ div.dataTables_wrapper div.dataTables_info {
      object-fit: cover;
 }
 
-.embed-container-cc {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 85%;
+.holiday-card {
+  max-width: 1600px;
+  height: auto;
   margin: 0 auto;
+  padding-top: 6rem;
 }
 
 @media screen and (max-width: 1300px) {
-  .embed-container-cc {
+  .holiday-card {
     padding-top: 3rem;
-    max-width: 95%;
+    width: 100%;
   }
 }
 
