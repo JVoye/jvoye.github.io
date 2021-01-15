@@ -1,6 +1,5 @@
 // FEATURE BOX ///////////////////////////////////////////////
 // SERVICES - ABOUT US - CAREERS //
-
 .careers__img {
   max-width: 100%;
 }
@@ -98,6 +97,8 @@
     margin-left: 0rem;
   }
 }
+
+
 
 // SHOWCASE BRIEFS CONTAINER - REPLACE WITH FEATURE BOX ///////////////////////////////////////////////
 // PROJECTS //
@@ -304,7 +305,6 @@
   width: 100%;
   font-family: "roboto condensed", sans-serif;
   font-size: 28px;
-  color: #333333;
   color: var(--color-primary-alt) !important;
   font-weight: 500;
   padding: 1.5rem 1.5rem 1rem 1.5rem;
@@ -315,7 +315,6 @@
   padding: 0rem 1.5rem;
   font-size: 16px;
   font-weight: 300;
-  // color: #626365;
 }
 
 .card__side--back-1 {
@@ -381,8 +380,6 @@
 
 // UNDERLINES //
 .underline {
-  width: 40px;
-  height: 8px;
   width: 100%;
   height: 1px;
   background-color: #c2c2c2;
@@ -980,15 +977,15 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 // VIDEO IMG BACKGROUND FOR SINGLE COMPONENTS ///////////////////////////////////////////////
-.body-background {
-  background-color: #333333;
-}
-.body-background__center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// .body-background {
+//   background-color: #333333;
+// }
+// .body-background__center {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
 
 // VIDEO SETTINGS //
 .bg-video {
@@ -1016,19 +1013,6 @@ div.dataTables_wrapper div.dataTables_info {
     width: 100%;
   }
 }
-
-// .embed-container-cc {
-//   position: relative;
-//   padding-bottom: 56.25%;
-//   height: 0;
-//   overflow: hidden;
-//   max-width: 85%;
-//   margin: 0 auto;
-
-//   @media screen and (max-width: 1300px) {
-//     padding-top: 3rem;
-//     max-width: 95%;
-//   }
 
 .embed-container-cc iframe,
 .embed-container-cc object,

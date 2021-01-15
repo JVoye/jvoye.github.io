@@ -25,23 +25,14 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
 
-  // $('.carousel').carousel({
-  //     interval: 2000
-  //   })
 
-  // navbar template load
-  // $('#navbars').load('navbar.html');
-
-  // footer template load
+  //* FOOTER TEMPLATE LOAD */////
   $("#footer").load("footer.html");
 
   $(".arrow-down").click(function () {
     $(".additional-logos").slideToggle(300);
   });
 
-  // $('.arrow-down-02').click(function(){
-  //     $('.additional-logos-02').slideToggle(300);
-  //       });
 
   //Available Jobs Drop Down-01
   $("#job-01").click(function () {
@@ -62,30 +53,43 @@ $(document).ready(function () {
     $("#chevron-down-03").toggle();
   });
 
-  // const navSlide = () => {
-  //   const burger = document.querySelector('.burger');
-  //   const nav = document.querySelector('.nav-links');
-  //   const navLinks = document.querySelectorAll('.nav-links li');
+ 
+  /* SWIPER CAROUSEL TIMELINE */////
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 70,
+    // spaceBetween: 0,
+    loop: false,
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   clickable: true,
+    // },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // watchSlidesVisibility: true,
+    // Responsive breakpoints
+    breakpoints: {
+    // when window width is <= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetweenSlides: 10
+      },
+      // when window width is <= 480px
+      640: {
+        slidesPerView: 2,
+        spaceBetweenSlides: 20
+      },
+      // when window width is <= 768px
+      900: {
+        slidesPerView: 3,
+        spaceBetweenSlides: 30
+      }
+    },
+  });
 
-  //     //Toggle Nav
-  //   burger.addEventListener('click',() => {
-  //       nav.classList.toggle('nav-active');
-
-  //     //Animate Links
-  //   navLinks.forEach((link, index) => {
-
-  //     if(link.style.animation){
-  //         link.style.animation = '';
-  //     }else{
-  //         link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`
-  //         }
-  //     });
-  //     //Burger Animation
-  //     burger.classList.toggle('toggle');
-  // });
-
-  // }
-  // navSlide();
+  
 
   // LEAFLET MAP //
   // initialize the map on the "map" div with a given center and zoom

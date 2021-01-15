@@ -11,7 +11,6 @@ h3 {
     font-weight: 500;
     font-size: 24px;
     font-family: 'roboto condensed', sans-serif;
-    color: var(--color-primary-dark);
     color: var(--color-primary-alt);
 }
 h4 {
@@ -82,16 +81,13 @@ h6 {
     padding: 0 1.5rem;
 }
 
-// HEADER UNDERLINE //
-.center-headings__divider {
-    width: 75px;
-    height: 3px;
-    background-color: #3fa0ff;
-    margin: 0 auto;
-}
-
-
-
+// // HEADER UNDERLINE //
+// .center-headings__divider {
+//     width: 75px;
+//     height: 3px;
+//     background-color: #3fa0ff;
+//     margin: 0 auto;
+// }
 
 // BULLET POINTS SERVICES ONLY //
 .center-headings__header-services {
@@ -107,10 +103,36 @@ h6 {
     }
 }
 
-
-
 // 2 COLUMN HEADERS - CONTACT ONLY //
 .headings-2-column {
     font-size: 35px; 
     font-weight: 300;
+}
+
+
+// CARD FONTS 50 YEAR TIMELINE ///////////////////////////////////////////////
+// .card-heading {
+//     font-family: "roboto condensed", sans-serif;
+//     font-size: 24px;
+//     color: var(--color-primary-alt) !important;
+//     margin-bottom: .5rem;
+// }
+
+// .card-sub-heading {
+//     font-size: 16px;
+//     font-weight: 300;
+//   }
+
+  // 50 YEAR QUOTE //
+.center-headings__header-quote {
+    text-align: center;
+    font-size: 36px; 
+    padding: .5rem;
+    color: #333333;   
+}
+
+@media screen and (max-width:480px) {
+    .center-headings__header-quote {
+        font-size: 26px;
+    }
 }

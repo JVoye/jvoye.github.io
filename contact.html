@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,155 +8,158 @@
     <title>Contact | BNP Associates, Inc.</title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <script>
-   // Initialize and add the map
-function initMap() {
-  // The location of Denver
-  var uluru = {lat: 39.7478278, lng: -104.9882736};
-  // The map, centered at Denver
-  var mapDenver = new google.maps.Map(
-      document.getElementById('mapDenver'), {
-          zoom: 13, 
-          center: uluru, 
-          styles: [
-{
-            "featureType": "administrative",
-            "elementType": "labels.text.fill",
-            "stylers": [
+    // Initialize and add the map
+    function initMap() {
+        // The location of Denver
+        var uluru = { lat: 39.7478278, lng: -104.9882736 };
+        // The map, centered at Denver
+        var mapDenver = new google.maps.Map(
+            document.getElementById('mapDenver'), {
+            zoom: 13,
+            center: uluru,
+            styles: [
                 {
-                    "color": "#444444"
-                }
-            ]
-        },
-        {
-            "featureType": "landscape",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "color": "#f2f2f2"
-                }
-            ]
-        },
-        {
-            "featureType": "poi",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "road",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "saturation": -100
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#444444"
+                        }
+                    ]
                 },
                 {
-                    "lightness": 45
-                }
-            ]
-        },
-        {
-            "featureType": "road.highway",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "visibility": "simplified"
-                }
-            ]
-        },
-        {
-            "featureType": "road.arterial",
-            "elementType": "labels.icon",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "transit",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "visibility": "off"
-                }
-            ]
-        },
-        {
-            "featureType": "water",
-            "elementType": "all",
-            "stylers": [
-                {
-                    "color": "#46bcec"
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#f2f2f2"
+                        }
+                    ]
                 },
                 {
-                    "visibility": "on"
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#46bcec"
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
                 }
             ]
-        }
-        ]
-          });
-  // The marker, positioned at Denver
-  var marker = new google.maps.Marker({position: uluru, map: mapDenver});
-}
-  </script>
+        });
+        // The marker, positioned at Denver
+        var marker = new google.maps.Marker({ position: uluru, map: mapDenver });
+    }
+</script>
 
-<body> 
+<body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo" loading="lazy">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-            </ul>
+            </button>
 
-            <ul  class="nav navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Services<span class="sr-only">(current)</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="services.html">All Services</a>
-                        <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
-                    <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
-                    <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
-                    <a class="dropdown-item" href="services.html#simulation">Simulation</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
-                    </div>
-                </li>
-            
-                <li>
-                    <a class="nav-link" href="about.html">About Us</a>
-                </li> 
-                <li>
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-               
-                <li>
-                    <a class="nav-link" href="careers.html">Careers</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="news.html">News</a>
-                </li>
-              
-                <li>
-                    <a class="nav-link nav-btn" href="contact.html">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services<span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="services.html">All Services</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
+                            <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
+                            <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
+                            <a class="dropdown-item" href="services.html#simulation">Simulation</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link nav-btn" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -169,16 +173,17 @@ function initMap() {
             <div class="hero-secondary --contact margin-hero">
                 <div class="hero-text">
                     <div class="hero-secondary__text-container">
-                        <h1 class="hero-secondary__header margin-sm">Contact Us - We <br>look forward to hearing from you</h1>
+                        <h1 class="hero-secondary__header margin-sm">Contact Us - We <br>look forward to hearing from
+                            you</h1>
                         <p class="hero-secondary__sub-header margin-sm">designers | planners | engineers</p>
                     </div>
                 </div>
             </div>
         </section>
 
-    <div class="general-padding">
-        <div class="form-container">
-            <!-- Begin Mailchimp Signup Form -->
+        <div class="general-padding">
+            <div class="form-container">
+                <!-- Begin Mailchimp Signup Form -->
                 <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                 <style type="text/css">
                     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -186,158 +191,190 @@ function initMap() {
                     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                 </style> -->
                 <div id="mc_embed_signup">
-                <form action="https://bnpassociates.us10.list-manage.com/subscribe/post?u=093da9f4be6c4b0db643239f8&amp;id=4c810d7c78" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
+                    <form
+                        action="https://bnpassociates.us10.list-manage.com/subscribe/post?u=093da9f4be6c4b0db643239f8&amp;id=4c810d7c78"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
 
-                    <h4 class="headings-2-column b-blue margin-xs">Send us a Message</h4>
-                    <p class="margin-sm-message">Sign up to our Newsletter and receive the latest news and project updates from BNP Associates, Inc.</p>
+                            <h4 class="headings-2-column b-blue margin-xs">Send us a Message</h4>
+                            <p class="margin-sm-message">Sign up to our Newsletter and receive the latest news and
+                                project updates from BNP Associates, Inc.</p>
 
-                    <div class="top-contact-row">
-                <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
-                <!-- <div class="mc-field-group"> -->
-                        <!-- <label for="mce-FNAME">First Name </label> -->
-                        <input type="text" value="" name="FNAME" class="contact-input" id="mce-FNAME" placeholder="First Name">
-                <!-- </div> -->
+                            <div class="top-contact-row">
+                                <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
+                                <!-- <div class="mc-field-group"> -->
+                                <!-- <label for="mce-FNAME">First Name </label> -->
+                                <input type="text" value="" name="FNAME" class="contact-input" id="mce-FNAME"
+                                    placeholder="First Name">
+                                <!-- </div> -->
 
-                <!-- <div class="mc-field-group"> -->
-                        <!-- <label for="mce-LNAME">Last Name </label> -->
-                        <input type="text" value="" name="LNAME" class="contact-input" id="mce-LNAME" placeholder="Last Name">
-                <!-- </div> -->
+                                <!-- <div class="mc-field-group"> -->
+                                <!-- <label for="mce-LNAME">Last Name </label> -->
+                                <input type="text" value="" name="LNAME" class="contact-input" id="mce-LNAME"
+                                    placeholder="Last Name">
+                                <!-- </div> -->
 
-                <!-- <div class="mc-field-group"> -->
-                    <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                <!-- <div class="mc-field-group"> -->
+                                <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                 </label> -->
-                        <input type="email" value="" name="EMAIL" class="required email contact-input-02" id="mce-EMAIL" placeholder="Your Email *">
-                <!-- </div> -->
-                    </div>
+                                <input type="email" value="" name="EMAIL" class="required email contact-input-02"
+                                    id="mce-EMAIL" placeholder="Your Email *">
+                                <!-- </div> -->
+                            </div>
 
-                <!-- <div class="mc-field-group"> -->
-                    <!-- <label for="mce-MMERGE6">Message </label> -->
-                    <textarea type="text" value="" name="MMERGE6" class="message" id="mce-MMERGE6" placeholder="Your Message"></textarea>
-                <!-- </div> -->
+                            <!-- <div class="mc-field-group"> -->
+                            <!-- <label for="mce-MMERGE6">Message </label> -->
+                            <textarea type="text" value="" name="MMERGE6" class="message" id="mce-MMERGE6"
+                                placeholder="Your Message"></textarea>
+                            <!-- </div> -->
 
-                    <div id="mce-responses" class="clear">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_093da9f4be6c4b0db643239f8_4c810d7c78" tabindex="-1" value=""></div>
-                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-01"></div>
-                    </div>
-                </form>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                    name="b_093da9f4be6c4b0db643239f8_4c810d7c78" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                                    id="mc-embedded-subscribe" class="btn-01"></div>
+                        </div>
+                    </form>
                 </div>
-                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[7]='MMERGE7';ftypes[7]='text';fnames[6]='MMERGE6';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <script type='text/javascript'
+                    src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                <script
+                    type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[7] = 'MMERGE7'; ftypes[7] = 'text'; fnames[6] = 'MMERGE6'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
                 <!--End mc_embed_signup-->
 
-            <div class="contact-container">
-                <h3 class="headings-2-column b-blue margin-xs">Primary Contact</h3>
-                <p class="margin-sm">Denver Office</p>
-                <!-- <div class="divider-02 margin-med"></div> -->
-                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, maxime quia assumenda repellendus.</p><br> -->
-                <!-- <p>Our primary contact information</p><br> -->
+                <div class="contact-container">
+                    <h3 class="headings-2-column b-blue margin-xs">Primary Contact</h3>
+                    <p class="margin-sm">Denver Office</p>
+                    <!-- <div class="divider-02 margin-med"></div> -->
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, maxime quia assumenda repellendus.</p><br> -->
+                    <!-- <p>Our primary contact information</p><br> -->
 
-                <div class="contact-flex-icons">
-                    <div class="contact-icon-border">
-                        <ion-icon name="call-outline"></ion-icon>
-                        <!-- <img src="/images/contact-phone-01.svg"alt="phone-icon" width="15px" height="15px"> -->
+                    <div class="contact-flex-icons">
+                        <div class="contact-icon-border">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <!-- <img src="/images/contact-phone-01.svg"alt="phone-icon" width="15px" height="15px"> -->
+                        </div>
+                        <p>Office: +1 720.374.4930<br>Fax: &nbsp;&nbsp;&nbsp; +1 720.374.4929</p>
                     </div>
-                    <p>Office: +1 720.374.4930<br>Fax: &nbsp;&nbsp;&nbsp; +1 720.374.4929</p>
+
+                    <div class="contact-flex-icons">
+                        <div class="contact-icon-border">
+                            <ion-icon name="time-outline"></ion-icon>
+                            <!-- <img src="/images/contact-clock-01.svg"alt="phone-icon" width="15px" height="15px"> -->
+                        </div>
+                        <p>Mon-Fri 7:00 - 4:00pm MT</p>
+                    </div>
+
+                    <div class="contact-flex-icons">
+                        <div class="contact-icon-border">
+                            <ion-icon name="map-outline"></ion-icon>
+                            <!-- <img src="/images/contact-map-01.svg"alt="phone-icon" width="15px" height="15px"> -->
+                        </div>
+                        <p>1999 Broadway, Suite 4250<br>Denver, Colorado 80202, USA</p>
+                    </div>
+
+                    <div class="contact-flex-icons">
+                        <div class="contact-icon-border">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <!-- <img src="/images/contact-envelope-01.svg"alt="phone-icon" width="15px" height="15px"> -->
+                        </div>
+                        <p><a href="mailto:bnphq@bnpassociates.com" class="contact-link"><span class="contact-link">
+                                    bnphq@bnpassociates.com</span></p></a>
+                    </div><br>
                 </div>
-
-                <div class="contact-flex-icons">
-                    <div class="contact-icon-border">
-                        <ion-icon name="time-outline"></ion-icon>
-                        <!-- <img src="/images/contact-clock-01.svg"alt="phone-icon" width="15px" height="15px"> -->
-                    </div>
-                    <p>Mon-Fri 7:00 - 4:00pm MT</p>
-                </div>
-
-                <div class="contact-flex-icons">
-                    <div class="contact-icon-border">
-                        <ion-icon name="map-outline"></ion-icon>
-                        <!-- <img src="/images/contact-map-01.svg"alt="phone-icon" width="15px" height="15px"> -->
-                    </div>
-                    <p>1999 Broadway, Suite 4250<br>Denver, Colorado 80202, USA</p>
-                </div>
-
-                <div class="contact-flex-icons">
-                    <div class="contact-icon-border">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <!-- <img src="/images/contact-envelope-01.svg"alt="phone-icon" width="15px" height="15px"> -->
-                    </div>
-                    <p><a href="mailto:bnphq@bnpassociates.com"class="contact-link"><span class="contact-link"> bnphq@bnpassociates.com</span></p></a>
-                </div><br>
             </div>
-        </div>
 
-        <section class="section-contact-map">
-            <p class="general-text-wrapper center margin-sm-med">1999 Broadway is located in-between Denver’s Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet parking available as well as parking in the Welton street parking garage. 2hr street parking or bicycle parking is also available.</p>
-            <div class="map-container">
-                <div id="mapDenver"></div> 
+            <section class="section-contact-map">
+                <p class="general-text-wrapper center margin-sm-med">1999 Broadway is located in-between Denver’s
+                    Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet
+                    parking available as well as parking in the Welton street parking garage. 2hr street parking or
+                    bicycle parking is also available.</p>
+                <div class="map-container">
+                    <div id="mapDenver"></div>
+                </div>
+            </section>
+
+            <div class="main-headings">
+                <h4 class="center-headings__header b-blue margin-med">Additional Locations</h4>
+                <!-- <div></div> -->
             </div>
-        </section>
 
-        <div class="main-headings">
-            <h4 class="center-headings__header b-blue margin-med">Additional Locations</h4>
-            <!-- <div></div> -->
-        </div>
-        
-        <div class="contact-flex">
-            <div class="contact-card">
-                <div class="contact-text">
-                    <h3 class="mb-2">Fairfield, Connecticut</h3>
+            <div class="contact-flex">
+                <div class="contact-card">
+                    <div class="contact-text">
+                        <h3 class="mb-2">Fairfield, Connecticut</h3>
                         <p>+1 203.792.3000 - Fax +1 203.792.4900<br>
-                        1981 Post Road<br> Fairfield, Connecticut 06824, USA<br>
-                        <a href="mailto:bnphq@bnpassociates.com"class="contact-link"><span class="contact-link">bnphq@bnpassociates.com</span></p></a>
-                </div> 
-            </div>
-            <div class="contact-card">
-                <div class="contact-text">
-                    <h3 class="mb-2">Dallas, Texas</h3>
+                            1981 Post Road<br> Fairfield, Connecticut 06824, USA<br>
+                            <a href="mailto:bnphq@bnpassociates.com" class="contact-link"><span
+                                    class="contact-link">bnphq@bnpassociates.com</span>
+                        </p></a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-text">
+                        <h3 class="mb-2">Dallas, Texas</h3>
                         <p>+1 469.458.6879 - Fax +1 203.792.4900<br>
-                        2505 N. Hwy 360, Suite 470<br> Grand Prairie, Texas 75050, USA<br>
-                        <a href="mailto:bnpdallas@bnpassociates.com"class="contact-link"><span class="contact-link"> bnpdallas@bnpassociates.com</span></p></a>
-                </div> 
-            </div>
-            <div class="contact-card">
-                <div class="contact-text">
-                    <h3 class="mb-2">Tampa, Florida</h3>
+                            2505 N. Hwy 360, Suite 470<br> Grand Prairie, Texas 75050, USA<br>
+                            <a href="mailto:bnpdallas@bnpassociates.com" class="contact-link"><span
+                                    class="contact-link"> bnpdallas@bnpassociates.com</span>
+                        </p></a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-text">
+                        <h3 class="mb-2">Tampa, Florida</h3>
                         <p>+1 813.501.1588 - Fax +1 203.792.4900<br>
-                        550 North Reo Street Suite 304<br> Tampa, Florida 33609, USA<br>
-                        <a href="mailto:bnptampa@bnpassociates.com"class="contact-link"><span class="contact-link">bnptampa@bnpassociates.com</span></p></a>
-                </div> 
-            </div>
-            <div class="contact-card cardLeft">
-                <div class="contact-text">
-                    <h3 class="mb-2">Singapore</h3>
+                            550 North Reo Street, Suite 304<br> Tampa, Florida 33609, USA<br>
+                            <a href="mailto:bnptampa@bnpassociates.com" class="contact-link"><span
+                                    class="contact-link">bnptampa@bnpassociates.com</span>
+                        </p></a>
+                    </div>
+                </div>
+                <div class="contact-card cardLeft">
+                    <div class="contact-text">
+                        <h3 class="mb-2">Singapore</h3>
                         <p>+65 6451.0035 - Fax +65 6491.5466<br>
-                        114 Lavender Street #05-91<br> CT Hub 2 Singapore 338729<br>
-                        <a href="mailto:bnpsingapore@bnpassociates.com"class="contact-link"><span class="contact-link">bnpsingapore@bnpassociates.com</span></p></a>
-                </div> 
-            </div>
-            <div class="contact-card cardRight">
-                <div class="contact-text">
-                    <h3 class="mb-2">United Arab Emirates</h3>
+                            114 Lavender Street #05-91<br> CT Hub 2 Singapore 338729<br>
+                            <a href="mailto:bnpsingapore@bnpassociates.com" class="contact-link"><span
+                                    class="contact-link">bnpsingapore@bnpassociates.com</span>
+                        </p></a>
+                    </div>
+                </div>
+                <div class="contact-card cardRight">
+                    <div class="contact-text">
+                        <h3 class="mb-2">United Arab Emirates</h3>
                         <p>+971 2679.0060 - Fax +971 1422.8592<br>
-                        <!-- <p>+1 203.792.3000 - Fax +1 203.792.4900<br> -->
-                        31st Floor, Office 6, i-Rise Building Hessa Street<br>Dubai, United Arab Emirates<br>
-                        <a href="mailto:bnpuae@bnpassociates.com"class="contact-link"><span class="contact-link">bnpuae@bnpassociates.com</span></p></a>
-                </div> 
-            </div>   
+                            <!-- <p>+1 203.792.3000 - Fax +1 203.792.4900<br> -->
+                            31st Floor, Office 6, i-Rise Building Hessa Street<br>Dubai, United Arab Emirates<br>
+                            <a href="mailto:bnpuae@bnpassociates.com" class="contact-link"><span
+                                    class="contact-link">bnpuae@bnpassociates.com</span>
+                        </p></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
         <footer id="footer"></footer>
     </main>
 
-  
-<!--End mc_embed_signup-->
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
-<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-<script src="js/index.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtKiuiRXKOhiubJnYQeZObOskbtkkqZJM&callback=initMap"></script>
+    <!--End mc_embed_signup-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="js/index.js"></script>
 </body>
-</html>    
 
-
+</html>
