@@ -74,15 +74,15 @@ $(document).ready(function () {
     // when window width is <= 320px
       320: {
         slidesPerView: 1,
-        spaceBetweenSlides: 10
+        spaceBetweenSlides: 100
       },
       // when window width is <= 480px
       640: {
         slidesPerView: 2,
-        spaceBetweenSlides: 20
+        spaceBetweenSlides: 0
       },
       // when window width is <= 768px
-      900: {
+      1000: {
         slidesPerView: 3,
         spaceBetweenSlides: 30
       }
