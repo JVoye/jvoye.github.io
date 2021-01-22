@@ -66,7 +66,7 @@
 
 // HEADERS, TEXT, MARGINS //
 .feature-box-text__header {
-  color: var(--color-primary-dark);
+  color: var(--color-primary-alt);
   font-size: 26px;
 }
 
@@ -529,7 +529,116 @@ div.dataTables_wrapper div.dataTables_info {
   font-size: 14px;
 }
 
+// 50TH ANNIVESARY BUTTON BANNER //
+.anniversary-container {
+  position: relative;
+  z-index: 2;
+  top: 1rem;
+  max-width: 65rem;
+  animation: moveInBottom 0.5s ease-out;
+  animation-fill-mode: backwards;
+
+  @media screen and (max-width: 991.98px) {
+    flex-direction: column;
+    top: 2rem;
+  }
+  // @media screen and (max-width: 768px) {
+  //   top: 2rem;
+  // }
+  @media screen and (max-width: 480px) {
+    top: 0rem;
+  }
+
+  &__img {
+    z-index: 2;
+    margin-left: 5rem;
+    width: 14rem;
+
+    @media screen and (max-width: 991.98px) {
+      margin-left: 0;
+      width: 10rem;
+      display: none;
+    }
+  }
+
+  &__text {
+    z-index: 2;
+    margin-right: 5rem;
+
+    @media screen and (max-width: 991.98px) {
+      margin-right: 0;
+    }
+
+    &-heading {
+      font-size: 40px;
+      font-weight: 500;
+      color: var(--white);
+
+      @media screen and (max-width: 991.98px) {
+        margin-right: 0;
+        font-size: 32px;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 24px;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+    width: 100%;
+    background-image: linear-gradient(105deg, rgba(0, 150, 219, 0.5),rgba(0, 52, 120, 0.7));
+    clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+
+    @media screen and (max-width: 991.98px) {
+      width: 80%;
+      height: 150px;
+    }
+    @media screen and (max-width: 480px) {
+      height: 110px;
+      // display: none;
+    }
+  }
+}
+
 // BUTTONS ///////////////////////////////////////////////
+// DEFAULT BUTTON STYLE //
+.button {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "roboto condensed", sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn-50th {
+  color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 2px;
+  padding: .5rem 6.5rem;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 768px) {
+    padding: .5rem 3.5rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding: .5rem 2.5rem;
+    // border: 2px solid var(--color-primary);
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 0px 1px var(--white);
+    color: var(--white) !important;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
 // HERO INDEX BUTTONS //
 .hero-btn-container {
   display: flex;
@@ -543,6 +652,7 @@ div.dataTables_wrapper div.dataTables_info {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 }
+
 .btn-hero {
   display: inline-block;
   text-align: center;
@@ -600,9 +710,7 @@ div.dataTables_wrapper div.dataTables_info {
 // TO TOP MAIN BUTTON //
 #button {
   display: inline-block;
-  // background-color: rgba(0, 150, 219, 0.85);
   background-color: #494a55;
-
   width: 45px;
   height: 45px;
   text-align: center;
@@ -623,7 +731,6 @@ div.dataTables_wrapper div.dataTables_info {
   #button {
     width: 40px;
     height: 40px;
-
     bottom: 10px;
     right: 10px;
   }
@@ -640,11 +747,9 @@ div.dataTables_wrapper div.dataTables_info {
 }
 #button:hover {
   cursor: pointer;
-  /* background-color: #252525; */
   background-color: #5f606d;
 }
 #button:active {
-  /* background-color: #555; */
   background-color: #5f606d;
 }
 #button.show {
@@ -691,7 +796,6 @@ div.dataTables_wrapper div.dataTables_info {
   height: 40px;
   text-align: center;
   color: white;
-  /* background-color: #3fa0ff; */
   background-color: #0096db;
   padding: 11px 20px 11px 20px;
   margin: 0px 20px 0px 0px;
@@ -703,6 +807,7 @@ div.dataTables_wrapper div.dataTables_info {
   border-radius: 2px;
   border: none;
 }
+
 .btn-01:hover {
   background-color: #0078db;
   cursor: pointer;
@@ -758,7 +863,7 @@ div.dataTables_wrapper div.dataTables_info {
   background-color: #0072b1;
 }
 .--email {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary-alt);
 }
 .--print {
   background-color: black;

@@ -5,7 +5,7 @@
 }
 
 .hero-text-container {
-  width: 100%;
+  // width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -15,11 +15,15 @@
   max-width: 100%;
   display: flex;
   align-items: center;
-  height: 675px;
+  // height: 675px;
+  height: 750px;
   z-index: 1;
 
+  @media screen and (max-width: 991.98px) {
+    height: 725px;
+  }
   @media screen and (max-width: 768px) {
-    height: 500px;
+    height: 450px;
   }
 
   @media screen and (max-width: 480px) {
@@ -36,7 +40,8 @@
 // HOME HERO MAIN IMAGE //
 .hero-img-main {
   position: relative;
-  height: 675px;
+  // height: 675px;
+  height: 725px;
   animation: breath 15s ease-in-out;
   animation-fill-mode: forwards;
 
@@ -59,10 +64,10 @@
 
 // HOME HERO TEXT - WORLDWIDE LEADERS //
 .main-hero-header {
-  font-size: 62px;
   font-size: 60px;
   font-weight: 500;
   color: white;
+  // margin-top: 5rem;
 
   animation-name: moveInLeft;
   animation-duration: 1s;
@@ -74,7 +79,7 @@
   @media screen and (max-width: 768px) {
     font-size: 48px;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 480px) {
     font-size: 40px;
   }
 }
@@ -692,7 +697,7 @@
 
 .contact-link {
   display: inline-block;
-  color: #337ab7;
+  color: var(--color-primary-link);
   font-weight: 500;
 }
 

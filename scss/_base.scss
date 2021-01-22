@@ -67,29 +67,44 @@ thead {
 .container-lg { max-width: 1225px; }
 
 
-// VARIABLES ///////////////////////////////////////////////
+// CSS VARIABLES ///////////////////////////////////////////////
 // COLORS //
 :root {
   --color-primary: #0096db;
-  --color-primary-sp: #0078db;
   --color-primary-hover: #0078db;
-  --color-primary-dark: #034577;
-  --color-primary-link: #337ab7;
-
-  --color-grey-dark: #333333;
-
-  --color-grey-dark-2: #1a2e3b;
-  --color-grey-light-2: #8498a4;
-  --color-grey-light-alt: #f6f7f8;
-
   --color-primary-alt: #034577;
-  --color-primary-2: #0073b1;
-
+  --color-primary-link: #337ab7;
   --color-primary-font: #626365;
-  --color-font-fade: #ccc;
+  --color-white: #ffffff;
 
   // SHADOWS //
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+// HELPERS //
+// FLEXBOX STYLES //
+.flex {
+  display: flex;
+
+&-jc-sb {
+  justify-content: space-between;
+  }
+
+&-jc-sa {
+  justify-content: space-around;
+}
+
+&-jc-c {
+  justify-content: center;
+  }
+
+&-ai-c {
+  align-items: center;
+  }
+
+&-fd-c {
+  flex-direction: column;
+  }
 }
 
 // COLORS CLASSES IN USE //
@@ -101,16 +116,8 @@ thead {
   color: var(--color-primary) !important;
 }
 
-.b-blue-light {
-  color: var(--color-primary) !important;
-}
-
 .l-blue-dark {
   color: var(--color-primary-alt) !important;
-}
-
-.l-blue-link {
-  color: #337ab7 !important;
 }
 
 .background-white {
@@ -121,7 +128,7 @@ thead {
   background-color: #f3f3f3;
 }
 
-
+// HR FADE //
 .hr-fade {
   border: 0;
   height: 2px;
@@ -141,4 +148,18 @@ thead {
   z-index: 1;
 }
 
+// .l-blue-link {
+//   color: #337ab7 !important;
+// }
+// .b-blue-light {
+//   color: var(--color-primary) !important;
+// }
+  // --color-grey-dark: #333333;
+  // --color-primary-dark: #034577;
+  // --color-grey-dark-2: #1a2e3b;
+  // --color-grey-light-2: #8498a4;
+  // --color-grey-light-alt: #f6f7f8;
+  // --color-primary-2: #0073b1;
+  // --color-font-fade: #ccc;
+  // --color-primary-sp: #0078db;
 

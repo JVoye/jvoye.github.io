@@ -10,13 +10,17 @@
 .navbar a {
     font-family: 'roboto condensed', sans-serif;
     font-size: 15px;
-    // font-size: 16px;
     letter-spacing: 1px; 
 }
 
+// FOR 50TH LOGO ONLY, DELETE WHEN USING THE STANDARD LOGO //
+.navbar-brand {
+    padding: 0 !important;
+}
+
 .logo-bnp {
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
 
     @media screen and(max-width: 480px) {
         width: 55px;
@@ -31,17 +35,11 @@
     text-transform: uppercase;
     position: relative;
     z-index: 10;
-
-    // border-width: 1px;
-    // border-style: solid;
-    // border-color: rgba(0, 0, 0, 0.15);
   }
 
 .dropdown-item {
     font-family: 'roboto condensed', sans-serif;
     font-size: 14px !important;
-    /* font-weight: 500; */
-    /* letter-spacing: 1px; */
     padding-top: .5rem !important;
     padding-bottom: .5rem !important;
     color: #333 !important;
@@ -51,7 +49,6 @@
     color: #1b1b1b !important;
     color: #626365 !important;
     margin-left: 3.5rem;
-    /* margin-right: 2rem; */
 }
 
 .nav-link:hover {

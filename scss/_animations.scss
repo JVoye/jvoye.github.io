@@ -12,7 +12,7 @@
   @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10rem);
+        transform: translateX(-5rem);
     }
 
     80% {
@@ -28,7 +28,7 @@
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(10rem);
+        transform: translateX(5rem);
     }
 
     80% {
@@ -44,7 +44,8 @@
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        transform: translateY(3rem);
+        // transform: translateY(3rem);
+        transform: translateY(2rem);
     }
 
     100% {
@@ -53,27 +54,27 @@
     }
 }
 
-// NAV BURGER ANIMATION //
-.toggle .line1{
-    transform: rotate(-45deg) translate(-5px,6px);
-    -webkit-transform: rotate(-45deg) translate(-5px,6px);
-    -moz-transform: rotate(-45deg) translate(-5px,6px);
-    -ms-transform: rotate(-45deg) translate(-5px,6px);
-    -o-transform: rotate(-45deg) translate(-5px,6px);
-}
+// // NAV BURGER ANIMATION //
+// .toggle .line1{
+//     transform: rotate(-45deg) translate(-5px,6px);
+//     -webkit-transform: rotate(-45deg) translate(-5px,6px);
+//     -moz-transform: rotate(-45deg) translate(-5px,6px);
+//     -ms-transform: rotate(-45deg) translate(-5px,6px);
+//     -o-transform: rotate(-45deg) translate(-5px,6px);
+// }
 
-.toggle .line2{
-    opacity: 0;
-    -webkit-opacity: 0;
-    -moz-opacity: 0;
-    -ms-opacity: 0;
-    -o-opacity: 0;
-}
+// .toggle .line2{
+//     opacity: 0;
+//     -webkit-opacity: 0;
+//     -moz-opacity: 0;
+//     -ms-opacity: 0;
+//     -o-opacity: 0;
+// }
 
-.toggle .line3{
-    transform: rotate(45deg) translate(-5px,-6px); 
-    -webkit-transform: rotate(45deg) translate(-5px,-6px);
-    -moz-transform: rotate(45deg) translate(-5px,-6px);
-    -ms-transform: rotate(45deg) translate(-5px,-6px);
-    -o-transform: rotate(45deg) translate(-5px,-6px);
-}
+// .toggle .line3{
+//     transform: rotate(45deg) translate(-5px,-6px); 
+//     -webkit-transform: rotate(45deg) translate(-5px,-6px);
+//     -moz-transform: rotate(45deg) translate(-5px,-6px);
+//     -ms-transform: rotate(45deg) translate(-5px,-6px);
+//     -o-transform: rotate(45deg) translate(-5px,-6px);
+// }
