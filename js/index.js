@@ -57,13 +57,13 @@ $(document).ready(function () {
   /* SWIPER CAROUSEL TIMELINE */////
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
-    spaceBetween: 70,
+    // spaceBetween: 70,
     // spaceBetween: 0,
     loop: false,
-    // pagination: {
-    //   el: '.swiper-pagination',
-    //   clickable: true,
-    // },
+    pagination: {
+      el: '.swiper-pagination',
+      dynamicBullets: true,
+    },
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -74,17 +74,20 @@ $(document).ready(function () {
     // when window width is <= 320px
       320: {
         slidesPerView: 1,
-        spaceBetweenSlides: 100
+        spaceBetween: 30
       },
       // when window width is <= 480px
-      640: {
+      550: {
         slidesPerView: 2,
-        spaceBetweenSlides: 0
+        spaceBetween: 30
       },
-      // when window width is <= 768px
-      1000: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 50
+      },
+      1100: {
         slidesPerView: 3,
-        spaceBetweenSlides: 30
+        spaceBetween: 70
       }
     },
   });

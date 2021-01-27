@@ -535,18 +535,15 @@ div.dataTables_wrapper div.dataTables_info {
   z-index: 2;
   top: 1rem;
   max-width: 65rem;
-  animation: moveInBottom 0.5s ease-out;
+  animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards;
 
   @media screen and (max-width: 991.98px) {
     flex-direction: column;
     top: 2rem;
   }
-  // @media screen and (max-width: 768px) {
-  //   top: 2rem;
-  // }
   @media screen and (max-width: 480px) {
-    top: 0rem;
+    top: 1rem;
   }
 
   &__img {
@@ -580,9 +577,6 @@ div.dataTables_wrapper div.dataTables_info {
       }
       @media screen and (max-width: 480px) {
         font-size: 24px;
-      }
-      @media screen and (max-width: 375px) {
-        font-size: 20px;
       }
     }
   }
@@ -676,36 +670,20 @@ div.dataTables_wrapper div.dataTables_info {
   }
 }
 
-.--btn-white {
-  background-color: white;
-  color: #0096db;
-  border-radius: 2px;
-  border: 2px solid #ffffff;
-}
+// .--btn-reverse {
+//   border: 2px solid #0096db;
+//   border-radius: 2px;
+//   color: white;
+// }
 
-.--btn-reverse {
-  border: 2px solid #0096db;
-  border-radius: 2px;
-  color: white;
-}
-
-.--btn-reverse:hover {
-  background-color: rgba(255, 255, 255, 1);
-  transform: translateY(-0.2rem);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  color: #369ccc !important;
-  border: 2px solid #ffffff;
-}
-
-.--btn-white:hover {
-  background-color: rgba(255, 255, 255, 0);
-  transform: translateY(-0.2rem);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  border: 2px solid #0096db;
-  color: white;
-}
+// .--btn-reverse:hover {
+//   background-color: rgba(255, 255, 255, 1);
+//   transform: translateY(-0.2rem);
+//   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+//     0 10px 10px -5px rgba(0, 0, 0, 0.04);
+//   color: #369ccc !important;
+//   border: 2px solid #ffffff;
+// }
 
 // TO TOP MAIN BUTTON //
 #button {
@@ -773,36 +751,24 @@ div.dataTables_wrapper div.dataTables_info {
 
 // BASIC BUTTONS - SERVICES - CONTACT US - ETC //
 .btn-general {
-  letter-spacing: 1px;
-  text-align: center;
-  color: white;
-  background-color: #0096db;
-  height: 40px;
-  width: 140px;
-  font-family: "roboto condensed", sans-serif;
-  text-transform: uppercase;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: .6rem 1.6rem;
   font-size: 0.9rem;
-  letter-spacing: 1px;
-  line-height: 40px;
   transition: 0.2s;
   border-radius: 2px;
 }
+
 .btn-general:hover {
-  background-color: #0078db;
+  background-color: var(--color-primary-hover);
 }
 
 .btn-01 {
-  width: 130px;
+  width: 140px;
   height: 40px;
-  text-align: center;
-  color: white;
-  background-color: #0096db;
-  padding: 11px 20px 11px 20px;
-  margin: 0px 20px 0px 0px;
-  font-family: "roboto condensed", sans-serif;
-  text-transform: uppercase;
+  color: var(--color-white);
+  background-color: var(--color-primary);
   font-size: 0.9rem;
-  letter-spacing: 1px;
   transition: 0.2s;
   border-radius: 2px;
   border: none;
@@ -813,21 +779,11 @@ div.dataTables_wrapper div.dataTables_info {
   cursor: pointer;
 }
 
-// ABOUT US - READ MORE - PRINCIPAL BUTTONS //
-.btn-adjust {
-  text-align: center;
-  margin-top: 10px;
-  height: 40px;
-  width: 130px;
-  line-height: 40px;
-}
-@media screen and (max-width: 1300px) {
-  .btn-adjust {
-    margin-bottom: 50px;
-  }
-}
-
 // BLOG - SHARE BUTTONS //
+.share-links-container  {
+  max-width: 875px;
+  margin: 0 auto;
+}
 
 .share-links {
   max-width: 210px;
@@ -837,11 +793,9 @@ div.dataTables_wrapper div.dataTables_info {
 
 .share-btn {
   width: 6rem;
-  padding: 0.5rem 0.5rem;
-  // background-color: var(--color-primary-hover);
+  padding: 0.5rem;
   border-radius: 3px;
-  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-
+  
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -865,65 +819,61 @@ div.dataTables_wrapper div.dataTables_info {
 .--email {
   background-color: var(--color-primary-alt);
 }
-.--print {
-  background-color: black;
-}
 
 // INDEX SLIDESHOW ///////////////////////////////////////////////
-#slideshow {
-  position: relative;
-  max-width: 100%;
-  height: 675px;
+// #slideshow {
+//   position: relative;
+//   max-width: 100%;
+//   height: 675px;
 
-  display: flex;
-  justify-content: content;
-  align-items: center;
-  overflow: hidden;
-}
-.slideshow__img {
-  position: absolute;
-  width: 100%;
-  height: 675px;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 19, 44, 0.6),
-      rgba(0, 12, 29, 0.6)
-    ),
-    url(/images/hero-01-crop.jpg);
-  background-size: cover;
-  background-position: 50%, 50%;
-}
-.slideshow__img-02 {
-  position: absolute;
-  width: 100%;
-  height: 675px;
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 19, 44, 0.6),
-      rgba(0, 12, 29, 0.6)
-    ),
-    url(/images/hero-main-02.jpg);
-  background-size: cover;
-  background-position: 50%, 50%;
-}
-.slideshow__text-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  z-index: 100;
+//   display: flex;
+//   justify-content: content;
+//   align-items: center;
+//   overflow: hidden;
+// }
+// .slideshow__img {
+//   position: absolute;
+//   width: 100%;
+//   height: 675px;
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(0, 19, 44, 0.6),
+//       rgba(0, 12, 29, 0.6)
+//     ),
+//     url(/images/hero-01-crop.jpg);
+//   background-size: cover;
+//   background-position: 50%, 50%;
+// }
+// .slideshow__img-02 {
+//   position: absolute;
+//   width: 100%;
+//   height: 675px;
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(0, 19, 44, 0.6),
+//       rgba(0, 12, 29, 0.6)
+//     ),
+//     url(/images/hero-main-02.jpg);
+//   background-size: cover;
+//   background-position: 50%, 50%;
+// }
+// .slideshow__text-container {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   width: 100%;
+//   z-index: 100;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
 
-  color: white;
-}
+//   color: white;
+// }
 
 // POPUPS ///////////////////////////////////////////////
 // ABOUT US - READ MORE -POPUPS //
-
 // DAVE //
 .popup {
   height: 100vh;
@@ -982,16 +932,16 @@ div.dataTables_wrapper div.dataTables_info {
   transform: translate(-50%, -50%) scale(0.25);
   transition: all 0.4s 0.2s;
 
-  @media screen and (max-width: 1300px) {
-    flex-direction: column;
-    align-items: center;
-  }
-  @media screen and (max-width: 1024px) {
-    padding: 1.5rem;
-    width: 95%;
-    font-size: 12px;
-    line-height: 1.6;
-  }
+  // @media screen and (max-width: 1300px) {
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+  // @media screen and (max-width: 1024px) {
+  //   padding: 1.5rem;
+  //   width: 95%;
+  //   font-size: 12px;
+  //   line-height: 1.6;
+  // }
 }
 
 .popup__left {

@@ -65,9 +65,11 @@ thead {
 // CONTAINERS //
 .container-xl { max-width: 1300px; }
 .container-lg { max-width: 1225px; }
+.container-med { max-width: 875px; }
 
 
 // CSS VARIABLES ///////////////////////////////////////////////
+
 // COLORS //
 :root {
   --color-primary: #0096db;
@@ -79,6 +81,9 @@ thead {
 
   // SHADOWS //
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  // FONT SIZES //
+  --font-sm: .9rem;
 }
 
 // HELPERS //
