@@ -908,9 +908,7 @@
 
 .post-item {
   height: 30rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border-radius: 3px;
+  box-shadow: var(--shadow-md);
   transition: all 0.2s;
 
   @media screen and (max-width: 1024px) {
@@ -933,8 +931,7 @@
 
     .post-item__info-heading {
       width: 100%;
-      font-family: "roboto condensed", sans-serif;
-      font-size: 21px !important;
+      font-size: 22px !important;
       color: var(--color-primary-alt) !important;
     }
 
@@ -1082,7 +1079,7 @@
     font-weight: 300;
     color: var(--color-primary-font);
     display: block;
-    margin-top: .25rem;
+    // margin-top: .25rem;
 
     @media only screen and (max-width: 900px) {
       font-size: 16px;
@@ -1162,7 +1159,12 @@ h3 {
   max-width: 1632px;
   margin: 0 auto;
   position: relative;
+  user-select: none;
   cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
 
   
   // @media (max-width: 1100px) {
