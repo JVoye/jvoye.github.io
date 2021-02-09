@@ -17,7 +17,7 @@ html {
 body {
   font-family: "roboto", sans-serif;
   font-weight: 400;
-  color: #626365;
+  color: var(--color-primary-font);
 
   @media screen and (max-width: 768px) {
     overflow-x: hidden;
@@ -152,19 +152,3 @@ thead {
   top: 50%;
   z-index: 1;
 }
-
-// .l-blue-link {
-//   color: #337ab7 !important;
-// }
-// .b-blue-light {
-//   color: var(--color-primary) !important;
-// }
-  // --color-grey-dark: #333333;
-  // --color-primary-dark: #034577;
-  // --color-grey-dark-2: #1a2e3b;
-  // --color-grey-light-2: #8498a4;
-  // --color-grey-light-alt: #f6f7f8;
-  // --color-primary-2: #0073b1;
-  // --color-font-fade: #ccc;
-  // --color-primary-sp: #0078db;
-
