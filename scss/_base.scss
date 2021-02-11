@@ -84,6 +84,14 @@ thead {
 
   // FONT SIZES //
   --font-sm: .9rem;
+  
+  --font-lg: 2.5rem;
+
+  @media screen and (max-width:900px) {
+    --font-lg: 2rem;
+  }
+  
+  --font-xl: 3.125rem;
 }
 
 // HELPERS //
