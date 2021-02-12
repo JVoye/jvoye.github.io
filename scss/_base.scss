@@ -77,6 +77,7 @@ thead {
   --color-primary-alt: #034577;
   --color-primary-link: #337ab7;
   --color-primary-font: #626365;
+  --color-dark: #333333;
   --color-white: #ffffff;
 
   // SHADOWS //
@@ -131,6 +132,10 @@ thead {
 
 .l-blue-dark {
   color: var(--color-primary-alt) !important;
+}
+
+.dark {
+  color: var(--color-dark) !important;
 }
 
 .background-white {
