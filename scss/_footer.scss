@@ -9,13 +9,11 @@ footer {
     max-width: 1300px;
     height: auto;
     display: flex;
-    flex: 1;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: space-between;
-    align-items: center; 
-
+     
     @media screen and (max-width:1300px) {
         max-width: 850px;
         padding-bottom: 25px;
@@ -36,7 +34,6 @@ footer {
 
 footer h3 {
     color: #ffffff; 
-    // text-transform: uppercase;
     font-weight: 400;
     font-size: 20px;
 }

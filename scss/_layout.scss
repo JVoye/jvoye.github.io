@@ -507,27 +507,18 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-around;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
 
-  @media screen and (max-width: 950px) {
-    max-width: 800px;
+  @media screen and (max-width: 1025px) {
+    flex-wrap: wrap;
   }
 }
 
-// .client-columns {
-//     height: auto;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// }
+
 
 .client-card {
   max-width: 400px;
   height: 325px;
   margin: 0px 15px 65px 15px;
-  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
   @media screen and (max-width: 1300px) {
     margin-bottom: 30px;
@@ -548,7 +539,6 @@
 .client-image-box img {
   width: 100%;
   height: auto;
-  /* clip-path: polygon(0px 0px, 100% 0px, 100% 5%, 0px 100%); */
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -1091,7 +1081,7 @@ h3 {
   font-weight: 300;
  
   @media only screen and (max-width: 900px) {
-    font-size: 30px;
+    font-size: 34px;
     } 
   }
 }

@@ -223,7 +223,7 @@
 
 // BLOG HERO IMAGES //
 .--anniversary {
-  background-image: url(/images/hero-anniversary.jpg);
+  background-image: url(/images/hero-anniversary-02.jpg);
 
   @media screen and (max-width: 480px) {
     background-image: linear-gradient(
@@ -231,6 +231,6 @@
         rgba(0, 150, 219, 0.5),
         rgba(0, 52, 120, 0.7)
       ),
-      url(/images/distancing-hero.png);
+      url(/images/hero-anniversary-02.jpg);
   }
 }
