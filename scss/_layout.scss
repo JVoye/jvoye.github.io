@@ -714,56 +714,22 @@
 
 // CONTACT LOCATIONS CONTAINER //
 .contact-flex {
-  max-width: 1200px;
-  height: auto;
+  max-width: 1300px;
   display: flex;
   margin: 0 auto;
-  justify-content: space-around;
-  flex: 1;
-  flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-
-  @media screen and (max-width: 1300px) {
-    max-width: 850px;
-  }
 }
 
 .contact-card {
-  display: flex;
+  width: 25rem;
   text-align: center;
-  margin: 0px 15px 75px 15px;
-
-  @media screen and (max-width: 1300px) {
-    margin: 0px 25px 75px 25px;
-  }
+  margin: 0px 1rem 4.5rem 1rem;
 }
 
 .contact-text p {
-  width: 100%;
-  font-size: 1rem;
   line-height: 28px;
-  font-weight: 300;
-}
-
-.contact-text h3 {
-  font-weight: 400;
-  // margin-bottom: 10px;
-}
-
-.cardLeft {
-  margin-left: 175px;
-
-  @media screen and (max-width: 1300px) {
-    margin-left: 0px;
-  }
-}
-
-.cardRight {
-  margin-right: 150px;
-
-  @media screen and (max-width: 1300px) {
-    margin-right: 0px;
-  }
+  font-weight: var(--font-thin);
 }
 
 // CAREERS ///////////////////////////////////////////////
@@ -778,9 +744,7 @@
   @media screen and (max-width: 700px) {
     padding: 2rem 0;
   }
-  // @media screen and (max-width:768px) {
-  //     padding: 2rem 0;
-  // }
+  
 }
 
 .section-careers-jobs {
@@ -1077,7 +1041,7 @@
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 300;
  
   @media only screen and (max-width: 900px) {

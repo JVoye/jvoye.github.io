@@ -439,15 +439,13 @@
 // MAPS ///////////////////////////////////////////////
 // PROJECTS MAP //
 .map-link {
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
-  transition: all 0.2s;
-  color: #0096db;
+  color: var(--color-primary);
 }
 
 .map-link:hover {
-  color: #0096db;
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 #map {
@@ -510,11 +508,11 @@
 // MAPS ///////////////////////////////////////////////
 // LEAFLET JS MAP //
 
-#mapid {
-  margin: 5rem auto;
-  max-width: 1300px;
-  height: 480px;
-}
+// #mapid {
+//   margin: 5rem auto;
+//   max-width: 1300px;
+//   height: 480px;
+// }
 
 // DATA TABLE ///////////////////////////////////////////////
 // BOOTSTRAP DATA TABLE & WRAPPER //

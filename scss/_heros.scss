@@ -34,32 +34,18 @@
 }
 
 .breadcrumb-container {
-  // width: 100%;
   padding: 0.5rem;
   padding-left: 1.1rem;
   margin: 1rem 0px 2rem 0;
-  font-size: 0.9rem;
+  font-size: var(--font-sm);
   font-weight: 300;
-
-  // @media screen and (max-width: 480px) {
-  //   margin: 1rem 0px 1rem 0;
-  // }
 }
 
 .breadcrumb-nav-wide {
-  max-width: 1300px;
-  display: flex;
-  align-items: center;
   padding: 1.5rem 0 2.5rem 0;
-  // padding-left: 1.1rem;
-  // margin: 1rem 0px 2rem 0;
   margin: 0 auto;
-  font-size: 0.9rem;
+  font-size: var(--font-sm);
   font-weight: 300;
-
-  // @media screen and (max-width: 480px) {
-  //   margin: 1rem 0px 1rem 0;
-  // }
 }
 
 .breadcrumb-nav {
@@ -223,7 +209,12 @@
 
 // BLOG HERO IMAGES //
 .--anniversary {
-  background-image: url(/images/hero-anniversary-02.jpg);
+  background-image: linear-gradient(
+    to right,
+      rgba(0, 19, 44, 0.5),
+      rgba(0, 12, 29, 0.2)
+    ),
+  url(/images/hero-anniversary-min.jpg);
 
   @media screen and (max-width: 480px) {
     background-image: linear-gradient(
