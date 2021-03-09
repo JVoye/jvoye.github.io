@@ -1,0 +1,198 @@
+.principal {
+  background-color: var(--color-light-white);
+  padding: 4.5rem 0 3rem 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+
+    @include breakpoint-down(large) {
+      flex-direction: column;
+      max-width: 800px;
+    }
+
+    & img {
+      width: 175px;
+      transition: box-shadow 0.2s ease-in-out;
+
+      &:hover {
+        box-shadow: var(--shadow-hover);
+      }
+    }
+
+    & p {
+      font-size: var(--font-sm);
+      font-weight: var(--font-thin);
+    }
+  }
+
+  &__title {
+    display: flex;
+    margin-bottom: 1rem;
+
+    & div {
+      align-self: flex-end;
+      margin-left: 1rem;
+    }
+  }
+
+  &__name {
+    font-size: 1.5rem;
+    font-family: "roboto condensed", sans-serif;
+    color: var(--color-primary-alt);
+  }
+
+  &__about {
+    @include breakpoint-down(large) {
+      display: none;
+    }
+
+    &-hide {
+      display: none;
+
+      @include breakpoint-down(large) {
+        display: block;
+      }
+    }
+  }
+}
+
+.submit-btn {
+  color: var(--color-primary);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  padding: 0.6rem 2rem;
+  font-size: 0.9rem;
+  transition: 0.2s;
+  border-radius: 2px;
+
+  @include breakpoint-down(large) {
+    display: none;
+  }
+}
+
+.submit-btn:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--color-white) !important;
+}
+
+.denver-office {
+  display: flex;
+  gap: 4rem;
+
+  &__img {
+    flex: 0.7;
+    margin-bottom: 3.1rem;
+
+    @include breakpoint-down(large) {
+      display: none;
+    }
+
+    & img {
+      max-width: 485px;
+    }
+  }
+
+  &__text {
+    flex: 1;
+  }
+
+  &__header {
+    font-size: 1.625rem;
+  }
+}
+
+// POPUPS //
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 68%;
+    padding: 3rem;
+    background-color: var(--color-white);
+    border-radius: 3px;
+    display: flex;
+
+    overflow: hidden;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all 0.4s 0.2s;
+
+    @include breakpoint-down(xlarge) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @include breakpoint-down(large) {
+      display: none;
+    }
+  }
+
+  &__profile {
+    @include breakpoint-down(xlarge) {
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  &__img {
+    width: 200px;
+
+    @include breakpoint-down(xlarge) {
+      width: 175px;
+      margin: 0 2rem 1rem 0;
+    }
+
+    &:hover {
+      box-shadow: var(--shadow-hover);
+    }
+  }
+
+  &__description {
+    width: 80%;
+    padding: 0rem 3rem;
+
+    @include breakpoint-down(xlarge) {
+      padding: 0rem;
+      width: 100%;
+    }
+  }
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup:target .popup__content {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup__close {
+  color: var(--color-primary);
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  font-size: 3rem;
+  display: inline-block;
+  transition: all 0.2s;
+  line-height: 1;
+}
+
+.popup__close:hover {
+  color: var(--color-dark);
+}

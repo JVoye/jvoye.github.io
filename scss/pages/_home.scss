@@ -1,0 +1,249 @@
+.hero-main {
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    position: absolute;
+    max-width: 100%;
+    height: 750px;
+    // height: 675px;
+    color: var(--color-white);
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+
+    @include breakpoint-down(medium) {
+      height: 450px;
+    }
+
+    @include breakpoint-down(small) {
+      height: 400px;
+    }
+  }
+
+  // WORLDWIDE LEADERS //
+  &__header {
+    font-size: 3.8rem;
+    font-weight: var(--font-bold);
+    animation: moveInLeft 1s ease-in-out;
+
+    @include breakpoint-down(large) {
+      font-size: 3.25rem;
+    }
+
+    @include breakpoint-down(small) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__subheader {
+    font-size: 1.3rem;
+    font-weight: var(--font-thin);
+    animation: moveInRight 1s ease-in-out;
+
+    @include breakpoint-down(large) {
+      font-size: 1.1rem;
+    }
+
+    @include breakpoint-down(small) {
+      font-size: 1rem;
+    }
+  }
+
+  &__img {
+    position: relative;
+    height: 725px;
+    // height: 675px;
+    animation: breath 15s ease-in-out;
+    animation-fill-mode: forwards;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 19, 44, 0.6),
+        rgba(0, 12, 29, 0.6)
+      ),
+      url(/images/hero-01.jpg);
+    background-size: cover;
+    background-position: 50%, 50%;
+
+    @include breakpoint-down(medium) {
+      height: 500px;
+    }
+
+    @include breakpoint-down(small) {
+      height: 400px;
+    }
+  }
+}
+
+// 50TH ANNIVESARY BUTTON BANNER //
+.anniversary-container {
+  position: relative;
+  z-index: 2;
+  top: 1rem;
+  max-width: 65rem;
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
+
+  @include breakpoint-down(large) {
+    flex-direction: column;
+    top: 2rem;
+  }
+
+  @include breakpoint-down(small) {
+    top: 1rem;
+  }
+
+  &__img {
+    z-index: 2;
+    margin-left: 5rem;
+    width: 14rem;
+
+    @include breakpoint-down(large) {
+      margin-left: 0;
+      width: 10rem;
+      display: none;
+    }
+  }
+
+  &__text {
+    z-index: 2;
+    margin-right: 5rem;
+
+    @include breakpoint-down(large) {
+      margin-right: 0;
+    }
+
+    &-heading {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: var(--white);
+
+      @include breakpoint-down(large) {
+        margin-right: 0;
+        font-size: 2rem;
+      }
+
+      @include breakpoint-down(small) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 1;
+    height: 180px;
+    width: 100%;
+    background-image: linear-gradient(
+      105deg,
+      rgba(0, 150, 219, 0.5),
+      rgba(0, 52, 120, 0.7)
+    );
+    clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+
+    @include breakpoint-down(large) {
+      width: 80%;
+      height: 150px;
+    }
+
+    @include breakpoint-down(small) {
+      height: 110px;
+    }
+  }
+}
+
+// AIRPORT SYSTEMS DESIGNERS //
+.asd {
+  padding: 2rem 0 2.7rem 0;
+
+  &__sub-heading {
+    font-size: var(--font-med);
+    color: var(--color-medium-gray);
+    font-family: var(--font-condensed);
+    font-weight: var(--font-thin);
+  }
+}
+
+// OUR SERVICES //
+.our-services {
+  background-color: var(--color-light-white);
+  padding: 3.1rem 0 4.7rem 0;
+
+  @include breakpoint-down(medium) {
+    padding: 2.3rem 0 2.3rem 0;
+  }
+
+  &__content {
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include breakpoint-down(xlarge) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0;
+      max-width: 800px;
+    }
+
+    @include breakpoint-down(medium) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    max-width: 300px;
+    padding-bottom: 20px;
+    background-color: var(--color-white);
+    box-shadow: var(--shadow-md);
+    transition: 0.2s;
+
+    @include breakpoint-down(xlarge) {
+      max-width: 425px;
+      margin: 15px;
+    }
+
+    @include breakpoint-down(medium) {
+      max-width: 400px;
+    }
+
+    &:hover {
+      box-shadow: var(--shadow-hover);
+    }
+
+    &:hover .btn-general {
+      background-color: var(--color-primary-hover);
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    & p {
+      font-size: var(--font-sm);
+      font-weight: var(--font-thin);
+      line-height: 1.6;
+    }
+  }
+
+  &__image-box {
+    overflow: hidden;
+  }
+
+  & img {
+    width: 100%;
+    transition: all 0.3s;
+    transform: scale(1);
+  }
+
+  &__text {
+    padding: 1rem 1.25rem 0px 1.25rem;
+  }
+}

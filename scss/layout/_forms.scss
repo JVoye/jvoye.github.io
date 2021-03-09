@@ -1,0 +1,59 @@
+input {
+  width: 100%;
+  background-color: var(--color-light-white);
+  border: 1px solid var(--color-light-gray);
+  padding: 0.5rem;
+  border-radius: 2px;
+  appearance: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+textarea {
+  width: 100%;
+  background-color: var(--color-light-white);
+  border: 1px solid var(--color-light-gray);
+  padding: 0.5rem;
+  resize: none;
+  border-radius: 2px;
+  appearance: none;
+}
+
+// TABLES ///////////////////////////////////////////////
+// DATA TABLES - AIRCRAFT CHARACTERISTICS //
+
+.table-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  padding-top: 0.85em;
+  font-size: 14px;
+}
+
+ul {
+  padding-inline-start: 0px !important;
+}
+
+// DROP DOWN TABLE WIDTH //
+.dtr-details li {
+  display: flex;
+  justify-content: space-between;
+  width: 250px !important;
+}
+
+//CONTACT LINKS //
+.contact-link {
+  color: var(--color-primary-link);
+  font-weight: var(--font-bold);
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}

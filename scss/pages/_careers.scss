@@ -1,0 +1,118 @@
+.article {
+  padding: 2rem 0;
+
+  &__grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+
+    @include breakpoint-down(large) {
+      grid-template-columns: 1fr;
+      max-width: 30rem;
+    }
+  }
+
+  &__item {
+    background-color: var(--color-white);
+    border-radius: 0.2rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-0.3rem);
+      perspective: 1000;
+      backface-visibility: hidden;
+    }
+  }
+
+  &__image {
+    height: 13rem;
+    @include cover-background;
+
+    &--01 {
+      background-image: url("/images/career-designers-drafters.jpg");
+    }
+    &--02 {
+      background-image: url("/images/careers-internship.jpg");
+    }
+    &--03 {
+      background-image: url("/images/career-project-managers.jpg");
+    }
+
+    @include breakpoint-down(large) {
+      height: 16rem;
+    }
+  }
+
+  &__text {
+    padding: 1.5rem;
+
+    & p {
+      @include card-font;
+    }
+  }
+}
+
+// PERKS //
+.perks {
+  padding: 2rem 0;
+
+  &__content {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+
+    @include breakpoint-down(large) {
+      grid-template-columns: 1fr;
+      max-width: 35rem;
+    }
+
+    & p {
+      @include card-font;
+    }
+  }
+
+  &__image {
+    height: 5.5rem;
+    margin-bottom: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &--01 {
+      background-image: url(/images/icons/culture-01.svg);
+    }
+    &--02 {
+      background-image: url(/images/icons/benefits-01.svg);
+    }
+    &--03 {
+      background-image: url(/images/icons/development-01.svg);
+    }
+  }
+}
+
+.jobs {
+  padding: 2rem 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    cursor: pointer;
+    border-radius: 2px;
+    color: var(--color-dark);
+
+    &:not(:first-child) {
+      border-top: 1px solid var(--color-light-gray);
+    }
+  }
+
+  &__description {
+    padding: 1.5rem;
+    display: none;
+  }
+}

@@ -1,129 +1,164 @@
 // MAIN FONTS ///////////////////////////////////////////////
-h1 {
-    font-family: 'roboto condensed', sans-serif;
-    font-weight: 300;
-}
+h1,
 h2 {
-    font-family: 'roboto condensed', sans-serif;
-    font-weight: 300;
+  font-family: "roboto condensed", sans-serif;
+  font-weight: 300;
 }
+
 h3 {
-    font-weight: 500;
-    font-size: 24px;
-    font-family: 'roboto condensed', sans-serif;
-    color: var(--color-primary-alt);
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-family: "roboto condensed", sans-serif;
+  color: var(--color-primary-alt);
+  margin-bottom: 1rem !important;
 }
+
 h4 {
-    font-family: 'roboto condensed', sans-serif;
-    font-weight: 300;
-    color: #4f4f4f;
-    font-size: 33.6px;
+  font-family: "roboto condensed", sans-serif;
+  font-weight: 300;
+  color: #4f4f4f;
+  font-size: 33.6px;
 }
 h6 {
-    font-family: 'roboto condensed', sans-serif;
-    font-weight: 300;
-    color: #4f4f4f; 
+  font-family: "roboto condensed", sans-serif;
+  font-weight: 300;
+  color: #4f4f4f;
 }
 
+// SECTION HEADINGS ///////////////////////////////////////////////
+// MAIN ASD HEADER FOR INDEX ONLY //
+.section-heading-index {
+  font-size: 2.5rem;
+  color: var(--color-primary);
 
-// HEADINGS ///////////////////////////////////////////////
-.main-headings {
-    max-width: 1300px;
-    margin: 0 auto;
-}
-@media screen and (max-width:1024px) {
-    .main-headings {
-        width: 700px;
-    }
-}
-@media screen and (max-width:768px) {
-    .main-headings {
-        width: 95%;
-    }
+  @include breakpoint-down(small) {
+    font-size: 2.2rem;
+  }
 }
 
+// MAIN SECTION HEADERS FOR ENTIRE SITE //
+.section-heading {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 0.625rem !important;
 
-// TEXT WRAPPERS ///////////////////////////////////////////////
-// GENERAL WRAPPER - NEWS - SERVICES //
-.center {
-    text-align: center;
+  @include breakpoint-down(small) {
+    font-size: 2.2rem;
+  }
 }
 
-.general-text-wrapper {
-    max-width: 1300px;
-    height: auto;
-    margin: 0 auto;
-}
+// .apron-services__content p {
+//   font-size: var(--font-base) !important;
+// }
 
-@media screen and (max-width:1024px) {
-    .general-text-wrapper {
-        width: 700px;
-    }
-}
-@media screen and (max-width:768px) {
-    .general-text-wrapper {
-        width: 100%;
-    }
-}
+// OLD HEADINGS //
+// .main-headings {
+//   max-width: 1300px;
+//   margin: 0 auto;
+// }
+// @media screen and (max-width: 1024px) {
+//   .main-headings {
+//     width: 700px;
+//   }
+// }
+// @media screen and (max-width: 768px) {
+//   .main-headings {
+//     width: 95%;
+//   }
+// }
 
-// MAIN CENTERED HEADINGS & TEXT //
+// DELETE SOON //
 .center-headings__header {
-    text-align: center;
-    font-size: 40px; 
-
-    @media screen and (max-width:480px) {
-        font-size: 35px;
-    }
+  text-align: center;
+  font-size: 40px;
 }
 
 .center-headings__text {
-    text-align: center;  
-    padding: 0 1.5rem;
+  text-align: center;
+  padding: 0 1.5rem;
 }
+
+.main-headings {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+// TEXT WRAPPERS ///////////////////////////////////////////////
+// GENERAL WRAPPER - NEWS - SERVICES //
+
+// .general-text-wrapper {
+//   max-width: 1300px;
+//   height: auto;
+//   margin: 0 auto;
+// }
+
+// @media screen and (max-width: 1024px) {
+//   .general-text-wrapper {
+//     width: 700px;
+//   }
+// }
+// @media screen and (max-width: 768px) {
+//   .general-text-wrapper {
+//     width: 100%;
+//   }
+// }
+
+// // MAIN CENTERED HEADINGS & TEXT // delete after section headings have been applied
+// .center-headings__header {
+//   text-align: center;
+//   font-size: 40px;
+
+//   @media screen and (max-width: 480px) {
+//     font-size: 35px;
+//   }
+// }
+
+// .center-headings__text {
+//   text-align: center;
+//   padding: 0 1.5rem;
+// }
 
 // // HEADER UNDERLINE //
-.center-headings__divider {
-    width: 75px;
-    height: 3px;
-    background-color: #3fa0ff;
-    margin: 0 auto;
-}
+// .center-headings__divider {
+//   width: 75px;
+//   height: 3px;
+//   background-color: #3fa0ff;
+//   margin: 0 auto;
+// }
 
 // BULLET POINTS SERVICES ONLY //
-.center-headings__header-services {
-    text-align: center;
-    font-size: 30px; 
-    padding: .5rem;
-    color: #333333;   
-}
+// .center-headings__header-services {
+//   text-align: center;
+//   font-size: 30px;
+//   padding: 0.5rem;
+//   // color: #333333;
+// }
 
-@media screen and (max-width:480px) {
-    .center-headings__header-services {
-        font-size: 26px;
-    }
-}
+// @media screen and (max-width: 480px) {
+//   .center-headings__header-services {
+//     font-size: 26px;
+//   }
+// }
 
 // 2 COLUMN HEADERS - CONTACT ONLY //
-.headings-2-column {
-    font-size: 35px; 
-    font-weight: 300;
-}
-
+// .headings-2-column {
+//   font-size: 35px;
+//   font-weight: 300;
+// }
 
 // CARD FONTS 50 YEAR TIMELINE ///////////////////////////////////////////////
-  // 50 YEAR QUOTE //
+// 50 YEAR QUOTE //
 .celebrating-quote {
-    padding: 4rem 0rem 0rem 0rem;
+  padding: 4rem 0rem 0rem 0rem;
 }
 
 .center-headings__header-quote {
-    text-align: center;
-    font-size: var(--font-lg);
-    // padding: .5rem;
-    color: #333333;   
-    color: var(--color-primary); 
+  text-align: center;
+  font-size: var(--font-lg);
+  // padding: .5rem;
+  color: #333333;
+  color: var(--color-primary);
 }
 
 .note {
-    font-size: var(--font-sm);
+  font-size: var(--font-sm);
 }

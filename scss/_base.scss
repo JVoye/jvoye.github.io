@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
 
-// GLOBAL SETTINGS ///////////////////////////////////////////////
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box !important;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
 }
 
 html {
@@ -19,7 +16,7 @@ body {
   font-weight: 400;
   color: var(--color-primary-font);
 
-  @media screen and (max-width: 768px) {
+  @include breakpoint-down(medium) {
     overflow-x: hidden;
   }
 }
@@ -36,6 +33,7 @@ a {
 
 p {
   line-height: 25px;
+  // margin-bottom: 1rem;
 }
 
 ul {
@@ -62,14 +60,8 @@ a:hover {
 thead {
   font-weight: 500;
 }
-// CONTAINERS //
-.container-xl { max-width: 1300px; }
-.container-lg { max-width: 1300px; }
-.container-med { max-width: 875px; }
-
 
 // CSS VARIABLES ///////////////////////////////////////////////
-
 // COLORS //
 :root {
   --color-primary: #0096db;
@@ -77,76 +69,28 @@ thead {
   --color-primary-alt: #034577;
   --color-primary-link: #337ab7;
   --color-primary-font: #626365;
+  --color-medium-gray: #a1a1a1;
   --color-dark: #333333;
+  --color-light-gray: #d3d3d3;
+  --color-light-white: #f3f3f3;
   --color-white: #ffffff;
 
-  // SHADOWS //
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-
-  // FONT SIZES //
-  --font-sm: .9rem;
+  --font-sm: 0.9375em;
+  --font-base: 1rem;
+  --font-med: 1.5rem;
   --font-lg: 2.5rem;
-
-  @media screen and (max-width:900px) {
-    --font-lg: 2rem;
-  }
-  
   --font-xl: 3.125rem;
 
-  // FONT WEIGHT //
   --font-thin: 300;
   --font-reg: 400;
-}
+  --font-bold: 500;
 
-// HELPERS //
-// FLEXBOX STYLES //
-.flex {
-  display: flex;
+  --font-condensed: "roboto condensed", sans-serif;
 
-&-jc-sb {
-  justify-content: space-between;
-  }
-
-&-jc-sa {
-  justify-content: space-around;
-}
-
-&-jc-c {
-  justify-content: center;
-  }
-
-&-ai-c {
-  align-items: center;
-  }
-
-&-fd-c {
-  flex-direction: column;
-  }
-}
-
-// COLORS CLASSES IN USE //
-#b-blue {
-  color: var(--color-primary) !important;
-}
-
-.b-blue {
-  color: var(--color-primary) !important;
-}
-
-.l-blue-dark {
-  color: var(--color-primary-alt) !important;
-}
-
-.dark {
-  color: var(--color-dark) !important;
-}
-
-.background-white {
-  background-color: #ffffff;
-}
-
-.background-light-gray {
-  background-color: #f3f3f3;
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 // HR FADE //
@@ -154,8 +98,15 @@ thead {
   border: 0;
   height: 2px;
   margin: 2rem 0;
-  position:relative;
-  background: linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 10%,rgba(0,0,0,0.2) 50%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 100%); /* W3C */
+  position: relative;
+  background: linear-gradient(
+    left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* W3C */
 }
 
 .hr-fade:before {

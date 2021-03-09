@@ -1,0 +1,133 @@
+// MARGINS BOOTSTRAP OVERRIDE//
+.mb-xs {
+  margin-bottom: 0.625rem !important;
+}
+.mb-sm {
+  margin-bottom: 1rem !important;
+}
+.mb-med {
+  margin-bottom: 1.5rem !important;
+}
+.mb-lg {
+  margin-bottom: 3.1rem !important;
+
+  @include breakpoint-down(small) {
+    margin-bottom: 2.3rem !important;
+  }
+}
+.mb-xl {
+  margin-bottom: 4.7rem !important;
+
+  @include breakpoint-down(large) {
+    margin-bottom: 3.2rem !important;
+  }
+  @include breakpoint-down(small) {
+    margin-bottom: 2.3rem !important;
+  }
+}
+
+/*** FEATURE BOX & HERO 51.2px OLD CLASSES ***/
+.margin-sm {
+  margin-bottom: 1rem !important;
+}
+
+.margin-med {
+  margin-bottom: 3.1rem !important;
+
+  @include breakpoint-down(small) {
+    margin-bottom: 2.3rem !important;
+  }
+}
+/*** FEATURE BOX 75.2px ***/
+.margin-lg {
+  margin-bottom: 4.7rem !important;
+
+  @include breakpoint-down(large) {
+    margin-bottom: 3.2rem !important;
+  }
+
+  @include breakpoint-down(small) {
+    margin-bottom: 2.3rem !important;
+  }
+}
+.margin-hero {
+  margin-bottom: 3.1rem !important;
+
+  @include breakpoint-down(large) {
+    margin-bottom: 2rem !important;
+  }
+}
+
+// CONTAINERS //
+// 1300px to 800px
+.container-lg {
+  max-width: 83.125rem;
+
+  @include breakpoint-down(large) {
+    max-width: 50rem;
+  }
+}
+
+// 1140 to 800px
+.container-med {
+  max-width: 71.25rem;
+  padding: 0 0.9375rem;
+
+  @include breakpoint-down(large) {
+    max-width: 50rem;
+  }
+}
+// // 875px
+// .container-med {
+//   max-width: 54.6875rem;
+// }
+
+// FLEXBOX STYLES //
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-sa {
+    justify-content: space-around;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-fd-c {
+    flex-direction: column;
+  }
+}
+
+// CENTERING //
+.center {
+  text-align: center;
+}
+
+// PADDING //
+.pad-x {
+  padding: 0 0.9375rem;
+}
+
+// COLORS CLASSES IN USE //
+#b-blue {
+  color: var(--color-primary) !important;
+}
+
+.b-blue {
+  color: var(--color-primary) !important;
+}
+.white {
+  background-color: var(--color-white);
+}
+.l-white {
+  background-color: var(--color-light-white);
+}

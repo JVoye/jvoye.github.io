@@ -1,0 +1,38 @@
+// BREAKPOINTS //
+// @media (min-width: 64em) {
+//   // styles go here
+// }
+
+$breakpoints-down: (
+  "small": "30em",
+  "medium": "48em",
+  "large": "64em",
+  "xlarge": "81.255em",
+);
+
+// small 480px // medium 768px // large 1024px // xlarge 1300px
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
+
+// cover background
+@mixin cover-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// card font styles
+@mixin card-font {
+  font-weight: var(--font-thin);
+  font-size: var(--font-sm);
+}
+
+// flex center
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

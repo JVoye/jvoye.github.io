@@ -1,0 +1,39 @@
+.legend {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  &__item {
+    & p {
+      margin: 0rem !important;
+      font-weight: var(--font-thin);
+    }
+  }
+
+  &__icon {
+    margin-right: 0.5rem;
+    height: 2.5rem;
+  }
+}
+
+.our-clients {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    @include breakpoint-down(large) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    text-align: center;
+
+    @include breakpoint-down(large) {
+      margin-bottom: 1rem;
+    }
+  }
+}
