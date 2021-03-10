@@ -1,0 +1,87 @@
+{
+	"token": {
+		"English":
+		"Inglés",
+
+		"Services":
+		"Servicios",
+
+		"All Services":
+		"Todos los servicios",
+
+		"Apron Systems":
+		"Sistemas de delantales",
+
+		"Baggage Handling":
+		"Manejo de equipaje",
+
+		"Cargo Handling":
+		"Manipulación de la carga",
+
+		"Simulation":
+		"Simulación",
+
+		"Aircraft Characteristics":
+		"Características de la aeronave",
+
+		"About Us":
+		"Sobre",
+
+		"Projects":
+		"Proyectos",
+
+		"Careers":
+		"Carreras",
+
+		"News":
+		"Noticias",
+
+		"Contact":
+		"Contacto",
+		
+
+
+		"BNP Associates, Inc. the Worldwide Leader":
+        "BNP Associates, Inc. el líder mundial",
+		"in providing specialized consulting services to the air transportation industry since 1971":
+        "en la prestación de servicios de consultoría especializada a la industria del transporte aéreo desde 1971",
+		"Celebrating our 50th Anniversary!":
+        "Celebrando nuestro 50 aniversario!",
+		"learn more":
+        "aprende más",
+
+		"Airport Systems Designers":
+        "Diseñadores de sistemas aeroportuarios",
+		"designers | planners | engineers":
+        "diseñadores | planificadores | ingenieros",
+		"We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness. Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.":
+        "Brindamos soluciones que están orientadas a crear confiabilidad, eficiencia y efectividad operativa. Nuestros servicios de consultoría incluyen Planificación Maestra, Diseño de Instalaciones y Sistemas de Plataformas, Manejo de Equipaje y Diseño y Simulación de Sistemas de Carga, Asistencia en Licitaciones y Negociaciones, Gestión de Proyectos y Administración de Construcción.",
+
+		
+		"Apron":
+		"Delantal",
+		"BNP Associates, Inc. has developed a team to address the need for a concise group of professionals dedicated to the design of Apron Systems.":
+		"BNP Associates, Inc. ha desarrollado un equipo para abordar la necesidad de un grupo conciso de profesionales dedicados al diseño de Apron Systems.",
+
+		"Baggage":
+		"equipaje",
+		"BNP Associates, Inc. has designed and implemented some of the largest and most complex Baggage Handling Systems in the world.":
+		"BNP Associates, Inc. ha diseñado e implementado algunos de los sistemas de manipulación de equipaje más grandes y complejos del mundo.",
+
+		"Cargo":
+		"Carga",
+		"BNP Associates, Inc. are widely experienced in airline and airport requirements for Air Cargo Handling systems.":
+		"BNP Associates, Inc. tiene una amplia experiencia en los requisitos de aerolíneas y aeropuertos para sistemas de manejo de carga aérea.",
+
+		"BNP Associates, Inc. is the world leader for Simulation studies to evaluate Baggage, Cargo, Security and Checkpoint Systems.":
+		"BNP Associates, Inc. es el líder mundial en estudios de simulación para evaluar sistemas de equipaje, carga, seguridad y puntos de control."
+
+	
+        
+	
+	},
+	
+	"regex": [
+		["My regex", "i", "someReplacement"]
+	]
+}

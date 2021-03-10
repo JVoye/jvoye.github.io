@@ -25,14 +25,12 @@ $(document).ready(function () {
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
 
-
   //* FOOTER TEMPLATE LOAD */////
   $("#footer").load("footer.html");
 
   $(".arrow-down").click(function () {
     $(".additional-logos").slideToggle(300);
   });
-
 
   //Available Jobs Drop Down-01
   $("#job-01").click(function () {
@@ -51,48 +49,44 @@ $(document).ready(function () {
     $(".job-03").slideToggle(300);
     $("#chevron-up-03").toggle();
     $("#chevron-down-03").toggle();
-  });
+  }); ////
 
- 
-  /* SWIPER CAROUSEL TIMELINE */////
-  var swiper = new Swiper('.swiper-container', {
+  /* SWIPER CAROUSEL TIMELINE */ var swiper = new Swiper(".swiper-container", {
     slidesPerView: 3,
     // spaceBetween: 70,
     // spaceBetween: 0,
     loop: false,
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
       dynamicBullets: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     // watchSlidesVisibility: true,
     // Responsive breakpoints
     breakpoints: {
-    // when window width is <= 320px
+      // when window width is <= 320px
       320: {
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       // when window width is <= 480px
       550: {
         slidesPerView: 2,
-        spaceBetween: 30
+        spaceBetween: 30,
       },
       768: {
         slidesPerView: 2,
-        spaceBetween: 50
+        spaceBetween: 50,
       },
       1100: {
         slidesPerView: 3,
-        spaceBetween: 70
-      }
+        spaceBetween: 70,
+      },
     },
   });
-
-  
 
   // LEAFLET MAP //
   // initialize the map on the "map" div with a given center and zoom

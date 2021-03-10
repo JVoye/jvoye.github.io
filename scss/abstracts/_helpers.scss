@@ -120,6 +120,10 @@
 // COLORS CLASSES IN USE //
 #b-blue {
   color: var(--color-primary) !important;
+
+  &:hover {
+    color: var(--color-primary-hover) !important;
+  }
 }
 
 .b-blue {

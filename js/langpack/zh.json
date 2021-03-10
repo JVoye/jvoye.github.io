@@ -1,0 +1,47 @@
+{
+	"token": {
+		"English":
+		"英語",
+
+		"Services":
+		"服務",
+
+		"All Services":
+		"所有服務",
+
+		"Apron Systems":
+		"圍裙系統",
+
+		"Baggage Handling":
+		"行李處理",
+
+		"Cargo Handling":
+		"貨物裝卸",
+
+		"Simulation":
+		"模擬",
+
+		"Aircraft Characteristics":
+		"飛機特性",
+
+		"About Us":
+		"關於我們",
+
+		"Projects":
+		"專案",
+
+		"Careers":
+		"招賢納士",
+
+		"News":
+		"消息",
+
+		"Contact":
+		"接觸"
+		
+	},
+	
+	"regex": [
+		["My regex", "i", "someReplacement"]
+	]
+}

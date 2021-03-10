@@ -123,6 +123,7 @@
     &-heading {
       font-size: 2.5rem;
       font-weight: 500;
+      padding: 0 2rem;
       color: var(--white);
 
       @include breakpoint-down(large) {
