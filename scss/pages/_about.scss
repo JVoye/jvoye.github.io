@@ -16,6 +16,13 @@
       width: 175px;
       transition: box-shadow 0.2s ease-in-out;
 
+      @include breakpoint-down(medium) {
+        width: 150px;
+      }
+      @include breakpoint-down(small) {
+        width: 125px;
+      }
+
       &:hover {
         box-shadow: var(--shadow-hover);
       }

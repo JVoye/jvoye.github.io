@@ -1,0 +1,227 @@
+// // MAIN HERO AND SECONDARY HERO'S ///////////////////////////////////////////////
+.hero-secondary {
+  position: relative;
+  height: 400px;
+  // height: 550px;
+  // background-color: lightgray;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 480px) {
+    height: 300px;
+  }
+}
+
+.hero-text {
+  display: flex;
+  width: 1300px;
+}
+
+.hero-text {
+  position: absolute;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  height: 400px;
+  z-index: 1;
+
+  @media screen and (max-width: 480px) {
+    height: 300px;
+  }
+}
+
+.breadcrumb-container {
+  padding: 0.5rem;
+  padding-left: 1.1rem;
+  margin: 1rem 0px 2rem 0;
+  font-size: var(--font-sm);
+  font-weight: 300;
+}
+
+.breadcrumb-nav-wide {
+  padding: 1.5rem 0 2.5rem 0;
+  margin: 0 auto;
+  font-size: var(--font-sm);
+  font-weight: 300;
+}
+
+.breadcrumb-nav {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  &__link:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.breadcrumb-nav a {
+  padding: 0.25rem;
+  margin-right: 0.1rem;
+}
+.breadcrumb-nav-wide a {
+  padding: 0.25rem;
+  margin-right: 0.1rem;
+}
+
+// ALL SECONDARY HEROS //
+.hero-secondary__text-container {
+  padding: 3rem;
+  padding-right: 7rem;
+  color: #ffffff;
+  background: linear-gradient(
+    105deg,
+    rgba(0, 150, 219, 0.7) 0%,
+    rgba(0, 52, 120, 0.7) 90%,
+    transparent 50%
+  );
+
+  @media screen and (max-width: 950px) {
+    padding-right: 3rem;
+    background: linear-gradient(
+      105deg,
+      rgba(0, 150, 219, 0.7),
+      rgba(0, 52, 120, 0.7)
+    );
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  @media screen and (max-width: 480px) {
+    background: none;
+    text-align: center;
+
+    // .hero-secondary__text-container br {
+    //     display: none;
+    //     }
+  }
+}
+
+.hero-secondary__header {
+  font-size: 50px;
+  font-weight: 500;
+
+  @media screen and (max-width: 768px) {
+    font-size: 45px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 40px;
+  }
+}
+
+.hero-secondary__sub-header {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "roboto condensed", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+}
+
+// MAIN HERO IMAGES //
+.--careers {
+  background-image: url(/images/jetbridge.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/jetbridge.jpg);
+  }
+}
+
+.--contact {
+  background-image: url(/images/hero-contact-alt.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/hero-contact-alt.jpg);
+  }
+}
+
+.--about {
+  background-image: url(/images/hero-about-02.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/hero-about-02.jpg);
+  }
+}
+
+.--datas {
+  background-image: url(/images/data-1-min.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/data-1.jpg);
+  }
+}
+
+.--news {
+  background-image: url(/images/hero-newsletter.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/hero-newsletter.jpg);
+  }
+}
+
+.--services {
+  background-image: url(/images/hero-services.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/hero-services-alt-mobile.jpg);
+  }
+}
+
+// BLOG HERO IMAGES //
+.--anniversary {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 19, 44, 0.5),
+      rgba(0, 12, 29, 0.2)
+    ),
+    url(/images/hero-anniversary-min.jpg);
+
+  @media screen and (max-width: 480px) {
+    background-image: linear-gradient(
+        105deg,
+        rgba(0, 150, 219, 0.5),
+        rgba(0, 52, 120, 0.7)
+      ),
+      url(/images/hero-anniversary-min.jpg);
+  }
+}

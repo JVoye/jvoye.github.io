@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #0096db;
+  --color-primary-hover: #0078db;
+  --color-primary-alt: #034577;
+  --color-primary-link: #337ab7;
+  --color-primary-font: #626365;
+  --color-medium-gray: #a1a1a1;
+  --color-dark: #333333;
+  --color-footer: #2a2a2a;
+  --color-light-gray: #d3d3d3;
+  --color-light-white: #f3f3f3;
+  --color-white: #ffffff;
+
+  --font-sm: 0.9375em;
+  --font-base: 1rem;
+  --font-med: 1.5rem;
+  --font-lg: 2.5rem;
+  --font-xl: 3.125rem;
+
+  --font-thin: 300;
+  --font-reg: 400;
+  --font-bold: 500;
+
+  --font-condensed: "roboto condensed", sans-serif;
+
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

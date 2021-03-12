@@ -26,6 +26,7 @@
 
     @include breakpoint-down(large) {
       flex-direction: column;
+      gap: 0;
     }
   }
 
@@ -33,7 +34,9 @@
     text-align: center;
 
     @include breakpoint-down(large) {
-      margin-bottom: 1rem;
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
     }
   }
 }

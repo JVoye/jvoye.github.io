@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  color: var(--color-primary-font);
+
+  @include breakpoint-down(medium) {
+    overflow-x: hidden;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+p {
+  line-height: 25px;
+  // margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+//  BOOTSTRAP REMOVAL //
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+a:hover {
+  color: inherit !important;
+}
+
+.dropdown-menu a:active {
+  background-color: inherit !important;
+}
+
+thead {
+  font-weight: 500;
+}

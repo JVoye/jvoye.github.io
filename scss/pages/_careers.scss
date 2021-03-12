@@ -1,8 +1,10 @@
-.article {
+.hires {
   padding: 2rem 0;
 
   &__grid {
     margin: 0 auto;
+    max-width: 73.125rem;
+    padding: 0 0.9375rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;

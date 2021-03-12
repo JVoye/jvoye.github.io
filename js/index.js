@@ -1,14 +1,24 @@
 $(document).ready(function () {
-  $("#slideshow > figure:gt(0)").hide();
+  //* FOOTER TEMPLATE LOAD */////
+  $("#footer").load("_footer.html #footer ");
+  // $("#nav").load("navbarmulti.html");
+  // $("#slideshow > figure:gt(0)").hide();
 
-  setInterval(function () {
-    $("#slideshow > figure:first")
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo("#slideshow");
-  }, 5000);
+  // <!-- <script>
+  //       $(document).ready(function(){
+  //           $("#footer").load("footer.html #footer");
+  //           $("#navbar").load("navbarmulti.html #navbar");
+  //       });
+  //   </script> -->
+
+  // setInterval(function () {
+  //   $("#slideshow > figure:first")
+  //     .fadeOut(1000)
+  //     .next()
+  //     .fadeIn(1000)
+  //     .end()
+  //     .appendTo("#slideshow");
+  // }, 5000);
 
   var btn = $("#button");
 
@@ -24,9 +34,6 @@ $(document).ready(function () {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
-
-  //* FOOTER TEMPLATE LOAD */////
-  $("#footer").load("footer.html");
 
   $(".arrow-down").click(function () {
     $(".additional-logos").slideToggle(300);

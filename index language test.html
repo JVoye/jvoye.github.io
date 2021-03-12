@@ -12,7 +12,10 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="/css/main.css">
     <!-- Language Load -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <!-- <script>
+        var $331 = jQuery.noConflict();
+    </script>  -->
     <script src="/js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
     <script src="/js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
     <script type="text/javascript">
@@ -27,13 +30,15 @@
             defaultLang: 'en'
         });
     </script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
             <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index language test.html">
                 <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo">
             </a>
             <!-- Toggle -->
@@ -85,67 +90,14 @@
                             <a class="" href="news.html" lang="en">News</a>
                         </li>
                         <li>
-                            <a class="" href="contact.html" lang="en">Contact</a>
+                            <a class="" href="contact language test.html" lang="en">Contact</a>
                         </li>
                     </div>
                 </ul>
             </div>
         </nav>
     </header>
-    <!-- <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light nav-container">
-            <a class="navbar-brand" href="index.html">
-                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo" loading="lazy">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="b-blue" href="services.html" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services<span class="sr-only">(current)</span>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">All Services</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
-                            <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
-                            <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
-                            <a class="dropdown-item" href="services.html#simulation">Simulation</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="careers.html">Careers</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="news.html">News</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link nav-btn" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
-
+   
     <div id="button">
         <img src="/images/chevron-up-white.svg" alt="arrow up" class="chevron-up-white">
     </div>
@@ -253,10 +205,82 @@
         </div>
     </section>
 
-    <footer id="footer"></footer>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> 
+    <footer id="footer">
+        <div class="footer">
+            <div class="footer__content container-lg">
+                <div class="footer-sections">
+                    <h3 lang="en">Services</h3>
+                    <div class="divider"></div>
+                    <ul>
+                        <li lang="en">Analysis</li>
+                        <li lang="en">Master Planner</li>
+                        <li lang="en">Concept Design</li>
+                        <li lang="en">Process Mapping</li>
+                        <li lang="en">Process Improvement</li>
+                        <li lang="en">Building Improvement</li>
+                    </ul>
+                </div>
+
+                <div class="footer-sections">
+                    <h3 lang="en">Services Cont.</h3>
+                    <div class="divider"></div>
+                    <ul>
+                        <li lang="en">Simulation</li>
+                        <li lang="en">Tender Documents</li>
+                        <li lang="en">Construction Management</li>
+                        <li lang="en">Acceptance Testing</li>
+                        <li lang="en">Operational Readiness</li>
+                        <li lang="en">Operational Audits</li>
+                    </ul>
+                </div>
+
+                <div class="footer-sections">
+                    <h3 lang="en">Office Locations</h3>
+                    <div class="divider"></div>
+                    <ul class="two-columns">
+                        <li lang="en">Dallas</li>
+                        <li lang="en">Denver</li>
+                        <li lang="en">Dubai</li>
+                        <li lang="en">Fairfield</li>
+                        <li lang="en">Hong Kong</li>
+                        <li lang="en">London</li>
+                        <li lang="en">Shenzhen</li>
+                        <li lang="en">Singapore</li>
+                        <li lang="en">Tampa</li>
+                    </ul>
+                </div>
+                <div class="map-footer"></div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="copyright__content container-lg">
+                <p class="copyright__text" lang="en">Copyright 2021 BNP Associates, INC. all rights reserved</p>
+
+                <div class="copyright__links">
+                    <a href="https://www.linkedin.com/company/bnp-associates-inc/about/">
+                        <div>
+                            <img src="/images/footer-linkedin.svg" alt="linked-in-logo" >
+                        </div>
+                    </a>
+
+                    <a href="https://vimeo.com/user64824554">
+                        <div>
+                            <img src="/images/footer-vimeo.svg" alt="vimeo-logo">
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/bnpassociates/">
+                        <div>
+                            <img src="/images/footer-instagram.svg" alt="instagram-logo">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="/js/index.js"></script>
