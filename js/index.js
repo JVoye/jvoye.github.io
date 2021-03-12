@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //* FOOTER TEMPLATE LOAD */////
-  $("#footer").load("_footer.html #footer ");
+  $("#footer").load("footer.html #footer ");
   // $("#nav").load("navbarmulti.html");
   // $("#slideshow > figure:gt(0)").hide();
 
