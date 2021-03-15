@@ -69,17 +69,17 @@
 }
 
 // 1140 to 800px
-.container-med {
-  max-width: 73.125rem;
-  padding: 0 0.9375rem;
+// .container-med {
+//   max-width: 73.125rem;
+//   padding: 0 0.9375rem;
 
-  @include breakpoint-down(large) {
-    max-width: 50rem;
-  }
-  @include breakpoint-down(medium) {
-    max-width: 30rem;
-  }
-}
+//   @include breakpoint-down(large) {
+//     max-width: 50rem;
+//   }
+//   @include breakpoint-down(medium) {
+//     max-width: 30rem;
+//   }
+// }
 // // 875px
 // .container-med {
 //   max-width: 54.6875rem;

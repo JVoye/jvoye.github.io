@@ -1,17 +1,15 @@
 .article {
   &__content {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    @include grid-container;
 
     @include breakpoint-down(large) {
+      max-width: 50rem;
       grid-template-columns: repeat(2, 1fr);
     }
 
     @include breakpoint-down(medium) {
-      grid-template-columns: 1fr;
       max-width: 30rem;
+      grid-template-columns: 1fr;
     }
   }
 }
@@ -26,14 +24,14 @@
 
 .post-item {
   height: 30rem;
-  max-width: 350px;
+  // max-width: 350px;
   border-radius: 0.2rem;
   overflow: hidden;
   box-shadow: var(--shadow-md);
   transition: all 0.2s;
 
   @include breakpoint-down(medium) {
-    max-width: 100%;
+    // max-width: 100%;
     height: auto;
   }
 

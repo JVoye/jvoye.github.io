@@ -36,3 +36,13 @@ $breakpoints-down: (
   align-items: center;
   justify-content: center;
 }
+
+// grid container
+@mixin grid-container {
+  margin: 0 auto;
+  max-width: 71.25rem;
+  padding: 0 0.9375rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}

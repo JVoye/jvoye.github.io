@@ -182,16 +182,18 @@
   }
 
   &__content {
-    margin: 0 auto;
+    margin: auto;
+    padding: 0 15px;
     display: grid;
     justify-items: center;
     gap: 2rem;
     grid-template-columns: repeat(4, 1fr);
+    max-width: 83.125rem;
 
     @include breakpoint-down(xlarge) {
       grid-template-columns: repeat(2, 1fr);
       gap: 0;
-      max-width: 800px;
+      max-width: 50rem;
     }
 
     @include breakpoint-down(medium) {

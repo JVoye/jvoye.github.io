@@ -248,16 +248,16 @@
 
 // DATA TABLE ///////////////////////////////////////////////
 // BOOTSTRAP DATA TABLE & WRAPPER //
-.table-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 1rem;
-}
+// .table-container {
+//   max-width: 1400px;
+//   margin: 0 auto;
+//   padding: 1rem;
+// }
 
-div.dataTables_wrapper div.dataTables_info {
-  padding-top: 0.85em;
-  font-size: 14px;
-}
+// div.dataTables_wrapper div.dataTables_info {
+//   padding-top: 0.85em;
+//   font-size: 14px;
+// }
 
 // // 50TH ANNIVESARY BUTTON BANNER //
 // .anniversary-container {
@@ -510,46 +510,46 @@ div.dataTables_wrapper div.dataTables_info {
 }
 
 // BLOG - SHARE BUTTONS //
-.share-links-container {
-  max-width: 875px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
+// .share-links-container {
+//   max-width: 875px;
+//   margin: 0 auto;
+//   padding: 0 1.5rem;
+// }
 
-.share-links {
-  max-width: 210px;
-  display: flex;
-  justify-content: space-between;
-}
+// .share-links {
+//   max-width: 210px;
+//   display: flex;
+//   justify-content: space-between;
+// }
 
-.share-btn {
-  width: 6rem;
-  padding: 0.5rem;
-  border-radius: 3px;
+// .share-btn {
+//   width: 6rem;
+//   padding: 0.5rem;
+//   border-radius: 3px;
 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   align-content: center;
 
-  &__icon {
-    color: #fff;
-    font-size: 20px;
-  }
+//   &__icon {
+//     color: #fff;
+//     font-size: 20px;
+//   }
 
-  &__text {
-    color: #fff !important;
-    font-family: "roboto", sans-serif;
-    font-size: 12px;
-  }
-}
+//   &__text {
+//     color: #fff !important;
+//     font-family: "roboto", sans-serif;
+//     font-size: 12px;
+//   }
+// }
 
-.--linkedin {
-  background-color: #0072b1;
-}
-.--email {
-  background-color: var(--color-primary-alt);
-}
+// .--linkedin {
+//   background-color: #0072b1;
+// }
+// .--email {
+//   background-color: var(--color-primary-alt);
+// }
 
 // INDEX SLIDESHOW ///////////////////////////////////////////////
 // #slideshow {

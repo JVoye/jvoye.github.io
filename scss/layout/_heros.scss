@@ -33,40 +33,6 @@
   }
 }
 
-.breadcrumb-container {
-  padding: 0.5rem;
-  padding-left: 1.1rem;
-  margin: 1rem 0px 2rem 0;
-  font-size: var(--font-sm);
-  font-weight: 300;
-}
-
-.breadcrumb-nav-wide {
-  padding: 1.5rem 0 2.5rem 0;
-  margin: 0 auto;
-  font-size: var(--font-sm);
-  font-weight: 300;
-}
-
-.breadcrumb-nav {
-  max-width: 860px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-
-  &__link:hover {
-    text-decoration: underline !important;
-  }
-}
-
-.breadcrumb-nav a {
-  padding: 0.25rem;
-  margin-right: 0.1rem;
-}
-.breadcrumb-nav-wide a {
-  padding: 0.25rem;
-  margin-right: 0.1rem;
-}
 
 // ALL SECONDARY HEROS //
 .hero-secondary__text-container {

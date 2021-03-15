@@ -4,6 +4,8 @@
 
   &__content {
     margin: 0 auto;
+    max-width: 83.125rem;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +71,7 @@
 
   @include breakpoint-down(medium) {
     margin-top: 0;
-    max-width: 16.5rem;
+    max-width: 15.5rem;
     height: 15rem;
     display: block;
   }
@@ -85,8 +87,10 @@
   color: #969696;
 
   &__content {
-    display: flex;
     margin: 0 auto;
+    max-width: 83.125rem;
+    padding: 0 15px;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
 

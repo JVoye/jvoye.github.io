@@ -12,13 +12,14 @@
     <meta name="description" property="og:description"
         content="As the COVID-19 crisis continues to impact our lives, airports are considering new bag sanitizing technologies to help reduce the spread of harmful contagions.">
     <meta name="author" content="Max Wood">
-    <!--  -->
     <title>Sanitizing Airport Baggage | BNP Associates, Inc.</title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
@@ -80,38 +81,29 @@
         <img src="/images/chevron-up-white.svg" alt="arrow up" class="chevron-up-white">
     </div>
 
-    <section>
-        <div class="breadcrumb-container">
-            <div class="breadcrumb-nav">
-                <a href="index.html" class="breadcrumb-nav__link">Home</a>
-                <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
-                <a href="news.html" class="breadcrumb-nav__link">All News</a>
-                <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
-            </div>
+    <section class="breadcrumb-nav">
+        <div class="breadcrumb-nav__content">
+            <a href="index.html" class="breadcrumb-nav__link">Home</a>
+            <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
+            <a href="news.html" class="breadcrumb-nav__link">All News</a>
+            <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
         </div>
     </section>
 
-    <div class="general-padding">
-        <div class="blog-headings">
-            <h4 class="blog-headings__header b-blue margin-xs">Sanitizing Airport Baggage using Ultraviolet Light</h4>
-            <div class="underline margin-sm"></div>
+    <main class="news">
+        <div class="news__content">
 
-            <div class="blog-headings__author-container">
-                <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-                <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
-                <p><span class="blog-headings__published-date">Published on July 14, 2020</span></p>
-            </div>
-        </div>
+            <section class="news__headings mb-lg">
+                <h1>Sanitizing Airport Baggage using Ultraviolet Light</h1>
+                <hr>
+                <div class="news__follow">
+                    <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                    <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
+                    <span>Published on July 14, 2020</span>
+                </div>
+            </section>
 
-
-
-        <section class="blog">
-            <div class="blog-img-container">
-                <!-- <img src="/images/blog/blog-reducing-energy-consuption-main.jpg" alt="Reducing-Energy-Consumption" class="blog-img-container__img"> -->
-            </div>
-
-            <div class="blog-story">
-                <!-- <h3 class=" blog-story__headings margin-sm">Overview</h3> -->
+            <section class="news__story">
                 <p>
                     As the COVID-19 crisis continues to impact our lives, airports are considering new bag sanitizing
                     technologies to help reduce the spread of harmful contagions. One promising disinfection solution is
@@ -135,12 +127,9 @@
                     degrade certain plastics. UVC light is emitted from the sun along with ultraviolet A and B. However,
                     UVC is entirely absorbed in the stratosphere and never makes it to the surface of the earth.
                 </p>
-                <!-- <h3 class=" blog-story__headings margin-sm">The Electromagnetic Spectrum</h3> -->
-                <div class="blog-img-container">
-                    <img src="/images/news/sanitizing-airport-baggage/electromagnetic-spectrum.jpg"
-                        alt="Electromagnetic Spectrum" class="blog-img-container__img">
-                    <p class="blog-img-container__caption">Figure 1: The ultraviolet light band on the electromagnetic
-                        spectrum.</p>
+                <div class="news__img">
+                    <img src="/images/news/sanitizing-airport-baggage/electromagnetic-spectrum.jpg" alt="Electromagnetic Spectrum" class="mb-sm">
+                    <p class="news__caption">Figure 1: The ultraviolet light band on the electromagnetic spectrum.</p>
                 </div>
                 <p>
                     All light follows the Inverse Square Law as it radiates outward from a point source, which states
@@ -180,12 +169,10 @@
                     tunnels are placed just upstream of the EDS machines. In this application, we use the space between
                     the diverter and the screening machine for both queuing and sanitizing the bag.
                 </p>
-                <div class="blog-img-container">
-                    <img src="/images/news/sanitizing-airport-baggage/sanitizing-rendering.jpg"
-                        alt="Sanitizing Airport Baggage" class="blog-img-container__img">
-                    <p class="blog-img-container__caption">Figure 2: Example UVC Sanitizer Placement</p>
+                <div class="news__img">
+                    <img src="/images/news/sanitizing-airport-baggage/sanitizing-rendering.jpg" alt="Sanitizing Airport Baggage" class="mb-sm">
+                    <p class="news__caption">Figure 2: Example UVC Sanitizer Placement</p>
                 </div>
-
                 <p>
                     Smiths Detection has also developed a UVC add-on kit that sanitizes passenger checkpoint trays
                     between uses. The kit is designed to retrofit any existing tray handling system at passenger
@@ -203,41 +190,34 @@
                     BNP is a leader in bringing new technologies to airport baggage handling systems. We are committed
                     to developing solutions that improve the safety, security, and efficiency of baggage operations.
                 </p>
+                
+                <hr>
 
-                <div class="underline margin-sm-med"></div>
-                <h3 class=" blog-story__headings margin-sm">Share this post</h3>
+                <section class="share mb-lg">
+                    <h3>Share this post</h3>
+                    <div class="share__links">
+                        <a class="share__btn --linkedin"
+                            href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.bnpassociates.com%2Fnews-sanitizing-airport-baggage.html&title=&summary=&source=">
+                            <ion-icon class="share__icon" name="logo-linkedin"></ion-icon>
+                            <h6 class="share__text">POST</h6>
+                        </a>
+                        <a class="share__btn --email"
+                            href="mailto:?&subject=&body=https://www.bnpassociates.com/news-sanitizing-airport-baggage.html">
+                            <ion-icon class="share__icon" name="mail"></ion-icon>
+                            <h6 class="share__text">EMAIL</h6>
+                        </a>
+                    </div>
+                </section>
 
-                <div class="share-links">
-                    <!-- <a class="share-btn --linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//jvoye.github.io/reducing-energy-consumption.html&title=Using%20Simulation%20to%20Identify%20Strategies%20for%20Reducing%20Energy%20Consumption%20in%20Airport%20Baggage%20Handling%20Systems&summary=&source= "> -->
-                    <a class="share-btn --linkedin"
-                        href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.bnpassociates.com/news-sanitizing-airport-baggage.html&title=Sanitizing%20Airport%20Baggage%20using%20Ultraviolet%20Light&summary=&source=">
-                        <ion-icon class="share-btn__icon" name="logo-linkedin"></ion-icon>
-                        <h6 class="share-btn__text">POST</h6>
-                    </a>
-                    <a class="share-btn --email"
-                        href="mailto:?&subject=&body=https://www.bnpassociates.com/news-sanitizing-airport-baggage.html">
-                        <ion-icon class="share-btn__icon" name="mail"></ion-icon>
-                        <h6 class="share-btn__text">EMAIL</h6>
-                    </a>
-                </div>
-                <div class="margin-med"></div>
-            </div>
-        </section>
-    </div>
+            </section>  
+        </div>
+    </main>
 
     <footer id="footer"></footer>
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
-
 </html>

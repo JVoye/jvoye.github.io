@@ -12,13 +12,14 @@
     <meta name="description" property="og:description"
         content="BNP is proud to be part of The Wilson Group (TWG) and the ILM Project Team, alongside Monteith Construction and Daifuku Logan Teleflex, for the Terminal Renovation & Expansion project.">
     <meta name="author" content="Nick Triantafilidis">
-    <!--  -->
     <title>Wilmington International Airport | BNP Associates, Inc.</title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
@@ -80,37 +81,33 @@
         <img src="/images/chevron-up-white.svg" alt="arrow up" class="chevron-up-white">
     </div>
 
-    <section>
-        <div class="breadcrumb-container">
-            <div class="breadcrumb-nav">
-                <a href="index.html" class="breadcrumb-nav__link">Home</a>
-                <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
-                <a href="news.html" class="breadcrumb-nav__link">All News</a>
-                <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
-            </div>
+    <section class="breadcrumb-nav">
+        <div class="breadcrumb-nav__content">
+            <a href="index.html" class="breadcrumb-nav__link">Home</a>
+            <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
+            <a href="news.html" class="breadcrumb-nav__link">All News</a>
+            <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
         </div>
     </section>
 
-    <div class="general-padding">
-        <div class="blog-headings">
-            <h4 class="blog-headings__header b-blue margin-xs">Wilmington International Airport (ILM)</h4>
-            <div class="underline margin-sm"></div>
+    <main class="news">
+        <div class="news__content">
 
-            <div class="blog-headings__author-container">
-                <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-                <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
-                <p><span class="blog-headings__published-date">Published on September 8, 2020</span></p>
-            </div>
-        </div>
+            <section class="news__headings mb-lg">
+                <h1>Wilmington International Airport (ILM)</h1>
+                <hr>
+                <div class="news__follow">
+                    <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                    <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
+                    <span>Published on September 8, 2020</span>
+                </div>
+            </section>
 
-        <section class="blog">
-            <div class="blog-img-container">
-                <img src="/images/news/wilmington-international-airport/ILM-01.jpg"
-                    alt="ILM Checked Baggage Inspection System" class="img-600">
-            </div>
+            <section class="news__story">
+                <div class="news__img">
+                    <img src="/images/news/wilmington-international-airport/ILM-01.jpg" alt="ILM Checked Baggage Inspection System">
+                </div>
 
-            <div class="blog-story">
-                <!-- <h3 class=" blog-story__headings margin-sm">Overview</h3> -->
                 <p>
                     BNP is proud to be part of The Wilson Group (TWG) and the ILM Project Team, alongside Monteith
                     Construction and Daifuku Logan Teleflex, for the Terminal Renovation & Expansion project. The
@@ -127,10 +124,8 @@
                     were performed under two separate contracts over a two-year period and required a phased
                     implementation plan to maintain ongoing airline operations.
                 </p>
-                <div class="blog-img-container">
-                    <img src="/images/news/wilmington-international-airport/ILM-02.jpg" alt="Electromagnetic Spectrum"
-                        class="img-600">
-                    <!-- <p class="blog-img-container__caption">Figure 1: The ultraviolet light band on the electromagnetic spectrum.</p> -->
+                <div class="news__img">
+                    <img src="/images/news/wilmington-international-airport/ILM-02.jpg" alt="Checked Bags">
                 </div>
                 <p>
                     Contract 1 was the enabling works, which involved the replacement of the existing checked baggage
@@ -145,44 +140,37 @@
                     The overall outbound system now includes two new ticket counter conveyor lines, a completely
                     reconfigured security screening system, and a common-use incline plate baggage make-up device.
                 </p>
-                <div class="blog-img-container">
-                    <img src="/images/news/wilmington-international-airport/ILM-03.jpg" alt="Sanitizing Airport Baggage"
-                        class="img-600">
-                    <!-- <p class="blog-img-container__caption">Figure 2: Example UVC Sanitizer Placement</p> -->
+                <div class="news__img">
+                    <img src="/images/news/wilmington-international-airport/ILM-03.jpg" alt="Make-Up Device">
                 </div>
-                <div class="underline margin-sm-med"></div>
-                <h3 class=" blog-story__headings margin-sm">Share this post</h3>
 
-                <div class="share-links">
-                    <a class="share-btn --linkedin"
-                        href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.bnpassociates.com/news-wilmington-international-airport.html&title=&summary=&source=">
-                        <ion-icon class="share-btn__icon" name="logo-linkedin"></ion-icon>
-                        <h6 class="share-btn__text">POST</h6>
-                    </a>
-                    <a class="share-btn --email"
-                        href="mailto:?&subject=&body=https://www.bnpassociates.com/news-wilmington-international-airport.html">
-                        <ion-icon class="share-btn__icon" name="mail"></ion-icon>
-                        <h6 class="share-btn__text">EMAIL</h6>
-                    </a>
-                </div>
-                <div class="margin-med"></div>
-            </div>
-        </section>
-    </div>
+                <hr>
 
+                <section class="share mb-lg">
+                    <h3>Share this post</h3>
+                    <div class="share__links">
+                        <a class="share__btn --linkedin"
+                            href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.bnpassociates.com/news-wilmington-international-airport.html&title=&summary=&source=">
+                            <ion-icon class="share__icon" name="logo-linkedin"></ion-icon>
+                            <h6 class="share__text">POST</h6>
+                        </a>
+                        <a class="share__btn --email"
+                            href="mailto:?&subject=&body=https://www.bnpassociates.com/news-wilmington-international-airport.html">
+                            <ion-icon class="share__icon" name="mail"></ion-icon>
+                            <h6 class="share__text">EMAIL</h6>
+                        </a>
+                    </div>
+                </section>
+
+            </section>  
+        </div>
+    </main>
+            
     <footer id="footer"></footer>
-
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </body>
-
 </html>
