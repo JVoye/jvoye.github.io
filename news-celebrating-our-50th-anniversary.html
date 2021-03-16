@@ -12,15 +12,16 @@
     <meta name="description" property="og:description"
         content="In 1971, three young engineers, Morty Breier, Arnold Neidle and Ric Patrone, saw a market need for an independent consultancy for the budding air cargo industry. From a basement office in Stamford, Connecticut, these ambitious three formed BNP Associates, Inc. imbued with an ethos to provide their clients with innovative design services of exceptional quality.">
     <meta name="author" content="BNP Associates 50th Anniversary">
-    <!--  -->
     <title>Celebrating Our 50th Anniversary | BNP Associates, Inc.</title>
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Swiper Bundle -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
@@ -86,16 +87,16 @@
         <div class="hero-secondary --anniversary">
             <div class="hero-text">
                 <div class="hero-secondary__text-container">
-                    <h1 class="hero-secondary__header margin-sm">BNP Associates, Inc.<br>Celebrating Our 50th
+                    <h1 class="hero-secondary__header mb-sm">BNP Associates, Inc.<br>Celebrating Our 50th
                         Anniversary!<br></h1>
-                    <p class="hero-secondary__sub-header margin-sm">designers | planners | engineers</p>
+                    <p class="hero-secondary__sub-header mb-sm">designers | planners | engineers</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="breadcrumb-nav-wide container-lg flex flex-ai-c">
+    <section class="breadcrumb-nav --wide">
+        <div class="breadcrumb-nav__content">
             <a href="index.html" class="breadcrumb-nav__link">Home</a>
             <ion-icon name="chevron-forward-outline" class="nav-icon"></ion-icon>
             <a href="news.html" class="breadcrumb-nav__link">All News</a>
@@ -103,26 +104,31 @@
         </div>
     </section>
 
-    <section class="container-lg news margin-lg">
-        <div class="blog-headings__author-container margin-sm-med">
-            <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-            <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
-            <p><span class="blog-headings__published-date">Published on February 23, 2021</span></p>
-        </div>
+    <main class="news container-lg margin-lg">
 
-        <hr class="margin-sm-med">
-        <p class="story">In 1971, three young engineers, Morty Breier, Arnold Neidle and Ric Patrone, saw a market need for an independent consultancy for the budding air cargo industry. From a basement office in Stamford, Connecticut, these ambitious three formed BNP Associates, Inc. imbued with an ethos to provide their clients with innovative design services of exceptional quality. Today, BNP is a worldwide practice with close to 100 talented staff across nine global offices performing projects in more than 40 countries on six continents. The incredible growth and success of BNP is owed to staying true to the ethos set by our founders 50 years ago. This ethos is demonstrated every day as nearly 80% of our business is from past clients and by our continual growth and expansion into new markets.
+        <section class="news__headings mb-med">
+            <div class="news__follow mb-med">
+                <script src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                <script type="IN/FollowCompany" data-id="2315106" data-counter="bottom"></script>
+                <span>Published on February 23, 2021</span>
+            </div>
+            <hr>
+        </section>
+
+        <p>In 1971, three young engineers, Morty Breier, Arnold Neidle and Ric Patrone, saw a market need for an independent consultancy for the budding air cargo industry. From a basement office in Stamford, Connecticut, these ambitious three formed BNP Associates, Inc. imbued with an ethos to provide their clients with innovative design services of exceptional quality. Today, BNP is a worldwide practice with close to 100 talented staff across nine global offices performing projects in more than 40 countries on six continents. The incredible growth and success of BNP is owed to staying true to the ethos set by our founders 50 years ago. This ethos is demonstrated every day as nearly 80% of our business is from past clients and by our continual growth and expansion into new markets.
         </p>
 
         <p>We are proud to be recognized as one of the world leaders in our specialized field. We work on projects of all sizes, ranging from some of the largest material handling systems in the world to one-week studies to improve a single aspect of a client’s operations. We are not a jack of all trades company; our focus on logistics systems and airport baggage handling, air cargo, passenger screening and apron services means we are true experts in these fields. With 50 years and thousands of specialized projects completed, BNP will continue to always deliver the best results in our specialty industry for years and decades to come.
         </p>
+    </main>
+
+    <section class="container-lg center mb-lg">
+        <h2 class="section-heading">Company History</h2>
+        <p>Of our commitment and service.</p>
     </section>
 
-    <h4 class="center-headings__header b-blue margin-xs">Company History</h4>
-    <p class="general-text-wrapper center margin-med">Of our commitment and service.</p>
-
     <!-- SWIPER -->
-    <section class="swiper-section-main">
+    <section class="swiper mb-xl">
         <section class="swiper-section">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -506,18 +512,11 @@
     </section>
 
     <!-- EMPLOYEES SECTION -->
-    <div class="pad-x">
-
-        <section class="celebrating-quote margin-lg">
-            <h4 class="center-headings__header-quote container-lg margin-xs">Our Staff
-            </h4>
-            <p class="center container-lg">As
-                knowledge based consultants, our staff are our most important asset. Like BNP, many have been around for
-                a<br>
-                very long time with a combined
-                experience of more than 1,000 years! Join us in celebrating the incredible longevity of our staff’s
-                tenure with BNP.</p>
-        </section>
+    <section class="container-lg center mb-lg">
+        <h2 class="section-heading">Our Staff</h2>
+        <p>As knowledge based consultants, our staff are our most important asset. Like BNP, many have been around for a<br>
+            very long time with a combined experience of more than 1,000 years! Join us in celebrating the incredible longevity of our staff’s tenure with BNP.</p>
+    </section>
 
         <section class="employees-wrapper">
             <h3 class="center-headings__header b-blue margin-sm-med">Over 30 Years of Service</h3>
@@ -962,36 +961,29 @@
         </section>
     </div>
 
-    <section class="share-links-container margin-med pad-x">
-        <h3 class=" blog-story__headings margin-sm">Share this post</h3>
-        <div class="share-links">
-            <a class="share-btn --linkedin"
+    <section class="share share-links-container mb-lg">
+        <h3>Share this post</h3>
+        <div class="share__links">
+            <a class="share__btn --linkedin"
                 href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bnpassociates.com/news-celebrating-our-50th-anniversary.html&title=&summary=&source=">
-                <ion-icon class="share-btn__icon" name="logo-linkedin"></ion-icon>
-                <h6 class="share-btn__text">POST</h6>
+                <ion-icon class="share__icon" name="logo-linkedin"></ion-icon>
+                <h6 class="share__text">POST</h6>
             </a>
-            <a class="share-btn --email"
+            <a class="share__btn --email"
                 href="mailto:?&subject=&body=https://www.bnpassociates.com/news-celebrating-our-50th-anniversary.html">
-                <ion-icon class="share-btn__icon" name="mail"></ion-icon>
-                <h6 class="share-btn__text">EMAIL</h6>
+                <ion-icon class="share__icon" name="mail"></ion-icon>
+                <h6 class="share__text">EMAIL</h6>
             </a>
         </div>
     </section>
 
     <footer id="footer"></footer>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
 </body>
-
 </html>

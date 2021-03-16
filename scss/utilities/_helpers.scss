@@ -59,9 +59,10 @@
 }
 
 // CONTAINERS //
-// 1300px to 800px
+// 1330px to 800px
 .container-lg {
   max-width: 83.125rem;
+  // max-width: 81.25rem;
 
   @include breakpoint-down(large) {
     max-width: 50rem;
