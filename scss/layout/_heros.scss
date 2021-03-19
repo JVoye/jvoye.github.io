@@ -1,44 +1,38 @@
 // // MAIN HERO AND SECONDARY HERO'S ///////////////////////////////////////////////
 .hero-secondary {
   position: relative;
-  height: 400px;
-  // height: 550px;
-  // background-color: lightgray;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 25rem; // 400px
+  @include cover-background;
+  @include flex-center;
 
-  @media screen and (max-width: 480px) {
-    height: 300px;
+  @include breakpoint-down(small) {
+    height: 18.75rem; // 300px
   }
 }
 
 .hero-text {
   display: flex;
-  width: 1300px;
+  width: 81.25rem; // 1300px
 }
 
 .hero-text {
   position: absolute;
+  height: 25rem; // 400px
   max-width: 100%;
   display: flex;
   align-items: center;
-  height: 400px;
   z-index: 1;
 
-  @media screen and (max-width: 480px) {
-    height: 300px;
+  @include breakpoint-down(small) {
+    height: 18.75rem; // 300px
   }
 }
-
 
 // ALL SECONDARY HEROS //
 .hero-secondary__text-container {
   padding: 3rem;
   padding-right: 7rem;
-  color: #ffffff;
+  color: var(--color-white);
   background: linear-gradient(
     105deg,
     rgba(0, 150, 219, 0.7) 0%,
@@ -46,7 +40,7 @@
     transparent 50%
   );
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 991.98px) {
     padding-right: 3rem;
     background: linear-gradient(
       105deg,
@@ -56,41 +50,37 @@
     width: 100%;
   }
 
-  @media screen and (max-width: 768px) {
+  @include breakpoint-down(medium) {
     padding-right: 1rem;
     padding-left: 1rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background: none;
     text-align: center;
-
-    // .hero-secondary__text-container br {
-    //     display: none;
-    //     }
   }
 }
 
 .hero-secondary__header {
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 3.125rem; // 50px
 
-  @media screen and (max-width: 768px) {
-    font-size: 45px;
+  @include breakpoint-down(medium) {
+    font-size: 2.8125rem; // 45px
   }
-  @media screen and (max-width: 480px) {
-    font-size: 40px;
+
+  @include breakpoint-down(small) {
+    font-size: 2.5rem; // 40px
   }
 }
 
 .hero-secondary__sub-header {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 1.5rem; // 24px
+  font-weight: var(--font-thin);
   font-family: "roboto condensed", sans-serif;
   color: rgba(255, 255, 255, 0.8);
 
-  @media screen and (max-width: 480px) {
-    font-size: 20px;
+  @include breakpoint-down(small) {
+    font-size: 1.25rem;
   }
 }
 
@@ -98,7 +88,7 @@
 .--careers {
   background-image: url(/images/jetbridge.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -111,7 +101,7 @@
 .--contact {
   background-image: url(/images/hero-contact-alt.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -124,7 +114,7 @@
 .--about {
   background-image: url(/images/hero-about-02.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -137,7 +127,7 @@
 .--datas {
   background-image: url(/images/data-1-min.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -150,7 +140,7 @@
 .--news {
   background-image: url(/images/hero-newsletter.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -163,7 +153,7 @@
 .--services {
   background-image: url(/images/hero-services.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),
@@ -173,7 +163,7 @@
   }
 }
 
-// BLOG HERO IMAGES //
+// NEWS HERO IMAGES //
 .--anniversary {
   background-image: linear-gradient(
       to right,
@@ -182,7 +172,7 @@
     ),
     url(/images/hero-anniversary-min.jpg);
 
-  @media screen and (max-width: 480px) {
+  @include breakpoint-down(small) {
     background-image: linear-gradient(
         105deg,
         rgba(0, 150, 219, 0.5),

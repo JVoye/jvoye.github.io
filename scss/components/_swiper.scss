@@ -1,83 +1,81 @@
 .swiper {
-    width: 100%;
-    background-color: var(--color-light-white);
-    padding: 3.1rem 1rem 0rem 1rem;
+  width: 100%;
+  background-color: var(--color-light-white);
+  padding: 3.1rem 1rem 0rem 1rem;
+}
+
+// EXTRA SECTION TO ALLOW PREV & NEXT BUTTONS TO LIVE OUTSIDE SWIPER CONTAINER
+.swiper-section {
+  padding: 1rem 1rem 2rem 1rem;
+  max-width: 102rem; // 1632px
+  margin: 0 auto;
+  position: relative;
+  user-select: none;
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
   }
-  
-  // EXTRA SECTION TO ALLOW PREV & NEXT BUTTONS TO LIVE OUTSIDE SWIPER CONTAINER
-  .swiper-section {
-    padding: 1rem 1rem 2rem 1rem;
-    max-width: 1632px;
-    margin: 0 auto;
-    position: relative;
-    user-select: none;
-    cursor: grab;
-  
-    &:active {
-      cursor: grabbing;
-    }
+}
+
+.swiper-container {
+  max-width: 89.5rem; // 1432px
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__img {
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 2px;
   }
-  
-  .swiper-container {
-    max-width: 1432px;
+
+  & img {
+    transition: all 0.3s;
   }
-  
-  .swiper-slide {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-    &__img {
-      overflow: hidden;
-      transition: all 0.3s;
-      border-radius: 2px;
-    }
-  
-    & img {
-      transition: all 0.3s;
-    }
-  
-    &__title {
-      padding: 1.5rem 1rem 1rem 1rem;
-    }
-  
-    &__date {
-      font-family: "roboto condensed", sans-serif;
-      font-size: 24px;
-      color: var(--color-primary-alt) !important;
-      margin-bottom: 0.5rem;
-    }
-  
-    &__about {
-      font-weight: 300;
-    }
+
+  &__title {
+    padding: 1.5rem 1rem 1rem 1rem;
   }
-  
-  /* SWIPER BUTTONS */
-  .swiper-button-next,
+
+  &__date {
+    font-family: "roboto condensed", sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-primary-alt) !important;
+    margin-bottom: 0.5rem;
+  }
+
+  &__about {
+    font-weight: var(--font-thin);
+  }
+}
+
+/* SWIPER BUTTONS */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: var(--shadow-md);
+  padding: 2.5rem;
+  border-radius: 50%;
+  transform: scale(0.65);
+
+  position: absolute;
+  top: 27%;
+  outline: none;
+
+  @include breakpoint-down(xlarge) {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@include breakpoint-down(xlarge) {
+  .swiper-button-next {
+    right: -1rem;
+  }
   .swiper-button-prev {
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: var(--shadow-md);
-    padding: 2.5rem;
-    border-radius: 50%;
-    transform: scale(0.65);
-  
-    position: absolute;
-    top: 27%;
-    outline: none;
-  
-    @media only screen and (max-width: 545px) {
-      background-color: rgba(255, 255, 255, 0.7);
-    }
+    left: -1rem;
   }
-  
-  @media only screen and (max-width: 1300px) {
-    .swiper-button-next {
-      right: -1rem;
-    }
-  
-    .swiper-button-prev {
-      left: -1rem;
-    }
-  }
-  
+}

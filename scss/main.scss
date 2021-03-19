@@ -6,14 +6,13 @@
 @import "base/root";
 @import "base/typography";
 
-@import "components";
-@import "layout";
-
 @import "layout/articles";
 @import "layout/footer";
 @import "layout/forms";
 @import "layout/heros";
+@import "layout/map";
 @import "layout/navigation";
+@import "layout/video";
 
 @import "components/bullets";
 @import "components/buttons";
@@ -31,3 +30,6 @@
 @import "pages/services";
 
 @import "utilities/helpers";
+
+@import "vendors/bootstrap";
+@import "vendors/ionicons";

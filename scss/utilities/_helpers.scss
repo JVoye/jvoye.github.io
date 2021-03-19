@@ -26,36 +26,8 @@
   }
 }
 
-/*** FEATURE BOX & HERO 51.2px OLD CLASSES DELETE ONCE REPLACING WITH TOP MB ***/
-.margin-sm {
-  margin-bottom: 1rem !important;
-}
-
-.margin-med {
-  margin-bottom: 3.1rem !important;
-
-  @include breakpoint-down(small) {
-    margin-bottom: 2.3rem !important;
-  }
-}
-/*** FEATURE BOX 75.2px ***/
-.margin-lg {
-  margin-bottom: 4.7rem !important;
-
-  @include breakpoint-down(large) {
-    margin-bottom: 3.2rem !important;
-  }
-
-  @include breakpoint-down(small) {
-    margin-bottom: 2.3rem !important;
-  }
-}
-.margin-hero {
-  margin-bottom: 3.1rem !important;
-
-  @include breakpoint-down(large) {
-    margin-bottom: 2rem !important;
-  }
+.ml-sm {
+  margin-left: 0.5rem;
 }
 
 // CONTAINERS //
@@ -68,23 +40,6 @@
     max-width: 50rem;
   }
 }
-
-// 1140 to 800px
-// .container-med {
-//   max-width: 73.125rem;
-//   padding: 0 0.9375rem;
-
-//   @include breakpoint-down(large) {
-//     max-width: 50rem;
-//   }
-//   @include breakpoint-down(medium) {
-//     max-width: 30rem;
-//   }
-// }
-// // 875px
-// .container-med {
-//   max-width: 54.6875rem;
-// }
 
 // FLEXBOX STYLES //
 .flex {
@@ -141,13 +96,13 @@
 }
 
 // PADDING /////////////////////////////////////////////// DELETE THESE OLD STYLES - FORMER UTILITIES
-.section-padding {
-  padding: 0 1.5rem;
-}
+// .section-padding {
+//   padding: 0 1.5rem;
+// }
 
-.general-padding {
-  padding: 0px 1.5rem;
-}
+// .general-padding {
+//   padding: 0px 1.5rem;
+// }
 
 // .pad-x {
 //   padding: 0 1rem;
@@ -158,30 +113,79 @@
 // .margin-top-sm {
 //   margin-top: 10px !important;
 // }
-.margin-top-med {
-  margin-top: 1.5rem !important;
-}
+// .margin-top-med {
+//   margin-top: 1.5rem !important;
+// }
 
-.margin-xs {
-  margin-bottom: 10px !important;
-}
+// .margin-xs {
+//   margin-bottom: 10px !important;
+// }
 
-.margin-sm-message {
-  margin-bottom: 1.5rem !important;
-}
+// .margin-sm-message {
+//   margin-bottom: 1.5rem !important;
+// }
 
 /*** 32px ***/
-.margin-sm-med {
-  margin-bottom: 2rem !important;
-}
+// .margin-sm-med {
+//   margin-bottom: 2rem !important;
+// }
 
-.margin-xl {
-  margin-bottom: 6.3rem !important;
-}
-.margin-header-bottom {
-  margin-bottom: 10px;
-}
+// .margin-xl {
+//   margin-bottom: 6.3rem !important;
+// }
+// .margin-header-bottom {
+//   margin-bottom: 10px;
+// }
 
-.block {
-  display: block !important;
-}
+// .block {
+//   display: block !important;
+// }
+
+/*** FEATURE BOX & HERO 51.2px OLD CLASSES DELETE ONCE REPLACING WITH TOP MB ***/
+// .margin-sm {
+//   margin-bottom: 1rem !important;
+// }
+
+// .margin-med {
+//   margin-bottom: 3.1rem !important;
+
+//   @include breakpoint-down(small) {
+//     margin-bottom: 2.3rem !important;
+//   }
+// }
+/*** FEATURE BOX 75.2px ***/
+// .margin-lg {
+//   margin-bottom: 4.7rem !important;
+
+//   @include breakpoint-down(large) {
+//     margin-bottom: 3.2rem !important;
+//   }
+
+//   @include breakpoint-down(small) {
+//     margin-bottom: 2.3rem !important;
+//   }
+// }
+// .margin-hero {
+//   margin-bottom: 3.1rem !important;
+
+//   @include breakpoint-down(large) {
+//     margin-bottom: 2rem !important;
+//   }
+// }
+
+// 1140 to 800px
+// .container-med {
+//   max-width: 73.125rem;
+//   padding: 0 0.9375rem;
+
+//   @include breakpoint-down(large) {
+//     max-width: 50rem;
+//   }
+//   @include breakpoint-down(medium) {
+//     max-width: 30rem;
+//   }
+// }
+// // 875px
+// .container-med {
+//   max-width: 54.6875rem;
+// }

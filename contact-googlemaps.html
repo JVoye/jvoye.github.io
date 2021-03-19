@@ -11,55 +11,105 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- Mapbox-->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
-
-
-    <style>
-        /* body {
-        margin: 0;
-        padding: 0;
-        } */
-        #den {
-        /* position: absolute; */
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        max-width: 1300px;
-        height: 450px;
-        }
-        .marker {
-        background-image: url('/images/mapbox-icon.png');
-        background-size: cover;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        cursor: pointer;
-        }
-        
-        .mapboxgl-popup {
-        max-width: 200px;
-        }
-        .mapboxgl-popup-content {
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        }
-
-        .mapboxgl-popup-close-button:focus {
-            outline: none;
-        }
-
-        /* *:focus,:active{
-            outline: none;
-        } */
-        </style>
-
-    
 </head>
+
+<script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Denver
+        var uluru = { lat: 39.7478278, lng: -104.9882736 };
+        // The map, centered at Denver
+        var mapDenver = new google.maps.Map(
+            document.getElementById('mapDenver'), {
+            zoom: 13,
+            center: uluru,
+            styles: [
+                {
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [
+                        {
+                            "color": "#444444"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#f2f2f2"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "simplified"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "visibility": "off"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "color": "#46bcec"
+                        },
+                        {
+                            "visibility": "on"
+                        }
+                    ]
+                }
+            ]
+        });
+        // The marker, positioned at Denver
+        var marker = new google.maps.Marker({ position: uluru, map: mapDenver });
+    }
+</script>
+
 <body>
-
-
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
             <a class="navbar-brand" href="index.html">
@@ -207,69 +257,9 @@
                     Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet
                     parking available as well as parking in the Welton street parking garage. 2hr street parking or
                     bicycle parking is also available.</p>
-                <!-- <div id="mapDenver"></div> -->
-                
-                <div id='den'></div>
-            
-                <script>
-
-                mapboxgl.accessToken = 'pk.eyJ1IjoianZveWUiLCJhIjoiY2tlbjV0bjgxMGZ3cDJybnFudmhoNnhvOCJ9.0dqpp25O6abTVguEgCSd6w';
-
-                    var map = new mapboxgl.Map({
-                    container: 'den', // container ID
-                    style: 'mapbox://styles/mapbox/light-v10', // style URL
-                    center: [-104.9882736, 39.7478278], // starting position [lng, lat]
-                    zoom: 13// starting zoom
-                    });
-                
-
-                    var geojson = {
-                        type: 'FeatureCollection',
-                        features: [{
-                            type: 'Feature',
-                            geometry: {
-                            type: 'Point',
-                            coordinates: [-104.9882736, 39.7478278]
-                            },
-                            properties: {
-                            title: 'Primary Contact',
-                            description: '1999 Broadway, Suite 4250 <br> Denver, Colorado 80202, USA'
-                            }
-                        },
-                        // {
-                        //     type: 'Feature',
-                        //     geometry: {
-                        //     type: 'Point',
-                        //     coordinates: [-122.414, 37.776]
-                        //     },
-                        //     properties: {
-                        //     title: 'Mapbox',
-                        //     description: 'San Francisco, California'
-                        //     }
-                        // }
-                            ]
-                        };
-
-
-                                                    // / add markers to map
-                            geojson.features.forEach(function(marker) {
-
-                            // create a HTML element for each feature
-                            var el = document.createElement('div');
-                            el.className = 'marker';
-
-                            // make a marker for each feature and add to the map
-                            new mapboxgl.Marker(el)
-                                .setLngLat(marker.geometry.coordinates)
-                                .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-                                .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
-                                .addTo(map);
-                            });
-            </script>
-      
+                <div id="mapDenver"></div>
             </div>
         </section>
-
 
         <section>
             <div class="container-lg center mb-lg">
@@ -369,7 +359,7 @@
         </section>       
 
     <footer id="footer"></footer>
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtKiuiRXKOhiubJnYQeZObOskbtkkqZJM&callback=initMap"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtKiuiRXKOhiubJnYQeZObOskbtkkqZJM&callback=initMap"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

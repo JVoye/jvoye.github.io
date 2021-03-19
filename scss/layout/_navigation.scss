@@ -1,11 +1,15 @@
 // MAIN NAV - BOOTSTRAP 4.5 //
 .nav-container {
   max-width: 83.125rem;
+  max-width: 1400px;
   margin: 0 auto;
+
+  // display: flex;
+  // align-items: flex-end;
 }
 
 .dropdown {
-  @include flex-center;
+  // @include flex-center;
 
   @media (max-width: 991.98px) {
     display: block;
@@ -16,6 +20,10 @@
   font-family: "roboto condensed", sans-serif;
   font-size: var(--font-sm);
   letter-spacing: 1px;
+}
+
+.navbar li {
+  list-style-type: none;
 }
 
 // FOR 50TH LOGO ONLY, DELETE WHEN USING THE STANDARD LOGO //
@@ -53,12 +61,19 @@
   color: #626365 !important;
   // margin-left: 3.5rem;
   // margin-left: 3.5rem;
-  margin: 0.25rem 1.5rem 0.25rem 1rem !important;
+  margin: 0rem 1.5rem 0rem 1.5rem !important;
+
+  &__sm {
+    // font-size: 13px;
+    margin: 0rem 1.5rem 0rem 1.5rem !important;
+    padding: 0.5rem;
+  }
 }
 
 .nav-link-language {
   padding: 8px;
   margin-left: 1rem;
+  margin-top: 1.5rem;
 
   @media (max-width: 991.98px) {
     padding-left: 0;
@@ -74,9 +89,9 @@
     display: block;
   }
 
-  & a:hover {
-    color: var(--color-primary-hover) !important;
-  }
+  // & a:hover {
+  //   color: var(--color-primary-hover) !important;
+  // }
 }
 
 .nav-link-container li {
@@ -94,6 +109,9 @@
 }
 
 .nav-link:hover {
+  color: var(--color-primary-hover) !important;
+}
+.nav-link__sm:hover {
   color: var(--color-primary-hover) !important;
 }
 
@@ -140,42 +158,30 @@
   margin-left: 0.25rem;
 }
 
+.all-links-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.linkedin-container {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
 
-// delete after replaced from above
-// breadcrumb navigation 
-// .breadcrumb-container {
-//   // border: 1px solid red;
-//   padding: 1.5rem 0 2rem 0;
-//   // padding-left: 1.1rem;
-//   // margin: 1rem 0px 2rem 0;
-//   font-size: var(--font-sm);
-//   font-weight: var(--font-thin);
+// .width-test {
+//   // background-color: #f2f2f2;
+//   // width: 250px;
 // }
 
-// .breadcrumb-nav-wide {
-//   padding: 1.5rem 0 2.5rem 0;
-//   margin: 0 auto;
-//   font-size: var(--font-sm);
-//   font-weight: 300;
-// }
+.vertical-div {
+  height: 20px;
+  width: 1px;
+  background-color: #d3d3d3;
+}
 
-// .breadcrumb-nav {
-//   // max-width: 53.75rem; // 860px
-//   // margin: 0 auto;
-//   // display: flex;
-//   // align-items: center;
-
-//   // &__link:hover {
-//   //   text-decoration: underline !important;
-//   // }
-// }
-
-// .breadcrumb-nav a {
-//   padding: 0.25rem;
-//   margin-right: 0.1rem;
-// }
-// .breadcrumb-nav-wide a {
-//   padding: 0.25rem;
-//   margin-right: 0.1rem;
+// .nav-r {
+//   & a:hover {
+//     color: var(--color-primary-hover) !important;
+//   }
 // }

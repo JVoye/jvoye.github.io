@@ -1,24 +1,7 @@
 $(document).ready(function () {
   //* FOOTER TEMPLATE LOAD */////
-  $("#footer").load("footer.html #footer ");
+  // $("#footer").load("footer.html #footer ");
   // $("#nav").load("navbarmulti.html");
-  // $("#slideshow > figure:gt(0)").hide();
-
-  // <!-- <script>
-  //       $(document).ready(function(){
-  //           $("#footer").load("footer.html #footer");
-  //           $("#navbar").load("navbarmulti.html #navbar");
-  //       });
-  //   </script> -->
-
-  // setInterval(function () {
-  //   $("#slideshow > figure:first")
-  //     .fadeOut(1000)
-  //     .next()
-  //     .fadeIn(1000)
-  //     .end()
-  //     .appendTo("#slideshow");
-  // }, 5000);
 
   var btn = $("#button");
 
@@ -33,10 +16,6 @@ $(document).ready(function () {
   btn.on("click", function (e) {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
-  });
-
-  $(".arrow-down").click(function () {
-    $(".additional-logos").slideToggle(300);
   });
 
   //Available Jobs Drop Down-01
@@ -72,6 +51,7 @@ $(document).ready(function () {
       prevEl: ".swiper-button-prev",
     },
     // watchSlidesVisibility: true,
+
     // Responsive breakpoints
     breakpoints: {
       // when window width is <= 320px
@@ -94,6 +74,28 @@ $(document).ready(function () {
       },
     },
   });
+
+  // $("#slideshow > figure:gt(0)").hide();
+
+  // <!-- <script>
+  //       $(document).ready(function(){
+  //           $("#footer").load("footer.html #footer");
+  //           $("#navbar").load("navbarmulti.html #navbar");
+  //       });
+  //   </script> -->
+
+  // setInterval(function () {
+  //   $("#slideshow > figure:first")
+  //     .fadeOut(1000)
+  //     .next()
+  //     .fadeIn(1000)
+  //     .end()
+  //     .appendTo("#slideshow");
+  // }, 5000);
+
+  // $(".arrow-down").click(function () {
+  //   $(".additional-logos").slideToggle(300);
+  // });
 
   // LEAFLET MAP //
   // initialize the map on the "map" div with a given center and zoom

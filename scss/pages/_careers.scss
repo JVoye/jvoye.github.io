@@ -3,7 +3,7 @@
 
   &__grid {
     @include grid-container;
-  
+
     @include breakpoint-down(large) {
       max-width: 30rem;
       grid-template-columns: 1fr;
