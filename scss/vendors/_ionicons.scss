@@ -1,15 +1,10 @@
 ion-icon {
-  font-size: 1.375rem; // 22px
+  --ionicon-stroke-width: 24px;
+  // font-size: 24px; // 22px
   color: var(--color-primary-hover);
 }
 
-.nav-icon {
-  font-size: 1rem;
-  margin-right: 0.1rem;
-  color: var(--color-primary-hover);
-}
-
-.linkedin {
-  font-size: 26px;
-  color: #0a66c2;
+.ion-icon__contact {
+  font-size: 22px;
+  color: var(--color-primary-font);
 }

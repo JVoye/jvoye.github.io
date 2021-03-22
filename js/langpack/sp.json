@@ -1,8 +1,5 @@
 {
 	"token": {
-		"English":
-		"Inglés",
-
 		"Services":
 		"Servicios",
 
@@ -38,8 +35,13 @@
 
 		"Contact":
 		"Contacto",
-		
 
+		"English":
+		"Inglés",
+
+		"Follow Us":
+		"Síganos",
+		
 		"BNP Associates, Inc. the Worldwide Leader":
         "BNP Associates, Inc. el líder mundial",
 		"in providing specialized consulting services to the air transportation industry since 1971":

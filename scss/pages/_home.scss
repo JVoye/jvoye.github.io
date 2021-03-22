@@ -9,8 +9,8 @@
   &__text {
     position: absolute;
     max-width: 100%;
-    height: 750px;
-    // height: 675px;
+    // height: 750px;
+    height: 700px;
     color: var(--color-white);
     padding: 1rem 0;
     display: flex;
@@ -58,8 +58,8 @@
 
   &__img {
     position: relative;
-    height: 725px;
-    // height: 675px;
+    // height: 725px;
+    height: 700px;
     animation: breath 15s ease-in-out;
     animation-fill-mode: forwards;
 
