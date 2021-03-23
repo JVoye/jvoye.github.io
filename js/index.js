@@ -3,8 +3,11 @@ $(document).ready(function () {
   // $("#footer").load("footer.html #footer ");
   // $("#nav").load("navbarmulti.html");
 
-  var btn = $("#button");
+  // for Language switcher
+  $("body").css({ visibility: "visible" });
 
+  // to top button
+  var btn = $("#button");
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
       btn.addClass("show");

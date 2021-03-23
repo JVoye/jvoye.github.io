@@ -20,22 +20,20 @@
         var lang = new Lang();
 
         lang.dynamic('en', 'js/langpack/en.json');
-        lang.dynamic('sp', 'js/langpack/sp.json');
+        lang.dynamic('es', 'js/langpack/es.json');
         lang.dynamic('zh', 'js/langpack/zh.json');
         
         lang.init({
             defaultLang: 'en'
         });
     </script>
-    <!-- ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 
 <body>
-    <header class="header" id="navbar">
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
             <!-- Logo -->
-            <a class="navbar-brand" href="index language test.html">
+            <a class="navbar-brand" href="index.html">
                 <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo">
             </a>
             <!-- Toggle -->
@@ -73,19 +71,19 @@
                     </li>
                 
                     <li>
-                        <a class="nav-link" href="contact language test.html" lang="en">Contact</a>
+                        <a class="nav-link" href="contact.html" lang="en">Contact</a>
                     </li>
                 </ul>
                 <!-- Language Dropdown -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto navbar-buttons">
                     <li class="nav-item dropdown">
-                        <a class="nav-link__right flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
+                        <a class="nav-link__right nav-link__language flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
                             <img class="nav-link__icon ml-sm" src="/images/icons/globe-outline.svg" alt="globe-icon"><span class="sr-only">(current)</span></a>
                         
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a href="#" onclick="window.lang.change('en'); return false;" class="dropdown-item">English</a>
                             <div class="dropdown-divider"></div>
-                            <a href="#" onclick="window.lang.change('sp'); return false;" class="dropdown-item">Español</a>
+                            <a href="#" onclick="window.lang.change('es'); return false;" class="dropdown-item">Español</a>
                             <div class="dropdown-divider"></div>
                             <a href="#" onclick="window.lang.change('zh'); return false;" class="dropdown-item">英語</a>
                         </div>
@@ -94,7 +92,7 @@
                         <span class="vertical-divider"></span>
                     </li>
                     <li>
-                        <a class="nav-link__right nav-link__logos flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
+                        <a class="nav-link__right nav-link__follow flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
                         <img class="nav-link__icon ml-sm" src="/images/icons/logo-linkedin.svg" alt="linkedin-icon"></a>
                     </li>
                 </ul>
@@ -104,6 +102,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+    <script src="/js/index.js"></script>  
 </body>
 </html>

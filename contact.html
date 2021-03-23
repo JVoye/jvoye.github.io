@@ -20,7 +20,7 @@
         var lang = new Lang();
 
         lang.dynamic('en', 'js/langpack/en.json');
-        lang.dynamic('sp', 'js/langpack/sp.json');
+        lang.dynamic('es', 'js/langpack/es.json');
         lang.dynamic('zh', 'js/langpack/zh.json');
         
         lang.init({
@@ -128,7 +128,7 @@
 </script>
 
 <body>
-    <header class="header" id="navbar">
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
             <!-- Logo -->
             <a class="navbar-brand" href="index.html">
@@ -173,15 +173,15 @@
                     </li>
                 </ul>
                 <!-- Language Dropdown -->
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto navbar-buttons">
                     <li class="nav-item dropdown">
-                        <a class="nav-link__right flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
+                        <a class="nav-link__right nav-link__language flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
                             <img class="nav-link__icon ml-sm" src="/images/icons/globe-outline.svg" alt="globe-icon"><span class="sr-only">(current)</span></a>
                         
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a href="#" onclick="window.lang.change('en'); return false;" class="dropdown-item">English</a>
                             <div class="dropdown-divider"></div>
-                            <a href="#" onclick="window.lang.change('sp'); return false;" class="dropdown-item">Español</a>
+                            <a href="#" onclick="window.lang.change('es'); return false;" class="dropdown-item">Español</a>
                             <div class="dropdown-divider"></div>
                             <a href="#" onclick="window.lang.change('zh'); return false;" class="dropdown-item">英語</a>
                         </div>
@@ -190,7 +190,7 @@
                         <span class="vertical-divider"></span>
                     </li>
                     <li>
-                        <a class="nav-link__right nav-link__logos flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
+                        <a class="nav-link__right nav-link__follow flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
                         <img class="nav-link__icon ml-sm" src="/images/icons/logo-linkedin.svg" alt="linkedin-icon"></a>
                     </li>
                 </ul>
