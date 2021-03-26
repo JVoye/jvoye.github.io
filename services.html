@@ -10,58 +10,90 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Language Load -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">
+        // Create language switcher instance
+        var lang = new Lang();
+
+        lang.dynamic('en', 'js/langpack/en.json');
+        lang.dynamic('es', 'js/langpack/es.json');
+        lang.dynamic('zh', 'js/langpack/zh.json');
+        
+        lang.init({
+            defaultLang: 'en'
+        });
+    </script>
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
+            <!-- Logo -->
             <a class="navbar-brand" href="index.html">
-                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo" loading="lazy">
+                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-
-                <ul class="nav navbar-nav ml-auto">
+                <!-- All Services Dropdown -->
+                <ul class="nav navbar-nav ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="b-blue" href="services.html" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services<span class="sr-only">(current)</span>
-                        </a>
+                        <a class="nav-link dropdown flex flex-ai-c" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" lang="en">Services 
+                            <img class="nav-link__icon" src="/images/icons/chevron-down-outline.svg" alt="chevron-icon"><span class="sr-only">(current)</span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">All Services</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
-                            <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
-                            <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
-                            <a class="dropdown-item" href="services.html#simulation">Simulation</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                            <a class="dropdown-item" href="services.html" lang="en">All Services</a>
+                                <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="services.html#apron" lang="en">Apron Systems</a>
+                            <a class="dropdown-item" href="services.html#baggage" lang="en">Baggage Handling</a>
+                            <a class="dropdown-item" href="services.html#cargo" lang="en">Cargo Handling</a>
+                            <a class="dropdown-item" href="services.html#simulation" lang="en">Simulation</a>
+                                <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="aircraft-characteristics.html" lang="en">Aircraft Characteristics</a>
                         </div>
                     </li>
-
                     <li>
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="about.html" lang="en">About Us</a>
+                    </li> 
+                    <li>
+                        <a class="nav-link" href="projects.html" lang="en">Projects</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="careers.html">Careers</a>
+                        <a class="nav-link" href="careers.html" lang="en">Careers</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="news.html" lang="en">News</a>
                     </li>
-
+                
                     <li>
-                        <a class="nav-link nav-btn" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html" lang="en">Contact</a>
+                    </li>
+                </ul>
+                <!-- Language Dropdown -->
+                <ul class="navbar-nav ml-auto navbar-buttons">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link__right nav-link__language flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
+                            <img class="nav-link__icon ml-sm" src="/images/icons/globe-outline.svg" alt="globe-icon"><span class="sr-only">(current)</span></a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" onclick="window.lang.change('en'); return false;" class="dropdown-item">English</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" onclick="window.lang.change('es'); return false;" class="dropdown-item">Español</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" onclick="window.lang.change('zh'); return false;" class="dropdown-item">英語</a>
+                        </div>
+                    </li>
+                    <li class="flex flex-ai-c">
+                        <span class="vertical-divider"></span>
+                    </li>
+                    <li>
+                        <a class="nav-link__right nav-link__follow flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
+                        <img class="nav-link__icon ml-sm" src="/images/icons/logo-linkedin.svg" alt="linkedin-icon"></a>
                     </li>
                 </ul>
             </div>
@@ -77,9 +109,8 @@
             <div class="hero-secondary --services mb-lg">
                 <div class="hero-text">
                     <div class="hero-secondary__text-container">
-                        <h1 class="hero-secondary__header mb-sm">Excellence & Innovation<br> in every design for
-                            over 45 years</h1>
-                        <p class="hero-secondary__sub-header mb-sm">designers | planners | engineers</p>
+                        <h1 class="hero-secondary__header mb-sm" lang="en">Excellence & Innovation<br lang="en">in every design for over 45 years</h1>
+                        <p class="hero-secondary__sub-header mb-sm" lang="en">designers | planners | engineers</p>
                     </div>
                 </div>
             </div>
@@ -88,86 +119,54 @@
         <!-- APRON SYSTEMS -->
         <section class="apron-services" id="apron">
             <div class="apron-services__content container-lg center mb-xl">
-                <h2 class="section-heading">Apron Systems</h2>
-                <p class="mb-lg">BNP Associates, Inc. has developed a team to address the
-                    need for a concise grouping of professionals dedicated to the design of Apron Systems. <br>Our focus
-                    is aimed at the following:</p>
-                <h2 class="bullets">Passenger Loading Bridges <span
-                        class="services-bullet"></span> Pre-Conditioned Air <span class="services-bullet"></span> 400 Hz
-                    Ground Power <span class="services-bullet"></span> Visual Docking Guidance Systems (VDGS) <span
-                        class="services-bullet"></span> Potable Water <span class="services-bullet"></span> Aircraft
-                    Parking
+                <h2 class="section-heading" lang="en">Apron Systems</h2>
+                <p class="mb-lg" lang="en">BNP Associates, Inc. has developed a team to address the need for a concise grouping of professionals dedicated to the design of Apron Systems.<br lang="en">Our focus is aimed at the following:</p>
+                <h2 class="bullets" lang="en">Passenger Loading Bridges <span class="services-bullet"></span> Pre-Conditioned Air <span class="services-bullet"></span> 400 Hz Ground Power <span class="services-bullet"></span> Visual Docking Guidance Systems (VDGS) <span class="services-bullet"></span> Potable Water <span class="services-bullet"></span> Aircraft Parking
                 </h2>
             </div>
 
             <div class="feature-box mb-xl">
                 <div class="feature-box__text feature-box__mg-r">
-                    <h3 class="feature-box__header">Design</h3>
-                    <p>Baseline aircraft parking plan alternatives are
-                        developed for the projected fleet mix, including GSE parking and vehicle service lanes.
-                        As necessary, several alternatives are also considered to optimize the various
-                        evaluation criteria including aircraft fleet mix, gate/aircraft interchangeability,
-                        passenger loading distributions, etc.</p><br>
+                    <h3 class="feature-box__header" lang="en">Design</h3>
+                    <p lang="en">Baseline aircraft parking plan alternatives are developed for the projected fleet mix, including GSE parking and vehicle service lanes. As necessary, several alternatives are also considered to optimize the various evaluation criteria including aircraft fleet mix, gate/aircraft interchangeability, passenger loading distributions, etc.</p><br>
 
-                    <p>The passenger loading bridge generalities are also
-                        developed including approximate PBB tunnel lengths, range of aircraft servicing needs,
-                        maximum slopes and facility interface coordination. Point-of-use versus centralized 400
-                        Hz and PC air studies are developed as well as Potable Water requirements. VDGS system
-                        layout and the interface to the Passenger Boarding Bridges are also developed when they
-                        are a requirement of the project.
+                    <p lang="en">The passenger loading bridge generalities are also developed including approximate PBB tunnel lengths, range of aircraft servicing needs, maximum slopes and facility interface coordination. Point-of-use versus centralized 400 Hz and PC air studies are developed as well as Potable Water requirements. VDGS system layout and the interface to the Passenger Boarding Bridges are also developed when they are a requirement of the project.
                     <p>
                 </div>
 
                 <div class="feature-box__img">
-                    <img src="/images/apron-03-min.jpg" alt="apron-img-01">
+                    <img src="/images/apron-03-min.jpg" alt="Jetbridge Loading" lang="en">
                 </div>
             </div>
          
             <div class="container-lg mb-xl">
-                <p>The design process concludes with estimating, scheduling and recommendations of the apron systems
-                    configuration which best meet the needs of the client. BNP uses the AviPlan software program for
-                    its aircraft parking, servicing and layout designs. This is combined with an extensive library
-                    of standard CADD symbols and design standards.</p>
+                <p lang="en">The design process concludes with estimating, scheduling and recommendations of the apron systems configuration which best meet the needs of the client. BNP uses the AviPlan software program for its aircraft parking, servicing and layout designs. This is combined with an extensive library of standard CADD symbols and design standards.</p>
             </div>
 
-            <div class="feature-box mb-lg">
+            <div class="feature-box mb-xl">
                 <div class="feature-box__img">
-                    <img src="/images/apron-01-min.jpg" alt="apron-img-02">
+                    <img src="/images/apron-01-min.jpg" alt="Jetbridge">
                 </div>
 
                 <div class="feature-box__text feature-box__mg-l">
-                    <h3 class="feature-box__header">Specifications</h3>
-                    <p>Preparation of bidding documents for the
-                        procurement of the various apron systems. Project specific requirements are included in
-                        our standard, proven specifications. BNP Specification packages are divided so multiple
-                        contractors can be included in the equipment procurement. Our specifications include
-                        distinct sections for the PBB, PC Air, 400 Hz, Potable water and VDGS.</p><br>
-                    <h3 class="feature-box__header">Bidding & Award Assistance</h3>
-                    <p>Pre-qualification of vendors, release for bid
-                        packages, pre-bid conferences, bid review and contract negotiations. BNP knows the
-                        strengths, weaknesses and has first-hand knowledge of production capacities and
-                        capabilities of all the various manufacturers.</p>
+                    <h3 class="feature-box__header" lang="en">Specifications</h3>
+                    <p lang="en">Preparation of bidding documents for the procurement of the various apron systems. Project specific requirements are included in our standard, proven specifications. BNP Specification packages are divided so multiple contractors can be included in the equipment procurement. Our specifications include distinct sections for the PBB, PC Air, 400 Hz, Potable water and VDGS.</p><br>
+                    <h3 class="feature-box__header" lang="en">Bidding & Award Assistance</h3>
+                    <p lang="en">Pre-qualification of vendors, release for bid packages, pre-bid conferences, bid review and contract negotiations. BNP knows the strengths, weaknesses and has first-hand knowledge of production capacities and capabilities of all the various manufacturers.</p>
                 </div>
             </div>
 
             <div class="feature-box mb-xl">
                 <div class="feature-box__text feature-box__mg-r">
-                    <h3 class="feature-box__header">Construction Administration</h3>
-                    <p>BNP provides as part of our Construction
-                        Administration role, coordination of the engineering and manufacturing processes,
-                        Factory Acceptance Testing, coordinate both construction staging and construction around
-                        on-going operations. We also provide supervision of the installation, punch listing,
-                        equipment acceptance testing and Aircraft Gate Fit testing if required.</p><br>
+                    <h3 class="feature-box__header" lang="en">Construction Administration</h3>
+                    <p lang="en">BNP provides as part of our Construction Administration role, coordination of the engineering and manufacturing processes, Factory Acceptance Testing, coordinate both construction staging and construction around on-going operations. We also provide supervision of the installation, punch listing, equipment acceptance testing and Aircraft Gate Fit testing if required.</p><br>
 
-                    <p>BNP brings the proven expertise that provides cost
-                        and operationally effective solutions to our clients. The process had been a missing
-                        element in the industry where the planning of these critical systems was often left to
-                        less experienced personnel or to the equipment manufacturers.
+                    <p lang="en">BNP brings the proven expertise that provides cost and operationally effective solutions to our clients. The process had been a missing element in the industry where the planning of these critical systems was often left to less experienced personnel or to the equipment manufacturers.
                     <p>
                 </div>
             
                 <div class="feature-box__img">
-                    <img src="/images/apron-02-min.jpg" alt="apron-img-03" class="careers__img">
+                    <img src="/images/apron-02-min.jpg" alt="Jetbridge Loading" class="careers__img">
                 </div>
             </div>
         </section>
@@ -175,58 +174,34 @@
         <!-- BAGGAGE HANDLING -->
             <section class="baggage-services" id="baggage">
                 <div class="baggage-services__content container-lg">
-                    <h2 class="section-heading center">Baggage Handling</h2>
-                    <p>BNP brings an extensive background of experience with the planning, design and implementation of
-                        airport Baggage Handling Systems and have been providing specialized consulting services to the
-                        air transportation industry on a worldwide basis since 1971. In our more than 45 years of
-                        professional experience, BNP has been involved in hundreds of projects throughout the world and
-                        our continuous industry exposure keep us fully appraised of current and planned industry
-                        requirements.
+                    <h2 class="section-heading center" lang="en">Baggage Handling</h2>
+                    <p lang="en">BNP brings an extensive background of experience with the planning, design and implementation of airport Baggage Handling Systems and have been providing specialized consulting services to the air transportation industry on a worldwide basis since 1971. In our more than 45 years of professional experience, BNP has been involved in hundreds of projects throughout the world and our continuous industry exposure keep us fully appraised of current and planned industry requirements.
                     </p><br>
-                    <p class="mb-lg">Our consulting services include Master Planning, Facility Design, Baggage
-                        Handling System Design, Project Management and Construction Administration. BNP are a dedicated
-                        group of professionals, widely experienced in airline and airport requirements for the handling
-                        of baggage. In meeting the needs of our clients, BNP provides:
+                    <p class="mb-lg" lang="en">Our consulting services include Master Planning, Facility Design, Baggage Handling System Design, Project Management and Construction Administration. BNP are a dedicated group of professionals, widely experienced in airline and airport requirements for the handling of baggage. In meeting the needs of our clients, BNP provides:
                     </p>
-                    <h2 class="bullets mb-xl center">System Evaluation <span
-                            class="services-bullet"></span> Design <span class="services-bullet"></span> Specifications
-                        <span class="services-bullet"></span> Cost Analysis <span class="services-bullet"></span>
-                        Construction Management and Administration
+                    <h2 class="bullets mb-xl center" lang="en">System Evaluation <span class="services-bullet"></span> Design <span class="services-bullet"></span> Specifications <span class="services-bullet"></span> Cost Analysis <span class="services-bullet"></span> Construction Management and Administration
                     </h2>
                 </div>
     
                 <div class="feature-box mb-xl">
                     <div class="feature-box__img">
-                        <img src="/images/baggage-02-min.jpg" alt="bhs-img-01">
+                        <img src="/images/baggage-02-min.jpg" alt="ICS BHS System">
                     </div>
                 
                     <div class="feature-box__text feature-box__mg-l">
-                        <p>BNP’s approach is that we take a project from
-                            its inception through to operational support to include:</p><br>
-                        <h3 class="feature-box__header">Statistical Analysis</h3>
-                        <p>Analyzing the current and future needs of the system
-                            using numerous computer models that have been developed by our analysis and simulation
-                            engineers. The resulting data is imported and integrated into the BNP developed simulation
-                            model along with the system design drawings, data reported by the simulations is then
-                            transformed into meaningful charts and statistically valid reports for the Airport/Airline
-                            to validate the functionality of the proposed design.</p>
+                        <p lang="en">BNP’s approach is that we take a project from its inception through to operational support to include:</p><br>
+                        <h3 class="feature-box__header" lang="en">Statistical Analysis</h3>
+                        <p lang="en">Analyzing the current and future needs of the system using numerous computer models that have been developed by our analysis and simulation engineers. The resulting data is imported and integrated into the BNP developed simulation model along with the system design drawings, data reported by the simulations is then transformed into meaningful charts and statistically valid reports for the Airport/Airline to validate the functionality of the proposed design.</p>
                     </div>
                 </div>
             
 
                 <div class="feature-box mb-lg">
                     <div class="feature-box__text feature-box__mg-r">
-                        <h3 class="feature-box__header">Design</h3>
-                        <p>Development of conceptual and designs are based
-                            on considering various levels of automation, which are then measured against the economic
-                            and operational benefits. These criteria are summarized into a final report which serves as
-                            the projects definition document. The design is coordinated with the A&E teams to ensure the
-                            system is an integral component of the facility. BNP performs the majority of the design
-                            work with BIM utilizing the Revit platform.</p><br>
-                        <h3 class="feature-box__header">Contract Documentation</h3>
-                        <p>Functional detailed specifications and contract documents
-                            are prepared based on the system configuration, the design objectives and BNP’s practical
-                            real world history of mechanical, electrical and controls components and products.</p>
+                        <h3 class="feature-box__header" lang="en">Design</h3>
+                        <p lang="en">Development of conceptual and designs are based on considering various levels of automation, which are then measured against the economic and operational the projects definition document. The design is coordinated with the A&E teams to ensure the system is an integral component of the facility. BNP performs the majority of the design work with BIM utilizing the Revit platform.</p><br>
+                        <h3 class="feature-box__header" lang="en">Contract Documentation</h3>
+                        <p lang="en">Functional detailed specifications and contract documents are prepared based on the system configuration, the design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.</p>
                     </div>
             
                     <div class="feature-box__video">
@@ -238,30 +213,22 @@
              </div>
 
             <div class="container-lg mb-lg">
-                <h3 class="feature-box__header">Bidding & Award Assistance</h3>
-                <p>Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of
-                    which is especially beneficial to our clients given BNP’s knowledge of the industry, market pricing
-                    and contract requirements.
+                <h3 class="feature-box__header" lang="en">Bidding & Award Assistance</h3>
+                <p lang="en">Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the industry, market pricing and contract requirements.
                 </p><br>
             </div>
     
 
             <div class="feature-box mb-lg">
                 <div class="feature-box__img">
-                    <img src="/images/baggage-01-min.jpg" alt="bhs-img-02" class="careers__img">
+                    <img src="/images/baggage-01-min.jpg" alt="EDS Screening" class="careers__img">
                 </div>
                     
                 <div class="feature-box__text feature-box__mg-l">
-                    <h3 class="feature-box__header">Construction Administration</h3>
-                    <p>BNP’s participation in the construction
-                        management/administration process includes submittal reviews, program management, and site
-                        supervision; scheduling, detailed inspections of the system, acceptance testing and
-                        assistance to the client in the operational start up period.</p><br>
-                    <p>To successfully provide the project, BNP works very
-                        closely and collaboratively with the Airport, the Architectural and MEP design team members
-                        and the User Airlines, resulting in openness to share ideas and concepts on how to best
-                        serve the airlines/airport’s evolving requirements while responding to the project
-                        requirements.</p>
+                    <h3 class="feature-box__header" lang="en">Construction Administration</h3>
+                    <p lang="en">BNP’s participation in the construction management/administration process includes submittal reviews, program management, and site supervision; scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.</p><br>
+                    <p lang="en">To successfully provide the project, BNP works very closely and collaboratively with the Airport, the Architectural and MEP design team members and the User Airlines, resulting in openness to share ideas and concepts on how to best serve the airlines/airport’s evolving requirements while responding to the project requirements.
+                    </p>
                 </div>
             </div>
         </section>
@@ -269,107 +236,69 @@
         <!-- CARGO HANDLING SYSTEMS -->
             <section class="cargo-services" id="cargo">
                 <div class="cargo-services__content container-lg mb-lg">
-                    <h2 class="section-heading center">Cargo Handling Systems</h2>
-                    <p>BNP Associates, Inc. has designed and implemented some of the largest and most complex Air Cargo
-                        Systems in the world including Hong Kong, Singapore and Doha. Our services include Master
-                        Planning, Facility Design, Cargo System Designs and Project Management. We are a dedicated group
-                        of professionals, widely experienced in the airline and airport requirements for the handling of
-                        cargo. Meeting the needs of our clients, BNP provides:</p>
+                    <h2 class="section-heading center" lang="en">Cargo Handling Systems</h2>
+                    <p lang="en">BNP Associates, Inc. has designed and implemented some of the largest and most complex Air Cargo Systems in the world including Hong Kong, Singapore and Doha. Our services include Master Planning, Facility Design, Cargo System Designs and Project Management. We are a dedicated group of professionals, widely experienced in the airline and airport requirements for the handling of cargo. Meeting the needs of our clients, BNP provides:
+                    </p>
                 </div>
 
                 
                 <div class="feature-box mb-xl">
                     <div class="feature-box__text feature-box__mg-r">
-                        <h3 class="feature-box__header">System Requirements</h3>
-                        <p>Determination of Requirements and Constraints,
-                            Development of Broad Concept of Operations, Concept Design, Evaluation and Recommendation of
-                            Preferred Concept.</p><br>
-                        <h3 class="feature-box__header">Specifications</h3>
-                        <p>Preparation of technical performance specifications to
-                            include General Requirements, Definition of scope of work of the system of the supplier,
-                            Definition of operational equipment requirements.</p>
+                        <h3 class="feature-box__header" lang="en">System Requirements</h3>
+                        <p lang="en">Determination of Requirements and Constraints, Development of Broad Concept of Operations, Concept Design, Evaluation and Recommendation of Preferred Concept.</p><br>
+                        <h3 class="feature-box__header" lang="en">Specifications</h3>
+                        <p lang="en">Preparation of technical performance specifications to include General Requirements, Definition of scope of work of the system of the supplier, Definition of operational equipment requirements.</p>
                     </div>
                 
                     <div class="feature-box__img">
-                        <img src="/images/cargo-01-min.jpg" alt="cargo-img-01">
+                        <img src="/images/cargo-01-min.jpg" alt="Cargo Handling System">
                     </div>
                 </div>
                 
 
-     
                 <div class="feature-box mb-xl">
                     <div class="feature-box__img">
-                        <img src="/images/cargo-03-min.jpg" alt="cargo-img-02">
+                        <img src="/images/cargo-03-min.jpg" alt="Cargo Handling Analysis">
                     </div>
                                
                     <div class="feature-box__text feature-box__mg-l">
-                        <h3 class="feature-box__header">Construction Management</h3>
-                        <p>BNP provides construction
-                            management/administration process including submittal reviews, program management, and site
-                            supervision.</p><br>
-                        <h3 class="feature-box__header">Analysis</h3>
-                        <p>BNP will develop the requirements and constraints for the
-                            Cargo System in terms of resources (airside interface positions, storage positions,
-                            workstations, truck docks, etc.) based on the detailed forecast provided by the Client. This
-                            will include requirements for special storage areas, storage for oversize cargo, empty ULD
-                            Storage, sorter systems for parcels and small packages. With this information, a proposed
-                            Concept of Operations will be developed. This is the most significant part of analysis and
-                            the concept design study and involves the highest levels of expertise, creativity and
-                            engineering acumen.</p>
+                        <h3 class="feature-box__header" lang="en">Construction Management</h3>
+                        <p lang="en">BNP provides construction management/administration process including submittal reviews, program management, and site supervision.</p><br>
+                        <h3 class="feature-box__header" lang="en">Analysis</h3>
+                        <p lang="en">BNP will develop the requirements and constraints for the Cargo System in terms of resources (airside interface positions, storage positions, workstations, truck docks, etc.) based on the detailed forecast provided by the Client. This will include requirements for special storage areas, storage for oversize cargo, empty ULD Storage, sorter systems for parcels and small packages. With this information, a proposed Concept of Operations will be developed. This is the most significant part of analysis and the concept design study and involves the highest levels of expertise, creativity and engineering acumen.</p>
                     </div>
                 </div>
              
                 <div class="container-lg mb-lg">
-                    <h3 class="feature-box__header">Design</h3>
-                    <p class="mb-lg">BNP, for the client review develop a group of concepts in 2D, representing broad
-                        topics such as various terminal shapes, single vs multi-level facility, exterior airside interfaces
-                        vs interior airside interface aisles, and different operational concepts, etc. The preferred design
-                        will include 3D space planning of the Cargo functions to determine the anticipated height of the
-                        facility and includes 3D equipment to allow validation of the quantities required versus the
-                        provisions in the design. Based on the preferred design BNP will provide rough order magnitude costs
-                        and implementation schedules.
+                    <h3 class="feature-box__header" lang="en">Design</h3>
+                    <p class="mb-lg" lang="en">BNP, for the client review develop a group of concepts in 2D, representing broad topics such as various terminal shapes, single vs multi-level facility, exterior airside interfaces vs interior airside interface aisles, and different operational concepts, etc. The preferred design will include 3D space planning of the Cargo functions to determine the anticipated height of the facility and includes 3D equipment to allow validation of the quantities required versus the provisions in the design. Based on the preferred design BNP will provide rough order magnitude costs and implementation schedules.
                     </p>
-                    <h3 class="feature-box__header">Simulation</h3>
-                    <p class="mb-lg">The preferred concept will be developed by BNP into a 3D dynamic discrete event
-                        simulation model where the flow of each ULD and each ASRS load unit is modeled. The simulation will
-                        be based upon the peak time processing and include the processing of cargo incorporating security
-                        and customs requirements. Manual processes (e.g. ULD buildup, forklift movement, Dolly train
-                        movement) will be modeled with representative process times coordinated with the client.
+                    <h3 class="feature-box__header" lang="en">Simulation</h3>
+                    <p class="mb-lg" lang="en">The preferred concept will be developed by BNP into a 3D dynamic discrete event simulation model where the flow of each ULD and each ASRS load unit is modeled. The simulation will be based upon the peak time processing and include the processing of cargo incorporating security and customs requirements. Manual processes (e.g. ULD buildup, forklift movement, Dolly train movement) will be modeled with representative process times coordinated with the client.
                     </p>
-                    <h3 class="feature-box__header">Construction Documentation</h3>
-                    <p class="mb-lg">BNP will prepare and provide functional detailed specifications, drawings and
-                        contract documents based on the cargo system configuration, the client approved design objectives
-                        and BNP’s practical real world history of mechanical, electrical and controls components and
-                        products.
+                    <h3 class="feature-box__header" lang="en">Construction Documentation</h3>
+                    <p class="mb-lg" lang="en">BNP will prepare and provide functional detailed specifications, drawings and contract documents based on the cargo system configuration, the client approved design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.
                     </p>
-                    <h3 class="feature-box__header">Bidding and Award Assistance</h3>
-                    <p>Pre-qualification of vendors, release of bid documents, assistance in bid
-                        evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the
-                        cargo industry, market pricing and contract requirements.
+                    <h3 class="feature-box__header" lang="en">Bidding and Award Assistance</h3>
+                    <p lang="en">Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the cargo industry, market pricing and contract requirements.
                     </p>
                 </div>
         
                 <div class="feature-box mb-xl">
                     <div class="feature-box__text feature-box__mg-r">
-                        <h3 class="feature-box__header">Construction Administration</h3>
-                        <p>BNP’s participation in the construction
-                            management/administration process includes submittal reviews to include structural loading
-                            drawings, building interface drawings and maintenance access drawings. Assist in the
-                            preparation of and attend the execution of factory acceptance tests.</p><br>
-                        <p>Program management, and site supervision,
-                            scheduling, detailed inspections of the system, acceptance testing and assistance to the
-                            client in the operational start up period.</p>
+                        <h3 class="feature-box__header" lang="en">Construction Administration</h3>
+                        <p lang="en">BNP’s participation in the construction management/administration process includes submittal reviews to include structural loading drawings, building interface drawings and maintenance access drawings. Assist in the preparation of and attend the execution of factory acceptance tests.</p><br>
+                        <p lang="en">Program management, and site supervision, scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.</p>
                     </div>
                                 
                     <div class="feature-box__img">
-                        <img src="/images/cargo-02-min.jpg" alt="cargo-img-03">
+                        <img src="/images/cargo-02-min.jpg" alt="Cargo Handling Administration">
                     </div>           
                 </div>
         </section>
 
         <section class="container-lg center mb-lg">
-            <h2 class="bullets">BNP brings proven expertise in Cargo System Design<br> and
-                implementation that provides cost and operational effective solutions to our clients.
+            <h2 class="bullets" lang="en">BNP brings proven expertise in Cargo System Design<br lang="en">and implementation that provides cost and operational effective solutions to our clients.
             </h2>
         </section>
            
@@ -399,7 +328,7 @@
        
             <div class="feature-box mb-xl">
                 <div class="feature-box__img">
-                    <img src="/images/graph.jpg" alt="simulation-graph" class="simulation__img">
+                    <img src="/images/graph.jpg" alt="Demand Forcasting" class="simulation__img">
                 </div>
               
                 <div class="feature-box__text feature-box__mg-l">
@@ -502,7 +431,6 @@
 
     <footer id="footer"></footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>

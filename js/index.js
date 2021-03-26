@@ -1,13 +1,14 @@
 $(document).ready(function () {
   //* FOOTER TEMPLATE LOAD */////
-  // $("#footer").load("footer.html #footer ");
+  $("#footer").load("footer.html #footer ");
   // $("#nav").load("navbarmulti.html");
 
-  // for Language switcher
+  // for Language switcher - hides site until language load
   $("body").css({ visibility: "visible" });
 
   // to top button
   var btn = $("#button");
+
   $(window).scroll(function () {
     if ($(window).scrollTop() > 300) {
       btn.addClass("show");
