@@ -10,58 +10,90 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Language Load -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">
+        // Create language switcher instance
+        var lang = new Lang();
+
+        lang.dynamic('en', 'js/langpack/en.json');
+        lang.dynamic('es', 'js/langpack/es.json');
+        lang.dynamic('zh', 'js/langpack/zh.json');
+        
+        lang.init({
+            defaultLang: 'en'
+        });
+    </script>
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light nav-container">
+            <!-- Logo -->
             <a class="navbar-brand" href="index.html">
-                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo" loading="lazy">
+                <img src="/images/nav-bnp-logo.svg" class="logo-bnp" alt="BNP Associates, Inc Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Toggle -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                </ul>
-
-                <ul class="nav navbar-nav ml-auto">
+                <!-- All Services Dropdown -->
+                <ul class="nav navbar-nav ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services<span class="sr-only">(current)</span>
-                        </a>
+                        <a class="nav-link dropdown flex flex-ai-c" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" lang="en">Services 
+                            <img class="nav-link__icon" src="/images/icons/chevron-down-outline.svg" alt="chevron-icon"><span class="sr-only">(current)</span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">All Services</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="services.html#apron">Apron Systems</a>
-                            <a class="dropdown-item" href="services.html#baggage">Baggage Handling</a>
-                            <a class="dropdown-item" href="services.html#cargo">Cargo Handling</a>
-                            <a class="dropdown-item" href="services.html#simulation">Simulation</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="aircraft-characteristics.html">Aircraft Characteristics</a>
+                            <a class="dropdown-item" href="services.html" lang="en">All Services</a>
+                                <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="services.html#apron" lang="en">Apron Systems</a>
+                            <a class="dropdown-item" href="services.html#baggage" lang="en">Baggage Handling</a>
+                            <a class="dropdown-item" href="services.html#cargo" lang="en">Cargo Handling</a>
+                            <a class="dropdown-item" href="services.html#simulation" lang="en">Simulation</a>
+                                <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="aircraft-characteristics.html" lang="en">Aircraft Characteristics</a>
                         </div>
                     </li>
-
                     <li>
-                        <a class="nav-link" id="b-blue" href="about.html">About Us</a>
+                        <a class="nav-link" href="about.html" lang="en">About Us</a>
+                    </li> 
+                    <li>
+                        <a class="nav-link" href="projects.html" lang="en">Projects</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-
-                    <li>
-                        <a class="nav-link" href="careers.html">Careers</a>
+                        <a class="nav-link" href="careers.html" lang="en">Careers</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="news.html" lang="en">News</a>
                     </li>
-
+                
                     <li>
-                        <a class="nav-link nav-btn" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html" lang="en">Contact</a>
+                    </li>
+                </ul>
+                <!-- Language Dropdown -->
+                <ul class="navbar-nav ml-auto navbar-buttons">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link__right nav-link__language flex flex-ai-c"href="#" lang="en" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English 
+                            <img class="nav-link__icon ml-sm" src="/images/icons/globe-outline.svg" alt="globe-icon"><span class="sr-only">(current)</span></a>
+                        
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#" onclick="window.lang.change('en'); return false;" class="dropdown-item">English</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" onclick="window.lang.change('es'); return false;" class="dropdown-item">Español</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" onclick="window.lang.change('zh'); return false;" class="dropdown-item">英語</a>
+                        </div>
+                    </li>
+                    <li class="flex flex-ai-c">
+                        <span class="vertical-divider"></span>
+                    </li>
+                    <li>
+                        <a class="nav-link__right nav-link__follow flex flex-ai-c" href="https://www.linkedin.com/company/bnp-associates-inc/about/" lang="en">Follow Us
+                        <img class="nav-link__icon ml-sm" src="/images/icons/logo-linkedin.svg" alt="linkedin-icon"></a>
                     </li>
                 </ul>
             </div>
@@ -77,44 +109,32 @@
             <div class="hero-secondary --about mb-lg">
                 <div class="hero-text">
                     <div class="hero-secondary__text-container">
-                        <h1 class="hero-secondary__header mb-sm">BNP Associates, Inc. <br>privately held company
-                            founded in 1971</h1>
-                        <p class="hero-secondary__sub-header mb-sm">designers | planners | engineers</p>
+                        <h1 class="hero-secondary__header mb-sm" lang="en">BNP Associates, Inc.<br lang="en">privately held company founded in 1971</h1>
+                        <p class="hero-secondary__sub-header mb-sm" lang="en">designers | planners | engineers</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <div class="container-lg mb-xl">
-            <p>BNP Associates, Inc. is the worldwide leader in providing specialized consulting services to the air
-                transportation industry since 1971. These services are specifically directed at apron, air cargo,
-                and baggage handling systems and operations. With over 50 years of professional experience, BNP has
-                been involved in hundreds of projects throughout the world. The scale of projects has ranged from
-                the renovation of small manual systems to some of the largest mechanized material handling systems
-                in the world. We provide solutions that are geared towards creating operational reliability,
-                efficiency and effectiveness.
+            <p lang="en">BNP Associates, Inc. is the worldwide leader in providing specialized consulting services to the air transportation industry since 1971. These services are specifically directed at apron, air cargo, and baggage handling systems and operations. With over 50 years of professional experience, BNP has been involved in hundreds of projects throughout the world. The scale of projects has ranged from the renovation of small manual systems to some of the largest mechanized material handling systems in the world. We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness.
             </p>
 
-            <p>Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling
-                and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and
-                Construction Administration.</p>
+            <p lang="en">Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.
+            </p>
 
-            <p>BNP’s client list is composed of airlines, airports, government agencies and Architects/Engineers who
-                specialize in airports.</p>
+            <p lang="en">BNP’s client list is composed of airlines, airports, government agencies and Architects/Engineers who specialize in airports.
+            </p>
         </div>
 
         <div class="feature-box mb-xl">
             <div class="feature-box__text feature-box__mg-r">
-                <h3 class="feature-box__header">Offices</h3>
-                <p>BNP operates from five primary office locations –
-                    Fairfield CT, Denver CO, Dallas TX, Dubai, and Singapore. We also have satellite offices in
-                    Hong Kong, London, Shenzhen China, and Tampa FL.
+                <h3 class="feature-box__header" lang="en">Offices</h3>
+                <p lang="en">BNP operates from five primary office locations – Fairfield CT, Denver CO, Dallas TX, Dubai, and Singapore. We also have satellite offices in Hong Kong, London, Shenzhen China, and Tampa FL.
                 </p><br>
 
-                <h3 class="feature-box__header">People</h3>
-                <p>As an employee-owned firm, our people are our greatest assets. Our forward-looking experts
-                    streamline complex challenges at every stage, providing a panoramic view of each client’s
-                    requirements and opportunities.
+                <h3 class="feature-box__header" lang="en">People</h3>
+                <p lang="en">As an employee-owned firm, our people are our greatest assets. Our forward-looking experts streamline complex challenges at every stage, providing a panoramic view of each client’s requirements and opportunities.
                 </p><br>
             </div>
                 <div class="feature-box__img">
@@ -351,7 +371,6 @@
 
     <footer id="footer"></footer>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>

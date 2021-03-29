@@ -1,6 +1,6 @@
 $(document).ready(function () {
   //* FOOTER TEMPLATE LOAD */////
-  $("#footer").load("footer.html #footer ");
+  // $("#footer").load("footer.html #footer ");
   // $("#nav").load("navbarmulti.html");
 
   // for Language switcher - hides site until language load
