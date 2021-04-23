@@ -1,295 +1,291 @@
 {
 	"token": {
-		"Services":"服務",
-		"All Services":"所有服務",
-		"Apron Systems":"圍裙系統",
-		"Baggage Handling":"行李處理",
-		"Cargo Handling":"貨物裝卸",
-		"Simulation":"模擬",
-		"Aircraft Characteristics":"飛機特性",
-		"About Us":"關於我們",
-		"Projects":"專案",
-		"Careers":"招賢納士",
-		"News":"消息",
-		"Contact":"接觸",
-		"English":"英語",
-		"Follow Us":"跟著我們",
+		"Services":"服务",
+		"All Services":"所有服务",
+		"Apron Systems":"停机坪系统",
+		"Baggage Handling":"行李处理",
+		"Cargo Handling":"货运处理",
+		"Simulation":"仿真模拟",
+		"Aircraft Characteristics":"飞机特性",
+		"About Us":"关于我们",
+		"Projects":"承接项目",
+		"Careers":"招贤纳士",
+		"News":"新闻动态",
+		"Contact":"联系方式",
+		
+		"English":"中国人",
+		"Follow Us":"下我们",
 
 		"BNP Associates, Inc. the Worldwide Leader":
-        "BNP Associates, Inc. 全球領導者",
+        "BNP Associates, Inc. - 全球领先企业",
 		"in providing specialized consulting services to the air transportation industry since 1971":
-        "自1971年以來一直為航空運輸業提供專業諮詢服務",
+        "自 1971 年起专注于为航空运输业提供专业的咨询服务",
 		"Celebrating our 50th Anniversary!":
-        "慶祝我們成立50週年！",
-		"learn more":
-        "了解更多",
-		"Airport Systems Designers":
-        "機場系統設計師",
-		"designers | planners | engineers":
-        "設計師|規劃師|工程師",
+        "庆祝建司 50 周年！",
+
+		"learn more":"了解更多",
+		"Airport Systems Designers":"机场系统设计人员",
+		"designers | planners | engineers":"设计师 | 规划师 | 工程师",
+		
 		"We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness. Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.":
-        "我們提供旨在創造運營可靠性，效率和有效性的解決方案。我們的諮詢服務包括總體規劃，設施和停機坪系統設計，行李處理和貨運系統設計與仿真，招標和談判幫助，項目管理和施工管理。",
-		"Apron":"圍裙",
+        "我们的解决方案旨在创在运营的可靠性、高效性和有效性。我们的咨询服务包括总体规划、设施和停机坪系统的设计、行李处理和货运系统的设计与仿真模拟、投标和谈判支持、项目管理和施工管理。",
+
+		"Apron":"停机坪",
 		"BNP Associates, Inc. has developed a team to address the need for a concise group of professionals dedicated to the design of Apron Systems.":
-		"BNP Associates，Inc.已經成立了一個團隊，以解決對精簡圍裙系統設計專業人士的需求。",
+		"BNP Associates, Inc. 设有一支专业的团队，进行停机坪系统的设计。",
 		"Baggage":"行李",
 		"BNP Associates, Inc. has designed and implemented some of the largest and most complex Baggage Handling Systems in the world.":
-		"BNP Associates，Inc.設計並實施了一些世界上最大，最複雜的行李處理系統。",
-		"Cargo":"貨物",
+		"BNP Associates, Inc. 设计和执行了世界上多个最大、最复杂的综合行李处理系统。",
+		"Cargo":"货运",
 		"BNP Associates, Inc. are widely experienced in airline and airport requirements for Air Cargo Handling systems.":
-		"BNP Associates，Inc.在航空貨運處理系統的航空公司和機場要求方面具有豐富的經驗。",
+		"BNP Associates, Inc. 在满足航空公司和机场对航空货运系统的需求方面，拥有丰富经验。",
 		"BNP Associates, Inc. is the world leader for Simulation studies to evaluate Baggage, Cargo, Security and Checkpoint Systems.":
-		"BNP Associates，Inc.是仿真研究的全球領導者，該仿真研究用於評估行李，貨物，安全和檢查站系統。",
+		"BNP Associates, Inc. 在使用仿真模拟对行李、货运、安检系统进行评估方面，处于世界领先水平。",
 
 		"Analysis":"分析",
-		"Master Planner":"總體規劃師",
-		"Concept Design":"概念設計",
-		"Process Mapping":"工藝圖",
-		"Process Improvement":"流程改進",
-		"Building Improvement":"建築改善",
-		"Services Cont.":"服務續",
-		"Tender Documents":"招標文件",
+		"Master Planner":"总体规划",
+		"Concept Design":"概念设计",
+		"Process Mapping":"流程图解",
+		"Process Improvement":"流程优化",
+		"Building Improvement":"建筑优化",
+		"Services Cont.":"服务内容",
+		"Tender Documents":"招标文件",
 		"Construction Management":"施工管理",
-		"Acceptance Testing":"驗收測試",
-		"Operational Readiness":"作戰準備",
-		"Operational Audits":"運營審計",
-		"Office Locations":"辦公地點",
-		"Dallas":"達拉斯",
-		"Denver":"丹佛",
-		"Dubai":"迪拜",
-		"Fairfield":"費爾菲爾德",
-		"Hong Kong":"香港",
-		"London":"倫敦",
-		"Shenzhen":"深圳",
+		"Acceptance Testing":"验收测试",
+		"Operational Readiness":"待运准备",
+		"Operational Audits":"运营审计",
+		"Office Locations":"办公地点",
+		"Dallas":"美国达拉斯",
+		"Denver":"美国丹佛",
+		"Dubai":"阿联酋迪拜",
+		"Fairfield":"美国费尔菲尔德",
+		"Hong Kong":"中国香港",
+		"London":"英国伦敦",
+		"Shenzhen":"中国深圳",
 		"Singapore":"新加坡",
-		"Tampa":"坦帕",
+		"Tampa":"美国坦帕",
 		"Copyright 2021 BNP Associates, INC. all rights reserved":
-		"版權所有2021 BNP Associates，INC。保留所有權利",
-
+		"©️ 2021 BNP Associates, INC. 版权所有",
 
 		"Excellence & Innovation":
-		"版權所有 Lorem ipsum test",
+		"卓越与创新的设计",
 		"in every design for over 45 years":
-		"版權所有 Lorem ipsum test",
+		"持之以恒 45 年有余",
 		"BNP Associates, Inc. has developed a team to address the need for a concise grouping of professionals dedicated to the design of Apron Systems.":
-		"版權所有 Lorem ipsum test",
+		"BNP Associates, Inc. 设有一支专业的团队，进行停机坪系统的设计。",
 		"Our focus is aimed at the following:":
-		"版權所有 Lorem ipsum test",
+		"重点关注以下领域：",
 		"Passenger Loading Bridges":
-		"版權所有 Lorem ipsum test",
+		"旅客登机廊桥",
 		"Pre-Conditioned Air":
-		"版權所有 Lorem ipsum test",
+		"预装空调设备",
 		"400 Hz Ground Power":
-		"版權所有 Lorem ipsum test",
+		"400 Hz 地面电源",
 		"Visual Docking Guidance Systems (VDGS)":
-		"版權所有 Lorem ipsum test",
+		"目视停靠导引",
 		"Potable Water":
-		"版權所有 Lorem ipsum test",
+		"饮用水",
 		"Aircraft Parking":
-		"版權所有 Lorem ipsum test",
+		"停机坪",
 
-		"Design":"版權所有 Lorem ipsum test",
+		"Design":"设计",
 		"Baseline aircraft parking plan alternatives are developed for the projected fleet mix, including GSE parking and vehicle service lanes. As necessary, several alternatives are also considered to optimize the various evaluation criteria including aircraft fleet mix, gate/aircraft interchangeability, passenger loading distributions, etc.":
-		"版權所有 Lorem ipsum test",
+		"基线停机坪计划的替代方案专门针对规划机队组合制定，涵盖 GSE 的停放和服务车辆车道。如有必要，我们还将考虑采用多种备选方案来优化各项评估标准，包括机队组合、登机口/飞机互换性、乘客载重分配等。",
 		"The passenger loading bridge generalities are also developed including approximate PBB tunnel lengths, range of aircraft servicing needs, maximum slopes and facility interface coordination. Point-of-use versus centralized 400 Hz and PC air studies are developed as well as Potable Water requirements. VDGS system layout and the interface to the Passenger Boarding Bridges are also developed when they are a requirement of the project.":
-		"版權所有 Lorem ipsum test",
+		"此外，我们还开发了旅客登机廊桥概论，包括 PBB 隧道近似长度、飞机维修所需范围、最大坡度和设施接口协调。我们也进行了使用点与 400 Hz 和 PC 中央空调的对比研究，并了解了饮用水需求。如项目需要，可研发 VDGS 系统布局和乘客登机桥的接口。",
 		"The design process concludes with estimating, scheduling and recommendations of the apron systems configuration which best meet the needs of the client. BNP uses the AviPlan software program for its aircraft parking, servicing and layout designs. This is combined with an extensive library of standard CADD symbols and design standards.":
-		"版權所有 Lorem ipsum test",
-		"Specifications":"版權所有 Lorem ipsum test",
+		"设计流程以充分满足客户需求为目标，评估和调度停机坪系统配置，并提出相关建议。BNP 采用 AviPlan 软件程序设计停机、检修维护和布局。所有事务均结合广泛的标准 CADD 符号库和设计标准展开。",
+		"Specifications":"规范",
 		"Preparation of bidding documents for the procurement of the various apron systems. Project specific requirements are included in our standard, proven specifications. BNP Specification packages are divided so multiple contractors can be included in the equipment procurement. Our specifications include distinct sections for the PBB, PC Air, 400 Hz, Potable water and VDGS.":
-		"版權所有 Lorem ipsum test",
+		"编制各类停机坪系统的采购招标文件。我们成熟的标准规范将涵盖项目具体要求。BNP 规范包分为多类，以便在设备采购中纳入多个承包商。我们的规范为 PBB、PC 空调、400 Hz、饮用水和 VDGS 设有不同的部分。",
 
-		"Bidding & Award Assistance":
-		"版權所有 Lorem ipsum test",
+		"Bidding & Award Assistance":"招标和中标支持",
 		"Pre-qualification of vendors, release for bid packages, pre-bid conferences, bid review and contract negotiations. BNP knows the strengths, weaknesses and has first-hand knowledge of production capacities and capabilities of all the various manufacturers.":
-		"版權所有 Lorem ipsum test",
+		"供应商资格预审、招标文件包的发布、标前会议、审标和合同谈判。BNP 了解各厂家的优劣势，掌握厂家生产力和实力的第一手材料。",
 
-		"Construction Administration":
-		"版權所有 Lorem ipsum test",
+		"Construction Administration":"施工管理",
 		"BNP provides as part of our Construction Administration role, coordination of the engineering and manufacturing processes, Factory Acceptance Testing, coordinate both construction staging and construction around on-going operations. We also provide supervision of the installation, punch listing, equipment acceptance testing and Aircraft Gate Fit testing if required.":
-		"版權所有 Lorem ipsum test",
+		"BNP 是施工管理业务的参与者，可协调工程和制造流程、施工阶段和围绕日常运营的施工，处理工厂验收测试。如有需要，我们还可以提供监督安装、竣工查核清单、设备验收测试和飞机闸门拟合度测试等工作。",
 		"BNP brings the proven expertise that provides cost and operationally effective solutions to our clients. The process had been a missing element in the industry where the planning of these critical systems was often left to less experienced personnel or to the equipment manufacturers.":
-		"版權所有 Lorem ipsum test",
-
+		"BNP 久经考验的专业知识，为客户提供行之有效的成本和运营解决方案。该流程一直是此行业的一个缺失元素，而这些关键系统的规划工作，在过去往往被留给缺乏经验的人员或设备制造商进行。",
 
 		"BNP brings an extensive background of experience with the planning, design and implementation of airport Baggage Handling Systems and have been providing specialized consulting services to the air transportation industry on a worldwide basis since 1971. In our more than 45 years of professional experience, BNP has been involved in hundreds of projects throughout the world and our continuous industry exposure keep us fully appraised of current and planned industry requirements.":
-		"版權所有 Lorem ipsum test",
+		"BNP 在机场行李处理系统的规划、设计和实施方面，拥有丰富的经验。自 1971 年以来，一直为全球航空运输行业提供专业的咨询服务。BNP 在逾 45 年的专业服务历程中，参与了全球数百个项目，时刻关注行业动态，能够充分评估当前和已规划的行业需求。",
 		"Our consulting services include Master Planning, Facility Design, Baggage Handling System Design, Project Management and Construction Administration. BNP are a dedicated group of professionals, widely experienced in airline and airport requirements for the handling of baggage. In meeting the needs of our clients, BNP provides:":
-		"版權所有 Lorem ipsum test",
+		"我们的咨询服务包括总体规划、设施设计、行李处理系统设计、项目管理和施工管理。BNP 的团队由资深专业人士组成，对航空公司和机场在行李处理方面的需求，有着丰富的经验。BNP 提供：",
 
-		"System Evaluation":
-		"版權所有 Lorem ipsum test",
-		"Cost Analysis":
-		"版權所有 Lorem ipsum test",
-		"Construction Management and Administration":
-		"版權所有 Lorem ipsum test",
+		"System Evaluation":"系统评估",
+		"Cost Analysis":"成本分析",
+		"Construction Management and Administration":"施工管理及行政",
 
 		"BNP’s approach is that we take a project from its inception through to operational support to include:":
-		"版權所有 Lorem ipsum test",
-		"Statistical Analysis":
-		"版權所有 Lorem ipsum test",
+		"BNP 的经营之道，是从立项到运营，提供全程支持，包括：",
+		"Statistical Analysis":"统计分析",
 		"Analyzing the current and future needs of the system using numerous computer models that have been developed by our analysis and simulation engineers. The resulting data is imported and integrated into the BNP developed simulation model along with the system design drawings, data reported by the simulations is then transformed into meaningful charts and statistically valid reports for the Airport/Airline to validate the functionality of the proposed design.":
-		"版權所有 Lorem ipsum test",
+		"使用由我司分析和仿真模拟工程师研发的多类计算机模型，分析当前和今后的系统需求。结果数据将与系统设计图纸一同导入并整合到 BNP 研发的仿真模拟模型当中。随后，仿真模拟反馈的数据将转换为有意义的图表和有效的数据报告，供机场、航空公司验证所提出的设计的功能。",
 
 		"Development of conceptual and designs are based on considering various levels of automation, which are then measured against the economic and operational the projects definition document. The design is coordinated with the A&E teams to ensure the system is an integral component of the facility. BNP performs the majority of the design work with BIM utilizing the Revit platform.":
-		"版權所有 Lorem ipsum test",
+		"概念和设计开发均考虑了不同的自动化程度，然后根据经济和运营效益进行衡量。此类标准将列入最终报告，作为项目定义文档呈现。该设计将配合 A&E 团队的工作进行，以确保系统与其它设施合二为一。BNP 运用 Revit 平台完成大部分 BIM 设计工作。",
 
-		"Contract Documentation":
-		"版權所有 Lorem ipsum test",
+		"Contract Documentation":"合同文件",
 		"Functional detailed specifications and contract documents are prepared based on the system configuration, the design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.":
-		"版權所有 Lorem ipsum test",
+		"根据系统配置、设计目标，以及 BNP 在机械、电气、控制部件和产品方面的业务实践经验，编写功能详尽的规范和合同文件。",
 
-	
 		"Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the industry, market pricing and contract requirements.":
-		"版權所有 Lorem ipsum test",
+		"BNP 熟知行业、市场定价和合同要求，能在供应商资格预审、投标文件发布、审标流程支持等方面为客户提供很大的帮助。",
 
 		"BNP’s participation in the construction management/administration process includes submittal reviews, program management, and site supervision; scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.":
-		"版權所有 Lorem ipsum test",
+		"BNP 将参与包括文件审查、项目管理和现场监督在内的施工管理、行政流程；并为客户提供进度规划、系统详细检查、验收测试和运营启动阶段支持。",
 		"To successfully provide the project, BNP works very closely and collaboratively with the Airport, the Architectural and MEP design team members and the User Airlines, resulting in openness to share ideas and concepts on how to best serve the airlines/airport’s evolving requirements while responding to the project requirements.":
-		"版權所有 Lorem ipsum test",
+		"为了项目的顺利完成，BNP 与机场、建筑和 MEP 设计团队成员及用户航空公司密切合作，以开放的心态，同时满足航空公司和机场业主日益变换的需求和项目要求，分享可提供卓越服务的构思和概念。",
 
-		"Cargo Handling Systems":
-		"版權所有 Lorem ipsum test",
-
+		"Cargo Handling Systems":"货运处理系统",
 		"BNP Associates, Inc. has designed and implemented some of the largest and most complex Air Cargo Systems in the world including Hong Kong, Singapore and Doha. Our services include Master Planning, Facility Design, Cargo System Designs and Project Management. We are a dedicated group of professionals, widely experienced in the airline and airport requirements for the handling of cargo. Meeting the needs of our clients, BNP provides:":
-		"版權所有 Lorem ipsum test",
+		"BNP Associates, Inc. 曾设计和实施了世界上几个大型综合航空货运处理系统，例如中国香港、新加坡和多哈。我们的服务包括总体规划、设施设计、货运系统的设计和项目管理。我们是一支由资深专业人士组成的团队，在满足航空公司和机场货运处理的要求方面，有着丰富经验。为满足客户需求，BNP 提供：",
 
-		"System Requirements":
-		"版權所有 Lorem ipsum test",
+		"System Requirements":"系统需求",
 		"Determination of Requirements and Constraints, Development of Broad Concept of Operations, Concept Design, Evaluation and Recommendation of Preferred Concept.":
-		"版權所有 Lorem ipsum test",
+		"确定系统需求和制约条件、业务广义概念的开发、概念设计、首选概念的评估和建议。",
 		"Preparation of technical performance specifications to include General Requirements, Definition of scope of work of the system of the supplier, Definition of operational equipment requirements.":
-		"版權所有 Lorem ipsum test",
+		"技术性能规范的编制，内容包括：总体要求、供应商系统的工作范围定义，以及运行设备的要求定义。",
 
 		"BNP provides construction management/administration process including submittal reviews, program management, and site supervision.":
-		"版權所有 Lorem ipsum test",
+		"BNP 提供包括文件审查、项目管理和现场监督在内的施工管理/行政流程。",
 		"BNP will develop the requirements and constraints for the Cargo System in terms of resources (airside interface positions, storage positions, workstations, truck docks, etc.) based on the detailed forecast provided by the Client. This will include requirements for special storage areas, storage for oversize cargo, empty ULD Storage, sorter systems for parcels and small packages. With this information, a proposed Concept of Operations will be developed. This is the most significant part of analysis and the concept design study and involves the highest levels of expertise, creativity and engineering acumen.":
-		"版權所有 Lorem ipsum test",
+		"BNP 将根据客户提供的详细预测，针对资源（机场空侧接口位置、仓库位置、工作站、货车停靠点等）制定货物系统的要求和约束机制。其中包括关于特殊贮物存储用地、超大货物存放、空集装设备 (ULD) 存放、普通包裹和小件包裹分类系统的要求。之后即可根据以上信息拟定运营概念。这是分析和概念设计研究的重中之重，涉及最高水平的专业知识、创意和工程学敏锐度。",
 
 		"BNP, for the client review develop a group of concepts in 2D, representing broad topics such as various terminal shapes, single vs multi-level facility, exterior airside interfaces vs interior airside interface aisles, and different operational concepts, etc. The preferred design will include 3D space planning of the Cargo functions to determine the anticipated height of the facility and includes 3D equipment to allow validation of the quantities required versus the provisions in the design. Based on the preferred design BNP will provide rough order magnitude costs and implementation schedules.":
-		"版權所有 Lorem ipsum test",
+		"BNP 专为客户审查开发了一套 2D 概念设计，呈现各类航站楼结构、单层和多层设施的对比、空侧外部接口与空侧内部接口过道的对比，以及不同的运营概念等。首选设计将包括可确定设施预期高度的 3D 货物功能空间规划，以及可用于验证设计中所需工程量与规定工程量之间的对比结果的 3D 设备。BNP 将根据首选设计提供大致的量级成本估算和实施进度表。",
 		
 		"The preferred concept will be developed by BNP into a 3D dynamic discrete event simulation model where the flow of each ULD and each ASRS load unit is modeled. The simulation will be based upon the peak time processing and include the processing of cargo incorporating security and customs requirements. Manual processes (e.g. ULD buildup, forklift movement, Dolly train movement) will be modeled with representative process times coordinated with the client.":
-		"版權所有 Lorem ipsum test",
+		"BNP 会将首选概念开发成 3D 动态离散事件仿真模拟模型，对每个 ULD 和每个自动存取仓库 (ASRS) 的存储单元进行建模。仿真模拟将以高峰期处理情况为基础，涵盖对货物安检和海关要求的处理。人工操作流程（如 ULD 打板、叉车移动、拖车移动）将采用经由客户协调的典型流程时间进行建模。",
 
-		"Construction Documentation":
-		"版權所有 Lorem ipsum test",
+		"Construction Documentation":"施工文件",
 		"BNP will prepare and provide functional detailed specifications, drawings and contract documents based on the cargo system configuration, the client approved design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.":
-		"版權所有 Lorem ipsum test",
+		"BNP 将根据货运系统配置、客户认可的设计目标，以及 BNP 在机械、电气和控制部件和产品方面的业务实践经验，筹备制作和提供功能详尽的规范、图纸和合同文件。",
 
-		"Bidding and Award Assistance":
-		"版權所有 Lorem ipsum test",
+		"Bidding and Award Assistance":"招标和中标支持",
 		"Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the cargo industry, market pricing and contract requirements.":
-		"版權所有 Lorem ipsum test",
+		"BNP 熟知货运业、市场定价和合同要求，能在供应商资格预审、投标文件发布、审标流程支持等方面为客户提供很大的帮助。",
 		
 		"BNP’s participation in the construction management/administration process includes submittal reviews to include structural loading drawings, building interface drawings and maintenance access drawings. Assist in the preparation of and attend the execution of factory acceptance tests.":
-		"版權所有 Lorem ipsum test",
+		"BNP 将参与包括文件审查等施工管理、行政事务，覆盖结构承载图纸、建筑界面图纸和维护通道图纸等文件的管理。在工厂验收测试筹备阶段提供支持，并参与测试的实施工作。",
 		"Program management, and site supervision, scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.":
-		"版權所有 Lorem ipsum test",
+		"项目管理和现场监督；为客户提供调度、系统详细检查、验收测试和运营启动阶段的支持。",
 
 		"BNP brings proven expertise in Cargo System Design":
-		"版權所有 Lorem ipsum test",
+		"BNP 拥有货运系统设计和实施方面的实用专业知识，",
 		"and implementation that provides cost and operational effective solutions to our clients.":
-		"版權所有 Lorem ipsum test",
+		"可为客户提供行之有效的成本和运营解决方案。",
 
 		"BNP has been developing simulations for the baggage handling and air cargo industries since 1995. BNP’s simulation experience encompasses modeling of simple queuing systems to the largest airport baggage handling systems with over 20,000 individual conveyor sections/tracks. We have a core group of professionals dedicated to providing simulation services to the airport/airline industry. BNP uses simulation modeling tools such as AutoMod and Quest to build 3D models of each system. The simulation model control logic is written to closely represent actual PLC controls of conveyors and cargo systems.":
-		"版權所有 Lorem ipsum test",
+		"BNP 自 1995 年以来长期致力于开发行李处理和航空货运业的仿真模拟程序。BNP 的仿真模拟经验包括为最大的机场行李处理系统建立简易排队系统的模型，该系统设有逾 20,000 个独立的传送区/传送带。我们的核心团队由多名专业人员组成，专门为机场/航空业提供仿真模拟服务。BNP 采用如 AutoMod 和 Quest 等仿真模拟建模工具搭建各个系统的 3D 模型。专门针对可切实体现传送带和货物系统的 PLC 实际控制装置编写了仿真模型控制逻辑。",
 		"These models are calibrated and validated to ensure that they accurately represent real-world operations. In addition to being world leaders in AutoMod and Quest simulations, we have broad skills in integrating AutoMod/Quest with other applications. We have expertise in SQL databases and Visual Basic combined with MS Excel. These skills are used to import data into the simulation model either at the start of a simulation run or interactively as it runs. BNP simulations can be integrated in real control or management systems to act as an emulation test bed. BNP’s simulation engineers are also skilled in VB, VBA, C# & C++ programming languages.":
-		"版權所有 Lorem ipsum test",
+		"为确保精确展示真实运营情况，此类模型均经过校准和验证。我们不仅在 AutoMod 和 Quest 仿真模拟领域处于领先水平，还具备使 AutoMod/Quest 与其他应用程序兼容的多种技能。我们拥有 SQL 数据库，以及结合 MS Excel 使用 Visual Basic 的专业知识。这些技能将在仿真模拟运行的起始阶段或在仿真模拟的进行期间以交互方式将数据导入仿真模型当中。BNP 的仿真模拟程序可并入真实控制或管理系统，充当模拟试验台使用。BNP 的仿真模拟工程师也精通 VB、VBA、C# 和 C++ 编程语言。",
 
-		"Demand Forcasting":
-		"版權所有 Lorem ipsum test",
+		"Demand Forcasting":"需求预测",
 		"As part of the BNP simulation/modeling process, detailed demand forecasts are developed to quantify the expected demand to the baggage and cargo systems. BNP documents all the key data and assumptions for the project and produce a Simulation Function Design Specifications (SimFDS) deliverable.":
-		"版權所有 Lorem ipsum test",
+		"详尽需求预测是 BNP 仿真模拟/建模流程中的一部分，专用于量化行李和货物系统的预期需求。BNP 将记录项目的所有关键数据、假设，生成可交付的仿真模拟功能设计规范 (SimFDS)。",
 		"The SimFDS includes key data such as flight schedules, baggage and passenger characteristics, and operational characteristics as well as the Key Performance Indicators (KPIs) that will be used to evaluate the performance of each system. Once these planning assumptions are established, a demand forecast is produced, and initial system resource requirements are estimated.":
-		"版權所有 Lorem ipsum test",
+		"SimFDS 包括如航班时刻表、行李和乘客特征、运营特点等关键数据，以及可用于评估各系统性能的关键性能指标 (KPI)。一旦建立起相关规划假设，便会生成需求预测，评估初始系统的资源需求。",
 		
 		"3D Simulation Modeling of Baggage Handling Systems":
-		"版權所有 Lorem ipsum test",
+		"行李处理系统 3D 仿真模拟建模",
 		"These tools have been used to evaluate and assist in the design of over 50 baggage handling systems to include very large BHS and Cargo systems throughout the world and numerous systems in the USA (including TSA mandated checked baggage screening systems).":
-		"版權所有 Lorem ipsum test",
+		"此类工具已用于评估和支持 50 多个行李处理系统的设计，其中不乏全球范围内非常庞大的行李处理系统和货运系统，以及美国本土的多个系统（包括 TSA 规定使用的行李安检系统。",
 		"Through use of the these models, the projected demand to each component of the BHS (mainline, ICS loops, EBS storage areas, screening areas, make-ups, cargo systems etc.) can be quantified early in the process. Bottleneck areas with the system can be identified, and design and/or controls improvements can be evaluated. These models help to ensure that new commissioned systems will operate efficiently, and provide a means for identifying effective solutions to existing systems without having to experiment with making changes to a live system.":
-		"版權所有 Lorem ipsum test",
+		"通过使用这些模型，可在推进流程期间提早完成对 BHS（主线、ICS 回路、EBS 贮物用地、安检区、装箱和货运系统等）各部分预期需求的量化。系统内的瓶颈区域可被识别，从而可对设计和/或控制装置的改进进行评估。此类模型有助于确保新启动的系统高效运行，并为现有系统提供了一种无需对运行中的系统进行改变、即可确定有效的解决方案的方法。",
 
-		"3D Simulation Modeling of Passenger Facilities":
-		"版權所有 Lorem ipsum test",
+		"3D Simulation Modeling of Passenger Facilities":"乘客设施 3D 仿真模拟建模",
 		"BNP also uses its simulation capabilities to model passenger flow including evaluating design of passenger checkpoint facilities and circulation in public spaces such as check-in areas and bag claim halls.":
-		"版權所有 Lorem ipsum test",
+		"BNP 还发挥其仿真模拟的能力，对客流量进行建模，覆盖评估乘客关卡设施的设计，以及如值机区和行李提取大厅等公共空间的流通性。",
 
-		"3D Simulation Modeling of Checkpoints":
-		"版權所有 Lorem ipsum test",
+		"3D Simulation Modeling of Checkpoints":"关卡的 3D 仿真模拟建模",
 		"BNP has expanded it's simulation capabilities to include the modeling of passenger security checkpoints. This is becoming especially important in this day and age where significant improvements in automation and checkpoint design are being evaluated. The simulation tools allow for the realistic deployment of new technology in a virtual environment.":
-		"版權所有 Lorem ipsum test",
+		"BNP 已将仿真模拟的能力扩展到乘客安检关卡的建模。今时今日，自动化和关卡设计的重大改进内容正在接受评估。在此形势下，这一建模能力就显得尤为重要了。仿真模拟工具允许在虚拟环境中真实地部署新技术。",
 
-		"Energy Management":
-		"版權所有 Lorem ipsum test",
+		"Energy Management":"能耗管理",
 		"One of the specialized uses of BNP’s simulation models is to identify the potential energy savings that can be achieved by managing the run time of conveyors/components. Using VFDs, conveyors will only run while bags are approaching the conveyor.":
-		"版權所有 Lorem ipsum test",
+		"BNP 仿真模拟模型的一种特殊用途，就是识别可通过管理传送带、组件运行时间而减少的潜在能耗。使用 VFD 可使传送带仅在行李接近时运行。",
 		"Downstream conveyors are started three seconds prior to the bag physically reaching the charge-end of conveyor. After the last bag exits a conveyor, the conveyor turns off after a pre-set configurable delay varying from 1 to 600 seconds. Using modeling, the best strategies for powering the system can be refined and system energy consumption can be significantly reduced.":
-		"版權所有 Lorem ipsum test",
+		"下游传送带会在行李实际到达传送带末端的前三秒启动。传送带在将最后一件行李送离后，在预设的可配置延迟时间段（1 秒至 600 秒）内停止运行。通过建模，可完善系统供电最佳策略，显著降低系统能耗。",
 
-		"Deliverables":
-		"版權所有 Lorem ipsum test",
-		"Deliverables to the airport/airline includes scenario reports documenting the function of the system under the various scenarios plus animations of the simulation runs showing baggage/cargo traveling through the system in 3D.":
-		"版權所有 Lorem ipsum test",
-		"BNP provides the following:":
-		"版權所有 Lorem ipsum test",
+		"Deliverables":"提交文件",
+		"Deliverables to the airport/airline includes scenario reports documenting the function of the system under the various scenarios plus animations of the simulation runs showing baggage/cargo  traveling through the system in 3D.":
+		"交付机场、航空公司的文件包括记录不同场景下系统功能的场景报告，以及行李/货物通过系统的 3D 仿真模拟运行动画",
+
+		"BNP provides the following:":"BNP 提供以下服务：",
 		"• Simulation Functional Design Specification that defines general and project specific control functions of the simulation model.":
-		"版權所有 Lorem ipsum test",
+		"• 仿真模拟功能设计规范，定义仿真模拟模型的通用和项目特定控制功能。",
 		"• Full 3D simulation animations":
-		"版權所有 Lorem ipsum test",
+		"• 完整的 3D 仿真模拟动画",
 		"• Simulation Reports that document the performance of all simulation scenarios":
-		"版權所有 Lorem ipsum test",
+		"• 仿真模拟报告，记录所有仿真模拟场景的性能",
 
 
 
 
 
 		"BNP Associates, Inc.":
-		"版權所有 Lorem ipsum test",
+		"BNP Associates, Inc.",
 		"privately held company founded in 1971":
-		"版權所有 Lorem ipsum test",
+		"成立于 1971 年的私人控股公司",
 		"BNP Associates, Inc. is the worldwide leader in providing specialized consulting services to the air transportation industry since 1971. These services are specifically directed at apron, air cargo, and baggage handling systems and operations. With over 50 years of professional experience, BNP has been involved in hundreds of projects throughout the world. The scale of projects has ranged from the renovation of small manual systems to some of the largest mechanized material handling systems in the world. We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness.":
-		"版權所有 Lorem ipsum test",
+		"BNP Associates, Inc. 自 1971 年以来长期致力于为航空运输业提供专业的咨询服务，是该领域的全球领导者。公司服务项目主要针对停机坪、航空货运以及行李处理系统和运营等项目。BNP 拥有 50 多年的专业经验，已参与了全球数百个项目。公司承接的项目遍及世界各地，项目规模从小型人工系统的改造，到世界上最大的自动化物料处理系统。我们的解决方案，旨在创在运营的可靠性、高效性和有效性。",
 		"Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.":
-		"版權所有 Lorem ipsum test",
+		"我们的咨询服务包括总体规划、设施和停机坪系统的设计、行李处理和货运系统的设计与仿真模拟、投标和谈判支持、项目管理和施工管理。",
 		"BNP’s client list is composed of airlines, airports, government agencies and Architects/Engineers who specialize in airports.":
-		"版權所有 Lorem ipsum test",
-		"Offices":
-		"版權所有 Lorem ipsum test",
+		"BNP 的客户包括航空公司、机场、政府机构和负责机场业务的建筑/工程设计员。",
+
+		"Offices":"办事处",
 		"BNP operates from five primary office locations – Fairfield CT, Denver CO, Dallas TX, Dubai, and Singapore. We also have satellite offices in Hong Kong, London, Shenzhen China, and Tampa FL.":
-		"版權所有 Lorem ipsum test",
-		"People":
-		"版權所有 Lorem ipsum test",
+		"BNP 在美国康涅狄格州费尔菲尔德、科罗拉多州丹佛、得克萨斯州达拉斯，以及迪拜和新加坡设有五大主要办事处。同时，我们还在中国香港、英国伦敦、中国深圳和美国佛罗里达州坦帕设有分处。",
+
+		"People":"员工",
 		"As an employee-owned firm, our people are our greatest assets. Our forward-looking experts streamline complex challenges at every stage, providing a panoramic view of each client’s requirements and opportunities.":
-		"版權所有 Lorem ipsum test",
+		"作为雇员所有制企业，我们的员工是公司最宝贵的资产。我们的专家富有远见，将各阶段的挑战化繁为简，全面了解每个客户的要求，纵观市场机遇。",
+
+		"President":
+		"总裁",
+		"Vice President":
+		"副总裁",
+		"Project Role":
+		"项目职务",
+		"Principal-in-Charge":
+		"主要负责人",
+		"BNP Since 1982":
+		"1982 年加入 BNP",
+		"BNP Since 1983":
+		"1983 年加入 BNP",
+		"BNP Since 1993":
+		"1993 年加入 BNP",
 
 		"Mr. Mecartney began his career at BNP as an entry level Project Engineer in 1982 and has been the President and majority shareholder of the firm since 1995...":
-		"版權所有 Lorem ipsum test",
+		"Mecartney 先生在 1982 年以初级项目工程师的身份加入公司，开启了他在 BNP 的职业生涯，之后从 1995...",
 		"Read More":
-		"版權所有 Lorem",
+		"了解更多",
 		"Mr. Mecartney began his career at BNP as an entry level Project Engineer in 1982 and has been the President and majority shareholder of the firm since 1995. He has worked on all aspects of projects from analysis through to commissioning.":
-		"版權所有 Lorem ipsum test",
+		"Mecartney 先生在 1982 年以初级项目工程师的身份加入公司，开启了他在 BNP 的职业生涯，之后从 1995 年起担任董事长，同时兼任公司大股东。他关注项目从分析到试运行等方方面面的事务。",
 		"He has been involved as the principal in charge on some of the world's largest automated baggage and cargo systems throughout the world. He was instrumental in establishing the apron systems group as well as the checked baggage security screening (CBIS) disciplines. In addition been responsible for the development and implementation of BNP's baggage and cargo analysis methodology with emphasis on computer modeling/simulation and subsequent development of system and program requirements.":
-		"版權所有 Lorem ipsum test",
+		"此外，他一直是全球某些大型自动化行李和货运系统的主要负责人。他在组建停机坪系统小组和制定行李安检系统 (CBIS) 规程方面发挥了重要作用。",
 		"Our exposure to the major airport development programs in the world also gives us exposure to new technologies and operations not encountered yet in the United States. Under Mr. Mecartneys guidance, BNP has successfully commissioned state of the art Airport Systems throughout the world.":
-		"版權所有 Lorem ipsum test",
+		"参与全球主要机场开发项目的经历让我们接触到尚未引入美国的新技术和运营模式。BNP 在 Mecartney 先生的指引下，已在全球许多地方成功实施了先进的机场系统。",
 
 		"Mr. Breier has 30 years of experience in the design and construction of material handling systems. As Vice President, Mr. Breier's responsibilities include...":
-		"版權所有 Lorem ipsum test",
-		"Mr. Breier has over 30 years of experience in the design and construction of material handling systems. As Vice President, Mr. Breier's responsibilities include conceptual design, generation of mathematical models to facilitate analyses of complex systems, contractor's design review, project management, and supervision of implementation monitoring and systems testing.":
-		"版權所有 Lorem ipsum test",
+		"Breier 先生积累了 30 多年的物料处理系统设计和建设经验。身为副总裁，Breier 先生主要负责概念设计...",
+		"Mr. Breier has 30 years of experience in the design and construction of material handling systems. As Vice President, Mr. Breier's responsibilities include conceptual design, generation of mathematical models to facilitate analyses of complex systems, contractor's design review, project management, and supervision of implementation monitoring and systems testing.":
+		"Breier 先生积累了 30 多年的物料处理系统设计和建设经验。身为副总裁，Breier 先生主要负责概念设计、开发用于分析复杂系统的数学模型、承包商设计评审、项目管理、监督实现监控和系统测试等工作。",
 		"His work focuses primarily on large scale international hub projects for passenger and cargo terminals. With previous full time on-site assignments as a project manager at four major international airports, Mr. Breier had gained valuable experience that allows him to provide innovative and elegant designs, resolve issues ranging from planning approvals to operational work conditions and handle contractual issues between owners and contractors.":
-		"版權所有 Lorem ipsum test",
+		"他的工作重点是大型国际枢纽级别的客运、货运航站楼项目。Breier 先生曾在四个主要的国际机场担任项目经理，全职管理现场作业。过往工作积累的宝贵经验让他能够提供创新且精妙的设计，解决从规划审批到运营工作条件等问题，处理业主和承包商之间的合同问题。",
 		"He has designed and implemented systems on 6 continents and in more than 30 countries providing a world class foundation of knowledge and experience that he brings to each project. Mr. Breier established our international offices in Dubai, Hong Kong and Singapore. He has also been a presenter on baggage system topics at the Passenger Terminal Expo’s since 2012.":
-		"版權所有 Lorem ipsum test",
+		"他在 6 个洲和超过 30 个国家完成过系统的设计和实施工作，为每个项目提供了世界一流的知识和经验。他在迪拜、中国香港和新加坡设立了我们的国际办事处。从 2012 年起，他一直是旅客候机楼博览会上行李系统主题的发言人。",
 
 		"As Vice President, Mr. LaPorta, who has been with BNP since 1983, is responsible for the overall design management and technical coordination of projects...":
-		"版權所有 Lorem ipsum test",
+		"副总裁 LaPorta 先生从 1983 年正式加入 BNP，一直工作至今，主要负责位于美国境内项目的总体设计管理和技术协调工作...",
 		"As Vice President, Mr. LaPorta, who has been with BNP since 1983, is responsible for the overall design management and technical coordination of projects predominantly located within the USA. His technical expertise includes overseeing baggage system design, specification writing, computer generated mathematical and economic programs, system requirement analyses, and cost estimating.":
-		"版權所有 Lorem ipsum test",
+		"副总裁 LaPorta 先生从 1983 年正式加入 BNP，一直工作至今，主要负责位于美国境内项目的总体设计管理和技术协调工作。他的技术专长包括审查行李系统设计、规范编写、计算机生成的数学和经济程序、系统需求分析和成本估算。",
 		"He has been involved at all levels of project development and has handled projects in baggage, express mail, cargo and pneumatic tube systems. Mr. LaPorta has worked with some of the world’s largest airports: Boston Logan, LaGuardia Airport, JFK International, Newark Liberty International, Houston Intercontinental Airport and Los Angeles International Airport to name a few.":
-		"版權所有 Lorem ipsum test",
+		"他长期参与各层级的项目开发，负责行李、特快专递、货运和气动输送系统等项目的事务。LaPorta 先生与全球许多大型机场均有合作，如波士顿洛根机场、拉瓜迪亚机场、肯尼迪国际机场、纽瓦克自由国际机场、休斯顿洲际机场和洛杉矶国际机场等等。",
 
 		"Technology":
 		"版權所有 Lorem ipsum test",
