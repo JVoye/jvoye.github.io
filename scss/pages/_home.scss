@@ -203,6 +203,7 @@
 
   &__card {
     max-width: 300px;
+    min-height: 417px;
     padding-bottom: 20px;
     background-color: var(--color-white);
     box-shadow: var(--shadow-md);
@@ -210,6 +211,7 @@
 
     @include breakpoint-down(xlarge) {
       max-width: 425px;
+      min-height: auto;
       margin: 15px;
     }
 

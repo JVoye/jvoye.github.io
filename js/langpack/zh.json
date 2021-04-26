@@ -240,7 +240,6 @@
 		"Offices":"办事处",
 		"BNP operates from five primary office locations – Fairfield CT, Denver CO, Dallas TX, Dubai, and Singapore. We also have satellite offices in Hong Kong, London, Shenzhen China, and Tampa FL.":
 		"BNP 在美国康涅狄格州费尔菲尔德、科罗拉多州丹佛、得克萨斯州达拉斯，以及迪拜和新加坡设有五大主要办事处。同时，我们还在中国香港、英国伦敦、中国深圳和美国佛罗里达州坦帕设有分处。",
-
 		"People":"员工",
 		"As an employee-owned firm, our people are our greatest assets. Our forward-looking experts streamline complex challenges at every stage, providing a panoramic view of each client’s requirements and opportunities.":
 		"作为雇员所有制企业，我们的员工是公司最宝贵的资产。我们的专家富有远见，将各阶段的挑战化繁为简，全面了解每个客户的要求，纵观市场机遇。",
@@ -288,115 +287,118 @@
 		"他长期参与各层级的项目开发，负责行李、特快专递、货运和气动输送系统等项目的事务。LaPorta 先生与全球许多大型机场均有合作，如波士顿洛根机场、拉瓜迪亚机场、肯尼迪国际机场、纽瓦克自由国际机场、休斯顿洲际机场和洛杉矶国际机场等等。",
 
 		"Technology":
-		"版權所有 Lorem ipsum test",
+		"技术",
 		"A critical component in the successful and economic execution of a project is the application of advanced technology. In this regard, BNP has strived to equip its operations with automation to improve our product and reduce the cost to our clients by improving productivity and improving accuracy through standardization. The key components of our systems include:":
-		"版權所有 Lorem ipsum test",
+		"考虑经济成本并成功落实项目的关键因素是应用先进技术。BNP 在此方面力求实现运营自动化，通过流程标准化提高生产率和准确性，从而优化产品，为客户降低成本。BNP 系统的关键元素包括：",
 		"BNP's CAD system consists of latest technology workstations running the most current version of AutoCAD and Revit. This software is enhanced by BNPCAD which consists of a symbol library specific to the airline industry and more specifically to Baggage, Cargo and Apron systems. Our designers use the latest version of Autodesk Building Design Suite to design and model baggage and cargo systems.":
-		"版權所有 Lorem ipsum test",
+		"BNP 的 CAD 系统由运行 AutoCAD 和 Revit 最新版本的新式技术工作站组成。该软件因 BNPCAD 得到增强。BNPCAD 由航空业符号库组成，更具体地说，是与行李、货运和停机坪系统有关。我们的设计人员采用最新版本的Autodesk建筑设计套件 (Autodesk Building Design Suite) 来设计行李和货运系统，并对其进行建模。",
 		"Engineering":
-		"版權所有 Lorem ipsum test",
+		"工程",
 		"Our engineering systems provide standardized spreadsheet, word processing and database programs for modeling baggage system requirements, tracking bids, shop drawing logs and a host of construction service tools. All scheduling is accomplished using Microsoft Project. The specifications are standardized in CSI format and are assembled from word processing templates.":
-		"版權所有 Lorem ipsum test",
+		"我们的工程系统针对行李系统需求建模、跟踪投标、施工图日志和大量施工服务工具，提供标准化电子表格、文字处理和数据库程序。所有的进度规划均使用 Microsoft Project 完成。各类规范以 CSI 格式输出标准版本，使用文字处理模板收集制作。",
 		"IT Systems":
-		"版權所有 Lorem ipsum test",
+		"IT 系统",
 		"All BNP offices are fully networked with a common virtual server and daily back-up/disaster recovery capability. BNP's IT systems are state of the art, easily expandable and can be setup within remote offices without the need for server installations. Our centralized storage systems are cloud based and fully redundant. We utilize Procure as a collaborative Project and Construction Management tool. E-mail is accomplished using high availability commercial services.":
-		"版權所有 Lorem ipsum test",
+		"所有 BNP 办事处均与共有虚拟服务器连网，具有日常备份/灾难恢复能力。BNP 的 IT 系统是目前最先进的系统，易于扩展，可在远程办公室内设置，无需安装服务器。我们的中央存储系统在云端，可完整备援。我们将 Procure 作为项目和施工管理协作工具。采用具有高可用性的商业服务实现电子邮件功用。",
 		"AviPlan":
-		"版權所有 Lorem ipsum test",
+		"AviPlan",
 		"Software package that allows us to accurately model the complex swept paths of taxing aircraft as well as multi-unit baggage and cargo dolly trains.":
-		"版權所有 Lorem ipsum test",
+		"该软件包可让我们对飞机滑行的复杂航迹带及行李和货物拖车的行驶轨迹进行准确建模。",
 		"BHSS and CHSS are simulation applications developed specifically for baggage and cargo handling systems. It has been developed using the experience of many baggage and cargo projects. The result is a proven product that models belt, ICS and tilt tray based baggage systems, as well as ULD and bin systems accurately and quickly. BNP utilizes three simulation software packages.":
-		"版權所有 Lorem ipsum test",
+		"BHSS 和 CHSS 是行李和货运处理系统专用的仿真模拟应用程序。该程序凭借众多行李和货运项目的执行经验研发制作。结果证明，这是一款成熟的产品，可快速准确地对传送带、ICS 和倾斜式托盘行李系统、以及ULD 和仓储系统进行建模。BNP 使用三个仿真模拟软件包。",
 
 
 
 
 
 		"Our Projects":
-		"版權所有 Lorem ipsum test",
+		"公司项目",
 		"Shown in the map are locations of previous and current BNP projects - Click the icons on the map to reveal more information about each project.":
-		"版權所有 Lorem ipsum test",
+		"地图显示BNP过往和当前的项目所在地 - 单击地图上的图标即会显示各项目的更多信息。",
 		"Reveals more projects":
-		"版權所有 Lorem ipsum test",
+		"显示更多项目",
 		"Project Location":
-		"版權所有 Lorem ipsum test",
+		"项目地点",
 		"Project location with brief":
-		"版權所有 Lorem ipsum test",
+		"项目地点及简介",
 		"New Baggage Handling System at the Delta LGA Terminal":
-		"版權所有 Lorem ipsum test",
+		"拉瓜迪亚机场达美航空航站楼的新行李处理系统",
 		"The New Delta ARP (Airfield Reconfiguration) Terminal Project at LaGuardia Airport in New York is a new terminal for Delta Air Lines that will replace their existing C and D Terminals. The new terminal will consist of 37 gates located across four concourses.":
-		"版權所有 Lorem ipsum test",
+		"纽约拉瓜迪亚机场的新机场重建航站楼项目是达美航空公司的新航站楼，将会取代现在的 C 号和 D 号航站楼。新航站楼将会有四个候机大厅，设有 37 个登机口。",
 		"BNP has been providing BHS Design Consultancy Services to Delta Air Lines since 2016 for the project and was the BHS Engineer of Record for the existing Terminal D Inline screening system as well as the existing Terminal C Inline Screening System and outbound sortation systems.":
-		"版權所有 Lorem ipsum test",
+		"BNP 自 2016 年以来一直为达美航空公司的项目提供 BHS 设计咨询服务，曾担任 D 号航站楼现有在线安检系统、以及 C 号航站楼现有在线安检系统和出港分拣系统的 BHS 设计工程师。",
 		"Our Clients":
-		"版權所有 Lorem ipsum test",
+		"公司客户",
 		"BNP’s client list is composed of airlines, airports, government agencies, express companies and Architects/Engineers who specialize in airports. The majority of BNP clients are repeat customers who retain BNP to develop all of their material handling system designs. We work as an extension of our client's staff, offering an unparalleled wealth of knowledge and experience.":
-		"版權所有 Lorem ipsum test",
+		"BNP 的客户包括航空公司、机场、政府机构、快递公司和负责机场业务的建筑/工程设计员。BNP 的大部分客户都是聘请 BNP 开发各类物料处理系统设计的回头客。我们作为客户团队的延伸，提供了极为丰富的知识和经验。",
 		"Airport Authorities":
-		"版權所有 Lorem ipsum test",
+		"机场管理局",
 		"Architects, Planners and General":
-		"版權所有 Lorem ipsum test",
+		"建筑师、",
 		"Contractors":
-		"版權所有 Lorem ipsum test",
+		"规划师及总承包商",
 		"Airlines":
-		"版權所有 Lorem ipsum test",
+		"航空公司",
 
 
 
 
 
 		"Achieve great things":
-		"版權所有 Lorem ipsum test",
+		"成就事业",
 		"in your career at BNP Associates":
-		"版權所有 Lorem ipsum test",
+		"在 BNP Associates 大展宏图",
 		"Career Opportunities":
-		"版權所有 Lorem ipsum test",
+		"职业发展机遇",
 		"The BNP offices are always looking to add dynamic people to our team. We encourage career seekers to contact any of our offices regarding employment opportunities. We are an equal opportunity employer. We offer an excellent benefits package and competitive salaries, along with professional advancement opportunities.":
-		"版權所有 Lorem ipsum test",
+		"BNP 各办事处一直在为团队寻找充满活力的候选人。我们鼓励求职者与我们的办事处联系，了解招聘岗位。我们是提供公平就业机会的雇主。我们将为入职员工提供优厚的福利待遇、具有竞争力的薪水，以及职业发展机遇。",
 		"If you are seeking a rewarding career that provides you the opportunity to become a significant contributor in the fast paced, dynamic environment of airport systems design, please send your cover letter, resume, and a list of references to":
-		"版權所有 Lorem ipsum test",
+		"如果您希望寻求一份有意义的工作，在瞬息万变的机场系统设计领域做出重大贡献，请将您的求职信、简历和推荐信等材料发送至",
+
 		"Who We Hire":
-		"版權所有 Lorem ipsum test",
+		"寻觅人才",
 		"With a variety of opportunities, BNP employees enjoy an innovative company culture impacting airport solutions around the world.":
-		"版權所有 Lorem ipsum test",
+		"BNP 旗下的员工将斩获众多机遇，沉浸在能牵动全球机场解决方案的创新企业文化之中。",
 		"Designers & Drafters":
-		"版權所有 Lorem ipsum test",
+		"设计师和绘图员",
 		"Designers and drafters fill crucial roles in the production of drawings, designs, schematics, and any visual elements to meet our clients’ needs.":
-		"版權所有 Lorem ipsum test",
+		"设计师和绘图员在图纸、设计、原理图和任何视觉元素的制作中扮演着关键的角色，以满足客户的需求。",
 		"Internship Opportunites":
-		"版權所有 Lorem ipsum test",
+		"实习职位",
 		"Internship opportunities are regularly available to provide valuable industry experience to those still receiving education in related fields.":
-		"版權所有 Lorem ipsum test",
+		"实习职位将定期开放，为进修相关领域专业的人员提供获得宝贵行业经验的机会。",
 		"Project Managers & Engineers":
-		"版權所有 Lorem ipsum test",
+		"项目经理和工程师",
 		"Project Managers and Engineers drive our projects forward and continually communicate with our clients to ensure their needs are met.":
-		"版權所有 Lorem ipsum test",
+		"项目经理和工程师负责推动项目进行，不断与客户沟通，确保客户的需求能得到满足。",
+
 		"Why BNP Associates?":
-		"版權所有 Lorem ipsum test",
+		"为何选择 BNP Associates？",
 		"Working at BNP Associates means working in an inspiring, open and rewarding culture, here is a small sample of what we offer.":
-		"版權所有 Lorem ipsum test",
+		"加入 BNP Associates 将感受到开放且受益匪浅的激励文化，而这只是公司优势的一小方面。",
 		"Our Company Culture":
-		"版權所有 Lorem ipsum test",
+		"企业文化",
 		"Our most valuable assets are our people. Our team members work in a dynamic, collaborative environment that will leverage your unique skillset and knowledge to maximize your contribution to our development process. Our culture fosters an environment that rewards employees based on merit and performance.":
-		"版權所有 Lorem ipsum test",
+		"我们最宝贵的资产正是我们的员工。我们的团队成员在充满热情、相互协作的氛围中工作，发挥个人专长和知识，全力为公司发展做出贡献。我们的文化孕育出按业绩和表现嘉奖员工的环境。",
 		"Perks & Benefits":
-		"版權所有 Lorem ipsum test",
+		"津贴和福利",
 		"We offer competitive benefits and incentives to all our team members, including 401K investment opportunities, robust healthcare options, maternity leave, and paid time off.":
-		"版權所有 Lorem ipsum test",
+		"我们为所有团队成员提供颇具竞争力的福利和奖励，包括 401K 投资机会、强有力的医疗保险方案、产假和带薪假期。",
 		"Ongoing Training & Development":
-		"版權所有 Lorem ipsum test",
+		"持续培训与发展",
 		"We treat every individual as a vital member of our development process. As part of our team, you will always be growing professionally and provided new and diverse opportunities to maximize your potential. We encourage you to take initiative and always seek to bring new ideas forward to keep us at the forefront of our industry.":
-		"版權所有 Lorem ipsum test",
+		"我们将每一个人视为公司发展进程中的重要成员。身为团队的一份子，员工的专业能力将不断得到提升，同时员工还会获得让自己一展所长的多元化新机遇。我们鼓励员工积极付诸行动，坚持不懈地寻求让公司走在行业前沿的新思路。",
+
 		"Our Available Jobs":
-		"版權所有 Lorem ipsum test",
+		"招聘岗位",
 		"Click below to find your nearest job opening.":
-		"版權所有 Lorem ipsum test",
+		"单击下方查找离您最近的职位空缺。",
 		"There are no current openings, please check back soon.":
-		"版權所有 Lorem ipsum test",
+		"There are no current openings, please check back soon.",
 		"Project Manager":
-		"版權所有 Lorem ipsum test",
+		"项目经理",
 		"Internship Opportunity":
-		"版權所有 Lorem ipsum test",
+		"实习职位",
 
 
 
@@ -422,32 +424,55 @@
 
 
 		"Contact Us - We":
-		"聯繫我們-關於我們",
+		"联系我们 - ",
 		"look forward to hearing from you":
-		"期待您的回音",
+		"我们竭诚期待您的来函",
 		"Send us a Message":
-		"給我們發信息",
+		"发送消息",
 		"Sign up to our Newsletter and receive the latest news and project updates from BNP Associates.":
-		"訂閱我們的新聞通訊，並從BNP Associates接收最新新聞和項目更新。",
+		"订阅我们的新闻期刊，接收 BNP Associates, Inc. 的最新动态和项目快讯。",
 		"First Name":"名",
 		"Last Name":"姓",
-		"Your Email *":"你的郵件 *",
-		"Your Message":"您的留言",
-		"Subscribe":"訂閱",
+		"Your Email *":"您的电子邮箱",
+		"Your Message":"您的消息",
+		"Subscribe":"订阅",
 
-		"Primary Contact":"主要聯絡人",
-		"Denver Office":"丹佛辦公室",
-		"Office: +1 720.374.4930":"辦公室：+1 720.374.4930",
-		"Fax: +1 720.374.4929":"傳真：+1 720.374.4929",
-		"Mon-Fri 7:00 - 4:00pm MT":"星期五7:00",
-		"1999 Broadway, Suite 4250":"1999百老匯4250套房",
-		"Denver, Colorado 80202, USA":"美國科羅拉多州丹佛80202",
-		"bnphq@bnpassociates.com":"bnphq@bnpassociates.com",
+		"Primary Contact":"主要联络方式",
+		"Denver Office":"美国丹佛办事处",
+		"Office: +1 720.374.4930":"办事处：+1 720.374.4930",
+		"Fax: +1 720.374.4929":"传真：+1 720.374.4929",
+		"Mon-Fri 7:00 - 4:00pm MT":"周一至周五早上 7:00 - 下午 4:00（山地时间）",
+		"1999 Broadway, Suite 4250":"地址：1999 Broadway, Suite 4250",
 
 		"1999 Broadway is located in-between Denver’s Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet parking available as well as parking in the Welton street parking garage.2hr street parking or bicycle parking is also available.":
-		"1999百老匯位於丹佛市區和上城區之間。我們位於4250套房42樓。有代客泊車位，以及在Welton街邊停車庫中泊車。還提供2hr街邊停車或自行車停放。",
+		"1999 Broadway 位于丹佛市中心和上城区之间。当地办事处设在 42 楼 4250 室。办事处所在地有代客泊车服务，也可前往 Welton 街停车场停车。同时有 2 小时街道停车场或自行车停车场。",
 		"Additional Locations":
-		"版權所有 Lorem ipsum test"
+		"其他办事处地点",
+
+		"Dallas, Texas":
+		"美国德克萨斯洲达拉斯",
+		"Fairfield, Connecticut":
+		"美国康涅狄格州费尔菲尔德",
+		
+		"Unit 1605, 16/F, Wai Wah Commercial Centre":
+		"地址：香港西营盘威利麻街 6 号",
+		"6 Wilmer Street, Sai Ying Pun, Hong Kong":
+		"威华商业中心 16 楼 1605 室",
+
+		"Shenzhen, China":
+		"中国深圳",
+		"3002 Caitian South Road, Caihong Xindu":
+		"地址：中国广东省深圳市福田区",
+		"Haiying Building 10F03M Futian Street":
+		"福田街 10F03M 彩虹新都海鹰大厦",
+		"Futian District Shenzhen, Guangdong, China":
+		"彩田南路 3002 号",
+
+		"Tampa, Florida":
+		"美国佛罗里达州坦帕",
+
+		"Fax":
+		"传真"
 		
 	},
 	
