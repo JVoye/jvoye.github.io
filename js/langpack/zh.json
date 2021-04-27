@@ -404,21 +404,21 @@
 
 
 		"Stay up to date":
-		"版權所有 Lorem ipsum test",
+		"随时了解",
 		"on all the latest news from BNP":
-		"版權所有 Lorem ipsum test",
+		"BNP 的最新动态",
 		"Stay up to date on all the latest news, project updates, and more from BNP Associates, Inc.":
-		"版權所有 Lorem ipsum test",
+		"随时了解 BNP Associates, Inc. 的最新动态、项目快讯和其他消息。",
 		
 
 
 
 		"database for aircraft tech data":
-		"版權所有 Lorem ipsum test",
+		"飞机技术数据的数据库",
 		"The Aircraft Characteristics Database provides basic aircraft characteristics needed to perform airport design functions.":
-		"版權所有 Lorem ipsum test",
+		"飞机特性数据库可提供执行机场设计功能的飞机基础特性。",
 		"This data has not been fully verified. Please consult the manufacture’s technical specifications.":
-		"版權所有 Lorem ipsum test",
+		"相关数据尚未得到充分验证。请参阅制造商的技术规范。",
 
 	
 
@@ -458,7 +458,6 @@
 		"地址：香港西营盘威利麻街 6 号",
 		"6 Wilmer Street, Sai Ying Pun, Hong Kong":
 		"威华商业中心 16 楼 1605 室",
-
 		"Shenzhen, China":
 		"中国深圳",
 		"3002 Caitian South Road, Caihong Xindu":
@@ -467,13 +466,10 @@
 		"福田街 10F03M 彩虹新都海鹰大厦",
 		"Futian District Shenzhen, Guangdong, China":
 		"彩田南路 3002 号",
-
 		"Tampa, Florida":
 		"美国佛罗里达州坦帕",
-
 		"Fax":
 		"传真"
-		
 	},
 	
 	"regex": [
