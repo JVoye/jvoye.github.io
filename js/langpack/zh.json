@@ -13,8 +13,8 @@
 		"News":"新闻动态",
 		"Contact":"联系方式",
 		
-		"English":"中国人",
-		"Follow Us":"下我们",
+		"English":"中文",
+		"Follow Us":"关注我们",
 
 		"BNP Associates, Inc. the Worldwide Leader":
         "BNP Associates, Inc. - 全球领先企业",
@@ -394,7 +394,7 @@
 		"Click below to find your nearest job opening.":
 		"单击下方查找离您最近的职位空缺。",
 		"There are no current openings, please check back soon.":
-		"There are no current openings, please check back soon.",
+		"目前无空缺，请过段时间再来查看。",
 		"Project Manager":
 		"项目经理",
 		"Internship Opportunity":
