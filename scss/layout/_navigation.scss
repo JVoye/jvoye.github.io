@@ -21,7 +21,7 @@
 }
 
 .navbar a {
-  font-family: "roboto condensed", sans-serif;
+  font-family: 'roboto condensed', sans-serif;
   font-size: var(--font-sm);
   letter-spacing: 1px;
 
@@ -63,7 +63,7 @@
 }
 
 .dropdown-item {
-  font-family: "roboto condensed", sans-serif;
+  font-family: 'roboto condensed', sans-serif;
   font-size: 14px !important;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
@@ -72,7 +72,7 @@
 
 .nav-link {
   color: #626365 !important;
-  margin: 0rem 1.25rem 0rem 1.25rem !important;
+  margin: 0rem 1.1rem 0rem 1.1rem !important;
 
   @include breakpoint-down(xlarge) {
     margin: 0rem 0.5rem 0rem 0.5rem !important;
