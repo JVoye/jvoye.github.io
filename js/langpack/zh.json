@@ -223,7 +223,7 @@
 		"下游传送带会在行李实际到达传送带末端的前三秒启动。传送带在将最后一件行李送离后，在预设的可配置延迟时间段（1 秒至 600 秒）内停止运行。通过建模，可完善系统供电最佳策略，显著降低系统能耗。",
 
 		"Deliverables":"提交文件",
-		"Deliverables to the airport/airline includes scenario reports documenting the function of the system under the various scenarios plus animations of the simulation runs showing baggage/cargo  traveling through the system in 3D.":
+		"Deliverables to the airport/airline includes scenario reports documenting the function of the system under the various scenarios plus animations of the simulation runs showing baggage/cargo traveling through the system in 3D.":
 		"交付机场、航空公司的文件包括记录不同场景下系统功能的场景报告，以及行李/货物通过系统的 3D 仿真模拟运行动画",
 
 		"BNP provides the following:":"BNP 提供以下服务：",
