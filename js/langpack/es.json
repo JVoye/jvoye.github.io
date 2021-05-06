@@ -1,17 +1,17 @@
 {
 	"token": {
 		"Services":"Servicios",
-		"All Services":"TODOS LOS SERVICIOS",
-		"Apron Systems":"SISTEMAS DE RAMPA",
-		"Baggage Handling":"MANEJO DE EQUIPAJE",
-		"Cargo Handling":"MANEJO DE CARGA",
+		"All Services":"Todos Los Servicios",
+		"Apron Systems":"Sistemas De Rampa",
+		"Baggage Handling":"Manejo De Equipaje",
+		"Cargo Handling":"Manejo De Carga",
 		"Simulation":"Simulación",
-		"Aircraft Characteristics":"CARACTERÍSITCAS DE AERONAVES",
-		"About Us":"ACERCA DE NOSOTROS",
-		"Projects":"PROYECTOS",
-		"Careers":"CARRERAS",
-		"News":"NOTICIAS",
-		"Contact":"CONTACTO",
+		"Aircraft Characteristics":"Caracterísitcas De Aeronaves",
+		"About Us":"Acerca De Nosotros",
+		"Projects":"Proyectos",
+		"Careers":"Carreras",
+		"News":"Noticias",
+		"Contact":"Contacto",
 		
 		"English":"Español",
 		"Follow Us":"Síganos",
@@ -25,7 +25,7 @@
 
 		"learn more":"CONOCE MÁS",
 		"Airport Systems Designers":"Diseñadores de Sistemas Aeroportuarios",
-		"designers | planners | engineers":"diseñadores | planeadores |ingenieros",
+		"designers | planners | engineers":"diseñadores | planeadores | ingenieros",
 		
 		"We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness. Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.":
         "Brindamos soluciones orientadas a crear confiabilidad, eficiencia y efectividad operativa. Nuestros servicios de consultoría incluyen Plan Maestro, Diseño de Instalaciones y Sistemas de Plataformas, Manejo de Equipaje y Diseño y Simulación de Sistemas de Carga, Asistencia en Licitaciones y Negociaciones, Gestión de Proyectos y Administración de Construcción.",
@@ -65,7 +65,388 @@
 		"Singapore":"Singapur",
 		"Tampa":"Tampa",
 		"Copyright 2021 BNP Associates, INC. all rights reserved":
-		"Copyright 2021 BNP Associates, Inc. Derechos reservados"
+		"Copyright 2021 BNP Associates, Inc. Derechos reservados",
+
+
+
+		"Excellence & Innovation":
+		"Excelencia e Innovación",
+		"in every design for over 45 years":
+		"en cada diseño por más de 45 años",
+		"BNP Associates, Inc. has developed a team to address the need for a concise grouping of professionals dedicated to the design of Apron Systems.":
+		"BNP Associates, Inc. ha formado un equipo para atender la necesidad de contar con un grupo especializado de profesionales dedicado al diseño de Sistemas de Plataformas.",
+		"Our focus is aimed at the following:":
+		"Nuestro enfoque está dirigido a:",
+		"Passenger Loading Bridges":
+		"Puentes de abordaje de pasajeros",
+		"Pre-Conditioned Air":
+		"Aire precondicionado",
+		"400 Hz Ground Power":
+		"Potencia en tierra de 400 Hz",
+		"Visual Docking Guidance Systems (VDGS)":
+		"Guía Visual de Acoplamiento Sistemas (VGDS)",
+		"Potable Water":
+		"Agua potable",
+		"Aircraft Parking":
+		"Estacionamiento de aeronaves",
+
+		"Design":"Diseño",
+		"Baseline aircraft parking plan alternatives are developed for the projected fleet mix, including GSE parking and vehicle service lanes. As necessary, several alternatives are also considered to optimize the various evaluation criteria including aircraft fleet mix, gate/aircraft interchangeability, passenger loading distributions, etc.":
+		"Se desarrollan opciones de estacionamiento para la combinación de flota proyectada, incluyendo los carriles para vehículos de servicio y el estacionamiento del equipo de apoyo en tierra. En caso necesario, se consideran varias alternativas para optimizar los diversos criterios de evaluación, incluyendo una flota combinada de aeronaves, intercambiabilidad de puertas/aeronaves, distribuciones de carga de pasajeros, etc.",
+		"The passenger loading bridge generalities are also developed including approximate PBB tunnel lengths, range of aircraft servicing needs, maximum slopes and facility interface coordination. Point-of-use versus centralized 400 Hz and PC air studies are developed as well as Potable Water requirements. VDGS system layout and the interface to the Passenger Boarding Bridges are also developed when they are a requirement of the project.":
+		"Las características generales de los puentes de abordaje de pasajeros también se desarrollan, incluyendo la longitud aproximada del túnel, el rango de necesidades de servicio, por aeronave, pendientes máximas y coordinación de interfaz con las instalaciones. Se desarrollan estudios comparativos para el suministro de potencia de 400 HZ y el aire precondicionado en punto de uso vs centralizado, así como los como los requisitos de agua potable. El diseño del sistema VDGS y la interfaz con los puentes de abordaje de pasajeros, también se desarrollan cuando son un requisito del proyecto.",
+		"The design process concludes with estimating, scheduling and recommendations of the apron systems configuration which best meet the needs of the client. BNP uses the AviPlan software program for its aircraft parking, servicing and layout designs. This is combined with an extensive library of standard CADD symbols and design standards.":
+		"El proceso de diseño concluye con un programa estimado y recomendaciones de la configuración de los sistemas de plataforma que mejor cumplan con las necesidades del cliente. BNP usa el software AviPlan para el estacionamiento de aeronaves, mantenimientos y diseños, en combinación con un amplio catálogo de símbolos en CADD y diseños estándar.",
+		"Specifications":"Especificaciones",
+		"Preparation of bidding documents for the procurement of the various apron systems. Project specific requirements are included in our standard, proven specifications. BNP Specification packages are divided so multiple contractors can be included in the equipment procurement. Our specifications include distinct sections for the PBB, PC Air, 400 Hz, Potable water and VDGS.":
+		"Preparación de documentación para la licitación del suministro de diversos sistemas para la plataforma. Nuestras especificaciones estándar incluyen requisitos específicos para el proyecto. Los paquetes de especificaciones de BNP están divididos para que varios contratistas puedan participar en el suministro del equipo. Nuestras especificaciones incluyen diferentes secciones para los puentes de abordaje de pasajeros (PBB), aire precondicionado, potencia de 400 HZ, agua potable y VDGS.",
+
+		"Bidding & Award Assistance":"Asistencia para la licitación y adjudicación",
+		"Pre-qualification of vendors, release for bid packages, pre-bid conferences, bid review and contract negotiations. BNP knows the strengths, weaknesses and has first-hand knowledge of production capacities and capabilities of all the various manufacturers.":
+		"Precalificación de proveedores, lanzamiento de paquetes de licitación, reuniones previas a la licitación, revisión de las ofertas y negociaciones para la contratación. BNP conoce de primera mano las fortalezas, debilidades y capacidades de los diferentes fabricantes.",
+
+		"Construction Administration":"Administración de la construcción",
+		"BNP provides as part of our Construction Administration role, coordination of the engineering and manufacturing processes, Factory Acceptance Testing, coordinate both construction staging and construction around on-going operations. We also provide supervision of the installation, punch listing, equipment acceptance testing and Aircraft Gate Fit testing if required.":
+		"BNP provee, como parte de nuestro rol en la administración de la construcción, coordinación de los procesos de ingeniería y manufactura, pruebas de aceptación en fábrica (FAT), coordinación tanto de la preparación, así como de la construcción alrededor de las operaciones. Si se requiere, también proveemos supervisión de la instalación, elaboración de la lista de pendientes, pruebas de aceptación de equipo y pruebas de ajuste de las puertas de abordaje.",
+		"BNP brings the proven expertise that provides cost and operationally effective solutions to our clients. The process had been a missing element in the industry where the planning of these critical systems was often left to less experienced personnel or to the equipment manufacturers.":
+		"BNP aporta la experiencia comprobada, que ofrece a nuestros clientes soluciones operacionales efectivas y rentables. Este proceso era uno de los elementos faltantes en la industria, donde la planificación de estos sistemas críticos a menudo se dejaba en manos del personal menos experimentado o de los fabricantes de equipos.",
+
+		"BNP brings an extensive background of experience with the planning, design and implementation of airport Baggage Handling Systems and have been providing specialized consulting services to the air transportation industry on a worldwide basis since 1971. In our more than 45 years of professional experience, BNP has been involved in hundreds of projects throughout the world and our continuous industry exposure keep us fully appraised of current and planned industry requirements.":
+		"BNP aporta amplia experiencia en la planificación, diseño e implementación de sistemas de manejo de equipaje en los aeropuertos y ha brindado servicios de consultoría especializados a la industria del transporte aéreo a nivel mundial desde 1971. En nuestros 50 años de experiencia profesional, BNP ha participado en cientos de proyectos en todo el mundo y nuestra exposición continua, nos mantiene plenamente informados de los requisitos actuales y planificados de la industria.",
+		"Our consulting services include Master Planning, Facility Design, Baggage Handling System Design, Project Management and Construction Administration. BNP are a dedicated group of professionals, widely experienced in airline and airport requirements for the handling of baggage. In meeting the needs of our clients, BNP provides:":
+		"Nuestros servicios de asesoría incluyen la elaboración del Plan Maestro, Diseño de Instalaciones, Diseño de Sistemas de Manejo de Equipaje, Gestión del Proyecto y Administración de la Construcción. BNP es un grupo de profesionales especialistas, con amplia experiencia en los requisitos de aerolíneas y aeropuertos para el manejo de equipaje. Para satisfacer las necesidades de nuestros clientes, BNP provee:",
+
+		"System Evaluation":"Evaluación del sistema",
+		"Cost Analysis":"Análisis de costos",
+		"Construction Management and Administration":"Gestión de la construcción y administración",
+
+		"BNP’s approach is that we take a project from its inception through to operational support to include:":
+		"El enfoque de BNP es tomar un proyecto desde su inicio hasta el apoyo operacional para incluir:",
+		"Statistical Analysis":"Análisis estadístico",
+		"Analyzing the current and future needs of the system using numerous computer models that have been developed by our analysis and simulation engineers. The resulting data is imported and integrated into the BNP developed simulation model along with the system design drawings, data reported by the simulations is then transformed into meaningful charts and statistically valid reports for the Airport/Airline to validate the functionality of the proposed design.":
+		"Analizar las necesidades actuales y futuras del sistema utilizando numerosos modelos informáticos que han sido desarrollados por nuestros ingenieros de análisis y simulación. Los datos resultantes se importan e integran en el modelo de simulación desarrollado por BNP junto con los dibujos de diseño del sistema, los datos reportados por las simulaciones se transforman en gráficos significativos e informes estadísticos para el aeropuerto/aerolínea para validar la funcionalidad del diseño propuesto.",
+
+		"Development of conceptual and designs are based on considering various levels of automation, which are then measured against the economic and operational the projects definition document. The design is coordinated with the A&E teams to ensure the system is an integral component of the facility. BNP performs the majority of the design work with BIM utilizing the Revit platform.":
+		"El desarrollo de conceptos y diseños se basa en la consideración de varios niveles de automatización, que luego se comparan con los beneficios económicos y operativos. Estos criterios se resumen en un informe final que sirve como el documento de definición del proyecto. El diseño se coordina con los equipos de arquitectura e ingeniería para garantizar que el sistema sea un componente integral de la instalación. BNP realiza la mayor parte del trabajo de diseño con BIM utilizando la plataforma Revit.",
+
+		"Contract Documentation":"Documentación contractual",
+		"Functional detailed specifications and contract documents are prepared based on the system configuration, the design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.":
+		"Las especificaciones funcionales detalladas y los documentos del contrato se preparan en función de la configuración del sistema, los objetivos de diseño y la experiencia práctica de BNP en el mundo real con los componentes y productos mecánicos, eléctricos y de control.",
+
+		"Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the industry, market pricing and contract requirements.":
+		"El proceso de precalificación de proveedores, lanzamiento de los documentos para la licitación, asistencia en el proceso de evaluación son sumamente útil para nuestros clientes, dado el conocimiento de BNP de la industria, precios del mercado y requisitos contractuales.",
+
+		"BNP’s participation in the construction management/administration process includes submittal reviews, program management, and site supervision; scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.":
+		"La participación de BNP en el proceso de gestión/administración de la construcción incluye la revisión de entregas, gestión del programa y supervisión en sitio, programación, inspección detallada del sistema, pruebas de aceptación y asistencia al cliente durante la fase inicial de las operaciones.",
+		"To successfully provide the project, BNP works very closely and collaboratively with the Airport, the Architectural and MEP design team members and the User Airlines, resulting in openness to share ideas and concepts on how to best serve the airlines/airport’s evolving requirements while responding to the project requirements.":
+		"Para entregar el proyecto exitosamente, BNP trabaja en estrecha colaboración con el aeropuerto, los miembros del equipo de diseño arquitectónico y electromecánico y las aerolíneas involucradas, obteniendo como resultado una apertura para compartir ideas y conceptos para atender los requisitos evolutivos de las aerolíneas o aeropuertos, cumpliendo al mismo tiempo con los requisitos del proyecto.",
+
+		"Cargo Handling Systems":"Sistemas de manejo de carga",
+		"BNP Associates, Inc. has designed and implemented some of the largest and most complex Air Cargo Systems in the world including Hong Kong, Singapore and Doha. Our services include Master Planning, Facility Design, Cargo System Designs and Project Management. We are a dedicated group of professionals, widely experienced in the airline and airport requirements for the handling of cargo. Meeting the needs of our clients, BNP provides:":
+		"BNP Associates, Inc. ha diseñado e implementado algunos de los más grandes y complejos sistemas de carga aérea en el mundo, incluyendo Hong Kong, Singapur y Doha. Nuestros servicios incluyen el Plan Maestro, Diseño de Instalaciones, Diseño de Sistemas de Carga y Gestión del Proyecto. Somos un grupo de profesionales especialistas, con amplia experiencia en los requisitos de aerolíneas y aeropuertos para el manejo de la carga. Para satisfacer las necesidades de nuestros clientes, BNP provee:",
+
+		"System Requirements":"Requisitos del Sistema",
+		"Determination of Requirements and Constraints, Development of Broad Concept of Operations, Concept Design, Evaluation and Recommendation of Preferred Concept.":
+		"Determinación de requisitos y restricciones, desarrollo de concepto amplio de operaciones, diseño de concepto, evaluación y recomendaciones del concepto seleccionado.",
+		"Preparation of technical performance specifications to include General Requirements, Definition of scope of work of the system of the supplier, Definition of operational equipment requirements.":
+		"Elaboración de las especificaciones técnicas incluyendo los requisitos generales, la definición del alcance de los trabajos del proveedor del sistema. Definición de los requisitos operacionales de los equipos.",
+
+		"BNP provides construction management/administration process including submittal reviews, program management, and site supervision.":
+		"BNP provee un proceso de gestión/administración de la construcción que incluye revisión de entregas, gestión del programa y supervisión en sitio.",
+		"BNP will develop the requirements and constraints for the Cargo System in terms of resources (airside interface positions, storage positions, workstations, truck docks, etc.) based on the detailed forecast provided by the Client. This will include requirements for special storage areas, storage for oversize cargo, empty ULD Storage, sorter systems for parcels and small packages. With this information, a proposed Concept of Operations will be developed. This is the most significant part of analysis and the concept design study and involves the highest levels of expertise, creativity and engineering acumen.":
+		"BNP desarrollará los requisitos y restricciones del Sistema de Carga en término de recursos (interfaz de posiciones lado aire, posiciones para almacenaje, estaciones de trabajo, muelles para camiones, etc.) en función de la demanda pronosticada proporcionada por el cliente. Esto incluirá los requisitos para áreas especiales de almacenaje, almacenaje para carga sobredimensionada, almacenaje de ULD vacíos, sistemas de clasificación de paquetes (normales o pequeños). Con esta información, se desarrollará un Concepto de Operaciones. Esta es la parte más importante del análisis y el estudio para el diseño conceptual requiere los más altos niveles de experiencia, creatividad y agudeza en la ingeniería.",
+
+		"BNP, for the client review develop a group of concepts in 2D, representing broad topics such as various terminal shapes, single vs multi-level facility, exterior airside interfaces vs interior airside interface aisles, and different operational concepts, etc. The preferred design will include 3D space planning of the Cargo functions to determine the anticipated height of the facility and includes 3D equipment to allow validation of the quantities required versus the provisions in the design. Based on the preferred design BNP will provide rough order magnitude costs and implementation schedules.":
+		"BNP desarrolla un grupo de dos conceptos en 2D para la revisión del cliente, representando una amplia gama de tópicos como diferentes formas de terminales, instalación de un nivel vs varios niveles, pasillos de interfaz exterior lado aire vs interfaz interior lado aire y diferentes conceptos operacionales, etc. El diseño preferido incluirá una planeación de espacio en 3D de las funciones de la carga para determinar la altura prevista de la instalación e incluye el equipo en 3D para validar las cantidades requeridas contra las provisiones en el diseño. Con base en el diseño seleccionado, BNP proporcionará un orden de magnitud de costos y programas de implementación.",
+		
+		"The preferred concept will be developed by BNP into a 3D dynamic discrete event simulation model where the flow of each ULD and each ASRS load unit is modeled. The simulation will be based upon the peak time processing and include the processing of cargo incorporating security and customs requirements. Manual processes (e.g. ULD buildup, forklift movement, Dolly train movement) will be modeled with representative process times coordinated with the client.":
+		"El concepto preferido será transformado por BNP en un modelo de simulación en 3D de eventos discretos dinámicos, en donde se incluyen el flujo de cada ULD y cada unidad de carga ASRS. La simulación se basará en el procesamiento en horas pico e incluirá el procesamiento de carga incorporando requisitos de seguridad y aduanas. Los procesos manuales (por ejemplo, acumulación de ULD, movimiento de montacargas, movimiento de trenes Dolly) se modelarán con tiempos de proceso representativos coordinados con el cliente.",
+
+		"Construction Documentation":"Documentación para la construcción",
+		"BNP will prepare and provide functional detailed specifications, drawings and contract documents based on the cargo system configuration, the client approved design objectives and BNP’s practical real world history of mechanical, electrical and controls components and products.":
+		"BNP preparará y proporcionará especificaciones funcionales detalladas, planos y documentos de contrato basados en la configuración del sistema de carga, los objetivos de diseño aprobados por el cliente y la experiencia de BNP en el mundo real de componentes y productos mecánicos, eléctricos y de control.",
+
+		"Bidding and Award Assistance":"Asistencia en la licitación y adjudicación",
+		"Pre-qualification of vendors, release of bid documents, assistance in bid evaluation process all of which is especially beneficial to our clients given BNP’s knowledge of the cargo industry, market pricing and contract requirements.":
+		"El proceso de precalificación de proveedores, lanzamiento de los documentos para la licitación, asistencia en el proceso de evaluación es sumamente útil para nuestros clientes dado el conocimiento de BNP de la industria de la carga, precios del mercado y requisitos contractuales.",
+		
+		"BNP’s participation in the construction management/administration process includes submittal reviews to include structural loading drawings, building interface drawings and maintenance access drawings. Assist in the preparation of and attend the execution of factory acceptance tests.":
+		"La participación de BNP en el proceso de gestión/administración de la construcción incluye la revisión de entregas, que incluye los planos de carga estructural, planos de interfaces del edificio y planos de acceso para el mantenimiento. Asistencia y participación en la ejecución de las pruebas de aceptación en fábrica.",
+		"Program management, and site supervision, scheduling, detailed inspections of the system, acceptance testing and assistance to the client in the operational start up period.":
+		"Gestión del programa, supervisión en sitio, planificación, inspecciones detalladas del sistema, pruebas de aceptación y asistencia al cliente durante el periodo inicial de operaciones.",
+
+		"BNP brings proven expertise in Cargo System Design":
+		"BNP aporta su experiencia comprobada en el diseño e implementación de Sistemas de",
+		"and implementation that provides cost and operational effective solutions to our clients.":
+		"BNP aporta su experiencia comprobada en el diseño e implementación de Sistemas de Carga, que proporciona a nuestros clientes soluciones operacionales efectivas y rentables.",
+
+		"BNP has been developing simulations for the baggage handling and air cargo industries since 1995. BNP’s simulation experience encompasses modeling of simple queuing systems to the largest airport baggage handling systems with over 20,000 individual conveyor sections/tracks. We have a core group of professionals dedicated to providing simulation services to the airport/airline industry. BNP uses simulation modeling tools such as AutoMod and Quest to build 3D models of each system. The simulation model control logic is written to closely represent actual PLC controls of conveyors and cargo systems.":
+		"BNP ha desarrollado simulaciones para la industria del manejo de equipaje y carga aérea desde 1995. La experiencia de BNP en la simulación abarca desde simples modelos de colas hasta los sistemas más grandes de manejo de equipaje con más de 20,000 secciones/pistas de transportadores individuales. Contamos con un grupo central de profesionales dedicados a brindar servicios de simulación a la industria aeroportuaria/aérea. BNP utiliza herramientas de simulación como AutoMod y Quest para construir modelos 3D de cada sistema. La lógica de control del modelo de simulación se desarrolla para representar los controles PLC reales de los transportadores y sistemas de carga.",
+		"These models are calibrated and validated to ensure that they accurately represent real-world operations. In addition to being world leaders in AutoMod and Quest simulations, we have broad skills in integrating AutoMod/Quest with other applications. We have expertise in SQL databases and Visual Basic combined with MS Excel. These skills are used to import data into the simulation model either at the start of a simulation run or interactively as it runs. BNP simulations can be integrated in real control or management systems to act as an emulation test bed. BNP’s simulation engineers are also skilled in VB, VBA, C# & C++ programming languages.":
+		"Estos modelos son calibrados y validados para asegurar que representen con precisión las operaciones reales. Además de ser líderes mundiales en simulaciones en AutoMod y Quest, tenemos amplias habilidades para integrar AutoMod/Quest con otras aplicaciones. Tenemos experiencia en bases de datos SQL y Visual Basic combinado con MS Excel. Estas habilidades se usan para importar datos al modelo de simulación, ya sea al inicio de una ejecución de simulación o de forma interactiva mientras se ejecuta. Las simulaciones de BNP se pueden integrar en sistemas reales de control o gestión para que actúen como un banco de pruebas de emulación. Los ingenieros de simulación de BNP también son expertos en lenguajes de programación VB, VBA, C # y C ++.",
+
+		"Demand Forcasting":"Pronóstico de demanda",
+		"As part of the BNP simulation/modeling process, detailed demand forecasts are developed to quantify the expected demand to the baggage and cargo systems. BNP documents all the key data and assumptions for the project and produce a Simulation Function Design Specifications (SimFDS) deliverable.":
+		"Como parte del proceso de simulación/modelación, se desarrolla un pronóstico detallado de la demanda para cuantificar la demanda de los sistemas de equipaje y carga. BNP documenta todos los datos y suposiciones clave para el proyecto y elabora un documento de Especificaciones de diseño de funciones de simulación (SimFDS).",
+		"The SimFDS includes key data such as flight schedules, baggage and passenger characteristics, and operational characteristics as well as the Key Performance Indicators (KPIs) that will be used to evaluate the performance of each system. Once these planning assumptions are established, a demand forecast is produced, and initial system resource requirements are estimated.":
+		"El SimFDS incluye datos clave como itinerario de vuelos, características de equipaje y pasajeros, y características operativas, así como los Indicadores Clave de Rendimiento (KPI) que se utilizarán para evaluar el rendimiento de cada sistema. Una vez que se establecen estos supuestos de planificación, se elabora un pronóstico de demanda y se estiman los requisitos iniciales de recursos del sistema.",
+		
+		"3D Simulation Modeling of Baggage Handling Systems":
+		"Modelo de simulación en 3D para Sistemas de Manejo de Equipaje",
+		"These tools have been used to evaluate and assist in the design of over 50 baggage handling systems to include very large BHS and Cargo systems throughout the world and numerous systems in the USA (including TSA mandated checked baggage screening systems).":
+		"Estas herramientas se han utilizado para evaluar y ayudar en el diseño de más de 50 sistemas de manejo de equipaje entre los que se encuentran algunos de los sistemas de carga y BHS más grandes en todo el mundo y numerosos sistemas en los EE. UU. (Incluidos los sistemas de control de equipaje facturado exigidos por la TSA).",
+		"Through use of the these models, the projected demand to each component of the BHS (mainline, ICS loops, EBS storage areas, screening areas, make-ups, cargo systems etc.) can be quantified early in the process. Bottleneck areas with the system can be identified, and design and/or controls improvements can be evaluated. These models help to ensure that new commissioned systems will operate efficiently, and provide a means for identifying effective solutions to existing systems without having to experiment with making changes to a live system.":
+		"Mediante el uso de estos modelos, la demanda proyectada para cada componente del BHS (línea principal, Sistemas portadores individuales (ICS), áreas de almacenamiento de equipaje temprano (EBS), áreas de inspección, hipódromos de entrega, sistemas de carga, etc.) se puede cuantificar al principio del proceso. Se pueden identificar los cuellos de botella del sistema y se pueden evaluar las mejoras de diseño y/o controles. Estos modelos ayudan a garantizar que los nuevos sistemas funcionen de manera eficiente y brindan un medio para identificar soluciones efectivas para los sistemas existentes sin tener que experimentar con la realización de cambios en un sistema activo.",
+
+		"3D Simulation Modeling of Passenger Facilities":"Modelo de simulación 3D de instalaciones para pasajeros",
+		"BNP also uses its simulation capabilities to model passenger flow including evaluating design of passenger checkpoint facilities and circulation in public spaces such as check-in areas and bag claim halls.":
+		"BNP también utiliza sus herramientas de simulación para modelar el flujo de pasajeros, incluida la evaluación del diseño de las instalaciones de los puntos de control de pasajeros y la circulación en espacios públicos, como áreas de facturación y salas de reclamo de equipaje.",
+
+		"3D Simulation Modeling of Checkpoints":"Modelo de simulación en 3D para puntos de inspección",
+		"BNP has expanded it's simulation capabilities to include the modeling of passenger security checkpoints. This is becoming especially important in this day and age where significant improvements in automation and checkpoint design are being evaluated. The simulation tools allow for the realistic deployment of new technology in a virtual environment.":
+		"BNP ha ampliado sus capacidades de simulación para incluir el modelado de los puntos de control de seguridad de los pasajeros. Esto se está volviendo especialmente importante en esta época en la que se están evaluando mejoras significativas en la automatización y el diseño de puntos de control. Las herramientas de simulación permiten el despliegue realista de nueva tecnología en un entorno virtual.",
+
+		"Energy Management":"Gestión de Energía ",
+		"One of the specialized uses of BNP’s simulation models is to identify the potential energy savings that can be achieved by managing the run time of conveyors/components. Using VFDs, conveyors will only run while bags are approaching the conveyor.":
+		"Uno de los usos especializados de los modelos de simulación de BNP es identificar los posibles ahorros de energía que se pueden lograr administrando el tiempo de ejecución de los transportadores/componentes. Al usar VFD, los transportadores solo funcionarán mientras el equipaje se acerca al transportador.",
+		"Downstream conveyors are started three seconds prior to the bag physically reaching the charge-end of conveyor. After the last bag exits a conveyor, the conveyor turns off after a pre-set configurable delay varying from 1 to 600 seconds. Using modeling, the best strategies for powering the system can be refined and system energy consumption can be significantly reduced.":
+		"Los transportadores aguas abajo se ponen en marcha tres segundos antes de que el equipaje llegue físicamente al extremo de carga del transportador. Después de que la última maleta sale de un transportador, el transportador se apaga después de un retardo configurable preestablecido que varía de 1 a 600 segundos. Con el modelado, se pueden determinar las mejores estrategias para alimentar el sistema y se puede reducir significativamente el consumo de energía del sistema.",
+
+		"Deliverables":"Entregables",
+		"Deliverables to the airport/airline includes scenario reports documenting the function of the system under the various scenarios plus animations of the simulation runs showing baggage/cargo traveling through the system in 3D.":
+		"Los entregables al aeropuerto/aerolínea incluyen informes de escenarios que documentan el funcionamiento del sistema en diversos escenarios, además de animaciones que muestran el equipaje/carga viajando a través del sistema en 3D.",
+
+		"BNP provides the following:":"BNP provee lo siguiente",
+		"• Simulation Functional Design Specification that defines general and project specific control functions of the simulation model.":
+		"• Especificación para la simulación del Diseño Funcional que define las funciones de control generales y específicas del proyecto.",
+		"• Full 3D simulation animations":
+		"• Animaciones en 3D",
+		"• Simulation Reports that document the performance of all simulation scenarios":
+		"• Reportes de simulación que documentan el rendimiento de todos los escenarios de simulación.",
+
+
+
+
+		
+		"BNP Associates, Inc.":
+		"BNP Associates, Inc.",
+		"privately held company founded in 1971":
+		"Empresa privada fundada en 1971",
+		"BNP Associates, Inc. is the worldwide leader in providing specialized consulting services to the air transportation industry since 1971. These services are specifically directed at apron, air cargo, and baggage handling systems and operations. With over 50 years of professional experience, BNP has been involved in hundreds of projects throughout the world. The scale of projects has ranged from the renovation of small manual systems to some of the largest mechanized material handling systems in the world. We provide solutions that are geared towards creating operational reliability, efficiency and effectiveness.":
+		"BNP Associates, Inc. es el líder mundial en brindar servicios especializados de consultoría a la industria del transporte aéreo desde 1971. Estos servicios están dirigidos específicamente a los sistemas y operación de plataformas, carga aérea y manejo de equipaje. Con más de 50 años de experiencia profesional, BNP ha participado en cientos de proyectos alrededor del mundo. La dimensión de los proyectos ha variado desde la renovación de pequeños sistemas manuales hasta algunos de los sistemas mecanizados de manejo de materiales más grandes del mundo. Brindamos soluciones que están orientadas a crear confiabilidad operativa, eficiencia y efectividad.",
+		"Our consulting services include Master Planning, Facility and Apron System Design, Baggage Handling and Cargo System Design and Simulation, Bidding and Negotiation assistance, Project Management and Construction Administration.":
+		"Nuestros servicios de consultoría incluyen la elaboración del Plan Maestro, Diseño de Instalaciones y Sistemas de Plataforma, Manejo de Equipaje y Diseño y Simulación de Sistemas de Carga, Asistencia para Licitación y Negociación, Gestión de Proyectos y Administración de la Construcción.",
+		"BNP’s client list is composed of airlines, airports, government agencies and Architects/Engineers who specialize in airports.":
+		"La lista de clientes de BNP está compuesta por aerolíneas, aeropuertos, agencias gubernamentales y arquitectos/ingenieros que se especializan en aeropuertos.",
+
+		"Offices":"Oficinas",
+		"BNP operates from five primary office locations – Fairfield CT, Denver CO, Dallas TX, Dubai, and Singapore. We also have satellite offices in Hong Kong, London, Shenzhen China, and Tampa FL.":
+		"BNP opera desde cinco oficinas principales: Fairfield CT, Denver CO, Dallas TX, Dubái y Singapur. También tenemos oficinas satelitales en Hong Kong, Londres, Shenzhen China y Tampa FL",
+		"People":"Personal",
+		"As an employee-owned firm, our people are our greatest assets. Our forward-looking experts streamline complex challenges at every stage, providing a panoramic view of each client’s requirements and opportunities.":
+		"Al ser una empresa que es de la propiedad de los empleados, nuestra gente es nuestro mayor activo. Nuestros expertos, con visión a futuro, optimizan los desafíos complejos en cada etapa, proporcionando una visión panorámica de los requisitos y oportunidades de cada cliente.",
+
+		"President":
+		"Presidente",
+		"Vice President":
+		"Vicepresidente",
+		"Project Role":
+		"Rol en los proyectos",
+		"Principal-in-Charge":
+		"Director a cargo",
+		"BNP Since 1982":
+		"En BNP desde 1982",
+		"BNP Since 1983":
+		"Con BNP desde 1983",
+		"BNP Since 1993":
+		"Con BNP desde 1993",
+
+		"Mr. Mecartney began his career at BNP as an entry level Project Engineer in 1982 and has been the President and majority shareholder of the firm since 1995...":
+		"El Sr. Mecartney comenzó su carrera en BNP como ingeniero de proyectos de nivel básico en 1982 y ha sido presidente y accionista mayoritario de la firma desde 1995...",
+		"Read More":
+		"CONOCE MÁS",
+		"Mr. Mecartney began his career at BNP as an entry level Project Engineer in 1982 and has been the President and majority shareholder of the firm since 1995. He has worked on all aspects of projects from analysis through to commissioning.":
+		"El Sr. Mecartney comenzó su carrera en BNP como ingeniero de proyectos de nivel básico en 1982 y ha sido presidente y accionista mayoritario de la firma desde 1995. Ha trabajado en todos los aspectos de los proyectos, desde el análisis hasta la puesta en marcha.",
+		"He has been involved as the principal in charge on some of the world's largest automated baggage and cargo systems throughout the world. He was instrumental in establishing the apron systems group as well as the checked baggage security screening (CBIS) disciplines. In addition been responsible for the development and implementation of BNP's baggage and cargo analysis methodology with emphasis on computer modeling/simulation and subsequent development of system and program requirements.":
+		"Ha participado como director a cargo de algunos de los sistemas automatizados de equipaje y carga más grandes del mundo. Su participación fue fundamental en la formación del grupo de sistemas de plataformas, así como en las disciplinas de control de seguridad de equipaje facturado (CBIS).",
+		"Our exposure to the major airport development programs in the world also gives us exposure to new technologies and operations not encountered yet in the United States. Under Mr. Mecartneys guidance, BNP has successfully commissioned state of the art Airport Systems throughout the world.":
+		"Nuestra participación en los principales programas de desarrollo de aeropuertos en el mundo nos brinda exposición a nuevas tecnologías y operaciones que aún no se encuentran en los Estados Unidos. Bajo la dirección del Sr. Mecartneys, BNP ha puesto en operación exitosamente, sistemas aeroportuarios de última generación en todo el mundo.",
+
+		"Mr. Breier has 30 years of experience in the design and construction of material handling systems. As Vice President, Mr. Breier's responsibilities include...":
+		"Mr. Breier tiene más de 30 años de experiencia en el diseño y construcción de sistemas de manejo de materiales. Como vicepresidente, las responsabilidades del Sr. Breier incluyen...",
+		"Mr. Breier has 30 years of experience in the design and construction of material handling systems. As Vice President, Mr. Breier's responsibilities include conceptual design, generation of mathematical models to facilitate analyses of complex systems, contractor's design review, project management, and supervision of implementation monitoring and systems testing.":
+		"Mr. Breier tiene más de 30 años de experiencia en el diseño y construcción de sistemas de manejo de materiales. Como vicepresidente, las responsabilidades del Sr. Breier incluyen el diseño conceptual, generación de modelos matemáticos para facilitar el análisis de sistemas complejos, la revisión del diseño del contratista, la gestión de proyectos y la supervisión de la implementación y pruebas del sistema.",
+		"His work focuses primarily on large scale international hub projects for passenger and cargo terminals. With previous full time on-site assignments as a project manager at four major international airports, Mr. Breier had gained valuable experience that allows him to provide innovative and elegant designs, resolve issues ranging from planning approvals to operational work conditions and handle contractual issues between owners and contractors.":
+		"Su trabajo se enfoca principalmente en proyectos de centros internacionales de gran escala para terminales de pasajeros y carga. Con su participación como gerente de proyecto en sitio en cuatro importantes aeropuertos internacionales, el Sr. Breier ha adquirido una valiosa experiencia que le permite desarrollar diseños innovadores y elegantes, resolver problemas que van desde las aprobaciones de planificación hasta condiciones de trabajo operativas y mediar en diferencias contractuales entre los propietarios y los contratistas.",
+		"He has designed and implemented systems on 6 continents and in more than 30 countries providing a world class foundation of knowledge and experience that he brings to each project. Mr. Breier established our international offices in Dubai, Hong Kong and Singapore. He has also been a presenter on baggage system topics at the Passenger Terminal Expo’s since 2012.":
+		"Ha diseñado e implementado sistemas en 6 continentes y en más de 30 países, aportando conocimiento y experiencia de clase mundial a cada proyecto. El Sr. Breier estableció nuestras oficinas internacionales en Dubái, Hong Kong y Singapur. También ha dado conferencias relacionadas con sistemas de equipaje en la Passenger Terminal Expo desde 2012.",
+
+		"As Vice President, Mr. LaPorta, who has been with BNP since 1983, is responsible for the overall design management and technical coordination of projects...":
+		"Como Vicepresidente, el Sr. LaPorta, quien trabaja en BNP desde 1983, es responsable de la gestión general del diseño y la coordinación técnica de los proyectos en los EE...",
+		"As Vice President, Mr. LaPorta, who has been with BNP since 1983, is responsible for the overall design management and technical coordination of projects predominantly located within the USA. His technical expertise includes overseeing baggage system design, specification writing, computer generated mathematical and economic programs, system requirement analyses, and cost estimating.":
+		"Como Vicepresidente, el Sr. LaPorta, quien trabaja en BNP desde 1983, es responsable de la gestión general del diseño y la coordinación técnica de los proyectos en los EE.UU, principalmente. Su experiencia técnica incluye la supervisión del diseño del sistema de equipaje, la elaboración de especificaciones, los programas matemáticos y económicos generados por computadora, los análisis de requisitos del sistema y la estimación de costos.",
+		"He has been involved at all levels of project development and has handled projects in baggage, express mail, cargo and pneumatic tube systems. Mr. LaPorta has worked with some of the world’s largest airports: Boston Logan, LaGuardia Airport, JFK International, Newark Liberty International, Houston Intercontinental Airport and Los Angeles International Airport to name a few.":
+		"Ha participado en todos los niveles de desarrollo de proyectos y ha gestionado proyectos de sistemas de equipaje, correo exprés, carga y tubo neumático. El Sr. LaPorta ha trabajado con algunos de los aeropuertos más grandes del mundo: Boston Logan, Aeropuerto de LaGuardia, JFK Internacional, Newark Liberty Internacional, Aeropuerto Intercontinental de Houston y el Aeropuerto Internacional de Los Angeles, por nombrar algunos.",
+
+		"Technology":
+		"Tecnología",
+		"A critical component in the successful and economic execution of a project is the application of advanced technology. In this regard, BNP has strived to equip its operations with automation to improve our product and reduce the cost to our clients by improving productivity and improving accuracy through standardization. The key components of our systems include:":
+		"Un componente crítico en la ejecución exitosa y económica de un proyecto es la aplicación de tecnología avanzada. En este sentido, BNP se ha esforzado por equipar sus operaciones con automatización para mejorar nuestro producto y reducir el costo para nuestros clientes, al mejorar la productividad y la precisión a través de la estandarización. Los componentes clave de nuestros sistemas incluyen:",
+		"BNP's CAD system consists of latest technology workstations running the most current version of AutoCAD and Revit. This software is enhanced by BNPCAD which consists of a symbol library specific to the airline industry and more specifically to Baggage, Cargo and Apron systems. Our designers use the latest version of Autodesk Building Design Suite to design and model baggage and cargo systems.":
+		"El sistema CAD de BNP consta de estaciones de trabajo de última tecnología que ejecutan la versión más actual de AutoCAD y Revit. Hemos mejorado este software con BNPCAD, que consiste en una biblioteca de símbolos específica para la industria de las aerolíneas, específicamente para los sistemas de equipaje, carga y plataforma. Nuestros diseñadores utilizan la última versión de Autodesk Building Design Suite para diseñar y modelar sistemas de equipaje y carga.",
+		"Engineering":
+		"Ingeniería",
+		"Our engineering systems provide standardized spreadsheet, word processing and database programs for modeling baggage system requirements, tracking bids, shop drawing logs and a host of construction service tools. All scheduling is accomplished using Microsoft Project. The specifications are standardized in CSI format and are assembled from word processing templates.":
+		"Nuestros sistemas de ingeniería brindan hojas de cálculo estandarizadas, procesamiento de texto y programas de base de datos para modelar los requisitos del sistema de equipaje, dar seguimiento a ofertas, registro de planos del fabricante y una gran cantidad de herramientas de servicio para construcción. Toda la programación se realiza mediante Microsoft Project. Las especificaciones están estandarizadas en formato CSI y se ensamblan a partir de plantillas de procesador de texto.",
+		"IT Systems":
+		"Sistemas TI",
+		"All BNP offices are fully networked with a common virtual server and daily back-up/disaster recovery capability. BNP's IT systems are state of the art, easily expandable and can be setup within remote offices without the need for server installations. Our centralized storage systems are cloud based and fully redundant. We utilize Procure as a collaborative Project and Construction Management tool. E-mail is accomplished using high availability commercial services.":
+		"Todas las oficinas de BNP están completamente conectadas en red con un servidor virtual común y capacidad diaria de respaldo/recuperación ante desastres. Los sistemas de TI de BNP son de última generación, fácilmente ampliables y se pueden configurar en oficinas remotas sin la necesidad de instalar servidores. Nuestros sistemas de almacenamiento centralizados están basados en la nube y son completamente redundantes. Utilizamos Procure como una herramienta colaborativa de gestión de proyectos y construcción. El correo electrónico se logra mediante servicios comerciales de alta disponibilidad.",
+		"AviPlan":
+		"AviPlan",
+		"Software package that allows us to accurately model the complex swept paths of taxing aircraft as well as multi-unit baggage and cargo dolly trains.":
+		"Paquete de software que nos permite modelar con precisión las complejas rutas de circulación de las aeronaves en los rodajes, así como los trenes de carga y equipaje.",
+		"BHSS and CHSS are simulation applications developed specifically for baggage and cargo handling systems. It has been developed using the experience of many baggage and cargo projects. The result is a proven product that models belt, ICS and tilt tray based baggage systems, as well as ULD and bin systems accurately and quickly. BNP utilizes three simulation software packages.":
+		"BHSS y CHSS son aplicaciones de simulación desarrolladas específicamente para sistemas de manejo de equipaje y carga. Se han desarrollado utilizando la experiencia de muchos proyectos de equipaje y carga. El resultado es un producto probado que modela sistemas de equipaje con bandas, ICS y bandejas basculantes, así como sistemas de contenedores y ULD de manera precisa y rápida. BNP utiliza tres paquetes de software de simulación.", 
+
+
+
+
+		"Our Projects":
+		"Nuestros proyectos",
+		"Shown in the map are locations of previous and current BNP projects - Click the icons on the map to reveal more information about each project.":
+		"En el mapa se muestran las ubicaciones de proyectos BNP anteriores y actuales: haga clic en los iconos del mapa para obtener más información sobre cada proyecto.",
+		"Reveals more projects":
+		"Ver más proyectos",
+		"Project Location":
+		"Ubicación de proyectos",
+		"Project location with brief":
+		"Ubicación de proyectos con resumen",
+		"New Baggage Handling System at the Delta LGA Terminal":
+		"Nuevo Sistema de Manejo de Equipaje en la terminal de Delta en LGA",
+		"The New Delta ARP (Airfield Reconfiguration) Terminal Project at LaGuardia Airport in New York is a new terminal for Delta Air Lines that will replace their existing C and D Terminals. The new terminal will consist of 37 gates located across four concourses.":
+		"El proyecto de la nueva terminal Delta ARP (Reconfiguración de Aeródromo) en el aeropuerto LaGuardia en Nueva York es una nueva terminal para Delta Air Lines que reemplazará las terminales C y D existentes. La nueva terminal constará de 37 puertas ubicadas en cuatro vestíbulos.",
+		"BNP has been providing BHS Design Consultancy Services to Delta Air Lines since 2016 for the project and was the BHS Engineer of Record for the existing Terminal D Inline screening system as well as the existing Terminal C Inline Screening System and outbound sortation systems.":
+		"BNP ha estado brindando servicios de consultoría de diseño de BHS a Delta Air Lines desde 2016 para el proyecto y fue el ingeniero de BHS de récord para el sistema de inspección en línea de la Terminal D existente, así como del sistema de inspección en línea Terminal C existente y los sistemas de clasificación de equipaje de salida.",
+		"Our Clients":
+		"Nuestros clientes",
+		"BNP’s client list is composed of airlines, airports, government agencies, express companies and Architects/Engineers who specialize in airports. The majority of BNP clients are repeat customers who retain BNP to develop all of their material handling system designs. We work as an extension of our client's staff, offering an unparalleled wealth of knowledge and experience.":
+		"La lista de clientes de BNP está compuesta por aerolíneas, aeropuertos, agencias gubernamentales y arquitectos/ingenieros que se especializan en aeropuertos. La mayoría de los clientes de BNP son clientes recurrentes que contratan a BNP para desarrollar todos sus diseños de sistemas de manejo de materiales. Trabajamos como una extensión del personal de nuestros clientes, ofreciendo conocimiento y experiencia inigualables.",
+		"Airport Authorities":
+		"Autoridades aeroportuarias",
+		"Architects, Planners and General":
+		"Arquitectos, planificadores y contratistas",
+		"Contractors":
+		"generales",
+		"Airlines":
+		"Aerolíneas", 
+
+
+
+
+		
+		"Achieve great things":
+		"Logra grandes cosas",
+		"in your career at BNP Associates":
+		"En tu carrera en BNP Associates",
+		"Career Opportunities":
+		"Oportunidades de empleo",
+		"The BNP offices are always looking to add dynamic people to our team. We encourage career seekers to contact any of our offices regarding employment opportunities. We are an equal opportunity employer. We offer an excellent benefits package and competitive salaries, along with professional advancement opportunities.":
+		"Las oficinas de BNP siempre están en busca de personas dinámicas a nuestro equipo. Invitamos a quienes buscan una carrera a que contacten a cualquiera de nuestras oficinas y pregunten por nuestras oportunidades de trabajo. Somos una empresa que ofrece igualdad de oportunidades. Ofrecemos un excelente paquete de beneficios y salarios competitivos, así como oportunidades de crecimiento profesional.",
+		"If you are seeking a rewarding career that provides you the opportunity to become a significant contributor in the fast paced, dynamic environment of airport systems design, please send your cover letter, resume, and a list of references to":
+		"Si está buscando una carrera gratificante que le brinde la oportunidad de convertirse en un contribuyente significativo en el ambiente dinámico del diseño de sistemas aeroportuarios, envíe su carta de presentación, currículum vitae y una lista de referencias a",
+
+		"Who We Hire":
+		"A quien contratamos",
+		"With a variety of opportunities, BNP employees enjoy an innovative company culture impacting airport solutions around the world.":
+		"Con una variedad de oportunidades, los empleados de BNP disfrutan de una cultura empresarial innovadora con impacto en las soluciones aeroportuarias de todo el mundo.",
+		"Designers & Drafters":
+		"Diseñadores y Dibujantes",
+		"Designers and drafters fill crucial roles in the production of drawings, designs, schematics, and any visual elements to meet our clients’ needs.":
+		"Los diseñadores y dibujantes cumplen roles cruciales en la producción de planos, diseños, esquemas y cualquier elemento visual para satisfacer las necesidades de nuestros clientes.",
+		"Internship Opportunites":
+		"Oportunidad de pasantías ",
+		"Internship opportunities are regularly available to provide valuable industry experience to those still receiving education in related fields.":
+		"Las oportunidades de pasantías están disponibles regularmente para brindar una valiosa experiencia en la industria a quienes aún reciben educación en campos relacionados.",
+		"Project Managers & Engineers":
+		"Gerentes de Proyecto e Ingenieros",
+		"Project Managers and Engineers drive our projects forward and continually communicate with our clients to ensure their needs are met.":
+		"Los gerentes de proyecto e ingenieros impulsan nuestros proyectos y se comunican continuamente con nuestros clientes para garantizar que se cumplan sus necesidades.",
+
+		"Why BNP Associates?":
+		"¿Por qué BNP Associates?",
+		"Working at BNP Associates means working in an inspiring, open and rewarding culture, here is a small sample of what we offer.":
+		"Trabajar en BNP Associates significa trabajar en un ambiente inspirador, abierto y gratificante, aquí hay una pequeña muestra de lo que ofrecemos.",
+		"Our Company Culture":
+		"Cultura de nuestra compañía",
+		"Our most valuable assets are our people. Our team members work in a dynamic, collaborative environment that will leverage your unique skillset and knowledge to maximize your contribution to our development process. Our culture fosters an environment that rewards employees based on merit and performance.":
+		"Nuestro activo más valioso es nuestra gente. Los miembros de nuestro equipo trabajan en un entorno dinámico y colaborativo que aprovechará sus habilidades y conocimientos únicos para maximizar su contribución a nuestro proceso de desarrollo. Nuestra cultura fomenta un entorno que recompensa a los empleados en función del mérito y el desempeño.",
+		"Perks & Benefits":
+		"Beneficios y ventajas",
+		"We offer competitive benefits and incentives to all our team members, including 401K investment opportunities, robust healthcare options, maternity leave, and paid time off.":
+		"Ofrecemos beneficios e incentivos competitivos a todos los miembros de nuestro equipo, incluidas oportunidades de inversión 401K, sólidas opciones de atención médica, licencia por maternidad y tiempo libre remunerado.",
+		"Ongoing Training & Development":
+		"Capacitación y desarrollo continuos",
+		"We treat every individual as a vital member of our development process. As part of our team, you will always be growing professionally and provided new and diverse opportunities to maximize your potential. We encourage you to take initiative and always seek to bring new ideas forward to keep us at the forefront of our industry.":
+		"Tratamos a cada colaborador como un miembro vital de nuestro proceso de desarrollo. Como parte de nuestro equipo, siempre contará con oportunidades de crecer profesionalmente mediante nuevas y diversas oportunidades para maximizar su potencial. Lo alentamos a tomar la iniciativa y siempre buscar aportar nuevas ideas para mantenernos a la vanguardia de nuestra industria.",
+
+		"Our Available Jobs":
+		"Nuestros trabajos disponibles",
+		"Click below to find your nearest job opening.":
+		"Haga clic a continuación para encontrar la oferta de trabajo más cercana.",
+		"There are no current openings, please check back soon.":
+		"No hay vacantes actuales, vuelva a consultar pronto.",
+		"Project Manager":
+		"Gerente de Proyecto",
+		"Internship Opportunity":
+		"Oportunidad de pasantías ", 
+
+
+
+
+		"Stay up to date":
+		"Mantente al día",
+		"on all the latest news from BNP":
+		"con las últimas noticias de BNP",
+		"Stay up to date on all the latest news, project updates, and more from BNP Associates, Inc.":
+		"Mantente al día con las últimas noticias, actualizaciones de proyectos y más de BNP Associates, Inc.",
+		
+
+
+		"database for aircraft tech data":
+		"Base de datos técnicos de aeronaves",
+		"The Aircraft Characteristics Database provides basic aircraft characteristics needed to perform airport design functions.":
+		"La base de datos de características de las aeronaves proporciona la información necesaria para realizar el diseño de un aeropuerto.",
+		"This data has not been fully verified. Please consult the manufacture’s technical specifications.":
+		"Estos datos no se han verificado completamente. Consulte las especificaciones técnicas del fabricante.", 
+
+
+
+
+		"Contact Us - We":
+		"Contáctanos Esperamos con interés  -",
+		"look forward to hearing from you":
+		"escuchar de usted Nos gustaría escucharte",
+		"Send us a Message":
+		"Envíanos un mensaje",
+		"Sign up to our Newsletter and receive the latest news and project updates from BNP Associates.":
+		"Suscríbase a nuestro boletín y reciba las últimas noticias y actualizaciones de proyectos de BNP Associates, Inc.",
+		"First Name":"Nombre",
+		"Last Name":"Apellido",
+		"Your Email *":"Correo electrónico",
+		"Your Message":"Mensaje",
+		"Subscribe":"SUBSCRIBIR",
+
+		"Primary Contact":"Contacto principal",
+		"Denver Office":"Oficina de Denver",
+		"Office: +1 720.374.4930":"Oficina: +1 720.374.4930",
+		"Mon-Fri 7:00 - 4:00pm MT":"Lun-Vier 7:00 – 4:00 pm MT",
+		"1999 Broadway, Suite 4250":"1999 Broadway, Suite 4250",
+
+		"1999 Broadway is located in-between Denver’s Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet parking available as well as parking in the Welton street parking garage.2hr street parking or bicycle parking is also available.":
+		"1999 Broadway está ubicado entre el centro de Denver y los barrios de Uptown. Estamos ubicados en el piso 42 Suite 4250. Hay estacionamiento con valet disponible, así como estacionamiento en el estacionamiento de la calle Welton. También hay estacionamiento en la calle o para bicicletas durante 2 horas.",
+		"Additional Locations":
+		"Ubicaciones adicionales"
 	},
 	
 	"regex": [
