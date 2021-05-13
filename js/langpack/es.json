@@ -404,15 +404,6 @@
 
 
 
-		"Stay up to date":
-		"Mantente al día",
-		"on all the latest news from BNP":
-		"con las últimas noticias de BNP",
-		"Stay up to date on all the latest news, project updates, and more from BNP Associates, Inc.":
-		"Mantente al día con las últimas noticias, actualizaciones de proyectos y más de BNP Associates, Inc.",
-		
-
-
 		"database for aircraft tech data":
 		"Base de datos técnicos de aeronaves",
 		"The Aircraft Characteristics Database provides basic aircraft characteristics needed to perform airport design functions.":
@@ -446,7 +437,176 @@
 		"1999 Broadway is located in-between Denver’s Downtown and Uptown neighborhoods. We are located on the 42nd floor Suite 4250. There is valet parking available as well as parking in the Welton street parking garage.2hr street parking or bicycle parking is also available.":
 		"1999 Broadway está ubicado entre el centro de Denver y los barrios de Uptown. Estamos ubicados en el piso 42 Suite 4250. Hay estacionamiento con valet disponible, así como estacionamiento en el estacionamiento de la calle Welton. También hay estacionamiento en la calle o para bicicletas durante 2 horas.",
 		"Additional Locations":
-		"Ubicaciones adicionales"
+		"Ubicaciones adicionales", 
+
+
+
+
+
+		
+		"Stay up to date":
+		"Mantente al día",
+		"on all the latest news from BNP":
+		"con las últimas noticias de BNP",
+		"Stay up to date on all the latest news, project updates, and more from BNP Associates, Inc.":
+		"Mantente al día con las últimas noticias, actualizaciones de proyectos y más de BNP Associates, Inc.",
+
+		
+		"In 1971, three young engineers, Morty Breier, Arnold Neidle and Ric Patrone, saw a market need for an independent consultancy for the budding air cargo industry. From a humble basement office in Stamford...":
+		"En 1971, tres jóvenes ingenieros, Morty Breier, Arnold Neidle y Ric Patrone, vieron la necesidad del mercado de una firma de consultoría independiente para la industria de carga aérea...", 
+
+		"Celebrating Our 50th Anniversary!":
+		"Celebrando nuestro 50° Aniversario", 
+		"Home":
+		"Inicio", 
+		"All News":
+		"Todas las noticias", 
+		"Published on February 23, 2021":
+		"Publicado el 23 de febrero de 2021", 
+		"In 1971, three young engineers, Morty Breier, Arnold Neidle and Ric Patrone, saw a market need for an independent consultancy for the budding air cargo industry. From a basement office in Stamford, Connecticut, these ambitious three formed BNP Associates, Inc. imbued with an ethos to provide their clients with innovative design services of exceptional quality. Today, BNP is a worldwide practice with close to 100 talented staff across nine global offices performing projects in more than 40 countries on six continents. The incredible growth and success of BNP is owed to staying true to the ethos set by our founders 50 years ago. This ethos is demonstrated every day as nearly 80% of our business is from past clients and by our continual growth and expansion into new markets.":
+		"En 1971, tres jóvenes ingenieros, Morty Breier, Arnold Neidle y Ric Patrone, vieron la necesidad del mercado de una firma de consultoría independiente para la industria de carga aérea. Desde una pequeña oficina en el sótano de Stamford, Connecticut, estos entusiastas formaron BNP Associates, Inc. con el espíritu de brindar a sus clientes servicios de diseño innovadores de calidad excepcional. Hoy, BNP es una firma mundial con cerca de 100 empleados talentosos, en nueve oficinas globales que realizan proyectos en más de 40 países en seis continentes. El increíble crecimiento y éxito de BNP se debe a que se mantiene fiel al espíritu establecido por nuestros fundadores hace 50 años. Este espíritu se demuestra todos los días, ya que casi el 80% de nuestro negocio proviene de clientes anteriores y por nuestro continuo crecimiento y expansión a nuevos mercados.", 
+		"We are proud to be recognized as one of the world leaders in our specialized field. We work on projects of all sizes, ranging from some of the largest material handling systems in the world to one-week studies to improve a single aspect of a client’s operations. We are not a jack of all trades company; our focus on logistics systems and airport baggage handling, air cargo, passenger screening and apron services means we are true experts in these fields. With 50 years and thousands of specialized projects completed, BNP will continue to always deliver the best results in our specialty industry for years and decades to come.":
+		"Estamos orgullosos de ser reconocidos como uno de los líderes mundiales especializados en nuestro campo. Trabajamos en proyectos de todos los tamaños, que van desde algunos de los sistemas de manejo de materiales más grandes del mundo hasta estudios de una semana para mejorar un solo aspecto de las operaciones de un cliente. No somos una empresa que abarca muchas áreas; nos enfocamos en sistemas de logística y manejo de equipaje de aeropuertos, carga aérea, inspección de pasajeros y servicios de plataforma, lo que significa que somos verdaderos expertos en estas áreas. Con 50 años y miles de proyectos especializados concluidos, BNP continuará brindando siempre los mejores resultados en nuestra industria durante los próximos años y décadas.", 
+
+		"Company History":
+		"Historia de la compañía",
+		"Of our commitment and service.":
+		"Nuestro compromiso y Servicio.",
+
+		"Breier Neidle Patrone opens its doors.":
+		"Breier Neidle Patron abre sus puertas.",
+
+		"BNP starts masterplan for SATS cargo and designs AFT1 and AFT4 at Singapore Changi Airport, one of the most successful air cargo hubs in the world.":
+		"BNP inicia el plan maestro de SATS Cargo y diseña AFT1 y AFT4 en el Aeropuerto Changi en Singapur, uno de los centros de carga más exitosos en el mundo.",
+
+		"BNP designs Qantas cargo terminal at Sydney Airport.":
+		"BNP diseña la termina de carga de Qantas en el Aeropuerto de Sydney.",
+
+		"BNP designs Hactl cargo terminal at Hong Kong’s Kai Tak Airport.":
+		"BNP diseña la terminal de carga Hactl en el aeropuerto de Hong Kong Kai Tak.",
+
+		"BNP designs the Chicago O’Hare Terminal 1 baggage system for United Airlines.":
+		"BNP diseña el Sistema de equipaje de la Terminal 1 del aeropuerto O’Hare de Chicago para United Airlines. ",
+
+		"BNP adopts computerized drafting.":
+		"BNP adopta el dibujo computarizado.",
+
+		"The Port Authority of New York and New Jersey retains BNP for an on-call contract.":
+		"La Autoridad Portuaria de Nueva York y Nueva Jersey contrata a BNP para contrato un contrato marco.",
+
+		"FedEx opens the Newark metroplex hub designed by BNP.":
+		"FedEx abre el centro Metroplex en Newark diseñado por BNP.",
+
+		"BNP designs TWA’s new baggage handling systems at what is now JFK’s historic Saarinen Terminal.":
+		"BNP diseña los nuevos sistemas de manejo de equipaje de TWA en lo que se conoce hoy como la terminal histórica Saarinen.",
+
+		"The city and county of Denver retains BNP to develop baggage handling system concepts for the new airport. BNP recommends against the DCV system that was subsequently implemented by the city resulting in the delay of the airport opening and substantial increase in operating costs.":
+		"La ciudad y el condado de Denver contrata a BNP para desarrollar los conceptos del sistema de manejo de equipaje para el nuevo aeropuerto. BNP está en contra del sistema DCV que fue implementado por la ciudad y tuvo como resultado el retraso de la apertura del aeropuerto y un incremento considerable en los costos.",
+
+		"BNP designs the baggage system for Terminal 1 at Seoul’s new Incheon Airport.":
+		"BNP diseña el Sistema de equipaje para la Terminal 1 en el nuevo aeropuerto Incheon de Seúl.",
+
+		"Company name officially changes from Breier Neidle Patrone to BNP.":
+		"El nombre de la compañía Breier Neidle Patrone cambia oficialmente a BNP.",
+
+		"BNP opens its Denver office.":
+		"BNP abre su oficina en Denver.",
+
+		"Last founding partner Ric Patrone retires.":
+		"El último socio fundador, Ric Patrone, se retira.",
+
+		"BNP begins design on the BHS for the new Terminal 3 at Singapore Changi Airport. The first ICS based system in Asia goes into operation in 2008.":
+		"BNP inicia el diseño del BHS para la nueva Terminal 3 en el aeropuerto Changi de Singapur. El primer sistema ICS instalado en Asia inicia operaciones en 2008.",
+
+		"BNP forms its Apron Services Division and United Airlines awards BNP a contract to design passenger boarding bridges throughout its domestic network.":
+		"BNP forma su división de Servicios de Plataforma y United Airlines contrata a BNP para diseñar los puedes de abordaje en toda su red doméstica.",
+
+		"The Port Authority of New York and New Jersey retains BNP to assist with the expansion of Terminal B at Newark Liberty International Airport.":
+		"La Autoridad Portuaria de Nueva York y Nueva Jersey contrata a BNP para asistirlos en la ampliación de la Terminal B del aeropuerto internacional Newark Liberty.",
+
+		"BNP starts the design of numerous hold baggage screening systems and is selected to design and implement major screening systems at BOS, JFK, EWR, MIA, TPA, ORD, LAX, SFO, SEA, DTW, to name a few.":
+		"BNP inicia el diseño de numerosos sistemas de inspección de equipaje y es seleccionado para diseñar e implementar importantes sistemas de inspección de equipaje en BOS, JFK, EWR, MIA, TPA, ORD, LAX, SFO, SEA, DTW, por nombrar algunos.",
+
+		"BNP starts design on some of the largest ICS-based baggage systems in the world – Beijing Capital International Airport Terminal 3 and Seoul Incheon International Airport with a combined value of approx. $500 million USD.":
+		"BNP inicia el diseño de algunos de los sistemas de equipaje ICS-based más grandes del mundo – Terminal 3 del Aeropuerto Internacional de Beijing Capital y del Aeropuerto Internacional de Seúl Incheon.",
+
+		"BNP begins services at the new Doha Airport with a peer review contract. This contract expands to include the design and implementation of baggage systems, air cargo systems, and aircraft maintenance hangar systems for the following 10+ years.":
+		"BNP inicia sus servicios en el nuevo aeropuerto de Doha con un contrato de revisión. Este contrato se amplía para incluir el diseño e implementación de los sistemas de manejo de equipaje, carga y hangar de mantenimiento de aeronaves por los siguientes 10+ años.",
+
+		"BNP opens its first overseas office in Singapore to service our growing business in Asia.":
+		"BNP abre su primera oficina en el extranjero en Singapur para atender la creciente demanda en Asia.",
+
+		"BNP’s first project utilizing Revit software.":
+		"Primer Proyecto de BNP utilizando el software Revit.",
+
+		"Delta Airlines retains BNP to design, update, and expand LaGuardia’s baggage handling system.":
+		"Delta Air Lines contrata a BNP para diseñar, actualizar y ampliar el sistema de manejo de equipaje en LaGuardia.",
+
+		"Copenhagen Airport retains BNP to design and monitor the implementation of a baggage system redevelopment program to optimize capacity and performance of the system by 50% within the same building footprint.":
+		"El aeropuerto de Copenhague contrata a BNP para diseñar y supervisar la implementación del programa de renovación del sistema de manejo de equipaje para optimizar su capacidad y rendimiento en un 50% dentro del mismo espacio.",
+		"BNP opens its Dubai office to service our growing business in the region.":
+		"BNP abre su oficina en Dubái para atender la creciente demanda en la región.",
+
+		"BNP designs Cathay Pacific’s 2.5-million-ton cargo terminal at Hong Kong International Airport. This is the largest cargo terminal built on the planet in the last 20 years and is one of seven air cargo facilities in Hong Kong designed by BNP.":
+		"BNP diseña la terminal de carga de Cathay Pacific de 2.5 millones de toneladas en el Aeropuerto Internacional de Hong Kong. Esta es la terminal de carga más grande construida en el mundo en los últimos 20 años y es una de las 7 instalaciones de carga en Hong Kong diseñada por BNP.",
+
+		"BNP opens its Hong Kong office.":
+		"BNP abre su oficina de Hong Kong.",
+
+		"BNP opens its Dallas office where the expanded simulation group is located.":
+		"BNP abre su oficina en Dallas, donde se ubica el amplio grupo de simulación.",
+
+		"BNP opens its Tampa office to service our clients in Florida and LATAM.":
+		"BNP abre su oficina en Tampa para atender a nuestros clientes de Florida y Latinoamérica.",
+
+		"BNP designs its 30th ICS-based baggage handling system.":
+		"BNP diseña su 30° sistema de manejo de equipaje ICS.",
+
+		"BNP begins designing the baggage system for Terminal 5 at Singapore Changi Airport.":
+		"BNP inicia el diseño del sistema de equipaje de la Terminal 5 del Aeropuerto Changi de Singapur.",
+
+		"BNP opens its London office to service our growing European client base.":
+		"BNP abre su oficina en Londres para atender la creciente demanda de clientes en Europa.",
+
+		"BNP addresses technologies for social distancing and baggage sterilization.":
+		"BNP aborda tecnologías para el distanciamiento social y la esterilización de equipajes.",
+
+		"BNP opens its office in Shenzhen China to service our growing business in China.":
+		"BNP abre su oficina en Shenzhen, China para atender la creciente demanda en China.",
+
+		"BNP celebrates our 50th Anniversary!":
+		"BNP celebra su 50°Aniversario!",
+
+		"Our Staff":
+		"Nuestro equipo",
+
+		"As knowledge based consultants, our staff are our most important asset. Like BNP, many have been around for a":
+		"Como consultores, nuestro servicio se basa en el conocimiento, por lo que nuestro personal es nuestro activo más importante.",
+
+		"very long time with a combined experience of more than 1,000 years! Join us in celebrating the incredible longevity of our staff’s tenure with BNP.":
+		"Al igual que BNP, muchos de nuestros colaboradores han estado activos durante mucho tiempo sumando una experiencia combinada de ¡más de 1,000 años! Acompáñanos a celebrar la increíble permanencia de nuestro personal en BNP.",
+
+		"Over 30 Years of Service":
+		"Más de 30 años de servicio",
+		"Over 25 Years of Service":
+		"Más de 25 años de servicio",
+		"Over 20 Years of Service":
+		"Más de 20 años de servicio",
+		"Over 15 Years of Service":
+		"Más de 15 años de servicio",
+		"Over 10 Years of Service":
+		"Más de 10 años de servicio",
+		"Over 5 Years of Service":
+		"Más de 5 años de servicio",
+		"*BNP’s management (Director Level and above) has an average tenure with the company of 26 years.":
+		"* La gerencia de BNP (nivel de Director y superior) tiene una permanencia promedio en la empresa de 26 años.",
+
+		"Share this post":
+		"Comparte esta publicación", 
+		"POST":
+		"Publicar", 
+		"EMAIL":
+		"Correo electrónico" 
 	},
 	
 	"regex": [
