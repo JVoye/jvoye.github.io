@@ -606,7 +606,58 @@
 		"POST":
 		"Publicar", 
 		"EMAIL":
-		"Correo electrónico" 
+		"Correo electrónico", 
+		
+		
+
+
+
+		
+		"Copenhagen Airport – HBS Standard 3 Upgrade and new BFW":
+		"电邮 Lorem Ipsum Test", 
+		"Copenhagen Airport recently opened Baggage Factory West (BF West) in May 2021 under the backdrop of an expected increase in passenger and baggage numbers as Denmark and the rest of Europe...":
+		"电邮 Lorem Ipsum Test", 
+
+		"Copenhagen Airport – HBS Standard 3 Upgrade and New Baggage Factory West (BFW)":
+		"电邮 Lorem Ipsum Test", 
+		"Published on June XX, 2021":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Copenhagen Airport recently opened Baggage Factory West (BF West) in May 2021 under the backdrop of an expected increase in passenger and baggage numbers as Denmark and the rest of Europe begins to open after Covid-19 shutdowns.  The project to build the new BF West was born out of the need to upgrade the Hold Baggage Screening system to ECAC Standard 3.  Both the BF West and the HBS Standard 3 screening are now operational making CPH compliant to the latest ECAC Standard.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"The project planning commenced in March 2017 with a kick-off workshop held in BNP’s main office in Connecticut.  The project was a mixture of brownfield and greenfield works in a live active system in one of the busiest airports in Northern Europe.  Multiple conceptual options were explored with the airport in a series of workshops with the concept that was built being preferred because of the lower implementation risk, the elimination of a legacy make-up and sortation area with substandard conditions and the provision of a new modern baggage make-up area (BF West).":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"After an in-depth design process coordinating building facilities and detailed construction phases with various stakeholders, the project was tendered in early 2018 with the contracts awarded to Vanderlande Industries for the BHS and Rapiscan for the HBS machines in July that same year. The contractor’s detailed design process started immediately with the first of more than 8 major construction phases with multiple sub-phases starting in December 2018.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 1 & 2 – involved upgrading the existing baggage factory with ECAC Standard 3 machines while maintaining live operations. The reconciliation room was also reconfigured for Level 3 operation under the new HBS system for a more efficient and optimized operation. This was accomplished with multiple sub-phases and thorough coordination with BHS operations, CPH security, and other stakeholders. This was completed in December 2019.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 3 – upgrade of existing Transfer screening operation to ECAC Standard 3. This was also completed in December 2019.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 4 – involved dismantling an entire baggage factory in Terminal 2 used for screening and sortation and replacing it with an expanded security operation utilizing ECAC Standard 3 machines. This phase was broken down into 8 sub-phases due to tie-ins to existing Check-in Operations and connection to existing baggage factory. Due to Covid, airport operations slowed significantly which allowed the project to consolidate 5 sub-phases down to 2.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 5 & 6 – removal of the remaining Standard 2 EDS machines.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 7 – This phase created a new baggage factory (Bagagefabrik vest / Baggage Factory West) that significantly expands CPH’s capacity for make-up, early bag storage and has a new Tilt-Tray Sorter at the heart of the system.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"Phase 8 – The final phase upgraded the existing High Level Control System of CPH that was very complex and connected to internal and external interfaces. The new High Level Control System connected the existing system and Phase 1-7 to allow the Baggage Control Operation to manage the entire Baggage System in one platform.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"The systems involved were certified by Denmark’s CAA - Trafikstyrelsen as certified for operation. Copenhagen Airport (CPH) was able to upgrade all HBS equipment before the EU Regulation 1081/2011 deadline of September 2020.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"BNP provided concept design, simulation, detailed design, tender documents, and pre-construction services. Once the project was awarded, BNP continued supporting CPH with full-time on-site supervision. BNP’s commitment to CPH from the start of this journey continued through the challenges of the COVID-19 pandemic. BNP maintained a continuous site presence throughout the project to manage a complex project compounded by the unprecedented challenges of the lockdowns and travel restriction. The project managed to stay on schedule and Baggage Factory West went operational in May 2021.":
+		"发布日期：2021 年 6 月 XX 日", 
+
+		"BNP has been a proud partner of Copenhagen Airport since 2011 and has been honored to work hand in hand with CPH to assist them in their goal of being the premier airport for Scandinavia and Europe.":
+		"电邮 Lorem Ipsum Test"
 	},
 	
 	"regex": [
