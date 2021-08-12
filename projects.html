@@ -164,12 +164,348 @@
 
         //Add marker
         //My Icons
-        var markers = [{
+        var markers = [
+        {
+          //AKL
+          coords: { lat: -36.9115242, lng: 174.8515989 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>AKL</h2>' 
+          + '<a class="map-link" href="/project-briefs/AKL Peer Review and Concept Development.pdf">AKL Peer Review and Concept Development</a>'
+        },
+        {
+          //AMS
+          coords: { lat: 52.3105386, lng: 4.7682744 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>AMS</h2>' 
+          + '<a class="map-link" href="/project-briefs/AMS Terminal A BHS.pdf">AMS Terminal A BHS</a>'
+        },
+        {
+          //ATL
+          coords: { lat: 33.6407282, lng: -84.4277001 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>ATL</h2>' 
+          + '<a class="map-link" href="/project-briefs/ATL Airport Summary Brief.pdf">ATL Airport Summary Brief</a><br>'
+          + '<a class="map-link" href="/project-briefs/ATL LMOD Curbside Design.pdf">ATL LMOD Curbside Design</a><br>'
+          // + '<a class="map-link" href="/briefs/ATL Delta Lobby.pdf" target="_blank">ATL Delta Lobby</a><br>'
+          // + '<a class="map-link" href="/briefs/ATL LMOD Curbside Design.pdf" target="_blank">ATL LMOD Curbside Design</a><br>'
+          // + '<a class="map-link" href="/briefs/ATL Masterplan Delta.pdf" target="_blank">ATL Masterplan Delta</a><br>'
+          // + '<a class="map-link" href="/briefs/ATL N. Terminal Improvement.pdf" target="_blank">ATL N. Terminal Improvement</a><br>'
+        },
+        {
+          //AUH
+          coords: { lat: 24.441938, lng: 54.6500736 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>AUH</h2>'
+          + '<a class="map-link" href="/project-briefs/AUH Southside Masterplan.pdf">AUH Southside Masterplan</a>'
+        },
+        {
+          //ANC
+          coords: { lat: 61.1758863, lng: -149.9900791 },
+          content: '<h2>ANC</h2>'
+        },
+        {
+          //AMA
+          coords: { lat: 35.2184869, lng: -101.7052103 },
+          content: '<h2>AMA</h2>'
+        },
+        {
+          //AUS
+          coords: { lat: 30.1974292, lng: -97.6663058 },
+          content: '<h2>AUS</h2>' 
+          // + '<a class="map-link" href="/briefs/AUS Enhancement.pdf">AUS Enhancement</a><br>'
+          // + '<a class="map-link" href="/briefs/AUS Master Plan.pdf">AUS Master Plan</a><br>'
+          // + '<a class="map-link" href="/briefs/AUS Recap.pdf">AUS Recap</a><br>'
+          // + '<a class="map-link" href="/briefs/AUS TEIP.pdf">AUS TEIP</a><br>'
+        },
+        {
+          //ACK
+          coords: { lat: 1.2569304, lng: -70.1337905 },
+          //   iconImage:'assets/img/places/stparkdublin.png',
+          content: '<h2>ACK</h2>'
+        },
+
+
+        {
+          //BIS
+          coords: { lat: 46.7751937, lng: -100.7594334 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BIS</h2>' 
+          + '<a class="map-link" href="/project-briefs/BIS EDS Recapitalization.pdf">BIS EDS Recapitalization</a><br>'
+        },
+        {
+          //BKK
+          coords: { lat: 13.6899991, lng: 100.7501124 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BKK</h2>'
+          + '<a class="map-link" href="/project-briefs/BKK Hold Baggage System and BHS High Level Control Replacement.pdf">BKK Hold Baggage System and BHS High Level Control Replacement</a><br>'
+          + '<a class="map-link" href="/project-briefs/BKK New Midfield Sat1 BHS.pdf">BKK New Midfield Sat1 BHS</a><br>'
+        },
+        {
+          //BLR
+          coords: { lat: 13.1986348, lng: 77.7065928 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BLR</h2>'
+          + '<a class="map-link" href="/project-briefs/BLR Terminal 2.pdf">BLR Terminal 2</a><br>'
+        },
+        {
+          //BNE
+          coords: { lat: -27.3942144, lng: 153.1218303 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BNE</h2>'
+          + '<a class="map-link" href="/project-briefs/BNE DTB ITB Feasibility Study.pdf">BNE DTB ITB Feasibility Study</a><br>'
+        },
+        {
+          //BOM
+          coords: { lat: 19.0895595, lng: 72.8656144 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BOM</h2>'
+          + '<a class="map-link" href="/project-briefs/BOM New Terminal.pdf">BOM New Terminal</a><br>'
+        },
+        {
+          //BOS
+          coords: { lat: 42.3655919, lng: -71.0796001 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>BOS</h2>' 
+          + '<a class="map-link" href="/project-briefs/BOS Airport Summary Brief.pdf">BOS Airport Summary Brief</a><br>'
+          + '<a class="map-link" href="/project-briefs/BOS Recap Optimization Program.pdf">BOS Recap Optimization Program</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS New Term A.pdf" target="_blank">BOS New Term A</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS Airport Wide EDS.pdf" target="_blank">BOS Airport Wide EDS</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS Recapitalization Program.pdf" target="_blank">BOS Recapitalization Program</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS Term A.pdf" target="_blank">BOS Term A</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B3-4.pdf" target="_blank">BOS Terminal B - Bagroom B3-4</a><br>'
+          // + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B6-7.pdf" target="_blank">BOS Terminal B - Bagroom B6-7</a><br>'
+        },
+
+
+        {
+          //CAN
+          coords: { lat: 23.3959079, lng: 113.3079699 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>CAN</h2>'
+          + '<a class="map-link" href="/project-briefs/CAN Terminal 2.pdf">CAN Terminal 2</a><br>'
+        },
+        {
+          //CHS
+          coords: { lat: 32.8942676, lng: -80.038159 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>CHS</h2>'
+          + '<a class="map-link" href="/project-briefs/CHS Inline Screening System Project.pdf">CHS Inline Screening System Project</a><br>'
+        },
+        {
+          //CID
+          coords: { lat: 42.1932225, lng: -91.1197768 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>CID</h2>' 
+          + '<a class="map-link" href="/project-briefs/CID Checked Baggage Inline.pdf">CID Checked Baggage Inline</a><br>'
+          // + '<a class="map-link" href="/briefs/CID.pdf" target="_blank">CID</a><br>'
+          // + '<a class="map-link" href="/briefs/CID Mini In-Line.pdf" target="_blank">CID Mini In-Line</a><br>'
+        },
+        {
+          //CLT
+          coords: { lat: 35.2143824, lng: -81.0173547 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>CLT</h2>'
+          + '<a class="map-link" href="/project-briefs/CLT Airport Summary Brief.pdf">CLT Airport Summary Brief</a><br>' 
+          + '<a class="map-link" href="/project-briefs/CLT Baggage System Replacement and TPoint and ABR.pdf">CLT Baggage System Replacement and TPoint and ABR</a><br>' 
+          // + '<a class="map-link" href="/briefs/CLT.pdf" target="_blank">CLT</a><br>'
+          // + '<a class="map-link" href="/briefs/CLT American.pdf" target="_blank">CLT American</a><br>'
+        },
+        {
+          //CPH
+          coords: { lat: 55.6180236, lng: 12.6507628 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>CPH</h2>'
+          + '<a class="map-link" href="/project-briefs/CPH HBS Upgrade.pdf">CPH HBS Upgrade</a><br>'
+        },
+        {
+          //DEL
+          coords: { lat: 28.5561624, lng: 77.0999578 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>DEL</h2>'
+          + '<a class="map-link" href="/project-briefs/DEL Terminal 3.pdf">DEL Terminal 3</a><br>'
+        },
+        {
+          //DOH
+          coords: { lat: 25.2605946, lng: 51.6137665 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>DOH</h2>'
+          + '<a class="map-link" href="/project-briefs/DOH BHS Brief.pdf">DOH BHS Brief</a><br>'
+        },
+        {
+          //DTW
+          coords: { lat: 42.2161722, lng: -83.3575783 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>DTW</h2>' 
+          + '<a class="map-link" href="/project-briefs/DTW Delta BHS Recontrol Project.pdf">DTW Delta BHS Recontrol Project</a><br>'
+          // + '<a class="map-link" href="/briefs/DTW McNamara Term.pdf" target="_blank">DTW McNamara Term</a><br>'
+          // + '<a class="map-link" href="/briefs/DTW McNamara All Phases.pdf" target="_blank">DTW McNamara All Phases</a><br>'
+        },
+        {
+        //DWC
+          coords: { lat: 24.8915205, lng: 55.0121128 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>DWC</h2>' 
+          + '<a class="map-link" href="/project-briefs/DWC New Airport Baggage Handling System.pdf">DWC New Airport Baggage Handling System</a><br>'
+        },
+        {
+          //DXB
+          coords: { lat: 22.7140552, lng: 49.8668729 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>DXB</h2>'
+          + '<a class="map-link" href="/project-briefs/DXB Cargo Mega Terminal Upgrade and Expansion.pdf">DXB Cargo Mega Terminal Upgrade and Expansion</a><br>'
+          + '<a class="map-link" href="/project-briefs/DXB Expansion & Upgrade P1&2A.pdf">DXB Expansion & Upgrade P1&2A</a><br>'
+          + '<a class="map-link" href="/project-briefs/DXB Masterplan.pdf">DXB Masterplan</a><br>'
+        },
+        {
+          //ELP
+          coords: { lat: 31.8053354, lng: -106.3824345 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>ELP</h2>' 
+          + '<a class="map-link" href="/project-briefs/ELP Checked Baggage Inspection System.pdf">ELP Checked Baggage Inspection System</a><br>'
+        },
+        {
+          //FLL
+          coords: { lat: 26.0742344, lng: -80.1506022 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>FLL</h2>' 
+          + '<a class="map-link" href="/project-briefs/FLL Airport Summary Brief.pdf">FLL Airport Summary Brief</a><br>'
+          // + '<a class="map-link" href="/briefs/FLL.pdf" target="_blank">FLL</a><br>'
+          // + '<a class="map-link" href="/briefs/FLL Term 4.pdf" target="_blank">FLL Term 4</a><br>'
+          // + '<a class="map-link" href="/briefs/FLL T3 CBIS.pdf" target="_blank">FLL T3 CBIS</a><br>'
+        },
+        {
+          //HKG
+          coords: { lat: 22.308047, lng: 113.9184808 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HKG</h2>'
+          + '<a class="map-link" href="/project-briefs/HKG 3RS Brief.pdf">HKG 3RS Brief</a><br>'
+          + '<a class="map-link" href="/project-briefs/HKG AABD Project Brief.pdf">HKG AABD Project Brief</a><br>'
+          + '<a class="map-link" href="/project-briefs/HKG Cingleot Premium Logistics Centre.pdf">HKG Cingleot Premium Logistics Centre</a><br>'
+          + '<a class="map-link" href="/project-briefs/HKG HACTL Cargo Terminal Optimization Study.pdf">HKG HACTL Cargo Terminal Optimization Study</a><br>'
+        },
+        {
+          //HNL
+          coords: { lat: 21.3245132, lng: -157.9250736 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HNL</h2>'
+          + '<a class="map-link" href="/project-briefs/HNL Airport Summary Brief.pdf">HNL Airport Summary Brief</a><br>'
+          + '<a class="map-link" href="/project-briefs/HNL L2 L3 Phase 2.pdf">HNL L2 L3 Phase 2</a><br>'
+          + '<a class="map-link" href="/project-briefs/HNL Terminal 2 Phase 1.pdf">HNL Terminal 2 Phase 1</a><br>'
+          + '<a class="map-link" href="/project-briefs/HNL Terminal 2 Phase 2.pdf">HNL Terminal 2 Phase 2</a><br>'
+        },
+        {
+          //HOU
+          coords: { lat: 29.6459123, lng: -95.2790941 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HOU</h2>' 
+          + '<a class="map-link" href="/project-briefs/HOU Recapitalization.pdf">HOU Recapitalization</a><br>'
+        },
+        {
+          //HPN
+          coords: { lat: 41.0683113, lng: -73.778704 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HPN</h2>' 
+          + '<a class="map-link" href="/project-briefs/HPN New CBIS Project.pdf">HPN New CBIS Project</a><br>'
+        },
+        {
+          //HXD
+          coords: { lat: 32.2248476, lng: -80.6971648 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HXD</h2>'
+          + '<a class="map-link" href="/project-briefs/HXD Terminal Improvements Project.pdf">HXD Terminal Improvements Project</a><br>'
+        },
+        {
+          //HYD
+          coords: { lat: 17.2402633, lng: 78.4293851 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>HYD</h2>'
+          + '<a class="map-link" href="/project-briefs/HYD Terminal Expansion.pdf">HYD Terminal Expansion</a><br>'
+        },
+        {
+          //IAD
+          coords: { lat: 38.9531204, lng: -77.4587275 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>IAD</h2>' 
+          + '<a class="map-link" href="/project-briefs/IAD Airport Summary Brief.pdf">IAD Airport Summary Brief</a><br>'
+          // + '<a class="map-link" href="/briefs/IAD EWBB CBIS.pdf" target="_blank">IAD EWBB CBIS</a><br>'
+          // + '<a class="map-link" href="/briefs/IAD International Arrivals Building.pdf" target="_blank">IAD International Arrivals Building</a><br>'
+          // + '<a class="map-link" href="/briefs/IAD Main Terminal.pdf" target="_blank">IAD Main Terminal</a><br>'
+          // + '<a class="map-link" href="/briefs/IAD Multiple Terminals.pdf" target="_blank">IAD Multiple Terminals</a><br>'
+          // + '<a class="map-link" href="/briefs/IAD SBB CBIS.pdf" target="_blank">IAD SBB CBIS</a><br>'
+        },
+        {
+          //IAH
+          coords: { lat: 29.9902199, lng: -95.3367827 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>IAH</h2>'
+          + '<a class="map-link" href="/project-briefs/IAH Airport Summary Brief.pdf">IAH Airport Summary Brief</a><br>'
+        },
+        {
+          //ICN
+          coords: { lat: 37.4601908, lng: 126.4406957 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>ICN</h2>'
+          + '<a class="map-link" href="/project-briefs/ICN Phase 3 BHS.pdf">ICN Phase 3 BHS</a><br>'
+        },
+        {
+          //ILM
+          coords: { lat: 34.2668931, lng: -77.9105201 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>ILM</h2>'
+          + '<a class="map-link" href="/project-briefs/ILM Terminal Expansion Program.pdf">ILM Terminal Expansion Program</a><br>'
+        },
+        {
+          //IST
+          coords: { lat: 41.5024507, lng: 27.9804479 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>ILM</h2>'
+          + '<a class="map-link" href="/project-briefs/IST New Airport BHS.pdf">IST New Airport BHS</a><br>'
+        },
+        {
+          //JED
+          coords: { lat: 21.6706675, lng: 39.1504721 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>JED</h2>'
+          + '<a class="map-link" href="/project-briefs/JED BHS Brief.pdf">JED BHS Brief</a><br>'
+        },
+        {
+          //JFK
+          coords: { lat: 40.6413111, lng: -73.7781391 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>JFK</h2>'
+          + '<a class="map-link" href="/project-briefs/JFK Airport Summary Brief.pdf">JFK Airport Summary Brief</a><br>'
+        },
+        {
+          //KOA
+          coords: { lat: 19.736916, lng: -156.0429246 },
+          iconImage: '/images/map-icon-alt.svg',
+          content: '<h2>KOA</h2>'
+          + '<a class="map-link" href="/project-briefs/KOA Terminal Modernization Project.pdf">KOA Terminal Modernization Project</a><br>'
+        },
+
+
+    
+
+
+
+
+
+
+
+
+
+        {
+          //DEN
           coords: { lat: 39.8560963, lng: -104.6737376 },
           iconImage: '/images/map-icon-alt.svg',
           content: '<h2 class="margin-map">DEN</h2>' + '<a class="map-link" href="/briefs/DEN.pdf">DEN BHS</a>'
-          // content: '<h2 class="margin-map">DEN</h2>' + '<a class="map-link" href="/briefs/DEN.pdf" target="_blank">DEN BHS</a>'
         },
+       
+
+
+
+
+
         {
           //OGG
           coords: { lat: 20.8967924, lng: -156.4329379 },
@@ -193,16 +529,6 @@
           coords: { lat: 39.8743959, lng: -75.2424229 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>PHL</h2>'
-        },
-        {
-          //ATL
-          coords: { lat: 33.6407282, lng: -84.4277001 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">ATL</h2>' + '<a class="map-link" href="/briefs/ATL Delta Lobby.pdf" target="_blank">ATL Delta Lobby</a><br>'
-            + '<a class="map-link" href="/briefs/ATL LMOD Curbside Design.pdf" target="_blank">ATL LMOD Curbside Design</a><br>'
-            + '<a class="map-link" href="/briefs/ATL Masterplan Delta.pdf" target="_blank">ATL Masterplan Delta</a><br>'
-            + '<a class="map-link" href="/briefs/ATL N. Terminal Improvement.pdf" target="_blank">ATL N. Terminal Improvement</a><br>'
         },
         {
           //SEA
@@ -331,46 +657,16 @@
           content: '<h2>LGB</h2>'
         },
         {
-          //ELP
-          coords: { lat: 31.8053354, lng: -106.3824345 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">ELP</h2>' + '<a class="map-link" href="/briefs/ELP.pdf" target="_blank">ELP</a><br>'
-        },
-        {
           //LIH
           coords: { lat: 21.9788489, lng: -159.3437585 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>LIH</h2>'
         },
         {
-          //HNL
-          coords: { lat: 21.3245132, lng: -157.9250736 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">HNL</h2>' + '<a class="map-link" href="/briefs/HNL Lobby.pdf" target="_blank">HNL Lobby</a><br>'
-        },
-        {
-          //KOA
-          coords: { lat: 19.736916, lng: -156.0429246 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>KOA</h2>'
-        },
-        {
           //ITO
           coords: { lat: 19.7188342, lng: -155.0416866 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>ITO</h2>'
-        },
-        {
-          //ANC
-          coords: { lat: 61.1758863, lng: -149.9900791 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>ANC</h2>'
-        },
-        {
-          //AMA
-          coords: { lat: 35.2184869, lng: -101.7052103 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>AMA</h2>'
         },
         {
           //DFW
@@ -386,22 +682,6 @@
           content: '<h2>SAT</h2>'
         },
         {
-          //IAH
-          coords: { lat: 29.9902199, lng: -95.3367827 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>IAH</h2>'
-        },
-        {
-          //AUS
-          coords: { lat: 30.1974292, lng: -97.6663058 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">AUS</h2>' + '<a class="map-link" href="/briefs/AUS Enhancement.pdf" target="_blank">AUS Enhancement</a><br>'
-            + '<a class="map-link" href="/briefs/AUS Master Plan.pdf" target="_blank">AUS Master Plan</a><br>'
-            + '<a class="map-link" href="/briefs/AUS Recap.pdf" target="_blank">AUS Recap</a><br>'
-            + '<a class="map-link" href="/briefs/AUS TEIP.pdf" target="_blank">AUS TEIP</a><br>'
-        },
-        {
           //OKC
           coords: { lat: 35.393056, lng: -97.600556 },
           //   iconImage:'assets/img/places/stparkdublin.png',
@@ -412,12 +692,6 @@
           coords: { lat: 36.198778, lng: -95.8838659 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>TUL</h2>'
-        },
-        {
-          //JFK
-          coords: { lat: 40.6413111, lng: -73.7781391 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>JFK</h2>'
         },
         {
           //OMA
@@ -528,30 +802,6 @@
           content: '<h2>ROC</h2>'
         },
         {
-          //HPN
-          coords: { lat: 41.0683113, lng: -73.778704 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">HPN</h2>' + '<a class="map-link" href="/briefs/HPN CBIS.pdf" target="_blank">HPN CBIS</a><br>'
-        },
-        {
-          //BOS
-          coords: { lat: 42.3655919, lng: -71.0796001 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">BOS</h2>' + '<a class="map-link" href="/briefs/BOS New Term A.pdf" target="_blank">BOS New Term A</a><br>'
-            + '<a class="map-link" href="/briefs/BOS Airport Wide EDS.pdf" target="_blank">BOS Airport Wide EDS</a><br>'
-            + '<a class="map-link" href="/briefs/BOS Recapitalization Program.pdf" target="_blank">BOS Recapitalization Program</a><br>'
-            + '<a class="map-link" href="/briefs/BOS Term A.pdf" target="_blank">BOS Term A</a><br>'
-            + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B3-4.pdf" target="_blank">BOS Terminal B - Bagroom B3-4</a><br>'
-            + '<a class="map-link" href="/briefs/BOS Terminal B - Bagroom B6-7.pdf" target="_blank">BOS Terminal B - Bagroom B6-7</a><br>'
-
-        },
-        {
-          //ACK
-          coords: { lat: 1.2569304, lng: -70.1337905 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>ACK</h2>'
-        },
-        {
           //PVD
           coords: { lat: 41.7245058, lng: -71.5004461 },
           //   iconImage:'assets/img/places/stparkdublin.png',
@@ -604,13 +854,6 @@
           coords: { lat: 35.8800587, lng: -78.8580364 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>RDU</h2>'
-        },
-        {
-          //CLT
-          coords: { lat: 35.2143824, lng: -81.0173547 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">CLT</h2>' + '<a class="map-link" href="/briefs/CLT.pdf" target="_blank">CLT</a><br>'
-            + '<a class="map-link" href="/briefs/CLT American.pdf" target="_blank">CLT American</a><br>'
         },
         {
           //MYR
@@ -685,12 +928,6 @@
           content: '<h2>GRR</h2>'
         },
         {
-          //HKG
-          coords: { lat: 22.308047, lng: 113.9184808 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>HKG</h2>'
-        },
-        {
           //PEK
           coords: { lat: 40.0798573, lng: 116.6031121 },
           //   iconImage:'assets/img/places/stparkdublin.png',
@@ -763,40 +1000,10 @@
           content: '<h2>FCO</h2>'
         },
         {
-          //AMS
-          coords: { lat: 52.3105386, lng: 4.7682744 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>AMS</h2>'
-        },
-        {
           //TLV
           coords: { lat: 32.005532, lng: 34.8854112 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>TLV</h2>'
-        },
-        {
-          //DEL
-          coords: { lat: 28.5561624, lng: 77.0999578 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>DEL</h2>'
-        },
-        {
-          //DOH
-          coords: { lat: 25.2605946, lng: 51.6137665 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>DOH</h2>'
-        },
-        {
-          //JED
-          coords: { lat: 21.6706675, lng: 39.1504721 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>JED</h2>'
-        },
-        {
-          //AUH
-          coords: { lat: 24.441938, lng: 54.6500736 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>AUH</h2>'
         },
         {
           //UAL
@@ -811,12 +1018,6 @@
           content: '<h2>LXA</h2>'
         },
         {
-          //BOM
-          coords: { lat: 19.0895595, lng: 72.8656144 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>BOM</h2>'
-        },
-        {
           //MAA
           coords: { lat: 12.994112, lng: 80.1708668 },
           //   iconImage:'assets/img/places/stparkdublin.png',
@@ -827,12 +1028,6 @@
           coords: { lat: 1.3644202, lng: 103.9915308 },
           //   iconImage:'assets/img/places/stparkdublin.png',
           content: '<h2>SIN</h2>'
-        },
-        {
-          //BKK
-          coords: { lat: 13.6899991, lng: 100.7501124 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>BKK</h2>'
         },
         {
           //KUL
@@ -883,18 +1078,6 @@
           content: '<h2>MEX</h2>'
         },
         {
-          //CPH
-          coords: { lat: 55.6180236, lng: 12.6507628 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>CPH</h2>'
-        },
-        {
-          //BNE
-          coords: { lat: -27.3942144, lng: 153.1218303 },
-          //   iconImage:'assets/img/places/stparkdublin.png',
-          content: '<h2>BNE</h2>'
-        },
-        {
           //SYD
           coords: { lat: -33.9399228, lng: 151.1752764 },
           //   iconImage:'assets/img/places/stparkdublin.png',
@@ -912,19 +1095,6 @@
           content: '<h2 class="margin-map">BGR</h2>' + '<a class="map-link" href="/briefs/BGR.pdf" target="_blank">BGR</a><br>'
         },
         {
-          //BIS
-          coords: { lat: 46.7751937, lng: -100.7594334 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">BIS</h2>' + '<a class="map-link" href="/briefs/BIS EDS RECAP.pdf" target="_blank">BIS EDS RECAP</a><br>'
-        },
-        {
-          //CID
-          coords: { lat: 42.1932225, lng: -91.1197768 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">CID</h2>' + '<a class="map-link" href="/briefs/CID.pdf" target="_blank">CID</a><br>'
-            + '<a class="map-link" href="/briefs/CID Mini In-Line.pdf" target="_blank">CID Mini In-Line</a><br>'
-        },
-        {
           //CVG
           coords: { lat: 39.0532746, lng: -84.6652052 },
           iconImage: '/images/map-icon-alt.svg',
@@ -938,52 +1108,6 @@
             + '<a class="map-link" href="/briefs/DCA New B-C Terminal Project.pdf" target="_blank">DCA New B-C Terminal Project</a><br>'
         },
         {
-          //DTW
-          coords: { lat: 42.2161722, lng: -83.3575783 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">DTW</h2>' + '<a class="map-link" href="/briefs/DTW McNamara Term.pdf" target="_blank">DTW McNamara Term</a><br>'
-            + '<a class="map-link" href="/briefs/DTW McNamara All Phases.pdf" target="_blank">DTW McNamara All Phases</a><br>'
-        },
-        // {
-        // //FAA
-        //   coords:{lat:42.2161722, lng:-83.3575783},
-        //   iconImage:'/images/map-icon-alt.svg',
-        //   content:'<h2 class="margin-map">FAA</h2>' + '<a class="map-link" href="/briefs/DTW McNamara Term.pdf" target="_blank">DTW McNamara Term</a><br>'
-        //   + '<a class="map-link" href="/briefs/DTW McNamara All Phases.pdf" target="_blank">DTW McNamara All Phases</a><br>'
-        // },
-        {
-          //FLL
-          coords: { lat: 26.0742344, lng: -80.1506022 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">FLL</h2>' + '<a class="map-link" href="/briefs/FLL.pdf" target="_blank">FLL</a><br>'
-            + '<a class="map-link" href="/briefs/FLL Term 4.pdf" target="_blank">FLL Term 4</a><br>'
-            + '<a class="map-link" href="/briefs/FLL T3 CBIS.pdf" target="_blank">FLL T3 CBIS</a><br>'
-        },
-        {
-          //HOU
-          coords: { lat: 29.6459123, lng: -95.2790941 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">HOU</h2>' + '<a class="map-link" href="/briefs/HOU Recap.pdf" target="_blank">HOU Recap</a><br>'
-        },
-        {
-          //IAD
-          coords: { lat: 38.9531204, lng: -77.4587275 },
-          iconImage: '/images/map-icon-alt.svg',
-          content: '<h2 class="margin-map">IAD</h2>' + '<a class="map-link" href="/briefs/IAD EWBB CBIS.pdf" target="_blank">IAD EWBB CBIS</a><br>'
-            + '<a class="map-link" href="/briefs/IAD International Arrivals Building.pdf" target="_blank">IAD International Arrivals Building</a><br>'
-            + '<a class="map-link" href="/briefs/IAD Main Terminal.pdf" target="_blank">IAD Main Terminal</a><br>'
-            + '<a class="map-link" href="/briefs/IAD Multiple Terminals.pdf" target="_blank">IAD Multiple Terminals</a><br>'
-            + '<a class="map-link" href="/briefs/IAD SBB CBIS.pdf" target="_blank">IAD SBB CBIS</a><br>'
-        },
-
-
-
-        {
-          //DXB
-          coords: { lat: 22.7140552, lng: 49.8668729 },
-          content: '<h2>DXB</h2>'
-        },
-        {
           //MCT
           coords: { lat: 23.576446, lng: 58.1443218 },
           content: '<h2>MCT</h2>'
@@ -992,11 +1116,6 @@
           //DSM
           coords: { lat: 41.5341333, lng: -93.6587958 },
           content: '<h2>DSM</h2>'
-        },
-        {
-          //HXD
-          coords: { lat: 32.2248476, lng: -80.6971648 },
-          content: '<h2>HXD</h2>'
         },
         {
           //BOG
@@ -1029,24 +1148,9 @@
           content: '<h2>TIJ</h2>'
         },
         {
-          //AKL
-          coords: { lat: -36.9115242, lng: 174.8515989 },
-          content: '<h2>AKL</h2>'
-        },
-        {
           //KMG
           coords: { lat: 25.096559, lng: 102.9286198 },
           content: '<h2>KMG</h2>'
-        },
-        {
-          //CAN
-          coords: { lat: 23.3959079, lng: 113.3079699 },
-          content: '<h2>CAN</h2>'
-        },
-        {
-          //ICN
-          coords: { lat: 37.4601908, lng: 126.4406957 },
-          content: '<h2>ICN</h2>'
         },
         {
           //CAE
@@ -1104,11 +1208,6 @@
           content: '<h2>DUB</h2>'
         },
         {
-          //CHS
-          coords: { lat: 32.8942676, lng: -80.038159 },
-          content: '<h2>CHS</h2>'
-        },
-        {
           //BDL
           coords: { lat: 41.9388735, lng: -72.6860314 },
           content: '<h2>BDL</h2>'
@@ -1149,11 +1248,6 @@
           content: '<h2>EUG</h2>'
         },
         {
-          //BLR
-          coords: { lat: 13.1986348, lng: 77.7065928 },
-          content: '<h2>BLR</h2>'
-        },
-        {
           //FAY
           coords: { lat: 34.9910665, lng: -78.887089 },
           content: '<h2>FAY</h2>'
@@ -1167,16 +1261,6 @@
           //PER
           coords: { lat: -31.9385476, lng: 115.9672492 },
           content: '<h2>PER</h2>'
-        },
-        {
-          //HYD
-          coords: { lat: 17.2402633, lng: 78.4293851 },
-          content: '<h2>HYD</h2>'
-        },
-        {
-          //ILM
-          coords: { lat: 34.2668931, lng: -77.9105201 },
-          content: '<h2>ILM</h2>'
         },
         {
           //BLV
