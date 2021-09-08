@@ -59,8 +59,8 @@
 
   &__story {
     margin: 0 auto;
-    max-width: 46.875rem; // 750px
-    max-width: 55.75rem; // 750px
+    // max-width: 46.875rem; // 750px
+    max-width: 55.75rem; // 860px
 
     & p {
       margin-bottom: 2.5rem;
@@ -88,9 +88,18 @@
     margin-left: 2rem;
     list-style-type: disc;
 
+    &__level2 {
+      margin-left: 2.5rem;
+      list-style-type: circle;
+    }
+
     li {
       line-height: 2.3;
     }
+  }
+
+  &__numbers {
+    margin-left: 2rem;
   }
 }
 
