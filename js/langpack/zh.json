@@ -693,121 +693,123 @@
 
 
 
+		
+
 		"The history of aviation is filled with technological achievements. The marvel of flight has fascinated people of all ages for more than a century. Perhaps equally as fascinating are the technological...":
-		"Lorem Ipsum Test",
+		"航空史上充满了技术成就。一个多世纪以来，飞行的奇迹吸引着各个年龄段的人们。也许同样令人着迷的，是为确保乘客的行李能够及时连接，并在旅程结束时与乘客一起到达而取得的技术进步。机场行李系统已从将行李从A点传送到B点的简单输送线系统...",
 
 		"Operational Planning with Changi Best":
-		"Lorem Ipsum Test",
+		"使用Changi BEST进行运营规划",
 		
-		"Published on September XX, 2021":
-		"Lorem Ipsum Test",
+		"Published on September 28, 2021":
+		"发布日期：2021 年 9 月 28 日",
 
 		"The history of aviation is filled with technological achievements. The marvel of flight has fascinated people of all ages for more than a century. Perhaps equally as fascinating are the technological advancements made to ensure a passenger’s bags are connected on time and arrive with their passenger at journey’s end. Airport baggage systems have evolved from simple conveyor lines that deliver bags from point A to point B to sophisticated systems using advanced control software that screen bags for explosives, send the bags to storage waiting areas if they are too early for their flight, transport bags over long distances, and sort bags to their final destinations. Today’s baggage systems often incorporate many different technologies, and every system is unique as they must be adapted to the unique conditions and needs of each airport. As the famous quote from former FAA Administrator Jane Garvey goes, “When you have seen one airport…you have seen one airport”, and nothing could be truer of airport baggage systems. In managing the operations of an airport, a bag’s journey can involve transit through many different technologies such as automated bag drops, optical scanners, RFID scanners, conveyors, individual carrier systems (ICS), screening machines, tilt-tray sorters, cross-belt sorters, vertical sorters, high-speed diverters, pushers, lane base storage areas, ASRS systems, destination-coded vehicles, and automated guided vehicles, to name a few. For operational managers, how the baggage system will perform when subsystems fail, or when traffic patterns change, is generally not intuitive to those that are not technology experts.":
-		"Lorem Ipsum Test",
+		"航空史上充满了技术成就。一个多世纪以来，飞行的奇迹吸引着各个年龄段的人们。也许同样令人着迷的，是为确保乘客的行李能够及时连接，并在旅程结束时与乘客一起到达而取得的技术进步。机场行李系统已从将行李从A点传送到B点的简单输送线系统，发展为使用先进的控制软件对行李进行爆炸物检测、将早到行李输送到存储区、长途运输行李以及将行李分拣至最终目的地的复杂系统。今天的行李系统通常包含许多不同的技术。每个行李系统都是独特的，因为它们必须适应每个机场的独特条件和需求。正如联邦航空局前局长简·加维（Jane Garvey）的名言所说：“当你看到一个机场…你就看到了一个机场。”，而没有什么比机场行李系统更能真实体现这句话的了。在管理一个机场的运营过程中，行李的旅程可以通过许多不同的技术进行运输，如自动行李投递、光学扫描仪、RFID扫描仪、输送机、高速小车系统（ICS）、安检机、倾斜翻盘分拣机、交叉皮带分拣机、垂直分拣机、高速分流器、推进器、巷道式存储系统、ASRS存储系统、目的地编码车辆和自动引导车辆等等。对于运营管理人员而言，当子系统发生故障或交通模式发生变化时，行李系统如何运行对于那些不是技术专家的人来说，通常是很不直观的。",
 
 		"BNP and Changi Airport have collaborated to develop a tool for use by Changi’s operational and planning staff to better understand how all these complex systems work together and how the impact of demand changes caused by air carrier moves, schedule changes, seasonality, or temporary system maintenance outages will impact each terminal’s baggage system’s operations. The Changi Baggage Expert Simulation Tool (Changi BEST) integrates all baggage handling systems and incorporates all the different technologies used in each terminal into a single comprehensive operational planning tool. Effective operational planning provides a look into the future and provides the opportunity to make preemptive operational changes to ensure the airport will continue to operate smoothly.":
-		"Lorem Ipsum Test",
+		"BNP和樟宜机场合作开发了一种工具，供樟宜机场的运营和规划人员使用，以更好地了解所有这些复杂系统是如何协同工作的，以及由于航空公司变动、时间表变化、季节性变化、或临时系统维护中断引起的需求变化是如何影响各航站楼行李系统运行的。樟宜行李专家模拟工具（又名Changi Baggage Expert Simulation Tool；简称Changi BEST）集成了所有行李处理系统，并将每个航站楼使用的所有不同技术整合到一个综合运营规划工具中。有效的运营规划提供了对未来的展望，并提供了先发制人的进行运营变更的机会，以确保机场持续平稳运行。",
 
 		
 		"The name “Changi BEST” reflects Changi’s commitment and proactive approach to providing high caliber baggage system and passenger service performance.":
-		"Lorem Ipsum Test",
+		"'Changi BEST'这一名称反映了樟宜机场对提供高质量行李系统和旅客服务的承诺和积极的态度。",
 
 		"At its core, Changi BEST is a comprehensive and intelligent 3D simulation model of the existing baggage systems at Changi Airport. Currently, Changi Best incorporates the existing T1, T3, and T4 baggage handling systems. The diagram below shows a high-level overview of the existing Changi baggage systems.":
-		"Lorem Ipsum Test",
+		"Changi BEST的核心是对樟宜机场现有行李系统进行全面、智能的三维仿真模型。目前，Changi BEST整合了现有的T1、T3和T4行李处理系统。下图显示了现有樟宜行李系统的概要。",
 
 		"A new expanded baggage system at Terminal T2 is under development. The new T2E system will incorporate Individual Carrier System technology and a fully automated rack-based early bag storage system.":
-		"Lorem Ipsum Test",
+		"T2航站楼正在兴建新的扩展行李系统。新的 T2E系统将结合ICS技术和全自动的货架式早到行李存储系统。",
 
 		"Design of the baggage system for Changi’s new Terminal 5 began in 2018. Once the T5 design is finalized, the operational model of the T5 baggage system will be integrated into Changi BEST so the airport will have a single comprehensive tool that can be used for operational baggage system planning.":
-		"Lorem Ipsum Test",
+		"樟宜机场新T5航站楼的行李系统设计于2018年开始。一旦T5设计完成，T5行李系统的运行模型将被集成到Changi BEST中，从而机场将有一个可用于行李系统运行规划的单一综合工具。",
 
 		"Changi BEST is designed to evaluate operational changes, such as:":
-		"Lorem Ipsum Test",
+		"Changi BEST旨在评估运营变化，例如：",
 
 		"Schedule Changes":
-		"Lorem Ipsum Test",
+		"时间表变更",
 		"Passenger Arrival Process":
-		"Lorem Ipsum Test",
+		"乘客到达流程",
 		"Operational Policy Changes, including:":
-		"Lorem Ipsum Test",
+		"运营政策变更，包括：",
 		"Airline Terminal Assignments":
-		"Lorem Ipsum Test",
+		"航空公司航站楼分配",
 		"Airline Check-in Counter Assignments":
-		"Lorem Ipsum Test",
+		"航空公司值机柜台分配",
 		"Airline Makeup Racetrack Assignments":
-		"Lorem Ipsum Test",
+		"航空公司装运转盘分配",
 		"Makeup / Racetrack opening and close times":
-		"Lorem Ipsum Test",
+		"装运转盘开放和关闭时间",
 		"Early Bag Storage Policies":
-		"Lorem Ipsum Test",
+		"早到行李储存政策",
 		"Ground Handling Parameters":
-		"Lorem Ipsum Test",
+		"地面处理参数",
 		"Maintenance Outages of Critical BHS Components":
-		"Lorem Ipsum Test",
+		"关键行李处理系统部件的维修停运",
 		"Failures of critical system components":
-		"Lorem Ipsum Test",
+		"关键系统组件的故障",
 
 		"An unlimited number of scenarios can be defined and evaluated using Changi BEST, providing critical performance data for check-in counter use, screening components, mainline and sorter occupancy, early bag storage requirements, and expected bag time in system for various components.":
-		"Lorem Ipsum Test",
+		"使用Changi BEST可以定义和评估无限数量的场景，提供关键性能数据，包括值机柜台使用、安检组件、主线和分拣机占用率、早到行李存储要求以及各种组件的预期行李在系统时间。",
 
 		"Immediately after commissioning Changi BEST, the tool was used in the planning of a major air carrier terminal relocation. There were capacity concerns about the ability of the baggage handling systems to accommodate the air carrier move effectively, and Changi BEST provided an objective and accurate means to quantify the expected impacts. This information was critical is communicating the expected operational challenges and opportunities to senior airport management and provided assurance that the move could be made without creating system bottlenecks or detrimentally impacting the ability to meet the airport’s strict baggage connection time requirements.":
-		"Lorem Ipsum Test",
+		"在验收Changi BEST后，该工具立即被用于规划一个大型航空公司的航站楼搬迁。对于行李处理系统能否有效地适应航空公司的搬迁，存在着容量方面的担忧，而Changi BEST提供了一种客观、准确的方法来量化预期的影响。该信息对于向机场高级管理层传达预期的运营挑战和机遇至关重要，并确保在不造成系统瓶颈，或对机场严格的行李中转时间要求造成不利影响的情况下实施搬迁。",
 
 		"Although Changi BEST is a detailed model incorporating baggage handling components and control policies of each terminal, the tool is designed so users do not need to have an in-depth knowledge of the system configuration and controls, or any training in simulation. These specifics have already been developed within the model’s logic. Changi BEST has three main components:":
-		"Lorem Ipsum Test",
+		"尽管Changi BEST是一个包含每个终端行李处理组件和控制策略的详细模型，但该工具的设计使用户无需深入了解系统配置和控制，也无需接受任何模拟培训。这些细节已经在模型的逻辑中开发出来了。Changi BEST有三个主要组成部分：",
 
 		"Scenario Interface:":
-		"Lorem Ipsum Test",
+		"场景界面：",
 		"Through this interface, the specific parameters to be used for any study can be edited and stored as a scenario.":
-		"Lorem Ipsum Test",
+		"通过该界面，可以编辑任何研究所使用的特定参数，并将其存储为场景。",
 
 		"Use of the interface was designed using a simple and easy to use MS Excel Interface with step-by step instructions to build and run scenarios. The interface walks the user through each step in building a scenario. Built in error checking validates the information entered at each phase.":
-		"Lorem Ipsum Test",
+		"该界面的使用是通过一个简单易用的微软 Excel界面设计的，该界面带有构建和运行场景的分步说明。该界面引导用户完成构建场景的每个步骤。内置的错误检查能够验证在每个阶段输入的信息。",
 
 		"Forecasting and Simulation Module:":
-		"Lorem Ipsum Test",
+		"预测与模拟模块：",
 		"Once all data has been verified, Changi BEST generates a bag demand forecast based on the user-specified schedule and parameters and the simulation is launched directly from the Changi BEST interface. The simulation can run with or without the animation for fast- or normal-time run modes. The user can also view different areas of the baggage handling system while the simulation is running.":
-		"Lorem Ipsum Test",
+		"验证所有数据后，Changi BEST将根据用户指定的时间表和参数生成行李需求预测，并直接从Changi BEST界面启动模拟。模拟可以在有动画或无动画的情况下以快速或正常时间模式运行。在模拟运行时，用户还可以查看行李处理系统的不同区域。",
 
 		"Sample Animation Views:":
-		"Lorem Ipsum Test",
+		"示例动画视图：",
 
 		"Output Analysis:":
-		"Lorem Ipsum Test",
+		"输出分析：",
 		"Most powerful of all, once the simulation has been completed, the results are immediately available for review. The performance results are automatically populated in Excel graphs and tables, so that no data processing is required by the user. Default output reports display information on critical operating parameters including:":
-		"Lorem Ipsum Test",
+		"最强大的是，一旦模拟完成，可以立即查看结果。性能结果将自动填充到Excel的图表和表格中，因此用户无需进行数据处理。默认输出报告显示关键运行参数的信息，包括：",
 
 		
 		"O&D/Transfer Bag Induction Rates":
-		"Lorem Ipsum Test",
+		"始发/中转行李导入率",
 		"In-System Times":
-		"Lorem Ipsum Test",
+		"行李系统在线时间",
 		"Total Connect Times for Transfer Bags":
-		"Lorem Ipsum Test",
+		"中转行李的总连接时间",
 		"Total Transit Times for O&D Bags":
-		"Lorem Ipsum Test",
+		"始发行李的总运输时间",
 		"Early Bag Storage Occupancy":
-		"Lorem Ipsum Test",
+		"早到行李存储占用率",
 		"Empty Carrier Storage Occupancy":
-		"Lorem Ipsum Test",
+		"ICS空托盘存储占用率",
 		"Tilt Tray Sorter Occupancy":
-		"Lorem Ipsum Test",
+		"倾斜翻盘分拣机占用率",
 		"Screening Throughput":
-		"Lorem Ipsum Test",
+		"安检吞吐量",
 		"Racetrack Sortation Rates":
-		"Lorem Ipsum Test",
+		"装运转盘分拣率",
 
 		"Since the detailed trace “history” of each bag is stored in a database, reports for additional performance data can be generated.":
-		"Lorem Ipsum Test",
+		"由于每个行李的详细跟踪记录存储在数据库中，因此可以生成附加性能数据的报告。",
 
 		"All sample output results are for illustration only. In order to protect proprietary airport information actual data values are not displayed.":
-		"Lorem Ipsum Test",
+		"所有样本输出结果仅用于说明。为了保护专有机场信息，不显示实际数据值。",
 
 		"Changi BEST allows airport staff to view previous simulation results and rerun previously saved simulation scenarios. Changi BEST has been, and continues to be, a valuable tool for Changi’s operations planning team.":
-		"Lorem Ipsum Test",
+		"Changi BEST允许机场工作人员查看历史模拟结果，并重新运行以前保存的模拟场景。Changi BEST一直并持续是樟宜运营规划团队的宝贵工具。",
 
 		"BNP has been developing system designs and simulations for the baggage handling, logistics and air cargo industries since 1971. BNP’s simulation experience encompasses modeling small baggage systems to modelling the largest airport baggage handling systems in the world with over 30,000 individual components. BNP uses advanced simulation modeling tools such as Applied AutoMod®, Delmia’s Quest®, and Sim3D to build 3D models of each system and custom operations planning systems for world class airports. BNP integrates AutoMod / Sim3D / Quest with other applications. BNP’s expertise in SQL databases and Visual Basic combined with MS Excel allows for the development of powerful tools, such as Changi Best that airport staff can use on their own without needing to be either system or simulation experts.":
-		"Lorem Ipsum Test"
+		"自1971年以来，BNP一直在为行李处理、物流和航空货运行业开发系统设计和模拟。BNP的模拟经验包括对小型行李系统进行建模，以及为世界上最大的机场行李处理系统进行建模（该系统具有3万多个独立组件）。BNP使用先进的仿真建模工具，如Applied AutoMod®、Delmia的Quest®和Sim3D，并将AutoMod/Sim3D/Quest与其他应用程序集成，为世界级机场的系统构建3D模型和定制运营规划系统。BNP利用在SQL数据库和Visual Basic以及MS Excel方面的专业知识开发功能强大的工具，如Changi Best，使机场工作人员无需成为系统或模拟专家即可自行使用。"	
 	},
 	
 	"regex": [
